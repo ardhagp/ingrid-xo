@@ -3,7 +3,7 @@
 
 ![Start Line](https://res.cloudinary.com/cagakmelon/image/upload/v1686057819/apps/ingrid-assets/readme.md/readme.md.png)
 #   <span style="color:darkorange">**About Project & Status**</span>
-Ingrid XO is a Web Application built using Microsoft Access 365 to processing Ingrid data, some of features may different from Ingrid FS version.
+Ingrid XO is a Desktop Application for Microsoft Windows built using Microsoft Access 365 to processing Ingrid data, some of features may different from Ingrid FS version.
 
 [![Static Badge](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/license/mit/) 
 
