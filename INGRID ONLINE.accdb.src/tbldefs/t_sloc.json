@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "t_sloc",
+    "Connect": "ODBC;DSN=Ingrid Online DB;",
+    "SourceTableName": "t_sloc",
+    "Attributes": 536870912,
+    "PrimaryKey": "[SLOC_ID]"
+  }
+}

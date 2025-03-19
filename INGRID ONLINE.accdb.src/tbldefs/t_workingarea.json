@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "t_workingarea",
+    "Connect": "ODBC;DSN=Ingrid Online DB;",
+    "SourceTableName": "t_workingarea",
+    "Attributes": 536870912,
+    "PrimaryKey": "[WORKINGAREA_ROWID]"
+  }
+}

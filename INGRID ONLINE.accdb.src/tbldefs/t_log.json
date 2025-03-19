@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "t_log",
+    "Connect": "ODBC;DSN=Ingrid Online DB;",
+    "SourceTableName": "t_log",
+    "Attributes": 536870912,
+    "PrimaryKey": "[LOG_ID]"
+  }
+}

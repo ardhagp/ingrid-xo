@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "t_module",
+    "Connect": "ODBC;DSN=Ingrid Online DB;",
+    "SourceTableName": "t_module",
+    "Attributes": 536870912,
+    "PrimaryKey": "[MODULE_ID]"
+  }
+}

@@ -1,0 +1,12 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "q_mat_sum_ncr_dashboard_year",
+    "Connect": "ODBC;DSN=Ingrid Online DB;",
+    "SourceTableName": "q_mat_sum_ncr_dashboard_year",
+    "Attributes": 536870912
+  }
+}
