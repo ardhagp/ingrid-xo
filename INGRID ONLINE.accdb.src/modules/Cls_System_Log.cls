@@ -11,7 +11,14 @@ Option Compare Database
 Option Explicit
 
 Public Sub Activity(ByVal Action As String, ByVal Area As String, ByVal LogLevel As String)
+On Error GoTo ErrorHandle
+
     Var_SQL = "insert into t_log(log_message, log_area, log_level) values('" & Action & "','" & Area & "','" & LogLevel & "')"
     'Debug.Print Var_SQL
     DoCmd.RunSQL Var_SQL
+
+ErrorHandle:
+    If Err.Number <> 0 Then
+        Call Post_ErrorMessage(Err.Number, Err.DESCRIPTION)
+    End If
 End Sub

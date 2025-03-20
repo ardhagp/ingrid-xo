@@ -187,4 +187,4 @@ Begin Form
     End
 End
 CodeBehindForm
-' See "frmWatchDog.cls"
+' See "APP_WATCHDOG.cls"

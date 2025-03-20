@@ -27,7 +27,7 @@ Begin Form
     RecSrcDt = Begin
         0x5fd218e59838e640
     End
-    Caption ="INGRID ONLINE - USER ACCESS"
+    Caption ="INGRID XO - USER ACCESS"
     DatasheetFontName ="Aptos"
     OnLoad ="[Event Procedure]"
     AllowDatasheetView =0
@@ -608,8 +608,8 @@ Begin Form
                                     Top =2825
                                     Width =26775
                                     Height =7890
-                                    Name ="SYS_MOD_ACCESS_List"
-                                    SourceObject ="Form.SYS_MOD_ACCESS_List"
+                                    Name ="SYS_MOD_ACCESS_Sub_USERLIST"
+                                    SourceObject ="Form.SYS_MOD_ACCESS_Sub_USERLIST"
 
                                     LayoutCachedLeft =207
                                     LayoutCachedTop =2825

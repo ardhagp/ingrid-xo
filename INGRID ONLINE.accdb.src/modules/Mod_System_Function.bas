@@ -3,9 +3,14 @@ Option Compare Database
 Option Explicit
 
 Public Sub Init0()
-' Define the "Assets" folder path
-assetsFolder = "Assets"
-assetsFolderFullPath = CurrentProject.Path & "\" & assetsFolder
+    ' Define the "Assets" folder path
+    assetsFolder = "Assets"
+    assetsFolderFullPath = CurrentProject.Path & "\" & assetsFolder
+    Var_IsAppObsolete = Get_IsVersionObsolete()
+
+    If Var_IsAppObsolete = True Then
+        DoCmd.OpenForm "APP_UPDATE", acNormal
+    End If
 End Sub
 
 Public Function MessageBox(Optional ByVal MessageText As String = "", Optional ByVal MessageTitle As String = "", Optional ByVal MessageType As String = "Info") As Variant
@@ -96,6 +101,20 @@ End Function
 
 Public Function Get_Key() As String
     Get_Key = IngridData.GetValue("SYS_KEY", "t_sys_settings", "SYS_ID = 1")
+End Function
+
+Public Function Get_IsVersionObsolete() As Boolean
+    Dim Var_L_Version As Integer
+    Dim Var_S_Version As Integer
+
+    Var_L_Version = IngridData.GetValue("app_config_value", "sys_app", "app_config_name = 'version'")
+    Var_S_Version = IngridData.GetValue("SYS_APPVERSION", "t_sys_settings", "SYS_ID = 1")
+
+    If Var_S_Version > Var_L_Version Then
+        Get_IsVersionObsolete = True
+    Else
+        Get_IsVersionObsolete = False
+    End If
 End Function
 
 Public Sub Put_SessionAdd()

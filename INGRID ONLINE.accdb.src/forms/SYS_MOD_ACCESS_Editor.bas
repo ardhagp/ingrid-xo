@@ -1696,8 +1696,8 @@ Begin Form
                                     Top =3017
                                     Width =6457
                                     Height =4237
-                                    Name ="Child47"
-                                    SourceObject ="Form.SYS_MOD_SLOC_List"
+                                    Name ="SYS_MOD_ACCESS_Sub_SLOCLIST"
+                                    SourceObject ="Form.SYS_MOD_ACCESS_Sub_SLOCLIST"
                                     LinkChildFields ="WORKINGAREA_EMPLOYEEID"
                                     LinkMasterFields ="EMPLOYEE_ID"
 
@@ -1727,8 +1727,8 @@ Begin Form
                                     Top =3017
                                     Width =6456
                                     Height =4236
-                                    Name ="frmSystem_User_Editor_Access"
-                                    SourceObject ="Form.SYS_MOD_ACCESS_Access"
+                                    Name ="SYS_MOD_ACCESS_Sub_AUTHORIZATION"
+                                    SourceObject ="Form.SYS_MOD_ACCESS_Sub_AUTHORIZATION"
                                     LinkChildFields ="MODULEACCESS_EMPLOYEEID"
                                     LinkMasterFields ="EMPLOYEE_ID"
 
@@ -1746,4 +1746,4 @@ Begin Form
     End
 End
 CodeBehindForm
-' See "SYS_MOD_ACCESS_Editor.cls"
+' See "SYS_MOD_ACCESS_EDITOR.cls"

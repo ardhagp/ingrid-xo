@@ -15,16 +15,17 @@ Private Sub Form_Timer()
         lblSessionExpiry.Caption = ""
         lblSessionExpiry.Caption = ""
 
-        'System Settings - User Access
-        DoCmd.Close acForm, "frmSystem_User_Password"
-        DoCmd.Close acForm, "frmSystem_User_Editor"
+        ' Summary
+        DoCmd.Close acForm, "MAT_SUMMARY_NCR"
 
+        ' Material Movement
         DoCmd.Close acForm, "MAT_MOVEMENT_EDITOR"
         DoCmd.Close acForm, "MAT_MOVEMENT_BYDATE"
 
-        DoCmd.Close acForm, "MAT_SUMMARY_NCR"
-
+        ' System Settings - User Access
         DoCmd.Close acForm, "SYS_MOD_ACCESS"
+        DoCmd.Close acForm, "SYS_MOD_ACCESS_EDITOR"
+        DoCmd.Close acForm, "SYS_MOD_ACCESS_PASSWORD"
 
         DoCmd.Close acReport, "RPT_MAT_MOVEMENT_BYDATE_EDITOR"
 

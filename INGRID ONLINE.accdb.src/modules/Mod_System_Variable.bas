@@ -16,6 +16,7 @@ Public Var_Role As String
 Public Var_SQL As String
 Public Var_SQL_Where As String
 Public Var_Session_ClosingForm As Boolean
+Public Var_IsAppObsolete As Boolean
 
 ' For Assets Management
 Public assetsFolder As String

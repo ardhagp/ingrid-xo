@@ -17,10 +17,10 @@ Begin Form
     Width =12755
     DatasheetFontHeight =11
     ItemSuffix =89
-    Left =4810
-    Top =3920
-    Right =27110
-    Bottom =11540
+    Left =5130
+    Top =4200
+    Right =27435
+    Bottom =11820
     RecSrcDt = Begin
         0xc2829812de54e640
     End
@@ -478,6 +478,7 @@ Begin Form
                     ThemeFontIndex =-1
                 End
                 Begin TextBox
+                    Locked = NotDefault
                     TabStop = NotDefault
                     OldBorderStyle =0
                     OverlapFlags =255
@@ -512,6 +513,7 @@ Begin Form
                     End
                 End
                 Begin TextBox
+                    Locked = NotDefault
                     TabStop = NotDefault
                     OldBorderStyle =0
                     OverlapFlags =255
@@ -569,6 +571,7 @@ Begin Form
                     ForeTint =100.0
                 End
                 Begin CheckBox
+                    Locked = NotDefault
                     TabStop = NotDefault
                     OverlapFlags =247
                     Left =2550
@@ -583,6 +586,7 @@ Begin Form
                     LayoutCachedHeight =870
                 End
                 Begin CheckBox
+                    Locked = NotDefault
                     TabStop = NotDefault
                     OverlapFlags =247
                     Left =2085

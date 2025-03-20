@@ -14,8 +14,8 @@ End Sub
 Private Sub btnDelete_Click()
     If IsAnyRow(True) = True Then
         If MessageBox("Are you sure want to delete this record?", "INGRID - CONFIRMATION", "Question") = vbYes Then
-            Forms![frmSystem_User]![SYS_MOD_ACCESS_List]!txtEmployeeID.SetFocus
-            Var_Identifier = Forms![SYS_MOD_ACCESS]![SYS_MOD_ACCESS_List]!txtEmployeeID.Text
+            Forms![frmSystem_User]![SYS_MOD_ACCESS_Sub_USERLIST]!txtEmployeeID.SetFocus
+            Var_Identifier = Forms![SYS_MOD_ACCESS]![SYS_MOD_ACCESS_Sub_USERLIST]!txtEmployeeID.Text
             Var_SQL = "Delete from t_user where USER_EMPLOYEEID = '" & Var_Identifier & " ';"
             'Debug.Print Var_SQL
             DoCmd.RunSQL Var_SQL
@@ -81,8 +81,8 @@ Private Sub btnEdit_Click()
             Exit Sub
         End If
 
-        Forms![SYS_MOD_ACCESS]![SYS_MOD_ACCESS_List]!txtUSERROWID.SetFocus
-        Var_Identifier = Forms![SYS_MOD_ACCESS]![SYS_MOD_ACCESS_List]!txtUSERROWID.Text
+        Forms![SYS_MOD_ACCESS]![SYS_MOD_ACCESS_Sub_USERLIST]!txtUSERROWID.SetFocus
+        Var_Identifier = Forms![SYS_MOD_ACCESS]![SYS_MOD_ACCESS_Sub_USERLIST]!txtUSERROWID.Text
         'Var_Identifier = IngridData.GetValue("user_id", "v_user", "user_employeeid ='" & Var_Identifier & "'")
 
         If ROWID_IsExist(Var_Identifier) <> 0 Then
@@ -104,7 +104,7 @@ End Sub
 Private Function IsAnyRow(Optional ByVal ShowMessage As Boolean = True) As Boolean
     Dim rs As DAO.Recordset
 
-    Set rs = Me.SYS_MOD_ACCESS_List.Form.RecordsetClone
+    Set rs = Me.SYS_MOD_ACCESS_Sub_USERLIST.Form.RecordsetClone
 
     If rs.RecordCount = 0 Then
         If ShowMessage = True Then

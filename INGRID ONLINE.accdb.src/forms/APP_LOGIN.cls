@@ -17,7 +17,7 @@ End Sub
 Private Sub Form_Load()
     Call Init0
     Call Get_ApplicationIcon_Export
-    DoCmd.Close acForm, "frmWatchDog"
+    DoCmd.Close acForm, "APP_WATCHDOG"
     If Var_Init0 = 0 Then
         Call SysLog.Activity("Someone opening Ingrid in [" & Var_Host & "]", "Login", "Info")
         Var_Init0 = Var_Init0 + 1
@@ -43,7 +43,7 @@ Private Sub btnSubmit_Click()
         Call Put_SessionAdd
         Var_Session_ClosingForm = False
         DoCmd.Close
-        DoCmd.OpenForm "frmWatchDog", acNormal, , , , acHidden
+        DoCmd.OpenForm "APP_WATCHDOG", acNormal, , , , acHidden
     Else
         Call SysLog.Activity("Guest with Employee CODE [" & Var_L_EmployeeCODE & "] is trying to Logged into system but failed. Access from [" & Var_Host & "]", "Login", "Error")
     End If

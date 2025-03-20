@@ -22,7 +22,7 @@ On Error GoTo ErrorHandle
         Var_SQL = "SELECT " & ColumnName & " as RecordValue FROM " & TableName & " WHERE " & WhereClause
     End If
 
-    Debug.Print Var_SQL
+    'Debug.Print Var_SQL
     Set rs = CurrentDb.OpenRecordset(Var_SQL)
     SQLResult = rs![RecordValue]
 

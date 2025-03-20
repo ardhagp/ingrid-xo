@@ -17,15 +17,15 @@ Begin Form
     RowHeight =400
     DatasheetFontHeight =11
     ItemSuffix =37
-    Left =7710
-    Top =4200
-    Right =27435
-    Bottom =11820
+    Left =3855
+    Top =1395
+    Right =17910
+    Bottom =8805
     RecSrcDt = Begin
         0x2dc4e9074d46e640
     End
     RecordSource ="q_employee"
-    Caption ="frmSystem_User_List"
+    Caption ="SYS_MOD_ACCESS_Sub_USERLIST"
     DatasheetFontName ="Aptos"
     AllowFormView =0
     FilterOnLoad =0

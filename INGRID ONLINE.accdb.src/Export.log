@@ -5,45 +5,60 @@ VCS Version 4.1.0
 Full Path: C:\Users\titoa\source\vscode\ingrid-xo\INGRID ONLINE.accdb
 Export Folder: C:\Users\titoa\source\vscode\ingrid-xo\INGRID ONLINE.accdb.src\
 Using Fast Save
-20/03/2025 15:22:53
+21/03/2025 05:40:00
 -------------------------------------
 Scanning for changes...
 No modified modules found in this database.
-No modified forms found in this database.
 No modified reports found in this database.
 -------------------------------------
-Done. (0,65 seconds)
+Exporting forms...            
+  MAT_MOVEMENT_EDITOR
+Loading Printer info for: 'Microsoft Print to PDF'.
+    Sanitized in 0,028 seconds.
+[1] forms processed.
+-------------------------------------
+Done. (0,37 seconds)
 
 --------------------------------------------------
                 PERFORMANCE REPORTS
 --------------------------------------------------
 Category                      Count     Seconds
 --------------------------------------------------
-Forms                         0         0,13
-Modules                       0         0,10
-Reports                       0         0,02
+Forms                         1         0,22
+Modules                       0         0,05
+Reports                       0         0,01
 --------------------------------------------------
-TOTALS:                       0         0,25
+TOTALS:                       1         0,29
 --------------------------------------------------
 
 --------------------------------------------------
 Operations                    Count     Seconds
 --------------------------------------------------
-Console Updates               2         0,22
-Clear Orphaned Files          3         0,09
-Increment Progress            70        0,07
-Close Open Objects            1         0,07
-Scan DB Objects               1         0,06
-Parse JSON                    1         0,04
-Get VBA Hash                  46        0,03
-Convert to JSON               57        0,01
-Parse JSON ISO Date           188       0,01
-Compute SHA256                34        0,00
+Increment Progress            66        0,04
+Clear Orphaned Files          3         0,04
+Scan DB Objects               1         0,04
+Read File Bytes               1         0,03
+Sanitize File                 1         0,03
+Parse JSON                    1         0,02
+Console Updates               2         0,02
+Get VBA Hash                  47        0,02
+App.SaveAsText()              1         0,01
+Convert to JSON               91        0,01
+Parse JSON ISO Date           195       0,01
+Compute SHA256                39        0,00
+Read File DevMode             1         0,00
+Write File                    2         0,00
+Read File                     2         0,00
+Get File Property Hash        2         0,00
 Quick Count Files             1         0,00
-Read File                     1         0,00
+Delete File                   3         0,00
+modFileAccess.VerifyPath      3         0,00
+Close Open Objects            1         0,00
+Sanitize VBA Code             1         0,00
 Quick Count Objects           1         0,00
+Get Modified Date             2         0,00
 --------------------------------------------------
-Other Operations                        0,05
+Other Operations                        0,09
 --------------------------------------------------
 
 

@@ -266,4 +266,4 @@ Begin Form
     End
 End
 CodeBehindForm
-' See "SYS_MOD_ACCESS_Password.cls"
+' See "SYS_MOD_ACCESS_PASSWORD.cls"
