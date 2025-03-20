@@ -17,10 +17,10 @@ Begin Form
     Width =12755
     DatasheetFontHeight =11
     ItemSuffix =89
-    Left =40
-    Top =460
-    Right =18180
-    Bottom =7460
+    Left =4810
+    Top =3920
+    Right =27110
+    Bottom =11540
     RecSrcDt = Begin
         0xc2829812de54e640
     End
@@ -35,7 +35,7 @@ Begin Form
         "m.TX_DESTINATION, mm.TX_ATT_LINK, ' • ' & mm.TX_ORIGIN & ' ' & ChrW(8680) & ' ' "
         "& mm.TX_DESTINATION & (chr(13) + chr(10)) & ' • PLANT: ' & mm.TX_PLANT & ' • COF"
         "F: ' & mm.TX_PO & (chr(13) + chr(10)) & ' • MANIFEST: ' & mm.TX_MANIFEST; "
-    Caption ="MAT_MOVEMENT_"
+    Caption ="MAT_MOVEMENT_DETAILS"
     DatasheetFontName ="Aptos"
     AllowDatasheetView =0
     FilterOnLoad =0

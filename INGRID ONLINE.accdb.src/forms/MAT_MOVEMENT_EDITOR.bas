@@ -23,7 +23,7 @@ Begin Form
     GridY =10
     Width =27105
     DatasheetFontHeight =11
-    ItemSuffix =125
+    ItemSuffix =126
     Left =640
     Top =2690
     Right =19740
@@ -377,10 +377,12 @@ Begin Form
                                             Height =856
                                             FontSize =26
                                             FontWeight =700
+                                            BorderColor =0
                                             ForeColor =0
                                             Name ="LBL_REG"
                                             Caption ="Reg. #"
                                             FontName ="Segoe UI"
+                                            GridlineColor =0
                                             LayoutCachedLeft =335
                                             LayoutCachedTop =2864
                                             LayoutCachedWidth =1925
@@ -446,10 +448,12 @@ Begin Form
                                             Height =750
                                             FontSize =26
                                             FontWeight =700
+                                            BorderColor =0
                                             ForeColor =0
                                             Name ="LBL_REV"
                                             Caption ="Rev."
                                             FontName ="Segoe UI"
+                                            GridlineColor =0
                                             LayoutCachedLeft =5039
                                             LayoutCachedTop =2862
                                             LayoutCachedWidth =6074

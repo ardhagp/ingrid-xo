@@ -1,7 +1,10 @@
 ﻿Version =20
 VersionRequired =20
 Begin Form
+    AllowDeletions = NotDefault
     DividingLines = NotDefault
+    AllowAdditions = NotDefault
+    AllowEdits = NotDefault
     AllowDesignChanges = NotDefault
     DefaultView =0
     RecordLocks =2

@@ -88,6 +88,7 @@ On Error GoTo ErrorHandle
     Else
         Call MessageBox("No URL to generate as QR Code", "QR CODE", "Info")
     End If
+
 ErrorHandle:
     If Err.Number <> 0 Then
         Call Post_ErrorMessage(Err.Number, Err.DESCRIPTION)

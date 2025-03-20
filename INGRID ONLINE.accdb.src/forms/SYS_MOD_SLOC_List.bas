@@ -4,7 +4,6 @@ Begin Form
     AllowDeletions = NotDefault
     DividingLines = NotDefault
     AllowAdditions = NotDefault
-    FilterOn = NotDefault
     DefaultView =2
     ViewsAllowed =2
     RecordLocks =2

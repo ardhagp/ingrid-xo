@@ -1373,8 +1373,7 @@ Begin Form
                                     HasAxisTitles =0
                                     TabIndex =5
                                     ChartAxisData = Begin
-                                        0x01000000240000000e0000005b0059004500410052005f004300520045004100 ,
-                                        0x5400450044005d0000000000
+                                        0x01000000080000000000000003000000
                                     End
                                     ChartLegendData = Begin
                                         0x0d0000005e00000001000000340000000000005b9bd5005b9bd5000000000000 ,
@@ -1423,8 +1422,7 @@ Begin Form
                                         0x3100
                                     End
                                     ChartValueData = Begin
-                                        0x010000002e000000130000005b0054004f00540041004c005f004e0043005200 ,
-                                        0x5f0043005200450041005400450044005d0001000000
+                                        0x01000000080000000000000000000000
                                     End
                                     LegendPosition =3
                                     PrimaryValuesAxisFontColor =0
@@ -1512,8 +1510,7 @@ Begin Form
                                     HasAxisTitles =0
                                     TabIndex =7
                                     ChartAxisData = Begin
-                                        0x01000000220000000d0000005b0059004500410052005f0043004c004f005300 ,
-                                        0x450044005d0000000000
+                                        0x01000000080000000000000003000000
                                     End
                                     ChartLegendData = Begin
                                         0x0d0000005e00000001000000340000000000005b9bd5005b9bd5000000000000 ,
@@ -1562,8 +1559,7 @@ Begin Form
                                         0x3100
                                     End
                                     ChartValueData = Begin
-                                        0x010000002c000000120000005b0054004f00540041004c005f004e0043005200 ,
-                                        0x5f0043004c004f005300450044005d0001000000
+                                        0x01000000080000000000000000000000
                                     End
                                     LegendPosition =3
                                     PrimaryValuesAxisFontColor =0
@@ -1695,8 +1691,7 @@ Begin Form
                                     HasAxisTitles =0
                                     TabIndex =10
                                     ChartAxisData = Begin
-                                        0x01000000200000000c0000005b004f0052004900470049004e005f004e004300 ,
-                                        0x52005d0000000000
+                                        0x01000000080000000000000003000000
                                     End
                                     ChartLegendData = Begin
                                         0x140000005e00000001000000340000000000005b9bd5005b9bd5000000000000 ,
@@ -1781,8 +1776,7 @@ Begin Form
                                         0x0000000000000000000000000000000002000000a5a5a500ed7d3100
                                     End
                                     ChartValueData = Begin
-                                        0x010000002c000000120000005b0054004f00540041004c005f004e0043005200 ,
-                                        0x5f004900530053005500450044005d0001000000
+                                        0x01000000080000000000000000000000
                                     End
                                     LegendPosition =3
                                     PrimaryValuesAxisFontColor =0

@@ -26,7 +26,7 @@ Begin Form
         0x6e62aa0d614ae640
     End
     RecordSource ="q_mat_datemove_date"
-    Caption ="MAT_MOVEMENT_"
+    Caption ="MAT_MOVEMENT_DATE"
     DatasheetFontName ="Aptos"
     FilterOnLoad =0
     ShowPageMargins =0
@@ -182,7 +182,7 @@ Begin Form
                     ForeColor =0
                     Name ="txt_date"
                     ControlSource ="TX_DATE"
-                    Format ="dd-mmm-yyyy"
+                    Format ="ddd\", \"dd-mmm-yyyy"
                     FontName ="Segoe UI"
                     GroupTable =2
 
@@ -204,7 +204,7 @@ Begin Form
                     Width =576
                     Name ="btn_OpenThisDate"
                     OnClick ="[Event Procedure]"
-                    ControlTipText ="Show movement for this date"
+                    ControlTipText ="Show movement on this date"
                     ImageData = Begin
                         0x2800000010000000100000000100200000000000000000000000000000000000 ,
                         0x0000000000000000000000000000000000000000000000000000000000000000 ,

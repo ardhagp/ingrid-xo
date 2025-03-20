@@ -10,6 +10,8 @@ Private Sub btnClose_Click()
 End Sub
 
 Private Sub btnEdit_Click()
+On Error GoTo ErrorHandle
+
     Var_IsNew = False
 
     If IsAnyRow = True Then
@@ -32,6 +34,11 @@ Private Sub btnEdit_Click()
         End If
     Else
         Exit Sub
+    End If
+
+ErrorHandle:
+    If Err.Number <> 0 Then
+        Call Post_ErrorMessage(Err.Number, Err.DESCRIPTION)
     End If
 End Sub
 
@@ -75,7 +82,11 @@ Private Sub Post_Find()
 
     'Execute query for date table
     If Len(Var_MAT_Find) > 0 Then
-        Var_SQL_Where = " AND (mm.D_MATERIALNAME like '%" & Var_MAT_Find & "%') OR (mm.TX_PO like '%" & Var_MAT_Find & "%') OR (mm.TX_ORIGIN like '%" & Var_MAT_Find & "%') OR (mm.TX_DESTINATION like '%" & Var_MAT_Find & "%') OR (mm.TX_MANIFEST like '%" & Var_MAT_Find & "%') "
+        If IsNumeric(Var_MAT_Find) = True Then
+            Var_SQL_Where = " AND (mm.TX_ROWID = " & Var_MAT_Find & " OR mm.D_MATERIALNAME like '%" & Var_MAT_Find & "%') OR (mm.TX_PO like '%" & Var_MAT_Find & "%') OR (mm.TX_ORIGIN like '%" & Var_MAT_Find & "%') OR (mm.TX_DESTINATION like '%" & Var_MAT_Find & "%') OR (mm.TX_MANIFEST like '%" & Var_MAT_Find & "%') "
+        Else
+            Var_SQL_Where = " AND (mm.D_MATERIALNAME like '%" & Var_MAT_Find & "%') OR (mm.TX_PO like '%" & Var_MAT_Find & "%') OR (mm.TX_ORIGIN like '%" & Var_MAT_Find & "%') OR (mm.TX_DESTINATION like '%" & Var_MAT_Find & "%') OR (mm.TX_MANIFEST like '%" & Var_MAT_Find & "%') "
+        End If
     End If
 
     Var_SQL = "SELECT mm.TX_DATEDELIVERY as TX_DATE" & _

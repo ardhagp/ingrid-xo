@@ -59,7 +59,7 @@ End Sub
 
 'Form Events
 Private Sub Form_Load()
-    txtUSERID.Visible = True
+    txtUserID.Visible = True
     Call Put_SessionAdd
     Var_L_IsFormLoading = True
     Var_L_IsNew = Var_IsNew
@@ -69,15 +69,15 @@ Private Sub Form_Load()
         txtJobTitle.SetFocus
         txtJobTitle.Text = txtJobTitle.ItemData(0)
         txtEmployeeID.SetFocus
-        txtUSERID.Visible = False
+        txtUserID.Visible = False
         Var_L_Password = ""
     Else
         Var_L_Identifier = Var_Identifier
-        txtUSERID.SetFocus
-        Var_L_UserID = txtUSERID.Text
+        txtUserID.SetFocus
+        Var_L_UserID = txtUserID.Text
         'Debug.Print "userid: " & Var_L_UserID
         txtEmployeeID.SetFocus
-        txtUSERID.Visible = False
+        txtUserID.Visible = False
 
         'Call EMPLOYEE_ACCESS(Var_L_UserID)
     End If

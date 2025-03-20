@@ -19,7 +19,11 @@ On Error GoTo ErrorHandle
     Var_SQL_Where = ""
 
     If Len(Var_MAT_Find) > 0 Then
-        Var_SQL_Where = " AND ((mm.D_MATERIALNAME like '%" & Var_MAT_Find & "%') OR (mm.TX_PO like '%" & Var_MAT_Find & "%') OR (mm.TX_ORIGIN like '%" & Var_MAT_Find & "%') OR (mm.TX_DESTINATION like '%" & Var_MAT_Find & "%') OR (mm.TX_MANIFEST like '%" & Var_MAT_Find & "%')) "
+        If IsNumeric(Var_MAT_Find) = True Then
+            Var_SQL_Where = " AND ((mm.TX_ROWID = " & Var_MAT_Find & ") OR (mm.D_MATERIALNAME like '%" & Var_MAT_Find & "%') OR (mm.TX_PO like '%" & Var_MAT_Find & "%') OR (mm.TX_ORIGIN like '%" & Var_MAT_Find & "%') OR (mm.TX_DESTINATION like '%" & Var_MAT_Find & "%') OR (mm.TX_MANIFEST like '%" & Var_MAT_Find & "%')) "
+        Else
+            Var_SQL_Where = " AND ((mm.D_MATERIALNAME like '%" & Var_MAT_Find & "%') OR (mm.TX_PO like '%" & Var_MAT_Find & "%') OR (mm.TX_ORIGIN like '%" & Var_MAT_Find & "%') OR (mm.TX_DESTINATION like '%" & Var_MAT_Find & "%') OR (mm.TX_MANIFEST like '%" & Var_MAT_Find & "%')) "
+        End If
     End If
 
     Var_SQL = "SELECT mm.TX_ROWID, mm.TX_DIRECTION, IIf(mm.TX_DATEDELIVERY=#" & Get_StdDate(Var_MAT_Date) & "#,'1','0') AS TX_CODE_D, IIf(mm.TX_DATERECEIVED=#" & Get_StdDate(Var_MAT_Date) & "#,'1','0') AS TX_CODE_R, mm.TX_ATT_LINK,' • ' & mm.TX_ORIGIN & ' ' & ChrW(8680) & ' ' & mm.TX_DESTINATION & (chr(13) + chr(10)) & ' • PLANT: ' & mm.TX_PLANT & ' • COFF: ' & mm.TX_PO & (chr(13) + chr(10)) & ' • MANIFEST: ' & mm.TX_MANIFEST AS DESCRIPTION" & _

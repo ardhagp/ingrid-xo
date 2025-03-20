@@ -6,9 +6,9 @@
   "Items": {
     "MergeBuildDate": "2025-03-19T18:50:16.000Z",
     "FullBuildDate": "2025-03-19T18:49:21.000Z",
-    "ExportDate": "2025-03-19T18:27:06.000Z",
-    "FullExportDate": "2025-03-19T18:27:06.000Z",
-    "OptionsHash": "b3266a5",
+    "ExportDate": "2025-03-20T08:22:54.000Z",
+    "FullExportDate": "2025-03-20T08:12:38.000Z",
+    "OptionsHash": "bc9d5df",
     "LastMergedCommit": "",
     "Components": {
       "DB Connections": {
@@ -40,152 +40,175 @@
       },
       "Forms": {
         "APP_LOGIN.bas": {
-          "FileHash": "8baa522",
-          "ExportDate": "2025-03-19T18:27:05.000Z",
+          "FileHash": "07cc27a",
+          "ExportDate": "2025-03-20T08:12:37.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "28a5fb8",
-          "ImportDate": "2025-03-19T18:49:17.000Z"
+          "FilePropertiesHash": "4bc9fb9",
+          "ImportDate": "2025-03-19T18:49:17.000Z",
+          "OtherHash": "8baa522"
         },
         "frmWatchDog.bas": {
-          "FileHash": "0dba7da",
-          "ExportDate": "2025-03-19T18:27:05.000Z",
+          "FileHash": "f3d7567",
+          "ExportDate": "2025-03-20T08:12:37.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "96e1bf9",
-          "ImportDate": "2025-03-19T18:49:17.000Z"
+          "FilePropertiesHash": "3f54a9d",
+          "ImportDate": "2025-03-19T18:49:17.000Z",
+          "OtherHash": "0dba7da"
         },
         "MAT_MOVEMENT_BYDATE.bas": {
-          "FileHash": "13ce66f",
-          "ExportDate": "2025-03-19T18:27:05.000Z",
+          "FileHash": "5b3af86",
+          "ExportDate": "2025-03-20T08:21:09.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "748dd8f",
-          "ImportDate": "2025-03-19T18:49:18.000Z"
+          "FilePropertiesHash": "9076eb0",
+          "ImportDate": "2025-03-19T18:49:18.000Z",
+          "OtherHash": "f85d2e3"
         },
         "MAT_MOVEMENT_BYDATE_Sub_DATE.bas": {
-          "FileHash": "3343f4a",
-          "ExportDate": "2025-03-19T18:27:05.000Z",
+          "FileHash": "42fac0c",
+          "ExportDate": "2025-03-20T08:21:09.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "afdc213",
-          "ImportDate": "2025-03-19T18:49:18.000Z"
+          "FilePropertiesHash": "bfbffa2",
+          "ImportDate": "2025-03-19T18:49:18.000Z",
+          "OtherHash": "40c8e3c"
         },
         "MAT_MOVEMENT_BYDATE_Sub_DETAIL.bas": {
-          "FileHash": "be966bc",
-          "ExportDate": "2025-03-19T18:27:05.000Z",
+          "FileHash": "fbf8aba",
+          "ExportDate": "2025-03-20T08:21:09.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "52620b8",
-          "ImportDate": "2025-03-19T18:49:18.000Z"
+          "FilePropertiesHash": "1a68b7f",
+          "ImportDate": "2025-03-19T18:49:18.000Z",
+          "OtherHash": "be966bc"
         },
         "MAT_MOVEMENT_BYDATE_Sub_HANDLE.bas": {
-          "ExportDate": "2025-03-19T18:27:05.000Z",
+          "ExportDate": "2025-03-20T08:12:37.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "c766cdd",
-          "ImportDate": "2025-03-19T18:49:18.000Z"
+          "FilePropertiesHash": "6aea705",
+          "ImportDate": "2025-03-19T18:49:18.000Z",
+          "FileHash": "81e7fe1"
         },
         "MAT_MOVEMENT_EDITOR.bas": {
-          "FileHash": "0ada425",
-          "ExportDate": "2025-03-19T18:27:05.000Z",
+          "FileHash": "85a9dea",
+          "ExportDate": "2025-03-20T08:12:37.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "a2c9b33",
-          "ImportDate": "2025-03-19T18:49:18.000Z"
+          "FilePropertiesHash": "eac8c45",
+          "ImportDate": "2025-03-19T18:49:18.000Z",
+          "OtherHash": "9799942"
         },
         "MAT_MOVEMENT_EDITOR_Sub_CHANGEBIN.bas": {
-          "ExportDate": "2025-03-19T18:27:05.000Z",
+          "ExportDate": "2025-03-20T08:12:37.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "3f7b130",
-          "ImportDate": "2025-03-19T18:49:18.000Z"
+          "FilePropertiesHash": "77ab016",
+          "ImportDate": "2025-03-19T18:49:18.000Z",
+          "FileHash": "cfce621"
         },
         "MAT_MOVEMENT_EDITOR_Sub_FIND.bas": {
-          "ExportDate": "2025-03-19T18:27:05.000Z",
+          "ExportDate": "2025-03-20T08:12:38.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "7ec8c7e",
-          "ImportDate": "2025-03-19T18:49:18.000Z"
+          "FilePropertiesHash": "294ed98",
+          "ImportDate": "2025-03-19T18:49:18.000Z",
+          "FileHash": "8b860b6"
         },
         "MAT_MOVEMENT_EDITOR_Sub_INCOMING.bas": {
-          "ExportDate": "2025-03-19T18:27:05.000Z",
+          "ExportDate": "2025-03-20T08:12:38.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "6a6c184",
-          "ImportDate": "2025-03-19T18:49:18.000Z"
+          "FilePropertiesHash": "c123f59",
+          "ImportDate": "2025-03-19T18:49:18.000Z",
+          "FileHash": "3efe90c"
         },
         "MAT_MOVEMENT_EDITOR_Sub_NCR.bas": {
-          "ExportDate": "2025-03-19T18:27:05.000Z",
+          "ExportDate": "2025-03-20T08:12:37.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "3f7b130",
-          "ImportDate": "2025-03-19T18:49:18.000Z"
+          "FilePropertiesHash": "77ab016",
+          "ImportDate": "2025-03-19T18:49:18.000Z",
+          "FileHash": "88316cc"
         },
         "MAT_MOVEMENT_EDITOR_Sub_OUTGOING.bas": {
-          "ExportDate": "2025-03-19T18:27:05.000Z",
+          "ExportDate": "2025-03-20T08:12:37.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "3f7b130",
-          "ImportDate": "2025-03-19T18:49:18.000Z"
+          "FilePropertiesHash": "77ab016",
+          "ImportDate": "2025-03-19T18:49:18.000Z",
+          "FileHash": "f2c6897"
         },
         "MAT_MOVEMENT_EDITOR_Sub_TMTM.bas": {
-          "ExportDate": "2025-03-19T18:27:05.000Z",
+          "ExportDate": "2025-03-20T08:12:38.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "3f7b130",
-          "ImportDate": "2025-03-19T18:49:18.000Z"
+          "FilePropertiesHash": "b0bd2b6",
+          "ImportDate": "2025-03-19T18:49:18.000Z",
+          "FileHash": "228e1c0"
         },
         "MAT_SUMMARY_NCR.bas": {
-          "ExportDate": "2025-03-19T18:27:05.000Z",
+          "ExportDate": "2025-03-20T08:12:38.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "442f8de",
-          "ImportDate": "2025-03-19T18:49:18.000Z"
+          "FilePropertiesHash": "9e801f8",
+          "ImportDate": "2025-03-19T18:49:18.000Z",
+          "FileHash": "20a5f05"
         },
         "SYS_MOD_ACCESS.bas": {
-          "FileHash": "d347e99",
-          "ExportDate": "2025-03-19T18:27:05.000Z",
+          "FileHash": "37ba99e",
+          "ExportDate": "2025-03-20T08:12:38.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "9a46f44",
-          "ImportDate": "2025-03-19T18:49:18.000Z"
+          "FilePropertiesHash": "3a77084",
+          "ImportDate": "2025-03-19T18:49:18.000Z",
+          "OtherHash": "d347e99"
         },
         "SYS_MOD_ACCESS_Access.bas": {
-          "ExportDate": "2025-03-19T18:27:05.000Z",
+          "ExportDate": "2025-03-20T08:12:38.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "10845db",
-          "ImportDate": "2025-03-19T18:49:18.000Z"
+          "FilePropertiesHash": "309505e",
+          "ImportDate": "2025-03-19T18:49:18.000Z",
+          "FileHash": "92899e2"
         },
         "SYS_MOD_ACCESS_Editor.bas": {
-          "FileHash": "f569354",
-          "ExportDate": "2025-03-19T18:27:05.000Z",
+          "FileHash": "e874600",
+          "ExportDate": "2025-03-20T08:12:37.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "0124ee1",
-          "ImportDate": "2025-03-19T18:49:18.000Z"
+          "FilePropertiesHash": "e33202a",
+          "ImportDate": "2025-03-19T18:49:18.000Z",
+          "OtherHash": "f569354"
         },
         "SYS_MOD_ACCESS_List.bas": {
-          "ExportDate": "2025-03-19T18:27:05.000Z",
+          "ExportDate": "2025-03-20T08:12:38.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "9085f86",
-          "ImportDate": "2025-03-19T18:49:18.000Z"
+          "FilePropertiesHash": "bdaf4ad",
+          "ImportDate": "2025-03-19T18:49:18.000Z",
+          "FileHash": "1a3a6c1"
         },
         "SYS_MOD_ACCESS_Password.bas": {
-          "FileHash": "e0b8853",
-          "ExportDate": "2025-03-19T18:27:05.000Z",
+          "FileHash": "f942c68",
+          "ExportDate": "2025-03-20T08:12:38.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "6922896",
-          "ImportDate": "2025-03-19T18:49:18.000Z"
+          "FilePropertiesHash": "524f83a",
+          "ImportDate": "2025-03-19T18:49:18.000Z",
+          "OtherHash": "e0b8853"
         },
         "SYS_MOD_DISPLAY.bas": {
-          "ExportDate": "2025-03-19T18:27:05.000Z",
+          "ExportDate": "2025-03-20T08:12:38.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "610155c",
-          "ImportDate": "2025-03-19T18:49:18.000Z"
+          "FilePropertiesHash": "e2a3c67",
+          "ImportDate": "2025-03-19T18:49:18.000Z",
+          "FileHash": "fe80b67"
         },
         "SYS_MOD_SLOC_List.bas": {
-          "ExportDate": "2025-03-19T18:27:05.000Z",
+          "ExportDate": "2025-03-20T08:12:38.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "a3a8b50",
-          "ImportDate": "2025-03-19T18:49:18.000Z"
+          "FilePropertiesHash": "3eb50ad",
+          "ImportDate": "2025-03-19T18:49:18.000Z",
+          "FileHash": "5f86452"
         },
         "t_moduleaccess Subform.bas": {
-          "ExportDate": "2025-03-19T18:27:05.000Z",
+          "ExportDate": "2025-03-20T08:12:37.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "ffe5a7b",
-          "ImportDate": "2025-03-19T18:49:18.000Z"
+          "FilePropertiesHash": "b8460a7",
+          "ImportDate": "2025-03-19T18:49:18.000Z",
+          "FileHash": "3329f4e"
         },
         "TEST_1.bas": {
-          "FileHash": "4aa4c29",
-          "ExportDate": "2025-03-19T18:27:05.000Z",
+          "FileHash": "a89ec7d",
+          "ExportDate": "2025-03-20T08:12:38.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "e5a09b7",
-          "ImportDate": "2025-03-19T18:49:18.000Z"
+          "FilePropertiesHash": "7abd2a1",
+          "ImportDate": "2025-03-19T18:49:18.000Z",
+          "OtherHash": "4aa4c29"
         }
       },
       "Hidden Attributes": {
@@ -194,31 +217,28 @@
       },
       "Modules": {
         "Cls_Data_Get.cls": {
-          "FileHash": "79a34a3",
-          "ExportDate": "2025-03-19T18:27:04.000Z",
+          "FileHash": "6667eaa",
+          "ExportDate": "2025-03-20T08:12:35.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "bb1490d",
-          "ImportDate": "2025-03-19T18:49:08.000Z"
+          "FilePropertiesHash": "96b75a4",
+          "ImportDate": "2025-03-19T18:49:08.000Z",
+          "OtherHash": "79a34a3"
         },
         "Cls_System_Log.cls": {
-          "FileHash": "51f61a8",
-          "ExportDate": "2025-03-19T18:27:04.000Z",
+          "FileHash": "24d4327",
+          "ExportDate": "2025-03-20T08:12:35.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "f94ea7c",
-          "ImportDate": "2025-03-19T18:49:08.000Z"
+          "FilePropertiesHash": "10db67b",
+          "ImportDate": "2025-03-19T18:49:08.000Z",
+          "OtherHash": "51f61a8"
         },
         "Mod_Data_Variable.bas": {
-          "FileHash": "836f469",
-          "ExportDate": "2025-03-19T18:27:04.000Z",
+          "FileHash": "371866a",
+          "ExportDate": "2025-03-20T08:12:35.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "74b17e2",
-          "ImportDate": "2025-03-19T18:49:07.000Z"
-        },
-        "mod_graph_Aztec.bas": {
-          "FileHash": "772659e",
-          "ImportDate": "2025-03-19T18:50:14.000Z",
-          "SourceModified": null,
-          "FilePropertiesHash": "6001d59"
+          "FilePropertiesHash": "a8a6955",
+          "ImportDate": "2025-03-19T18:49:07.000Z",
+          "OtherHash": "836f469"
         },
         "Mod_Graph_Aztec.bas": {
           "FileHash": "772659e",
@@ -227,11 +247,13 @@
           "FilePropertiesHash": "6001d59",
           "ImportDate": "2025-03-19T18:50:14.000Z"
         },
-        "mod_graph_Barcode.bas": {
-          "FileHash": "a2dec2a",
+        "mod_graph_Aztec.bas": {
+          "FileHash": "20fd044",
           "ImportDate": "2025-03-19T18:50:14.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "9abdf5a"
+          "FilePropertiesHash": "99d7a71",
+          "OtherHash": "772659e",
+          "ExportDate": "2025-03-20T08:12:35.000Z"
         },
         "Mod_Graph_Barcode.bas": {
           "FileHash": "a2dec2a",
@@ -240,24 +262,28 @@
           "FilePropertiesHash": "9abdf5a",
           "ImportDate": "2025-03-19T18:50:14.000Z"
         },
+        "mod_graph_Barcode.bas": {
+          "FileHash": "7126abf",
+          "ImportDate": "2025-03-19T18:50:14.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "5af5266",
+          "OtherHash": "a2dec2a",
+          "ExportDate": "2025-03-20T08:12:35.000Z"
+        },
+        "mod_graph_Code128.bas": {
+          "FileHash": "4578c54",
+          "ImportDate": "2025-03-19T18:50:14.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "572202e",
+          "OtherHash": "3b2d725",
+          "ExportDate": "2025-03-20T08:12:35.000Z"
+        },
         "Mod_Graph_Code128.bas": {
           "FileHash": "3b2d725",
           "ExportDate": "2025-03-19T18:27:04.000Z",
           "SourceModified": null,
           "FilePropertiesHash": "0810483",
           "ImportDate": "2025-03-19T18:50:14.000Z"
-        },
-        "mod_graph_Code128.bas": {
-          "FileHash": "3b2d725",
-          "ImportDate": "2025-03-19T18:50:14.000Z",
-          "SourceModified": null,
-          "FilePropertiesHash": "0810483"
-        },
-        "mod_graph_DataMatrix.bas": {
-          "FileHash": "1148c5a",
-          "ImportDate": "2025-03-19T18:50:14.000Z",
-          "SourceModified": null,
-          "FilePropertiesHash": "cd9fe4f"
         },
         "Mod_Graph_DataMatrix.bas": {
           "FileHash": "1148c5a",
@@ -266,11 +292,13 @@
           "FilePropertiesHash": "cd9fe4f",
           "ImportDate": "2025-03-19T18:50:14.000Z"
         },
-        "mod_graph_QRCode.bas": {
-          "FileHash": "dfd4fae",
+        "mod_graph_DataMatrix.bas": {
+          "FileHash": "5e6f169",
           "ImportDate": "2025-03-19T18:50:14.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "b5d1c13"
+          "FilePropertiesHash": "4849a5f",
+          "OtherHash": "1148c5a",
+          "ExportDate": "2025-03-20T08:12:35.000Z"
         },
         "Mod_Graph_QRCode.bas": {
           "FileHash": "dfd4fae",
@@ -279,103 +307,125 @@
           "FilePropertiesHash": "b5d1c13",
           "ImportDate": "2025-03-19T18:50:14.000Z"
         },
-        "Mod_System_Function.bas": {
-          "FileHash": "f138aa2",
-          "ExportDate": "2025-03-19T18:27:04.000Z",
+        "mod_graph_QRCode.bas": {
+          "FileHash": "f69f74c",
+          "ImportDate": "2025-03-19T18:50:14.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "f96b859",
-          "ImportDate": "2025-03-19T18:49:08.000Z"
+          "FilePropertiesHash": "5cdbeab",
+          "OtherHash": "dfd4fae",
+          "ExportDate": "2025-03-20T08:12:35.000Z"
+        },
+        "Mod_System_Function.bas": {
+          "FileHash": "1413df3",
+          "ExportDate": "2025-03-20T08:12:35.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "18e7b84",
+          "ImportDate": "2025-03-19T18:49:08.000Z",
+          "OtherHash": "f138aa2"
         },
         "Mod_System_Ribbon.bas": {
-          "FileHash": "6113c7b",
-          "ExportDate": "2025-03-19T18:27:04.000Z",
+          "FileHash": "a6cfd8b",
+          "ExportDate": "2025-03-20T08:12:35.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "69b46c8",
-          "ImportDate": "2025-03-19T18:49:08.000Z"
+          "FilePropertiesHash": "b766073",
+          "ImportDate": "2025-03-19T18:49:08.000Z",
+          "OtherHash": "6113c7b"
         },
         "Mod_System_Security_AES.bas": {
-          "FileHash": "e9bb8cf",
-          "ExportDate": "2025-03-19T18:27:04.000Z",
+          "FileHash": "c2251fb",
+          "ExportDate": "2025-03-20T08:12:35.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "509b347",
-          "ImportDate": "2025-03-19T18:49:08.000Z"
+          "FilePropertiesHash": "7550292",
+          "ImportDate": "2025-03-19T18:49:08.000Z",
+          "OtherHash": "e9bb8cf"
         },
         "Mod_System_Security_AES2.bas": {
-          "FileHash": "8378b8e",
-          "ExportDate": "2025-03-19T18:27:04.000Z",
+          "FileHash": "af1d04b",
+          "ExportDate": "2025-03-20T08:12:35.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "50ddfea",
-          "ImportDate": "2025-03-19T18:49:08.000Z"
+          "FilePropertiesHash": "00e98a2",
+          "ImportDate": "2025-03-19T18:49:08.000Z",
+          "OtherHash": "8378b8e"
         },
         "Mod_System_Security_CRC32.bas": {
-          "FileHash": "ba68e19",
-          "ExportDate": "2025-03-19T18:27:04.000Z",
+          "FileHash": "06a2dc1",
+          "ExportDate": "2025-03-20T08:12:35.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "8c879d8",
-          "ImportDate": "2025-03-19T18:49:08.000Z"
+          "FilePropertiesHash": "8605b57",
+          "ImportDate": "2025-03-19T18:49:08.000Z",
+          "OtherHash": "ba68e19"
         },
         "Mod_System_Security_Encode64.bas": {
-          "FileHash": "cfad264",
-          "ExportDate": "2025-03-19T18:27:04.000Z",
+          "FileHash": "305596f",
+          "ExportDate": "2025-03-20T08:12:35.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "c84d1d3",
-          "ImportDate": "2025-03-19T18:49:08.000Z"
+          "FilePropertiesHash": "889a6b2",
+          "ImportDate": "2025-03-19T18:49:08.000Z",
+          "OtherHash": "cfad264"
         },
         "Mod_System_Security_HashEngine.bas": {
-          "FileHash": "5968184",
-          "ExportDate": "2025-03-19T18:27:04.000Z",
+          "FileHash": "3ea394d",
+          "ExportDate": "2025-03-20T08:12:35.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "bc16081",
-          "ImportDate": "2025-03-19T18:49:08.000Z"
+          "FilePropertiesHash": "ca7f2e9",
+          "ImportDate": "2025-03-19T18:49:08.000Z",
+          "OtherHash": "5968184"
         },
         "Mod_System_Security_Helper.bas": {
-          "FileHash": "4603a74",
-          "ExportDate": "2025-03-19T18:27:04.000Z",
+          "FileHash": "bf9a712",
+          "ExportDate": "2025-03-20T08:12:35.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "5de7ed7",
-          "ImportDate": "2025-03-19T18:49:08.000Z"
+          "FilePropertiesHash": "4698c9f",
+          "ImportDate": "2025-03-19T18:49:08.000Z",
+          "OtherHash": "4603a74"
         },
         "Mod_System_Security_MD5.bas": {
-          "FileHash": "79c93dc",
-          "ExportDate": "2025-03-19T18:27:04.000Z",
+          "FileHash": "6135d60",
+          "ExportDate": "2025-03-20T08:12:35.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "ab7102d",
-          "ImportDate": "2025-03-19T18:49:08.000Z"
+          "FilePropertiesHash": "0e40da5",
+          "ImportDate": "2025-03-19T18:49:08.000Z",
+          "OtherHash": "79c93dc"
         },
         "Mod_System_Security_SHA256.bas": {
-          "FileHash": "da0ccc1",
-          "ExportDate": "2025-03-19T18:27:04.000Z",
+          "FileHash": "250b35e",
+          "ExportDate": "2025-03-20T08:12:35.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "ac14a61",
-          "ImportDate": "2025-03-19T18:49:08.000Z"
+          "FilePropertiesHash": "d1473ff",
+          "ImportDate": "2025-03-19T18:49:08.000Z",
+          "OtherHash": "da0ccc1"
         },
         "Mod_System_Security_SHA256_2.bas": {
-          "FileHash": "d7a4269",
-          "ExportDate": "2025-03-19T18:27:04.000Z",
+          "FileHash": "8d0998c",
+          "ExportDate": "2025-03-20T08:12:35.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "a56a5c3",
-          "ImportDate": "2025-03-19T18:49:08.000Z"
+          "FilePropertiesHash": "c06aeff",
+          "ImportDate": "2025-03-19T18:49:08.000Z",
+          "OtherHash": "d7a4269"
         },
         "Mod_System_Variable.bas": {
-          "FileHash": "a95fa2d",
-          "ExportDate": "2025-03-19T18:27:04.000Z",
+          "FileHash": "4581717",
+          "ExportDate": "2025-03-20T08:12:35.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "710e4ff",
-          "ImportDate": "2025-03-19T18:49:08.000Z"
+          "FilePropertiesHash": "82f8bf8",
+          "ImportDate": "2025-03-19T18:49:08.000Z",
+          "OtherHash": "a95fa2d"
         },
         "Module3.bas": {
-          "FileHash": "32d3a99",
-          "ExportDate": "2025-03-19T18:27:04.000Z",
+          "FileHash": "6f6652e",
+          "ExportDate": "2025-03-20T08:12:35.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "945a4d9",
-          "ImportDate": "2025-03-19T18:49:07.000Z"
+          "FilePropertiesHash": "833f8e0",
+          "ImportDate": "2025-03-19T18:49:07.000Z",
+          "OtherHash": "32d3a99"
         },
         "Module4.bas": {
-          "FileHash": "48a3f2a",
-          "ExportDate": "2025-03-19T18:27:04.000Z",
+          "FileHash": "1f1eae7",
+          "ExportDate": "2025-03-20T08:12:35.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "48cade5",
-          "ImportDate": "2025-03-19T18:49:07.000Z"
+          "FilePropertiesHash": "f4456b8",
+          "ImportDate": "2025-03-19T18:49:07.000Z",
+          "OtherHash": "48a3f2a"
         }
       },
       "Nav Pane Groups": {
@@ -478,9 +528,9 @@
         "RPT_MAT_MOVEMENT_BYDATE_EDITOR.bas": {
           "FileHash": "3fa3fae",
           "OtherHash": "c784795",
-          "ExportDate": "2025-03-19T18:27:06.000Z",
+          "ExportDate": "2025-03-20T08:12:38.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "97f4c5a",
+          "FilePropertiesHash": "46c0d9f",
           "ImportDate": "2025-03-19T18:49:19.000Z"
         }
       },
