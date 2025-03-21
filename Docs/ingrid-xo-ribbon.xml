@@ -7,83 +7,54 @@
   <ribbon startFromScratch="false">
 	<qat>
 		<documentControls>
-			<button id="btnNEXT" label="Please Call Me" screentip="Please Call Me" supertip="For Help, Feature Request or Assist please call Me at 08113770649" imageMso="CatalogMergeGoToNextRecord" />
-			<button id="btnA"  label="Please Call Me" screentip="Please Call Me" supertip="For Help, Feature Request or Assist please call Me at 08113770649" imageMso="A" />
-			<button id="btnR"  label="Please Call Me" screentip="Please Call Me" supertip="For Help, Feature Request or Assist please call Me at 08113770649" imageMso="R" />
-			<button id="btnD"  label="Please Call Me" screentip="Please Call Me" supertip="For Help, Feature Request or Assist please call Me at 08113770649" imageMso="D" />
-			<button id="btnH"  label="Please Call Me" screentip="Please Call Me" supertip="For Help, Feature Request or Assist please call Me at 08113770649" imageMso="H" />
-			<button id="btnA2"  label="Please Call Me" screentip="Please Call Me" supertip="For Help, Feature Request or Assist please call Me at 08113770649" imageMso="A" />
-			<button id="btnG"  label="Please Call Me" screentip="Please Call Me" supertip="For Help, Feature Request or Assist please call Me at 08113770649" imageMso="G" />
-			<button id="btnP"  label="Please Call Me" screentip="Please Call Me" supertip="For Help, Feature Request or Assist please call Me at 08113770649" imageMso="P" />
 			<button id="btnCall"  label="Please Call Me" screentip="Please Call Me" supertip="For Help, Feature Request or Assist please call Me at 08113770649" imageMso="AutoDial" />
-			<button id="btn1"  label="Please Call Me" screentip="Please Call Me" supertip="For Help, Feature Request or Assist please call Me at 08113770649" imageMso="_0" />
-			<button id="btn2"  label="Please Call Me" screentip="Please Call Me" supertip="For Help, Feature Request or Assist please call Me at 08113770649" imageMso="_8" />
-			<button id="btn3"  label="Please Call Me" screentip="Please Call Me" supertip="For Help, Feature Request or Assist please call Me at 08113770649" imageMso="_1" />
-			<button id="btn4"  label="Please Call Me" screentip="Please Call Me" supertip="For Help, Feature Request or Assist please call Me at 08113770649" imageMso="_1" />
-			<button id="btn5"  label="Please Call Me" screentip="Please Call Me" supertip="For Help, Feature Request or Assist please call Me at 08113770649" imageMso="_3" />
-			<button id="btn6"  label="Please Call Me" screentip="Please Call Me" supertip="For Help, Feature Request or Assist please call Me at 08113770649" imageMso="_7" />
-			<button id="btn7"  label="Please Call Me" screentip="Please Call Me" supertip="For Help, Feature Request or Assist please call Me at 08113770649" imageMso="_7" />
-			<button id="btn8"  label="Please Call Me" screentip="Please Call Me" supertip="For Help, Feature Request or Assist please call Me at 08113770649" imageMso="_0" />
-			<button id="btn9"  label="Please Call Me" screentip="Please Call Me" supertip="For Help, Feature Request or Assist please call Me at 08113770649" imageMso="_6" />
-			<button id="btn10"  label="Please Call Me" screentip="Please Call Me" supertip="For Help, Feature Request or Assist please call Me at 08113770649" imageMso="_4" />
-			<button id="btn11"  label="Please Call Me" screentip="Please Call Me" supertip="For Help, Feature Request or Assist please call Me at 08113770649" imageMso="_9" />
-			<button id="btnPREVIOUS"  label="Please Call Me" screentip="Please Call Me" supertip="For Help, Feature Request or Assist please call Me at 08113770649" imageMso="CatalogMergeGoToPreviousRecord" />
-		</documentControls>
+      </documentControls>
 	</qat>
     <tabs>
-      <tab id="materials" label="MATERIALS" insertBeforeMso="TabHomeAccess">  
+      <tab id="TabMaterials" label="MATERIALS" insertBeforeMso="TabHomeAccess">  
         <group id="materialsSummary" label="Summary" imageMso="CreateReport">
-		  <splitButton id="splitSummaryReceiving" size="large" >
-          <button id="btn_SummaryReceiving" label="Receiving" imageMso="CreateReport" screentip="Receiving Summary" supertip="Show Receiving Summary" tag="frmSummaryIncoming"  onAction="OrbClicked" />
-          <menu id="menu_ReceivingByDate">
-          <button id="btn_ReceivingByDate" label="Receiving By Date" imageMso="CalendarHorizontal" onAction="OrbClicked" />
-          </menu>
-		  </splitButton>
-		  <button id="btn_SummaryOutgoing" label="Outgoing" imageMso="CreateReport" size="large" screentip="Outgoing Summary" supertip="Show Outgoing Summary" tag="frmSummaryOutgoing"  onAction="OrbClicked" />
+          <button id="btn_SummaryReceiving" label="Receiving" imageMso="CreateReport" size="large" screentip="Receiving Summary" supertip="Show Receiving Summary" tag="frmSummaryIncoming"  onAction="OrbClicked" />
+		      <button id="btn_SummaryOutgoing" label="Outgoing" imageMso="CreateReport" size="large" screentip="Outgoing Summary" supertip="Show Outgoing Summary" tag="frmSummaryOutgoing"  onAction="OrbClicked" />
           <button id="btn_SummaryNCR" label="NCR" imageMso="CreateReport" size="large" screentip="NCR Summary" supertip="Show NCR Summary" tag="MAT_SUMMARY_NCR"  onAction="OrbClicked" />
 		  <separator id="separator_RPT" />
 		  <button id="btn_RPTMonthlyKPI" label="Monthly KPI" imageMso="CreateReport" size="large" screentip="Monthly KPI" supertip="Show Monthly KPI" tag="frmRPT_MONTHLY"  onAction="OrbClicked" />
         </group>
         <group id="materialsMovements" label="Material Movements" imageMso="AnimationTriggerAddMenu">
-<button id="btn_MAT_MOVEMENT_BYDATE" label="By Date" imageMso="CalendarsGallery" size="large" screentip="By Date" supertip="Movement materials by date it received or delivery" tag="MAT_MOVEMENT_BYDATE" onAction="OrbClicked" />
+          <button id="btn_MAT_MOVEMENT_BYDATE" label="By Date" imageMso="CalendarsGallery" size="large" screentip="By Date" supertip="Display movement materials in order by date it received or delivery" tag="MAT_MOVEMENT_BYDATE" onAction="OrbClicked" />
           <separator id="separator_MaterialMovement" />
-<button id="btn_MAT_MOVEMENT_BYMATERIAL" label="By Material" imageMso="GroupUMLModel" size="large" screentip="By Material" supertip="Movement materials by material details such as name, material code etc." tag="MAT_MOVEMENT_BYMATERIAL" onAction="OrbClicked" />
-          <button id="btn_BASTMRR" label="Receiving" imageMso="MoreSearchCriteria" size="large" screentip="Incoming Material" supertip="● Berita Acara Serah Terima (All Receiving)&#xD;● Material Receiving Reports (Stock)" tag="frmMVT_INCOMING" onAction="OrbClicked" />
-		  <button id="btn_CHANGEBIN" label="Change Bin" imageMso="ImportExport" size="large" screentip="Change Material Location" supertip="● Change Material Location" tag="frmMVT_MOvE" onAction="OrbClicked" />          
-		  <button id="btn_OUTGOING" label="Outgoing" imageMso="UMLPackages" size="large" screentip="Outgoing Material" supertip="● MIR / MMR" tag="frmMVT_OUTGOING" onAction="OrbClicked" />
-          <separator id="separator_Accrual" />
-		  <button id="btn_ACCR" label="Accrual" imageMso="DateInsert" size="large" screentip="Accrual" supertip="● Accrual" tag="frmShowAccrual" onAction="OrbClicked" />
+          <button id="btn_MAT_MOVEMENT_BYMATERIAL" label="By Material" imageMso="GroupUMLModel" size="large" screentip="By Material" supertip="Display movement materials by material details such as name, material code etc." tag="MAT_MOVEMENT_BYMATERIAL" onAction="OrbClicked" />
         </group>
+        <group id="materialsGenerate" label="Generate" imageMso="AnimationTriggerAddMenu">
+		      <button id="btn_ACCR" label="Accrual" imageMso="DateInsert" size="large" screentip="Accrual" supertip="● Accrual" tag="frmShowAccrual" onAction="OrbClicked" />
+          <separator id="separator_Accrual" />
+		      <button id="btn_StockLabel" label="Material Label" imageMso="CatalogMergeMergeToPrinter" size="large" screentip="Print Stock Label" supertip="Print Stock Material Label" tag="frmPRINT_LABEL_MATERIAL" onAction="OrbClicked" />
+		      <splitButton id="split_Templates" size="large" >
+		      <button id="btn_templateMaterialLocation" label="Racking" imageMso="GroupWorkspaces" screentip="Store New Materials" supertip="This will display Materials Accuracy Summary by Value" tag="rptTemplateRacking" onAction="OrbClicked" />
+          <menu id="menu_Templates">
+		        <button id="btn_templateMaterialMovement" label="Change Bin" imageMso="CrossReferenceInsert" screentip="Change Bin Location" supertip="This will display Materials Accuracy Summary by Value" tag="rptTemplateChangeBin" onAction="OrbClicked" />
+            <button id="btn_templateMaterialPickingList" label="Picking List" imageMso="ColumnActionsValidationSettings" screentip="Picking List" supertip="This will display Materials Accuracy Summary by Value" tag="rptTemplatePickList" onAction="OrbClicked" />
+            <button id="btn_templateMaterialPhysicalInventory" label="Physical Inventory" imageMso="ConflictViewEnter" screentip="Physical Inventory" supertip="This will display Materials Accuracy Summary by Value" tag="rptTemplatePhysicalInventory" onAction="OrbClicked" />
+            <button id="btn_templateMaterialBlankLabelingReference" label="Blank Labeling Ref" imageMso="SubdocumentOpen" screentip="Blank Labeling Reference" supertip="Show a blank Labeling Reference" tag="rptTemplatePhysicalInventory" onAction="OrbClicked" />
+		      </menu>
+		      </splitButton>
+          </group>
         <group id="materialsFind" label="Find Materials" imageMso="NotebookSearch">
           <splitButton id="split_FindStockBinHistory" size="large" >
-		  <button id="btn_FindStock" label="Stock" imageMso="NotebookSearch" screentip="Find Stock" supertip="This will help you find specific Stock materials using many variables" tag="frmFindStock" onAction="OrbClicked" />
-		  <menu id="menu_FindStockBinHistory">
-		  <button id="btn_StockBinHistory" label="Bin History" imageMso="ContactLinkMenu" screentip="Bin Location History" supertip="Show Material bin location and quantity history per date" tag="frmBinLocationHistory" onAction="OrbClicked" />
-          <button id="btn_StockByDate" label="Material By Date" imageMso="ContactLinkMenu" screentip="Stock material movement by date" supertip="Show list of materials movement filtered by date" tag="frmStockTakeByMonth" onAction="OrbClicked" />
-		  <button id="btn_StockByReq" label="Material In All Locations" imageMso="ContactLinkMenu" screentip="FMAL" supertip="Show list of available materials in All Locations" tag="frmBULKRequest" onAction="OrbClicked" />
-		  </menu>
+		      <button id="btn_FindStock" label="Stock" imageMso="NotebookSearch" screentip="Find Stock" supertip="This will help you find specific Stock materials using many variables" tag="frmFindStock" onAction="OrbClicked" />
+		      <menu id="menu_FindStockBinHistory">
+		        <button id="btn_StockBinHistory" label="Bin History" imageMso="ContactLinkMenu" screentip="Bin Location History" supertip="Show Material bin location and quantity history per date" tag="frmBinLocationHistory" onAction="OrbClicked" />
+            <button id="btn_StockByDate" label="Material By Date" imageMso="ContactLinkMenu" screentip="Stock material movement by date" supertip="Show list of materials movement filtered by date" tag="frmStockTakeByMonth" onAction="OrbClicked" />
+		        <button id="btn_StockByReq" label="Material In All Locations" imageMso="ContactLinkMenu" screentip="FMAL" supertip="Show list of available materials in All Locations" tag="frmBULKRequest" onAction="OrbClicked" />
+		      </menu>
 		  </splitButton>
 		  <separator id="findMaterials" />
           <button id="btn_FindNonStock" label="Tracking and Inventory" size="large" imageMso="DefaultView" screentip="Find Tracking and Inventory" supertip="This will help you find specific materials using many variables along side with its movement histories" tag="frmFindNonStock" onAction="OrbClicked" />
         </group>
 		<group id="materialsGroupLabeling" label="Print" imageMso="CatalogMergeMergeToPrinter">
-          <splitButton id="split_Labeling" size="large" >
-		  <button id="btn_StockLabel" label="Material Label" imageMso="CatalogMergeMergeToPrinter" screentip="Print Stock Label" supertip="Print Stock Material Label" tag="frmPRINT_LABEL_MATERIAL" onAction="OrbClicked" />
-		  <menu id="menu_Labeling">
-		  <button id="btn_LabelingReference" label="Labeling Reference" imageMso="ChartShowBigPicture" screentip="Labeling Reference" supertip="Show reference list for labeling activity (Stock)" tag="frmLabelingReference" onAction="OrbClicked" />
-		  </menu>
-		  </splitButton>
+          
 		</group>
         <group id="materialsGroupTemplates" label="Templates" imageMso="ContTypeCreateContentType">
-		  <splitButton id="split_Templates" size="large" >
-		  <button id="btn_templateMaterialLocation" label="Racking" imageMso="GroupWorkspaces" screentip="Store New Materials" supertip="This will display Materials Accuracy Summary by Value" tag="rptTemplateRacking" onAction="OrbClicked" />
-          <menu id="menu_Templates">
-		  <button id="btn_templateMaterialMovement" label="Change Bin" imageMso="CrossReferenceInsert" screentip="Change Bin Location" supertip="This will display Materials Accuracy Summary by Value" tag="rptTemplateChangeBin" onAction="OrbClicked" />
-          <button id="btn_templateMaterialPickingList" label="Picking List" imageMso="ColumnActionsValidationSettings" screentip="Picking List" supertip="This will display Materials Accuracy Summary by Value" tag="rptTemplatePickList" onAction="OrbClicked" />
-          <button id="btn_templateMaterialPhysicalInventory" label="Physical Inventory" imageMso="ConflictViewEnter" screentip="Physical Inventory" supertip="This will display Materials Accuracy Summary by Value" tag="rptTemplatePhysicalInventory" onAction="OrbClicked" />
-          <button id="btn_templateMaterialBlankLabelingReference" label="Blank Labeling Ref" imageMso="SubdocumentOpen" screentip="Blank Labeling Reference" supertip="Show a blank Labeling Reference" tag="rptTemplatePhysicalInventory" onAction="OrbClicked" />
-		  </menu>
-		  </splitButton>
+		  
 		</group>
 		<group id="ImportsFromSAP2" label="Import From SAP" imageMso="ChartShowDataContextualMenu">
           <button id="btn_ImportMaterialStock" label="Stock Material" imageMso="ChartShowDataContextualMenu" size="large" screentip="Import Master Stock Material Data" supertip="This module helps you imports data from ZM18_EP and ZM20_EP." tag="frmIMPORT_Material_Stock" onAction="OrbClicked" />
@@ -124,27 +95,20 @@
           <button id="btn_administrationCloseDatabase" label="Close" size="large" imageMso="CancelRequest" screentip="Close This App" supertip="End your session on this application" tag="CloseDB" onAction="OrbClicked" />
         </group>
       </tab>
-	  <tab id="systemsettings" label="SYSTEM SETTINGS" insertBeforeMso="TabHomeAccess">
+	  <tab id="systemsettings" label="SYSTEM TOOLS" insertBeforeMso="TabHomeAccess">
         <group id="useraccess" label="App Settings">
+          <button id="btn_SYS_MOD_DISPLAY" label="Modules" imageMso="DatabaseModelingImport" size="large" screentip="Module List" supertip="List of Modules installed in this app" tag="SYS_MOD_DISPLAY" onAction="OrbClicked" />
           <button id="btn_useraccess" label="User Access" imageMso="DelegateAccess" size="large" screentip="Grant User Access" supertip="This action will set user access to every Module" tag="SYS_MOD_ACCESS" onAction="OrbClicked" />
         </group>
-        <group id="appsettingsExit" label="Exit App">
-          <button id="btn_appsettingsCloseDatabase" label="Close" size="large" imageMso="CancelRequest" screentip="Close This App" supertip="End your session on this application" tag="CloseDB" onAction="OrbClicked" />
-        </group>
-      </tab>
-      <tab id="apptools" label="APP TOOLS" insertBeforeMso="TabHomeAccess">
         <group id="apptoolsmaintenance" label="Maintenance">
           <button id="btn_compactandrepair" label="Compact and Repair" imageMso="ControlSetControlDefaults" size="large" screentip="Compact and Repair This App" supertip="This action will reduce size and repair this application" tag="CompactAndRepair" onAction="OrbClicked" />
-        </group>
-        <group id="usersettings" label="User Settings">
-          <button id="btn_note" label="User Panel" imageMso="DelegateAccess" size="large" screentip="Open User Panel" supertip="This action will open User Panel" tag="frmNote" onAction="OrbClicked" />
         </group>
         <group id="apptoolsuserinterface" label="UI">
           <button id="btn_RibbonEditor" label="Ribbon Editor" imageMso="BuildingBlockLibrary" size="large" screentip="Ribbon Editor" supertip="Show XML of this App Ribbon" tag="frmRibbonXML" onAction="OrbClicked" />
           <button id="btn_OldDashboard" label="Old Dashboard" imageMso="BuildingBlockLibrary" size="large" screentip="Old Dashboard" supertip="Show Old Dashboard" tag="DASHBOARD" onAction="OrbClicked" />
         </group>
-        <group id="apptoolsExit" label="Exit App">
-          <button id="btn_apptoolsCloseDatabase" label="Close" size="large" imageMso="CancelRequest" screentip="Close This App" supertip="End your session on this application" tag="CloseDB" onAction="OrbClicked" />
+        <group id="appsettingsExit" label="Exit App">
+          <button id="btn_appsettingsCloseDatabase" label="Close" size="large" imageMso="CancelRequest" screentip="Close This App" supertip="End your session on this application" tag="CloseDB" onAction="OrbClicked" />
         </group>
       </tab>
     </tabs>
@@ -175,13 +139,13 @@
             </layoutContainer>
           </topItems>
         </group>
-		<group id="group_version" label="Ingrid Express ver. 2.2.0810" helperText="Codename : Zenislev" style="warning">
+		<group id="group_version" label="Ingrid Express ver. 2.2.0810" helperText="Codename : XO" style="warning">
 			<primaryItem>
             
 			</primaryItem>
           <topItems>
             <layoutContainer id="layout_version" layoutChildren="vertical">
-              <labelControl id="lbl_version" label="Addins : None &#xD;CustomUI : Yes &#xD;ACCDE Locked : No" />
+              <labelControl id="lbl_version" label="Addins : None &#xD;CustomUI : Yes &#xD;" />
             </layoutContainer>
           </topItems>
 		</group>
@@ -195,20 +159,20 @@
             </layoutContainer>
           </topItems>
         </group>
-		  <group id="group_link" label="My Blog, Projects and Social Media" helperText="Also visit with my links below :" style="warning">
+		  <group id="group_link" label="About Ingrid - XO Project" helperText="Useful links about Ingrid - XO Project" style="warning">
           <primaryItem>
           </primaryItem>
           <topItems>
 			<layoutContainer id="layout_link" layoutChildren="horizontal">
-			  <hyperlink id="hlink_blog" screentip="Blog" imageMso="Coffee" target="https://ardhagp.wordpress.com"></hyperlink>
-			  <hyperlink id="hlink_twitter" screentip="Twitter" imageMso="CoauthorCount" target="https://twitter.com/ardhagp"></hyperlink>
-			  <hyperlink id="hlink_vs" screentip="GitHub" imageMso="CodeEditor" target="https://github.com/ardhagp"></hyperlink>
-			  <hyperlink id="hlink_linkedin" screentip="LinkedIn" imageMso="AddUserToPermissionGroup" target="https://www.linkedin.com/ardhagp"></hyperlink>
+			  <hyperlink id="hlink_update" screentip="Latest Release" imageMso="CodeEditor" target="https://github.com/ardhagp/ingrid-xo/release"></hyperlink>
+			  <hyperlink id="hlink_sourcecode" screentip="Source Code" imageMso="CodeEditor" target="https://github.com/ardhagp/ingrid-xo/"></hyperlink>
+			  <hyperlink id="hlink_docs" screentip="Documentation" imageMso="CodeEditor" target="https://github.com/ardhagp/ingrid-xo/wiki/"></hyperlink>
+			  <hyperlink id="hlink_report" screentip="Report Issue / Feature Request" imageMso="AddUserToPermissionGroup" target="https://github.com/ardhagp/ingrid-xo/issues/"></hyperlink>
             </layoutContainer>
 		  </topItems>
 		  <bottomItems>
 			<layoutContainer id="layout_email" layoutChildren="horizontal">
-			  <labelControl id="lbl_email" label="Have any ideas or suggestions? Please don't hesitate to email me at : tito.ardha@windowslive.com" />
+			  <labelControl id="lbl_email" label="Have any ideas, suggestions, feature request or reporting a bug? Please don't hesitate to email me at : tito.ardha@windowslive.com" />
 			</layoutContainer>
 		  </bottomItems>
         </group>
