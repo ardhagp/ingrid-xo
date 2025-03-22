@@ -18,14 +18,14 @@ Begin Form
     Width =27090
     DatasheetFontHeight =11
     ItemSuffix =5
-    Left =315
-    Top =240
-    Right =27660
-    Bottom =11115
+    Left =-1635
+    Top =450
+    Right =20010
+    Bottom =11325
     RecSrcDt = Begin
         0x2fb16e735455e640
     End
-    Caption ="INGRID XO - MODULES"
+    Caption ="INGRID XO - MODULE DISPLAY"
     DatasheetFontName ="Aptos"
     AllowDatasheetView =0
     FilterOnLoad =0
@@ -554,7 +554,7 @@ Begin Form
                                     Width =26775
                                     Height =7890
                                     Name ="SYS_MOD_ACCESS_List"
-                                    SourceObject ="Form.SYS_MOD_DISPLAY_Sub_DETAIL"
+                                    SourceObject ="Form.SYS_MOD_ACCESS_List"
 
                                     LayoutCachedLeft =207
                                     LayoutCachedTop =2825

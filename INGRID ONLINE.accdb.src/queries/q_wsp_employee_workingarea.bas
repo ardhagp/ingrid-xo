@@ -28,50 +28,6 @@ Begin
         dbBoolean "ColumnHidden" ="0"
     End
     Begin
-        dbText "Name" ="t_plant.PLANT_CODE"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="t_sloc.SLOC_CODE"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="t_sloc.SLOC_NAME"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="RecordValue"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="Expr1"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="Expr2"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="Expr3"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="sys_log.log_message"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="sys_log.log_area"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="sys_log.log_level"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="t_employee.EMPLOYEE_ROWID"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
         dbText "Name" ="t_workingarea.WORKINGAREA_EMPLOYEEID"
         dbLong "AggregateType" ="-1"
     End
@@ -80,5 +36,14 @@ Begin
         dbInteger "ColumnWidth" ="2685"
         dbBoolean "ColumnHidden" ="0"
         dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="WORKINGAREA_ROWID"
+    End
+    Begin
+        dbText "Name" ="WORKINGAREA_ACCESS"
+    End
+    Begin
+        dbText "Name" ="WORKINGAREA_EMPLOYEEID"
     End
 End

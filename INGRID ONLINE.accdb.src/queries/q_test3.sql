@@ -1,0 +1,6 @@
+﻿SELECT
+  SYS_APPVERSION
+FROM
+  t_sys_settings
+WHERE
+  SYS_ID = 1;

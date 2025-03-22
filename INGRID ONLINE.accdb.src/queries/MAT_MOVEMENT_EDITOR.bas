@@ -1,0 +1,15 @@
+﻿dbMemo "SQL" ="SELECT mm.TX_ORIGIN AS [ADDRESS]\015\012FROM t_material_movement AS mm\015\012WH"
+    "ERE (mm.TX_ORIGIN is not null or len(mm.TX_ORIGIN)<>0)\015\012GROUP BY mm.TX_ORI"
+    "GIN\015\012UNION SELECT mm.TX_DESTINATION AS [ADDRESS]\015\012FROM t_material_mo"
+    "vement AS mm\015\012WHERE (mm.TX_DESTINATION is not null or len(mm.TX_DESTINATIO"
+    "N)<>0)\015\012GROUP BY mm.TX_DESTINATION\015\012ORDER BY ADDRESS;\015\012"
+dbMemo "Connect" =""
+dbBoolean "ReturnsRecords" ="-1"
+dbInteger "ODBCTimeout" ="60"
+dbBoolean "OrderByOn" ="0"
+dbByte "Orientation" ="0"
+dbByte "DefaultView" ="2"
+dbBoolean "FilterOnLoad" ="0"
+dbBoolean "OrderByOnLoad" ="-1"
+Begin
+End

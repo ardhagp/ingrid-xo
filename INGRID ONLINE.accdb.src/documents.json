@@ -9,20 +9,6 @@
         "Author": "Ardha Gp",
         "Title": "INGRID ONLINE"
       }
-    },
-    "Modules": {
-      "Mod_Graph_Aztec": {
-        "Description": "Aztec bar code symbol creation according ISO/IEC 24778:2008"
-      },
-      "Mod_Graph_Barcode": {
-        "Description": "Barcode symbol creation in MS office Access reports by VBA"
-      },
-      "Mod_Graph_Code128": {
-        "Description": "Code 128 symbol creation according ISO/IEC 15417:2007"
-      },
-      "Mod_Graph_DataMatrix": {
-        "Description": "Data Matrix symbol creation according ISO/IEC 16022:2006"
-      }
     }
   }
 }

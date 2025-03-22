@@ -25,7 +25,7 @@ Begin Form
     RecSrcDt = Begin
         0x2fb16e735455e640
     End
-    Caption ="INGRID XO - MODULES"
+    Caption ="INGRID XO - EVENT LOG"
     DatasheetFontName ="Aptos"
     AllowDatasheetView =0
     FilterOnLoad =0
@@ -554,7 +554,7 @@ Begin Form
                                     Width =26775
                                     Height =7890
                                     Name ="SYS_MOD_ACCESS_List"
-                                    SourceObject ="Form.SYS_MOD_DISPLAY_Sub_DETAIL"
+                                    SourceObject ="Form.SYS_MOD_ACCESS_List"
 
                                     LayoutCachedLeft =207
                                     LayoutCachedTop =2825

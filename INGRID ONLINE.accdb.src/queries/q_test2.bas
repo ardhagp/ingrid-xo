@@ -20,10 +20,4 @@ dbBoolean "FilterOnLoad" ="0"
 dbBoolean "OrderByOnLoad" ="-1"
 dbBoolean "TotalsRow" ="0"
 Begin
-    Begin
-        dbText "Name" ="TX_CODE_D"
-    End
-    Begin
-        dbText "Name" ="TX_CODE_R"
-    End
 End
