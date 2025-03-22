@@ -6,7 +6,7 @@
   "Items": {
     "MergeBuildDate": "2025-03-19T18:50:16.000Z",
     "FullBuildDate": "2025-03-19T18:49:21.000Z",
-    "ExportDate": "2025-03-22T08:39:19.000Z",
+    "ExportDate": "2025-03-22T08:56:42.000Z",
     "FullExportDate": "2025-03-20T08:12:38.000Z",
     "OptionsHash": "bc9d5df",
     "LastMergedCommit": "",
@@ -52,6 +52,12 @@
           "ExportDate": "2025-03-22T08:39:19.000Z",
           "SourceModified": null,
           "FilePropertiesHash": "10c12ae"
+        },
+        "APP_TEMPLATE_MAIN_EDITOR.bas": {
+          "FileHash": "e206f70",
+          "ExportDate": "2025-03-22T08:56:35.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "42e1047"
         },
         "APP_UPDATE.bas": {
           "FileHash": "e29f8ed",
