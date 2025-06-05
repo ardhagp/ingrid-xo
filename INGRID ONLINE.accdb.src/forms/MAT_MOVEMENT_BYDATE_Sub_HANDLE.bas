@@ -4,7 +4,6 @@ Begin Form
     AllowDeletions = NotDefault
     DividingLines = NotDefault
     AllowAdditions = NotDefault
-    AllowEdits = NotDefault
     DefaultView =2
     ViewsAllowed =2
     RecordLocks =2
@@ -16,15 +15,16 @@ Begin Form
     RowHeight =375
     DatasheetFontHeight =11
     ItemSuffix =9
-    Left =11400
-    Top =3480
-    Right =16230
-    Bottom =8430
+    Left =10810
+    Top =2250
+    Right =15650
+    Bottom =7210
     RecSrcDt = Begin
-        0xf7df71e4364ae640
+        0xbec11766af5ee640
     End
     RecordSource ="t_material_movement_handle"
     DatasheetFontName ="Aptos"
+    OnError ="[Event Procedure]"
     AllowFormView =0
     FilterOnLoad =0
     ShowPageMargins =0
@@ -146,6 +146,7 @@ Begin Form
                     Top =226
                     Height =300
                     ColumnWidth =1260
+                    ColumnOrder =0
                     ForeColor =0
                     Name ="HANDLE_ROWID"
                     ControlSource ="HANDLE_ROWID"
@@ -176,57 +177,13 @@ Begin Form
                         End
                     End
                 End
-                Begin ComboBox
-                    Locked = NotDefault
-                    TabStop = NotDefault
-                    OverlapFlags =215
-                    TextFontFamily =34
-                    IMESentenceMode =3
-                    ColumnCount =2
-                    Left =1417
-                    Top =680
-                    Height =300
-                    ColumnWidth =2010
-                    TabIndex =1
-                    Name ="HANDLE_EMPLOYEEID"
-                    ControlSource ="HANDLE_EMPLOYEEID"
-                    RowSourceType ="Table/Query"
-                    RowSource ="SELECT t_employee.EMPLOYEE_ID, t_employee.EMPLOYEE_FULLNAME FROM t_employee; "
-                    ColumnWidths ="0;1134"
-                    FontName ="Segoe UI"
-
-                    LayoutCachedLeft =1417
-                    LayoutCachedTop =680
-                    LayoutCachedWidth =3118
-                    LayoutCachedHeight =980
-                    ThemeFontIndex =-1
-                    ForeThemeColorIndex =0
-                    ForeShade =100.0
-                    Begin
-                        Begin Label
-                            OverlapFlags =93
-                            TextFontFamily =34
-                            Top =680
-                            Width =2475
-                            Height =300
-                            ForeColor =0
-                            Name ="Label5"
-                            Caption ="EMPLOYEE"
-                            FontName ="Segoe UI"
-                            LayoutCachedTop =680
-                            LayoutCachedWidth =2475
-                            LayoutCachedHeight =980
-                            ThemeFontIndex =-1
-                            ForeTint =100.0
-                        End
-                    End
-                End
                 Begin CheckBox
                     OverlapFlags =85
                     Left =1417
                     Top =1107
                     ColumnWidth =1140
-                    TabIndex =2
+                    ColumnOrder =2
+                    TabIndex =1
                     Name ="Check7"
                     ControlSource ="HANDLE_CHECK"
 
@@ -255,6 +212,52 @@ Begin Form
                         End
                     End
                 End
+                Begin ComboBox
+                    Locked = NotDefault
+                    TabStop = NotDefault
+                    OverlapFlags =215
+                    TextFontFamily =34
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    Left =1417
+                    Top =680
+                    Height =330
+                    ColumnWidth =2000
+                    ColumnOrder =1
+                    TabIndex =2
+                    Name ="HANDLE_EMPLOYEEID"
+                    ControlSource ="HANDLE_EMPLOYEEID"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT t_employee.EMPLOYEE_ID, t_employee.EMPLOYEE_FULLNAME FROM t_employee; "
+                    ColumnWidths ="0;567"
+                    FontName ="Segoe UI"
+
+                    LayoutCachedLeft =1417
+                    LayoutCachedTop =680
+                    LayoutCachedWidth =3118
+                    LayoutCachedHeight =1010
+                    ThemeFontIndex =-1
+                    ForeThemeColorIndex =0
+                    ForeShade =100.0
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            TextFontFamily =34
+                            Top =680
+                            Width =2475
+                            Height =300
+                            ForeColor =0
+                            Name ="Label5"
+                            Caption ="EMPLOYEE"
+                            FontName ="Segoe UI"
+                            LayoutCachedTop =680
+                            LayoutCachedWidth =2475
+                            LayoutCachedHeight =980
+                            ThemeFontIndex =-1
+                            ForeTint =100.0
+                        End
+                    End
+                End
             End
         End
         Begin FormFooter
@@ -267,3 +270,5 @@ Begin Form
         End
     End
 End
+CodeBehindForm
+' See "MAT_MOVEMENT_BYDATE_Sub_HANDLE.cls"

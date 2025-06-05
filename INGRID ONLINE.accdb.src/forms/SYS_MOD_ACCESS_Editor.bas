@@ -11,6 +11,7 @@ Begin Form
     NavigationButtons = NotDefault
     CloseButton = NotDefault
     DividingLines = NotDefault
+    FilterOn = NotDefault
     AllowDesignChanges = NotDefault
     DefaultView =0
     RecordLocks =2
@@ -22,10 +23,10 @@ Begin Form
     Width =6860
     DatasheetFontHeight =11
     ItemSuffix =49
-    Left =10725
-    Top =2700
-    Right =17835
-    Bottom =10170
+    Left =5930
+    Top =960
+    Right =13050
+    Bottom =8430
     TimerInterval =100
     Filter ="EMPLOYEE_ROWID=5"
     RecSrcDt = Begin

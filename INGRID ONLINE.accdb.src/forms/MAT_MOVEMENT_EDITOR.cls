@@ -18,7 +18,10 @@ On Error GoTo ErrorHandle
     TX_DESTINATION.Text = Var_L_Temp_Origin
 
 ErrorHandle:
-    If Err.Number <> 0 Then
+    If Err.Number = 2135 Then
+        If MessageBox("This record is Read Only, to make any changes you need to edit this record.", "INFO", "INFO") = vbOK Then
+        End If
+    ElseIf Err.Number <> 0 And Err.Number <> 2135 Then
         Call Post_ErrorMessage(Err.Number, Err.DESCRIPTION)
     End If
 End Sub
@@ -122,7 +125,10 @@ On Error GoTo ErrorHandle
     DoCmd.RunCommand acCmdSaveRecord
 
 ErrorHandle:
-    If Err.Number <> 0 Then
+    If Err.Number = 2046 Then
+        If MessageBox("This record is Read Only, to make any changes you need to edit this record.", "INFO", "INFO") = vbOK Then
+        End If
+    ElseIf Err.Number <> 0 And Err.Number <> 2046 Then
         Call Post_ErrorMessage(Err.Number, Err.DESCRIPTION)
     End If
 End Sub

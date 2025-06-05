@@ -56,3 +56,55 @@ Private Sub btnSetPassword_Click()
         DoCmd.Close acForm, "SYS_MOD_ACCESS_Password"
     End If
 End Sub
+
+Private Sub txtPassword_Change()
+    ' Prevent manual edits from breaking the mask
+    If txtPassword.Text <> String(Len(strRealPassword), "°") Then
+        txtPassword.Text = String(Len(strRealPassword), "°")
+    End If
+End Sub
+
+Private Sub txtPassword_KeyPress(KeyAscii As Integer)
+ ' Handle backspace
+    If KeyAscii = 8 Then
+        If Len(strRealPassword) > 0 Then
+            strRealPassword = Left(strRealPassword, Len(strRealPassword) - 1)
+            txtPassword.Text = String(Len(strRealPassword), "°")
+        End If
+        KeyAscii = 0 ' Suppress the backspace from altering the TextBox directly
+        Exit Sub
+    End If
+
+        ' Handle printable characters
+    If KeyAscii >= 32 And KeyAscii <= 126 Then
+        strRealPassword = strRealPassword & Chr(KeyAscii)
+        txtPassword.Text = String(Len(strRealPassword), "°")
+        KeyAscii = 0 ' Suppress the actual character from appearing
+    End If
+End Sub
+
+Private Sub txtRepeatPassword_Change()
+    ' Prevent manual edits from breaking the mask
+    If txtRepeatPassword.Text <> String(Len(strRealPassword), "°") Then
+        txtRepeatPassword.Text = String(Len(strRealPassword), "°")
+    End If
+End Sub
+
+Private Sub txtRepeatPassword_KeyPress(KeyAscii As Integer)
+ ' Handle backspace
+    If KeyAscii = 8 Then
+        If Len(strRealPassword) > 0 Then
+            strRealPassword = Left(strRealPassword, Len(strRealPassword) - 1)
+            txtRepeatPassword.Text = String(Len(strRealPassword), "°")
+        End If
+        KeyAscii = 0 ' Suppress the backspace from altering the TextBox directly
+        Exit Sub
+    End If
+
+        ' Handle printable characters
+    If KeyAscii >= 32 And KeyAscii <= 126 Then
+        strRealPassword = strRealPassword & Chr(KeyAscii)
+        txtRepeatPassword.Text = String(Len(strRealPassword), "°")
+        KeyAscii = 0 ' Suppress the actual character from appearing
+    End If
+End Sub

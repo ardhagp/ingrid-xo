@@ -8,6 +8,6 @@
     "Connect": "ODBC;DSN=Ingrid Online DB;",
     "SourceTableName": "t_module",
     "Attributes": 536870912,
-    "PrimaryKey": "[MODULE_ID]"
+    "PrimaryKey": "[MODULE_ROWID]"
   }
 }

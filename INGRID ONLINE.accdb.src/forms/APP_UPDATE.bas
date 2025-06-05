@@ -26,7 +26,7 @@ Begin Form
     ItemSuffix =2
     Top =600
     Right =9540
-    Bottom =1200
+    Bottom =1190
     RecSrcDt = Begin
         0x237dbcec2555e640
     End
@@ -111,8 +111,8 @@ Begin Form
                     OverlapFlags =215
                     TextAlign =2
                     TextFontFamily =34
-                    Left =4815
-                    Top =120
+                    Left =4710
+                    Top =110
                     Width =3120
                     Height =345
                     FontWeight =700
@@ -121,10 +121,10 @@ Begin Form
                     Caption ="Download the Latest Release"
                     FontName ="Segoe UI"
                     HyperlinkAddress ="https://github.com/ardhagp/ingrid-xo/releases/"
-                    LayoutCachedLeft =4815
-                    LayoutCachedTop =120
-                    LayoutCachedWidth =7935
-                    LayoutCachedHeight =465
+                    LayoutCachedLeft =4710
+                    LayoutCachedTop =110
+                    LayoutCachedWidth =7830
+                    LayoutCachedHeight =455
                     ThemeFontIndex =-1
                     ForeThemeColorIndex =-1
                     ForeTint =100.0

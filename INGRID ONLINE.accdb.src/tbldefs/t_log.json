@@ -7,7 +7,7 @@
     "Name": "t_log",
     "Connect": "ODBC;DSN=Ingrid Online DB;",
     "SourceTableName": "t_log",
-    "Attributes": 536870912,
+    "Attributes": 537001984,
     "PrimaryKey": "[LOG_ID]"
   }
 }

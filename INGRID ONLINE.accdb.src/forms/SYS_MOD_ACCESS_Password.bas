@@ -21,10 +21,10 @@ Begin Form
     Width =3855
     DatasheetFontHeight =11
     ItemSuffix =6
-    Left =12345
-    Top =4005
-    Right =16200
-    Bottom =6765
+    Left =5390
+    Top =4220
+    Right =9240
+    Bottom =6980
     RecSrcDt = Begin
         0xfa66744d4b39e640
     End
@@ -125,7 +125,8 @@ Begin Form
                     ForeColor =0
                     Name ="txtPassword"
                     FontName ="Segoe UI"
-                    InputMask ="Password"
+                    OnKeyPress ="[Event Procedure]"
+                    OnChange ="[Event Procedure]"
 
                     LayoutCachedLeft =283
                     LayoutCachedTop =623
@@ -166,7 +167,8 @@ Begin Form
                     ForeColor =0
                     Name ="txtRepeatPassword"
                     FontName ="Segoe UI"
-                    InputMask ="Password"
+                    OnKeyPress ="[Event Procedure]"
+                    OnChange ="[Event Procedure]"
 
                     LayoutCachedLeft =285
                     LayoutCachedTop =1420
