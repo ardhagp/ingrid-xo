@@ -1,5 +1,4 @@
 *_VCSBackup*.accdb
-INGRID*Backup*.accdb
-INGRID*BACKUP*.accdb
+*Backup*.accdb
 *.laccdb
 Assets/*
