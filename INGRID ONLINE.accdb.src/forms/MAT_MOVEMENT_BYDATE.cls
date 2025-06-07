@@ -5,13 +5,36 @@ Attribute VB_Exposed = False
 Option Compare Database
 Option Explicit
 
+Private Sub btnAdd_Click()
+On Error GoTo ErrorHandle
+
+    Call Put_SessionAdd
+    Var_IsNew = False
+
+    If Get_AccessLevel("APP_MAT_IO_BYDATE", Var_EmployeeID) < 2 And Var_IsAdmin = 0 Then
+        If MessageBox("You are not authorized to add or edit in this module", "LIMITED ACCESS", "Error") = vbOK Then
+        End If
+        Call SysLog.Activity("[" & Var_EmployeeID & "] from [" & Var_Host & "] try to add or edit in [MAT_MOVEMENT_BYDATE] but blocked due to level restriction", "SYS_MOD_ACCESS", "Error")
+        Exit Sub
+    End If
+
+    DoCmd.OpenForm "MAT_MOVEMENT_EDITOR_NEW_OPTION", acNormal, , , , acDialog
+
+ErrorHandle:
+    If Err.Number <> 0 Then
+        Call Post_ErrorMessage(Err.Number, Err.DESCRIPTION)
+    End If
+End Sub
+
 Private Sub btnClose_Click()
+    Call Put_SessionAdd
     DoCmd.Close
 End Sub
 
 Private Sub btnEdit_Click()
 On Error GoTo ErrorHandle
 
+    Call Put_SessionAdd
     Var_IsNew = False
 
     If IsAnyRow = True Then
@@ -43,10 +66,12 @@ ErrorHandle:
 End Sub
 
 Private Sub btnFind_Click()
+    Call Put_SessionAdd
     Call Post_Find
 End Sub
 
 Private Sub btnFindClear_Click()
+    Call Put_SessionAdd
     txtFind.SetFocus
     txtFind.Text = ""
     Var_MAT_Find = ""
@@ -118,7 +143,7 @@ Private Sub Post_Refresh()
                 " FROM t_q_material_movement AS mm " & _
                 " GROUP BY mm.TX_DATEDELIVERY, mm.TX_DATERECEIVED " & _
                 " ORDER BY TX_DATE DESC"
-
+    'Debug.Print Var_SQL
     Call Post_Execute_Date
 
     Var_SQL = "SELECT mm.TX_ROWID, mm.TX_DIRECTION, IIf(mm.TX_DATEDELIVERY=#" & Get_StdDate(Var_MAT_Date) & "#,'1','0') AS TX_CODE_D, IIf(mm.TX_DATERECEIVED=#" & Get_StdDate(Var_MAT_Date) & "#,'1','0') AS TX_CODE_R, mm.TX_ATT_LINK, 'COFF: ' & mm.TX_PO & ' • PLANT: ' & mm.TX_PLANT & (chr(13) + chr(10)) & 'FROM: ' & mm.TX_ORIGIN & ' • TO: ' & mm.TX_DESTINATION & (chr(13) + chr(10)) & 'MANIFEST: ' & mm.TX_MANIFEST AS DESCRIPTION " & _
@@ -164,5 +189,6 @@ ErrorHandle:
 End Sub
 
 Private Sub btnRefresh_Click()
+    Call Put_SessionAdd
     Call Post_Refresh
 End Sub

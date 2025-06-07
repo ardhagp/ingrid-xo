@@ -24,9 +24,9 @@ Begin Form
     DatasheetFontHeight =11
     ItemSuffix =7
     Left =660
-    Top =1395
-    Right =5295
-    Bottom =10425
+    Top =1400
+    Right =5300
+    Bottom =10430
     TimerInterval =10
     RecSrcDt = Begin
         0xcc2a31bda03be640

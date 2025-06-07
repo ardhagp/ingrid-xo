@@ -20,10 +20,8 @@ Begin Form
     Width =27090
     DatasheetFontHeight =11
     ItemSuffix =3
-    Left =315
-    Top =255
-    Right =27660
-    Bottom =11070
+    Right =18180
+    Bottom =7460
     RecSrcDt = Begin
         0x008e024ad838e640
     End
@@ -189,16 +187,16 @@ Begin Form
                     Begin
                         Begin Page
                             OverlapFlags =87
-                            Left =135
-                            Top =540
-                            Width =2340
-                            Height =1365
+                            Left =110
+                            Top =470
+                            Width =2390
+                            Height =1460
                             Name ="Page1"
                             Caption ="EDITOR"
-                            LayoutCachedLeft =135
-                            LayoutCachedTop =540
-                            LayoutCachedWidth =2475
-                            LayoutCachedHeight =1905
+                            LayoutCachedLeft =110
+                            LayoutCachedTop =470
+                            LayoutCachedWidth =2500
+                            LayoutCachedHeight =1930
                             Begin
                                 Begin CommandButton
                                     OverlapFlags =215
@@ -209,6 +207,7 @@ Begin Form
                                     Height =1243
                                     Name ="btnAdd"
                                     Caption ="&Add"
+                                    OnClick ="[Event Procedure]"
                                     Picture ="plus.ico"
                                     UnicodeAccessKey =65
                                     ImageData = Begin
@@ -549,16 +548,16 @@ Begin Form
                     Begin
                         Begin Page
                             OverlapFlags =87
-                            Left =120
-                            Top =2655
-                            Width =26895
-                            Height =8100
+                            Left =100
+                            Top =2590
+                            Width =26940
+                            Height =8190
                             Name ="Page22"
                             Caption ="RESULT"
-                            LayoutCachedLeft =120
-                            LayoutCachedTop =2655
-                            LayoutCachedWidth =27015
-                            LayoutCachedHeight =10755
+                            LayoutCachedLeft =100
+                            LayoutCachedTop =2590
+                            LayoutCachedWidth =27040
+                            LayoutCachedHeight =10780
                             Begin
                                 Begin Subform
                                     OverlapFlags =215
@@ -610,16 +609,16 @@ Begin Form
                     Begin
                         Begin Page
                             OverlapFlags =87
-                            Left =2730
-                            Top =540
-                            Width =3045
-                            Height =1365
+                            Left =2710
+                            Top =470
+                            Width =3090
+                            Height =1460
                             Name ="Page29"
                             Caption ="DATA"
-                            LayoutCachedLeft =2730
-                            LayoutCachedTop =540
-                            LayoutCachedWidth =5775
-                            LayoutCachedHeight =1905
+                            LayoutCachedLeft =2710
+                            LayoutCachedTop =470
+                            LayoutCachedWidth =5800
+                            LayoutCachedHeight =1930
                             Begin
                                 Begin CommandButton
                                     OverlapFlags =215
@@ -1029,7 +1028,7 @@ Begin Form
                     Left =25740
                     Top =60
                     Width =1312
-                    Height =1935
+                    Height =1940
                     FontWeight =700
                     TabIndex =3
                     Name ="tpForm"
@@ -1037,20 +1036,20 @@ Begin Form
                     LayoutCachedLeft =25740
                     LayoutCachedTop =60
                     LayoutCachedWidth =27052
-                    LayoutCachedHeight =1995
+                    LayoutCachedHeight =2000
                     Begin
                         Begin Page
                             OverlapFlags =87
-                            Left =25815
-                            Top =540
-                            Width =1155
-                            Height =1380
+                            Left =25790
+                            Top =470
+                            Width =1210
+                            Height =1480
                             Name ="tbWindow"
                             Caption ="WINDOW"
-                            LayoutCachedLeft =25815
-                            LayoutCachedTop =540
-                            LayoutCachedWidth =26970
-                            LayoutCachedHeight =1920
+                            LayoutCachedLeft =25790
+                            LayoutCachedTop =470
+                            LayoutCachedWidth =27000
+                            LayoutCachedHeight =1950
                             Begin
                                 Begin CommandButton
                                     OverlapFlags =215

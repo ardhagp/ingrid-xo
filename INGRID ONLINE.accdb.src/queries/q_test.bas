@@ -38,12 +38,6 @@ Begin
         dbLong "AggregateType" ="-1"
     End
     Begin
-        dbText "Name" ="DESCRIPTION"
-        dbInteger "ColumnWidth" ="5295"
-        dbBoolean "ColumnHidden" ="0"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
         dbText "Name" ="Expr1005"
         dbLong "AggregateType" ="-1"
     End

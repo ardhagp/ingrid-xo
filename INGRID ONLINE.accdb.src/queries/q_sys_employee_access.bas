@@ -48,18 +48,6 @@ Begin
         dbText "Name" ="t_moduleaccess.MODULEACCESS_ROWID"
         dbLong "AggregateType" ="-1"
     End
-    Begin
-        dbText "Name" ="MODULEACCESS_ROWID"
-    End
-    Begin
-        dbText "Name" ="MODULE_CODE"
-    End
-    Begin
-        dbText "Name" ="MODULEACCESS_LEVEL"
-    End
-    Begin
-        dbText "Name" ="MODULEACCESS_EMPLOYEEID"
-    End
 End
 Begin
     State =0

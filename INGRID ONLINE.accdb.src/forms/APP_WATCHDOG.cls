@@ -21,6 +21,7 @@ Private Sub Form_Timer()
         ' Material Movement
         DoCmd.Close acForm, "MAT_MOVEMENT_EDITOR"
         DoCmd.Close acForm, "MAT_MOVEMENT_BYDATE"
+        DoCmd.Close acForm, "MAT_MOVEMENT_EDITOR_NEW_OPTION"
 
         ' System Settings - User Access
         DoCmd.Close acForm, "SYS_MOD_ACCESS"

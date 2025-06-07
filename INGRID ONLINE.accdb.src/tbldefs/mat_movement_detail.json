@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "mat_movement_detail",
+    "Connect": "ODBC;DSN=Ingrid Online DB;",
+    "SourceTableName": "mat_movement_detail",
+    "Attributes": 536870912,
+    "PrimaryKey": "[mtxd_rowid]"
+  }
+}

@@ -37,13 +37,4 @@ Begin
         dbBoolean "ColumnHidden" ="0"
         dbLong "AggregateType" ="-1"
     End
-    Begin
-        dbText "Name" ="WORKINGAREA_ROWID"
-    End
-    Begin
-        dbText "Name" ="WORKINGAREA_ACCESS"
-    End
-    Begin
-        dbText "Name" ="WORKINGAREA_EMPLOYEEID"
-    End
 End

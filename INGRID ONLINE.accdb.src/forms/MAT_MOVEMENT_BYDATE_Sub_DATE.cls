@@ -8,12 +8,14 @@ Option Explicit
 Dim Var_L_FindDate As Date
 
 Private Sub btn_OpenThisDate_Click()
+    Call Put_SessionAdd
     Call Post_Find
 End Sub
 
 Private Sub Post_Find()
 On Error GoTo ErrorHandle
 
+    Call Put_SessionAdd
     txt_date.SetFocus
     Var_MAT_Date = txt_date.Value
     Var_SQL_Where = ""
