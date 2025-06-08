@@ -35,6 +35,7 @@ Begin Form
     Caption ="USER ACCESS - EDITOR"
     DatasheetFontName ="Aptos"
     OnLoad ="[Event Procedure]"
+    OnError ="[Event Procedure]"
     AllowDatasheetView =0
     FilterOnLoad =0
     ShowPageMargins =0

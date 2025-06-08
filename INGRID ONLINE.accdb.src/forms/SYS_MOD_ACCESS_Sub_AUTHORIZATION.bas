@@ -17,16 +17,17 @@ Begin Form
     RowHeight =345
     DatasheetFontHeight =11
     ItemSuffix =4
-    Left =6360
-    Top =4740
-    Right =12555
-    Bottom =8715
+    Left =4110
+    Top =4730
+    Right =10300
+    Bottom =8080
     RecSrcDt = Begin
-        0xefeb993b5a46e640
+        0x90e3ea01095fe640
     End
-    RecordSource ="q_sys_employee_access"
+    RecordSource ="t_moduleaccess"
     Caption ="USER ACCESS"
     DatasheetFontName ="Aptos"
+    OnError ="[Event Procedure]"
     AllowFormView =0
     FilterOnLoad =0
     ShowPageMargins =0
@@ -112,6 +113,7 @@ Begin Form
                     Height =315
                     ColumnWidth =1185
                     ColumnOrder =0
+                    TabIndex =1
                     ForeColor =0
                     Name ="MODULE_ROWID"
                     ControlSource ="MODULEACCESS_ROWID"
@@ -146,51 +148,6 @@ Begin Form
                         End
                     End
                 End
-                Begin TextBox
-                    Locked = NotDefault
-                    OverlapFlags =85
-                    TextFontFamily =34
-                    IMESentenceMode =3
-                    Left =1927
-                    Top =963
-                    Height =315
-                    ColumnWidth =2355
-                    ColumnOrder =1
-                    TabIndex =1
-                    ForeColor =0
-                    Name ="MODULE_CODE"
-                    ControlSource ="MODULE_CODE"
-                    FontName ="Segoe UI"
-
-                    LayoutCachedLeft =1927
-                    LayoutCachedTop =963
-                    LayoutCachedWidth =3628
-                    LayoutCachedHeight =1278
-                    ThemeFontIndex =-1
-                    ForeThemeColorIndex =-1
-                    ForeTint =100.0
-                    Begin
-                        Begin Label
-                            OverlapFlags =85
-                            TextFontFamily =34
-                            Left =226
-                            Top =963
-                            Width =1635
-                            Height =315
-                            ForeColor =0
-                            Name ="Label2"
-                            Caption ="MODULE"
-                            FontName ="Segoe UI"
-                            LayoutCachedLeft =226
-                            LayoutCachedTop =963
-                            LayoutCachedWidth =1861
-                            LayoutCachedHeight =1278
-                            ThemeFontIndex =-1
-                            ForeThemeColorIndex =-1
-                            ForeTint =100.0
-                        End
-                    End
-                End
                 Begin ComboBox
                     OverlapFlags =215
                     TextFontFamily =34
@@ -199,7 +156,7 @@ Begin Form
                     Left =1927
                     Top =1360
                     Height =345
-                    ColumnWidth =2025
+                    ColumnWidth =1840
                     TabIndex =2
                     BoundColumn =-1
                     ForeColor =0
@@ -255,7 +212,57 @@ Begin Form
                         End
                     End
                 End
+                Begin ComboBox
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    TextFontFamily =34
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    Left =1927
+                    Top =963
+                    Height =330
+                    ColumnWidth =2700
+                    ForeColor =0
+                    Name ="MODULE_CODE"
+                    ControlSource ="MODULEACCESS_MODULEID"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT t_module.MODULE_ID, t_module.MODULE_CODE FROM t_module ORDER BY t_module."
+                        "MODULE_CODE; "
+                    ColumnWidths ="0;1134"
+                    FontName ="Segoe UI"
+
+                    LayoutCachedLeft =1927
+                    LayoutCachedTop =963
+                    LayoutCachedWidth =3628
+                    LayoutCachedHeight =1293
+                    ThemeFontIndex =-1
+                    ForeThemeColorIndex =-1
+                    ForeShade =100.0
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextFontFamily =34
+                            Left =226
+                            Top =963
+                            Width =1635
+                            Height =315
+                            ForeColor =0
+                            Name ="Label2"
+                            Caption ="MODULE"
+                            FontName ="Segoe UI"
+                            LayoutCachedLeft =226
+                            LayoutCachedTop =963
+                            LayoutCachedWidth =1861
+                            LayoutCachedHeight =1278
+                            ThemeFontIndex =-1
+                            ForeThemeColorIndex =-1
+                            ForeTint =100.0
+                        End
+                    End
+                End
             End
         End
     End
 End
+CodeBehindForm
+' See "SYS_MOD_ACCESS_Sub_AUTHORIZATION.cls"

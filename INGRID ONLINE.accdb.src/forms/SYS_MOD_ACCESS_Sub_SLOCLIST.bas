@@ -4,7 +4,6 @@ Begin Form
     AllowDeletions = NotDefault
     DividingLines = NotDefault
     AllowAdditions = NotDefault
-    FilterOn = NotDefault
     DefaultView =2
     ViewsAllowed =2
     RecordLocks =2
@@ -16,15 +15,16 @@ Begin Form
     RowHeight =345
     DatasheetFontHeight =11
     ItemSuffix =7
-    Left =5570
-    Top =1750
-    Right =12020
-    Bottom =5710
+    Left =4110
+    Top =4120
+    Right =10300
+    Bottom =8080
     RecSrcDt = Begin
         0x66180151415ce640
     End
     RecordSource ="t_workingarea"
     DatasheetFontName ="Aptos"
+    OnError ="[Event Procedure]"
     AllowFormView =0
     FilterOnLoad =255
     ShowPageMargins =0
@@ -258,3 +258,5 @@ Begin Form
         End
     End
 End
+CodeBehindForm
+' See "SYS_MOD_ACCESS_Sub_SLOCLIST.cls"
