@@ -26,7 +26,7 @@ End Sub
 
 'Component Events
 Private Sub btnCancel_Click()
-    If MessageBox("Do you want to close Ingrid App?", "CONFIRMATION", "Warning") = vbYes Then
+    If MessageBox("Do you want to close Ingrid App?", "CONFIRMATION", "WYN") = vbYes Then
         DoCmd.Quit acQuitSaveAll
     End If
 End Sub

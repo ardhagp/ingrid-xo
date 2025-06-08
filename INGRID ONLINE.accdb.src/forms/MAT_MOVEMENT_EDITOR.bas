@@ -24,10 +24,10 @@ Begin Form
     Width =27105
     DatasheetFontHeight =11
     ItemSuffix =148
-    Left =640
-    Top =2690
-    Right =19740
-    Bottom =13520
+    Left =4170
+    Top =-1030
+    Right =23270
+    Bottom =9790
     Filter ="TX_ROWID=3453"
     RecSrcDt = Begin
         0x4c560a7f214ae640
@@ -830,7 +830,7 @@ Begin Form
                                     IMESentenceMode =3
                                     Left =2210
                                     Top =6236
-                                    Width =2891
+                                    Width =2501
                                     Height =345
                                     TabIndex =8
                                     Name ="TX_CARRIER"
@@ -842,7 +842,7 @@ Begin Form
 
                                     LayoutCachedLeft =2210
                                     LayoutCachedTop =6236
-                                    LayoutCachedWidth =5101
+                                    LayoutCachedWidth =4711
                                     LayoutCachedHeight =6581
                                     ThemeFontIndex =-1
                                     BorderThemeColorIndex =2
@@ -875,19 +875,19 @@ Begin Form
                                     OverlapFlags =223
                                     TextFontFamily =34
                                     IMESentenceMode =3
-                                    Left =5842
-                                    Top =6236
-                                    Width =1981
+                                    Left =5347
+                                    Top =6240
+                                    Width =2471
                                     Height =345
                                     TabIndex =9
                                     Name ="TX_CARRIEDBY"
                                     ControlSource ="TX_CARRIEDBY"
                                     FontName ="Segoe UI"
 
-                                    LayoutCachedLeft =5842
-                                    LayoutCachedTop =6236
-                                    LayoutCachedWidth =7823
-                                    LayoutCachedHeight =6581
+                                    LayoutCachedLeft =5347
+                                    LayoutCachedTop =6240
+                                    LayoutCachedWidth =7818
+                                    LayoutCachedHeight =6585
                                     BorderThemeColorIndex =2
                                     BorderTint =75.0
                                     BorderShade =100.0
@@ -896,18 +896,18 @@ Begin Form
                                         Begin Label
                                             OverlapFlags =223
                                             TextFontFamily =34
-                                            Left =5435
-                                            Top =6236
+                                            Left =4940
+                                            Top =6240
                                             Width =340
                                             Height =300
                                             ForeColor =0
                                             Name ="Label147"
                                             Caption ="By"
                                             FontName ="Segoe UI"
-                                            LayoutCachedLeft =5435
-                                            LayoutCachedTop =6236
-                                            LayoutCachedWidth =5775
-                                            LayoutCachedHeight =6536
+                                            LayoutCachedLeft =4940
+                                            LayoutCachedTop =6240
+                                            LayoutCachedWidth =5280
+                                            LayoutCachedHeight =6540
                                             ThemeFontIndex =-1
                                             ForeTint =100.0
                                         End
@@ -1204,6 +1204,9 @@ Begin Form
                                     LayoutCachedTop =8113
                                     LayoutCachedWidth =7816
                                     LayoutCachedHeight =8403
+                                    BorderThemeColorIndex =2
+                                    BorderTint =75.0
+                                    BorderShade =100.0
                                     ThemeFontIndex =-1
                                     ForeTint =100.0
                                     Begin
@@ -1246,6 +1249,9 @@ Begin Form
                                     LayoutCachedTop =8510
                                     LayoutCachedWidth =7817
                                     LayoutCachedHeight =8800
+                                    BorderThemeColorIndex =2
+                                    BorderTint =75.0
+                                    BorderShade =100.0
                                     ThemeFontIndex =-1
                                     ForeTint =100.0
                                     Begin
@@ -3294,6 +3300,7 @@ Begin Form
                                     Height =1243
                                     Name ="btnDelete"
                                     Caption ="&Delete"
+                                    OnClick ="[Event Procedure]"
                                     FontName ="Segoe UI"
                                     Picture ="delete.ico"
                                     UnicodeAccessKey =68

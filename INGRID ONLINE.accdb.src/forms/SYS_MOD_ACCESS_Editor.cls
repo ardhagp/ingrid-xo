@@ -41,13 +41,13 @@ End Sub
 
 Private Sub btnDelete_Click()
 On Error GoTo ErrorHandle
-    If MessageBox("Do you want to delete this data?", "CONFIRMATION", "Question") = vbYes Then
+    If MessageBox("Do you want to delete this record permanently?", "CONFIRMATION", "WYN") = vbYes Then
         Var_SQL = "delete from t_employee where EMPLOYEE_ROWID = " & CInt(Var_L_Identifier)
 
         'Debug.Print Var_SQL
         DoCmd.RunSQL Var_SQL
 
-        If MessageBox("Delete success", "INFO", "Info") = vbOK Then
+        If MessageBox("Delete success", "INFO", "IOO") = vbOK Then
             DoCmd.Close acForm, "SYS_MOD_ACCESS_Editor"
         End If
     End If

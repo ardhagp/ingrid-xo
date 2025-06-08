@@ -45,7 +45,7 @@ On Error GoTo ErrorHandle
                     DoCmd.OpenForm control.Tag, acNormal, ""
                     Call SysLog.Activity("[" & Var_EmployeeID & "] from [" & Var_Host & "] opening module [" & control.Tag & "]", "Ribbon", "Info")
                 Else
-                    If MessageBox("You are not authorized to access this module", "LIMITED ACCESS", "Error") = vbOK Then
+                    If MessageBox("You are not authorized to access this module", "LIMITED ACCESS", "EOO") = vbOK Then
                     End If
                     Call SysLog.Activity("[" & Var_EmployeeID & "] from [" & Var_Host & "] try to opening module [" & control.Tag & "] but blocked due to level restriction", "Ribbon", "Error")
                 End If
@@ -56,7 +56,7 @@ On Error GoTo ErrorHandle
 
     Exit Sub
 ErrorHandle:
-    If MessageBox("This module is still in development.", "ERROR", "Error") = vbOK Then
+    If MessageBox("This module is still in development.", "ERROR", "EOO") = vbOK Then
     End If
     Call SysLog.Activity("[" & Var_EmployeeID & "] from [" & Var_Host & "] trying to open module that are not developed [" & control.Tag & "]", "Ribbon", "Error")
 End Sub
@@ -69,13 +69,13 @@ Sub CallbackLoadImage(imageID As String, _
 End Sub
 
 Public Sub CloseDB()
-    If MessageBox("Do you want to end your session and close the database?", "CONFIRMATION", "Question") = vbYes Then
+    If MessageBox("Do you want to end your session and close the database?", "CONFIRMATION", "QYN") = vbYes Then
         DoCmd.Quit
     End If
 End Sub
 
 Public Sub CompactAndRepair()
-    If MessageBox("Please use Compact and Repair when Ingrid Online running slow." & vbCrLf & "Do you want to continue?", "CONFIRMATION", "Question") = vbYes Then
+    If MessageBox("Please use Compact and Repair when Ingrid Online running slow." & vbCrLf & "Do you want to continue?", "CONFIRMATION", "QYN") = vbYes Then
         Application.SetOption "Auto compact", True
     End If
 End Sub

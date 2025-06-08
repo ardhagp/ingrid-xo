@@ -21,14 +21,32 @@ Public Function MessageBox(Optional ByVal MessageText As String = "", Optional B
         Case "Info"
             Var_MessageType = vbInformation + vbOKOnly + vbDefaultButton1
 
+        Case "IOO"
+            Var_MessageType = vbInformation + vbOKOnly + vbDefaultButton1
+
         Case "Question"
+            Var_MessageType = vbQuestion + vbYesNo + vbDefaultButton2
+
+        Case "QYN"
             Var_MessageType = vbQuestion + vbYesNo + vbDefaultButton2
 
         Case "Warning"
             Var_MessageType = vbExclamation + vbYesNo + vbDefaultButton2
 
+        Case "WOO"
+            Var_MessageType = vbExclamation + vbOKOnly + vbDefaultButton1
+
+        Case "WYN"
+            Var_MessageType = vbExclamation + vbYesNo + vbDefaultButton2
+
         Case "Error"
             Var_MessageType = vbCritical + vbOKOnly + vbDefaultButton1
+
+        Case "EOO"
+            Var_MessageType = vbCritical + vbOKOnly + vbDefaultButton1
+
+        Case "EYN"
+            Var_MessageType = vbCritical + vbYesNo + vbDefaultButton2
 
     End Select
 
@@ -72,7 +90,7 @@ Public Function Get_IsSession(Optional ByVal ShowMessage As Boolean = True, Opti
 
     If Var_Session = "" Or (Var_Session_Timestamp < Now()) Then
         If ShowMessage = True Then
-            If MessageBox("Your session is expired, please login again.", "SESSION EXPIRED", "Error") = vbOK Then
+            If MessageBox("Your session is expired, please login again.", "SESSION EXPIRED", "EOO") = vbOK Then
             End If
         End If
         Var_Session = ""

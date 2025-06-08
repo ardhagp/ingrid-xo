@@ -120,6 +120,12 @@ ErrorHandle:
     End If
 End Sub
 
+Private Sub btnDelete_Click()
+    If MessageBox("Do you want to delete this record permanently?", "CONFIRMATION", "WYN") = vbYes Then
+        DoCmd.Close acForm, "MAT_MOVEMENT_EDITOR"
+    End If
+End Sub
+
 Private Sub btnSave_Click()
 On Error GoTo ErrorHandle
     DoCmd.RunCommand acCmdSaveRecord

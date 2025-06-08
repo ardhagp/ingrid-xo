@@ -1003,6 +1003,9 @@ Begin Form
                                     LayoutCachedTop =2891
                                     LayoutCachedWidth =4483
                                     LayoutCachedHeight =3206
+                                    BorderThemeColorIndex =2
+                                    BorderTint =75.0
+                                    BorderShade =100.0
                                     ThemeFontIndex =-1
                                     Begin
                                         Begin Label
@@ -1047,6 +1050,9 @@ Begin Form
                                     LayoutCachedWidth =6253
                                     LayoutCachedHeight =3660
                                     ThemeFontIndex =-1
+                                    BorderThemeColorIndex =2
+                                    BorderTint =75.0
+                                    BorderShade =100.0
                                     ForeThemeColorIndex =0
                                     ForeTint =75.0
                                     ForeShade =100.0
@@ -1089,6 +1095,9 @@ Begin Form
                                     LayoutCachedTop =3799
                                     LayoutCachedWidth =6237
                                     LayoutCachedHeight =4114
+                                    BorderThemeColorIndex =2
+                                    BorderTint =75.0
+                                    BorderShade =100.0
                                     ThemeFontIndex =-1
                                     Begin
                                         Begin Label
@@ -1134,6 +1143,9 @@ Begin Form
                                     LayoutCachedWidth =3627
                                     LayoutCachedHeight =5040
                                     ThemeFontIndex =-1
+                                    BorderThemeColorIndex =2
+                                    BorderTint =75.0
+                                    BorderShade =100.0
                                     ForeThemeColorIndex =0
                                     ForeTint =75.0
                                     ForeShade =100.0
@@ -1478,6 +1490,9 @@ Begin Form
                                     LayoutCachedTop =4725
                                     LayoutCachedWidth =6237
                                     LayoutCachedHeight =5040
+                                    BorderThemeColorIndex =2
+                                    BorderTint =75.0
+                                    BorderShade =100.0
                                     ThemeFontIndex =-1
                                     Begin
                                         Begin Label
@@ -1570,6 +1585,9 @@ Begin Form
                                     LayoutCachedWidth =6237
                                     LayoutCachedHeight =4605
                                     ThemeFontIndex =-1
+                                    BorderThemeColorIndex =2
+                                    BorderTint =75.0
+                                    BorderShade =100.0
                                     ForeThemeColorIndex =0
                                     ForeTint =75.0
                                     ForeShade =100.0
@@ -1599,8 +1617,8 @@ Begin Form
                                     OverlapFlags =215
                                     TextFontFamily =34
                                     IMESentenceMode =3
-                                    Left =1927
-                                    Top =5272
+                                    Left =1931
+                                    Top =5160
                                     Width =2786
                                     Height =317
                                     TabIndex =10
@@ -1611,11 +1629,14 @@ Begin Form
                                         "YEE_SCOPEOFWORK ORDER BY t_employee.EMPLOYEE_SCOPEOFWORK; "
                                     FontName ="Segoe UI"
 
-                                    LayoutCachedLeft =1927
-                                    LayoutCachedTop =5272
-                                    LayoutCachedWidth =4713
-                                    LayoutCachedHeight =5589
+                                    LayoutCachedLeft =1931
+                                    LayoutCachedTop =5160
+                                    LayoutCachedWidth =4717
+                                    LayoutCachedHeight =5477
                                     ThemeFontIndex =-1
+                                    BorderThemeColorIndex =2
+                                    BorderTint =75.0
+                                    BorderShade =100.0
                                     ForeThemeColorIndex =0
                                     ForeTint =75.0
                                     ForeShade =100.0
@@ -1623,18 +1644,18 @@ Begin Form
                                         Begin Label
                                             OverlapFlags =215
                                             TextFontFamily =34
-                                            Left =226
-                                            Top =5272
+                                            Left =230
+                                            Top =5160
                                             Width =1640
                                             Height =345
                                             ForeColor =0
                                             Name ="Label55"
                                             Caption ="Scope of Work"
                                             FontName ="Segoe UI"
-                                            LayoutCachedLeft =226
-                                            LayoutCachedTop =5272
-                                            LayoutCachedWidth =1866
-                                            LayoutCachedHeight =5617
+                                            LayoutCachedLeft =230
+                                            LayoutCachedTop =5160
+                                            LayoutCachedWidth =1870
+                                            LayoutCachedHeight =5505
                                             ThemeFontIndex =-1
                                             ForeTint =100.0
                                         End

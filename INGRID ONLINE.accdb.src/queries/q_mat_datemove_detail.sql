@@ -2,12 +2,12 @@
   mm.TX_ROWID,
   mm.TX_DIRECTION,
   IIf(
-    mm.TX_DATEDELIVERY = #8/24/2023#,
-    '1', '0'
+    mm.TX_DATEDELIVERY = #6/7/2025#, '1',
+    '0'
   ) AS TX_CODE_D,
   IIf(
-    mm.TX_DATERECEIVED = #8/24/2023#,
-    '1', '0'
+    mm.TX_DATERECEIVED = #6/7/2025#, '1',
+    '0'
   ) AS TX_CODE_R,
   mm.TX_ATT_LINK,
   ' • ' & mm.TX_ORIGIN & ' ' & ChrW(8680)& ' ' & mm.TX_DESTINATION & (
@@ -20,37 +20,20 @@ FROM
 WHERE
   (
     (
-      mm.TX_DATEDELIVERY = #8/24/2023#
-      OR mm.TX_DATERECEIVED = #8/24/2023#
-    )
-    AND (
-      (
-        mm.D_MATERIALNAME like '%H0801/DT/PST-VIII/2023%'
-      )
-      OR (
-        mm.TX_PO like '%H0801/DT/PST-VIII/2023%'
-      )
-      OR (
-        mm.TX_ORIGIN like '%H0801/DT/PST-VIII/2023%'
-      )
-      OR (
-        mm.TX_DESTINATION like '%H0801/DT/PST-VIII/2023%'
-      )
-      OR (
-        mm.TX_MANIFEST like '%H0801/DT/PST-VIII/2023%'
-      )
+      mm.TX_DATEDELIVERY = #6/7/2025#
+      OR mm.TX_DATERECEIVED = #6/7/2025#
     )
   )
 GROUP BY
   mm.TX_ROWID,
   mm.TX_DIRECTION,
   IIf(
-    mm.TX_DATEDELIVERY = #8/24/2023#,
-    '1', '0'
+    mm.TX_DATEDELIVERY = #6/7/2025#, '1',
+    '0'
   ),
   IIf(
-    mm.TX_DATERECEIVED = #8/24/2023#,
-    '1', '0'
+    mm.TX_DATERECEIVED = #6/7/2025#, '1',
+    '0'
   ),
   mm.TX_ORIGIN,
   mm.TX_DESTINATION,
