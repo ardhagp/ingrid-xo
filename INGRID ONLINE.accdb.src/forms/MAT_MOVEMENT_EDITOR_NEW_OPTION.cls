@@ -44,7 +44,7 @@ On Error GoTo ErrorHandle
 
     Var_L_RecordID = MD5()
 
-    Var_SQL = "INSERT INTO t_material_movement(TX_ID, TX_DATEDELIVERY, TX_DIRECTION) values('" & Var_L_RecordID & "', #" & Month(Now()) & "/" & Day(Now()) & "/" & Year(Now()) & "#, '" & Var_L_Option & "')"
+    Var_SQL = "INSERT INTO t_material_movement(TX_ID, TX_DATEDELIVERY, TX_DIRECTION, TX_CREATEDBY) values('" & Var_L_RecordID & "', #" & Month(Now()) & "/" & Day(Now()) & "/" & Year(Now()) & "#, '" & Var_L_Option & "','" & Var_EmployeeID & " ')"
     'Debug.Print Var_SQL
     DoCmd.RunSQL Var_SQL
 

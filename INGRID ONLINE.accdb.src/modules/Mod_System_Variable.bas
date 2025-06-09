@@ -8,6 +8,7 @@ Public Var_Session_Timestamp As Date
 Public Var_Host As String
 Public Var_LastFormOpen As String
 Public Var_EmployeeID As String
+Public Var_EmployeeScopeOfWork As String
 Public Var_EmployeeCODE As String
 Public Var_IsPasswordSet As Boolean
 Public Var_Password As String

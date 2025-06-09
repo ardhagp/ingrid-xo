@@ -37,6 +37,7 @@ Private Sub btnSubmit_Click()
         Call UPDATE_LASTLOGIN(Var_L_EmployeeCODE)
         Var_IsAdmin = Get_IsAdmin(Var_L_EmployeeCODE)
         Var_EmployeeID = Get_EmployeeID(Var_L_EmployeeCODE)
+        'Var_EmployeeScopeOfWork = Get_EmployeeScopeOfWork(Var_L_EmployeeCODE)
         Var_EmployeeCODE = Var_L_EmployeeCODE
         'Debug.Print "Session: "
         Var_Session = SHA256(Var_EmployeeCODE)
