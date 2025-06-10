@@ -23,10 +23,10 @@ Begin Form
     GridY =10
     Width =27105
     DatasheetFontHeight =11
-    ItemSuffix =148
-    Left =4170
+    ItemSuffix =152
+    Left =-9460
     Top =-1030
-    Right =23270
+    Right =9640
     Bottom =9790
     Filter ="TX_ROWID=3453"
     RecSrcDt = Begin
@@ -1721,14 +1721,14 @@ Begin Form
                                     OverlapFlags =223
                                     Left =16837
                                     Top =4145
-                                    Width =6801
+                                    Width =6511
                                     Height =5661
                                     TabIndex =30
                                     Name ="LBL_QR"
 
                                     LayoutCachedLeft =16837
                                     LayoutCachedTop =4145
-                                    LayoutCachedWidth =23638
+                                    LayoutCachedWidth =23348
                                     LayoutCachedHeight =9806
                                     BorderThemeColorIndex =2
                                     BorderTint =75.0
@@ -1766,9 +1766,9 @@ Begin Form
                                     OverlapFlags =215
                                     TextFontFamily =34
                                     IMESentenceMode =3
-                                    Left =18093
-                                    Top =4397
-                                    Width =5256
+                                    Left =18096
+                                    Top =4480
+                                    Width =5036
                                     Height =1095
                                     TabIndex =31
                                     Name ="TX_ATT_LINK"
@@ -1776,10 +1776,10 @@ Begin Form
                                     FontName ="Segoe UI"
                                     Tag ="qrcodeM"
 
-                                    LayoutCachedLeft =18093
-                                    LayoutCachedTop =4397
-                                    LayoutCachedWidth =23349
-                                    LayoutCachedHeight =5492
+                                    LayoutCachedLeft =18096
+                                    LayoutCachedTop =4480
+                                    LayoutCachedWidth =23132
+                                    LayoutCachedHeight =5575
                                     BorderThemeColorIndex =2
                                     BorderTint =75.0
                                     BorderShade =100.0
@@ -1790,18 +1790,18 @@ Begin Form
                                         Begin Label
                                             OverlapFlags =215
                                             TextFontFamily =34
-                                            Left =17007
-                                            Top =4397
+                                            Left =17010
+                                            Top =4480
                                             Width =975
                                             Height =345
                                             ForeColor =0
                                             Name ="Label93"
                                             Caption ="URL Only"
                                             FontName ="Segoe UI"
-                                            LayoutCachedLeft =17007
-                                            LayoutCachedTop =4397
-                                            LayoutCachedWidth =17982
-                                            LayoutCachedHeight =4742
+                                            LayoutCachedLeft =17010
+                                            LayoutCachedTop =4480
+                                            LayoutCachedWidth =17985
+                                            LayoutCachedHeight =4825
                                             ThemeFontIndex =-1
                                             ForeTint =100.0
                                         End
@@ -1809,8 +1809,8 @@ Begin Form
                                 End
                                 Begin CommandButton
                                     OverlapFlags =215
-                                    Left =21373
-                                    Top =5612
+                                    Left =21376
+                                    Top =5695
                                     Width =786
                                     Height =787
                                     TabIndex =32
@@ -1956,15 +1956,15 @@ Begin Form
                                     End
 
                                     CursorOnHover =1
-                                    LayoutCachedLeft =21373
-                                    LayoutCachedTop =5612
-                                    LayoutCachedWidth =22159
-                                    LayoutCachedHeight =6399
+                                    LayoutCachedLeft =21376
+                                    LayoutCachedTop =5695
+                                    LayoutCachedWidth =22162
+                                    LayoutCachedHeight =6482
                                 End
                                 Begin CommandButton
                                     OverlapFlags =215
-                                    Left =22336
-                                    Top =5612
+                                    Left =22339
+                                    Top =5695
                                     Width =787
                                     Height =787
                                     TabIndex =33
@@ -2110,16 +2110,16 @@ Begin Form
                                     End
 
                                     CursorOnHover =1
-                                    LayoutCachedLeft =22336
-                                    LayoutCachedTop =5612
-                                    LayoutCachedWidth =23123
-                                    LayoutCachedHeight =6399
+                                    LayoutCachedLeft =22339
+                                    LayoutCachedTop =5695
+                                    LayoutCachedWidth =23126
+                                    LayoutCachedHeight =6482
                                 End
                                 Begin Image
                                     OldBorderStyle =1
                                     SizeMode =0
-                                    Left =18093
-                                    Top =5613
+                                    Left =18096
+                                    Top =5696
                                     Width =3015
                                     Height =3015
                                     Name ="IMG_QR"
@@ -2218,10 +2218,10 @@ Begin Form
                                         0x7d0000000049454e44ae426082
                                     End
 
-                                    LayoutCachedLeft =18093
-                                    LayoutCachedTop =5613
-                                    LayoutCachedWidth =21108
-                                    LayoutCachedHeight =8628
+                                    LayoutCachedLeft =18096
+                                    LayoutCachedTop =5696
+                                    LayoutCachedWidth =21111
+                                    LayoutCachedHeight =8711
                                     TabIndex =34
                                     BorderThemeColorIndex =2
                                     BorderTint =75.0
@@ -2299,23 +2299,115 @@ Begin Form
                                     OverlapFlags =215
                                     TextAlign =2
                                     TextFontFamily =34
-                                    Left =21146
-                                    Top =7256
+                                    Left =21149
+                                    Top =7339
                                     Width =375
                                     Height =1365
                                     ForeColor =16777215
                                     Name ="Label121"
                                     Caption ="QR Code"
                                     FontName ="Segoe UI"
-                                    LayoutCachedLeft =21146
-                                    LayoutCachedTop =7256
-                                    LayoutCachedWidth =21521
-                                    LayoutCachedHeight =8621
+                                    LayoutCachedLeft =21149
+                                    LayoutCachedTop =7339
+                                    LayoutCachedWidth =21524
+                                    LayoutCachedHeight =8704
                                     ThemeFontIndex =-1
                                     BackThemeColorIndex =2
                                     BackTint =75.0
                                     ForeThemeColorIndex =-1
                                     ForeTint =100.0
+                                End
+                                Begin OptionGroup
+                                    SpecialEffect =0
+                                    OverlapFlags =223
+                                    Left =23527
+                                    Top =4145
+                                    Width =3231
+                                    Height =5661
+                                    TabIndex =37
+                                    Name ="Frame148"
+
+                                    LayoutCachedLeft =23527
+                                    LayoutCachedTop =4145
+                                    LayoutCachedWidth =26758
+                                    LayoutCachedHeight =9806
+                                    BorderThemeColorIndex =2
+                                    BorderTint =75.0
+                                    BorderShade =100.0
+                                    Begin
+                                        Begin Label
+                                            BackStyle =1
+                                            OldBorderStyle =1
+                                            OverlapFlags =215
+                                            TextFontFamily =34
+                                            Left =23647
+                                            Top =4025
+                                            Width =1030
+                                            Height =290
+                                            ForeColor =16777215
+                                            Name ="Label149"
+                                            Caption ="Others"
+                                            FontName ="Segoe UI"
+                                            LayoutCachedLeft =23647
+                                            LayoutCachedTop =4025
+                                            LayoutCachedWidth =24677
+                                            LayoutCachedHeight =4315
+                                            ThemeFontIndex =-1
+                                            BackThemeColorIndex =2
+                                            BackTint =75.0
+                                            BorderThemeColorIndex =2
+                                            BorderTint =75.0
+                                            ForeThemeColorIndex =-1
+                                            ForeTint =100.0
+                                        End
+                                    End
+                                End
+                                Begin TextBox
+                                    EnterKeyBehavior = NotDefault
+                                    ScrollBars =2
+                                    OverlapFlags =215
+                                    TextFontFamily =34
+                                    IMESentenceMode =3
+                                    Left =23697
+                                    Top =4818
+                                    Width =2891
+                                    Height =4760
+                                    TabIndex =38
+                                    ForeColor =0
+                                    Name ="TX_ADDITIONALNOTES"
+                                    ControlSource ="TX_ADDITIONALNOTES"
+                                    FontName ="Segoe UI"
+                                    ShowDatePicker =0
+
+                                    LayoutCachedLeft =23697
+                                    LayoutCachedTop =4818
+                                    LayoutCachedWidth =26588
+                                    LayoutCachedHeight =9578
+                                    BorderThemeColorIndex =2
+                                    BorderTint =75.0
+                                    BorderShade =100.0
+                                    ThemeFontIndex =-1
+                                    ForeTint =100.0
+                                    Begin
+                                        Begin Label
+                                            OverlapFlags =215
+                                            TextFontFamily =34
+                                            Left =23697
+                                            Top =4480
+                                            Width =1640
+                                            Height =300
+                                            ForeColor =0
+                                            Name ="Label151"
+                                            Caption ="Additional Notes"
+                                            FontName ="Segoe UI"
+                                            LayoutCachedLeft =23697
+                                            LayoutCachedTop =4480
+                                            LayoutCachedWidth =25337
+                                            LayoutCachedHeight =4780
+                                            ThemeFontIndex =-1
+                                            ForeTint =100.0
+                                        End
+                                    End
                                 End
                             End
                         End
