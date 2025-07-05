@@ -17,21 +17,18 @@ Begin Form
     Width =12755
     DatasheetFontHeight =11
     ItemSuffix =89
-    Left =5130
-    Top =4200
-    Right =27435
-    Bottom =11820
-    RecSrcDt = Begin
-        0xc5f5b3710a62e640
-    End
+    Left =4810
+    Top =3920
+    Right =27110
+    Bottom =11540
     RecordSource ="SELECT mm.TX_ROWID, mm.TX_DIRECTION, IIf(mm.TX_DATEDELIVERY=#6/9/2025#,'1','0') "
-        "AS TX_CODE_D, IIf(mm.TX_DATERECEIVED=#6/9/2025#,'1','0') AS TX_CODE_R, mm.TX_ATT"
+        "AS TX_CODE_D, IIf(mm.TX_DATEEXECUTED=#6/9/2025#,'1','0') AS TX_CODE_R, mm.TX_ATT"
         "_LINK, ' • ' & mm.TX_ORIGIN & ' ' & ChrW(8680) & ' ' & mm.TX_DESTINATION & (chr("
         "13) + chr(10)) & ' • PLANT: ' & mm.TX_PLANT & ' • COFF: ' & mm.TX_PO & (chr(13) "
         "+ chr(10)) & ' • MANIFEST: ' & mm.TX_MANIFEST AS DESCRIPTION FROM t_q_material_m"
-        "ovement AS mm WHERE ((mm.TX_DATEDELIVERY = #6/9/2025# OR mm.TX_DATERECEIVED = #6"
+        "ovement AS mm WHERE ((mm.TX_DATEDELIVERY = #6/9/2025# OR mm.TX_DATEEXECUTED = #6"
         "/9/2025#) ) GROUP BY mm.TX_ROWID, mm.TX_DIRECTION, IIf(mm.TX_DATEDELIVERY=#6/9/2"
-        "025#,'1','0'), IIf(mm.TX_DATERECEIVED=#6/9/2025#,'1','0'), mm.TX_ORIGIN, mm.TX_D"
+        "025#,'1','0'), IIf(mm.TX_DATEEXECUTED=#6/9/2025#,'1','0'), mm.TX_ORIGIN, mm.TX_D"
         "ESTINATION, mm.TX_ATT_LINK, ' • ' & mm.TX_ORIGIN & ' ' & ChrW(8680) & ' ' & mm.T"
         "X_DESTINATION & (chr(13) + chr(10)) & ' • PLANT: ' & mm.TX_PLANT & ' • COFF: ' &"
         " mm.TX_PO & (chr(13) + chr(10)) & ' • MANIFEST: ' & mm.TX_MANIFEST; "

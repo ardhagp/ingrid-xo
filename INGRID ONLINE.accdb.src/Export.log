@@ -5,7 +5,7 @@ VCS Version 4.1.2
 Full Path: C:\Users\titoa\source\vscode\ingrid-xo\INGRID ONLINE.accdb
 Export Folder: C:\Users\titoa\source\vscode\ingrid-xo\INGRID ONLINE.accdb.src\
 Using Fast Save
-05/07/2025 08:27:07
+05/07/2025 10:28:47
 -------------------------------------
 Scanning for changes...
 No modified db connections found in this database.
@@ -15,11 +15,13 @@ No modified vbe references found in this database.
 No modified vbe forms found in this database.
 No modified proj properties found in this database.
 No modified saved specs found in this database.
+No modified modules found in this database.
 No modified commandbars found in this database.
 No modified shared images found in this database.
 No modified themes found in this database.
 No modified db properties found in this database.
 No modified imex specs found in this database.
+No modified tables found in this database.
 No modified macros found in this database.
 No modified reports found in this database.
 No modified table data macros found in this database.
@@ -28,135 +30,95 @@ No modified doc properties found in this database.
 No modified nav pane groups found in this database.
 No modified hidden attributes found in this database.
 -------------------------------------
-Exporting modules...          
-  Mod_Data_Variable
-[1] modules processed.
--------------------------------------
-Exporting tables...           
-  eni_miap_bulk
-  mat_movement_detail
-  q_employee
-  q_employee_access
-  q_mat_sum_ncr_dashboard_year
-  q_mat_sum_ncr_dashboard1
-  q_mat_sum_ncr_dashboard2
-  q_mat_sum_ncr_dashboard3
-  q_mat_sum_ncr_dashboard4
-  q_mat_sum_ncr_dashboard41
-  q_sys_servertime
-  sys_log
-  t_accesslevel
-  t_employee
-  t_log
-  t_material_movement
-  t_material_movement_detail
-  t_material_movement_handle
-  t_module
-  t_moduleaccess
-  t_plant
-  t_q_contractor_name
-  t_q_material_movement
-  t_sloc
-  t_sys_settings
-  t_workingarea
-[26] tables processed.
--------------------------------------
 Exporting queries...          
   q_mat_datemove_date
-    Sanitized in 0,002 seconds.
+    Sanitized in 0,003 seconds.
   q_mat_datemove_date (SQL)
   q_mat_datemove_detail
-    Sanitized in 0,001 seconds.
+    Sanitized in 0,002 seconds.
   q_mat_datemove_detail (SQL)
 [2] queries processed.
 -------------------------------------
 Exporting forms...            
-  MAT_MOVEMENT_BYDATE
-Loading Printer info for: 'Microsoft Print to PDF'.
-    Sanitized in 0,010 seconds.
-  MAT_MOVEMENT_BYDATE_Sub_DATE
-    Sanitized in 0,004 seconds.
   MAT_MOVEMENT_BYDATE_Sub_DETAIL
-    Sanitized in 0,007 seconds.
-  MAT_MOVEMENT_EDITOR
-    Sanitized in 0,037 seconds.
+Loading Printer info for: 'Microsoft Print to PDF'.
+    Sanitized in 0,016 seconds.
   MAT_MOVEMENT_EDITOR_Sub_ITEM
-    Sanitized in 0,017 seconds.
-[5] forms processed.
+    Sanitized in 0,039 seconds.
+[2] forms processed.
 -------------------------------------
 Exporting table data...       
   USysRibbons
 [1] table data processed.
 -------------------------------------
-Done. (2,68 seconds)
+Done. (2,94 seconds)
 
 --------------------------------------------------
                 PERFORMANCE REPORTS
 --------------------------------------------------
 Category                      Count     Seconds
 --------------------------------------------------
-Tables                        26        0,90
-Forms                         5         0,76
-Queries                       2         0,18
-DB Properties                 0         0,13
-Modules                       1         0,12
-DB Connections                0         0,07
-Doc Properties                0         0,06
-Table Data                    1         0,04
-Relations                     0         0,03
-Reports                       0         0,03
-Nav Pane Groups               0         0,03
-Themes                        0         0,02
-CommandBars                   0         0,02
-VBE References                0         0,02
-Hidden Attributes             0         0,02
+Forms                         2         0,88
+Queries                       2         0,38
+Tables                        0         0,24
+DB Properties                 0         0,22
+DB Connections                0         0,14
+Modules                       0         0,13
+Doc Properties                0         0,11
+Relations                     0         0,08
+Table Data                    1         0,07
+CommandBars                   0         0,06
+Reports                       0         0,05
+Themes                        0         0,05
+Nav Pane Groups               0         0,04
+Macros                        0         0,04
+VBE References                0         0,03
+Hidden Attributes             0         0,03
 Proj Properties               0         0,01
-Project                       0         0,01
 VB Project                    0         0,01
-Table Data Macros             0         0,00
-Shared Images                 0         0,00
+Project                       0         0,01
+Table Data Macros             0         0,01
+Shared Images                 0         0,01
 IMEX Specs                    0         0,00
-Macros                        0         0,00
 VBE Forms                     0         0,00
 Saved Specs                   0         0,00
 --------------------------------------------------
-TOTALS:                       35        2,47
+TOTALS:                       5         2,61
 --------------------------------------------------
 
 --------------------------------------------------
 Operations                    Count     Seconds
 --------------------------------------------------
-Increment Progress            208       0,75
-Convert to JSON               897       0,30
-Scan DB Objects               1         0,23
-Clear Orphaned Files          17        0,19
-App.SaveAsText()              7         0,13
-Read File Bytes               8         0,12
-Console Updates               4         0,11
-Sanitize File                 7         0,08
-Get File Property Hash        67        0,04
-Check for linked table        56        0,04
-Format SQL                    2         0,04
-Close Open Objects            1         0,03
-Parse JSON                    1         0,03
-Get VBA Hash                  55        0,02
-Write File                    42        0,02
-Read File                     9         0,01
-Compute SHA256                167       0,01
-Parse JSON ISO Date           209       0,01
-Quick Count Files             1         0,01
-Get Modified Date             96        0,01
-modFileAccess.VerifyPath      49        0,01
-Read File DevMode             5         0,01
-Delete File                   18        0,01
-Export VBE Module             1         0,01
-Export Table Data as TDF      1         0,01
-Quick Count Objects           1         0,00
+Increment Progress            149       0,44
+Scan DB Objects               1         0,42
+Convert to JSON               614       0,34
+Clear Orphaned Files          17        0,34
+Console Updates               4         0,13
+App.SaveAsText()              4         0,12
+Format SQL                    2         0,10
+Check for linked table        56        0,10
+Parse JSON                    1         0,06
+Sanitize File                 4         0,06
+Close Open Objects            1         0,04
+Get VBA Hash                  54        0,04
+Parse JSON ISO Date           210       0,02
+Quick Count Files             1         0,02
+Export Table Data as TDF      1         0,02
+Get File Property Hash        8         0,01
+Write File                    10        0,01
+Compute SHA256                74        0,01
+Quick Count Objects           1         0,01
+Delete File                   10        0,01
 Save Query SQL                2         0,00
-Sanitize VBA Code             6         0,00
+Read File DevMode             2         0,00
+Read File                     5         0,00
+modFileAccess.VerifyPath      14        0,00
+Get Modified Date             16        0,00
+Read File Bytes               4         0,00
+Sanitize VBA Code             2         0,00
 modFileAccess.GetUncPath      4         0,00
 --------------------------------------------------
-Other Operations                        0,46
+Other Operations                        0,64
 --------------------------------------------------
 
 
