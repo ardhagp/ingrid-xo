@@ -22,19 +22,19 @@ Begin Form
     Right =27435
     Bottom =11820
     RecSrcDt = Begin
-        0xc2829812de54e640
+        0xc5f5b3710a62e640
     End
-    RecordSource ="SELECT mm.TX_ROWID, mm.TX_DIRECTION, IIf(mm.TX_DATEDELIVERY=#7/20/2024#,'1','0')"
-        " AS TX_CODE_D, IIf(mm.TX_DATERECEIVED=#7/20/2024#,'1','0') AS TX_CODE_R, mm.TX_A"
-        "TT_LINK, ' • ' & mm.TX_ORIGIN & ' ' & ChrW(8680) & ' ' & mm.TX_DESTINATION & (ch"
-        "r(13) + chr(10)) & ' • PLANT: ' & mm.TX_PLANT & ' • COFF: ' & mm.TX_PO & (chr(13"
-        ") + chr(10)) & ' • MANIFEST: ' & mm.TX_MANIFEST AS DESCRIPTION FROM t_q_material"
-        "_movement AS mm WHERE ((mm.TX_DATEDELIVERY = #7/20/2024# OR mm.TX_DATERECEIVED ="
-        " #7/20/2024#) ) GROUP BY mm.TX_ROWID, mm.TX_DIRECTION, IIf(mm.TX_DATEDELIVERY=#7"
-        "/20/2024#,'1','0'), IIf(mm.TX_DATERECEIVED=#7/20/2024#,'1','0'), mm.TX_ORIGIN, m"
-        "m.TX_DESTINATION, mm.TX_ATT_LINK, ' • ' & mm.TX_ORIGIN & ' ' & ChrW(8680) & ' ' "
-        "& mm.TX_DESTINATION & (chr(13) + chr(10)) & ' • PLANT: ' & mm.TX_PLANT & ' • COF"
-        "F: ' & mm.TX_PO & (chr(13) + chr(10)) & ' • MANIFEST: ' & mm.TX_MANIFEST; "
+    RecordSource ="SELECT mm.TX_ROWID, mm.TX_DIRECTION, IIf(mm.TX_DATEDELIVERY=#6/9/2025#,'1','0') "
+        "AS TX_CODE_D, IIf(mm.TX_DATERECEIVED=#6/9/2025#,'1','0') AS TX_CODE_R, mm.TX_ATT"
+        "_LINK, ' • ' & mm.TX_ORIGIN & ' ' & ChrW(8680) & ' ' & mm.TX_DESTINATION & (chr("
+        "13) + chr(10)) & ' • PLANT: ' & mm.TX_PLANT & ' • COFF: ' & mm.TX_PO & (chr(13) "
+        "+ chr(10)) & ' • MANIFEST: ' & mm.TX_MANIFEST AS DESCRIPTION FROM t_q_material_m"
+        "ovement AS mm WHERE ((mm.TX_DATEDELIVERY = #6/9/2025# OR mm.TX_DATERECEIVED = #6"
+        "/9/2025#) ) GROUP BY mm.TX_ROWID, mm.TX_DIRECTION, IIf(mm.TX_DATEDELIVERY=#6/9/2"
+        "025#,'1','0'), IIf(mm.TX_DATERECEIVED=#6/9/2025#,'1','0'), mm.TX_ORIGIN, mm.TX_D"
+        "ESTINATION, mm.TX_ATT_LINK, ' • ' & mm.TX_ORIGIN & ' ' & ChrW(8680) & ' ' & mm.T"
+        "X_DESTINATION & (chr(13) + chr(10)) & ' • PLANT: ' & mm.TX_PLANT & ' • COFF: ' &"
+        " mm.TX_PO & (chr(13) + chr(10)) & ' • MANIFEST: ' & mm.TX_MANIFEST; "
     Caption ="MAT_MOVEMENT_DETAILS"
     DatasheetFontName ="Aptos"
     AllowDatasheetView =0
@@ -248,12 +248,14 @@ Begin Form
                     ControlSource ="TX_DIRECTION"
                     FontName ="Segoe UI"
                     ConditionalFormat = Begin
-                        0x01000000b6000000020000000100000000000000000000001400000001010000 ,
+                        0x01000000e4000000030000000100000000000000000000001400000001010000 ,
                         0x00000000a7da4e000100000000000000150000002a00000001010000ffffff00 ,
-                        0xed1c240000000000000000000000000000000000000000000000000000000000 ,
+                        0xed1c240001000000000000002b0000004100000001000000ffffff0000000000 ,
                         0x5b00540058005f0044004900520045004300540049004f004e005d003d002200 ,
                         0x49004e002200000000005b00540058005f004400490052004500430054004900 ,
-                        0x4f004e005d003d0022004f0055005400220000000000
+                        0x4f004e005d003d0022004f00550054002200000000005b00540058005f004400 ,
+                        0x4900520045004300540049004f004e005d003d00220054004d0054004d002200 ,
+                        0x00000000
                     End
 
                     LayoutCachedLeft =1870
@@ -261,12 +263,17 @@ Begin Form
                     LayoutCachedHeight =915
                     ThemeFontIndex =-1
                     ConditionalFormat14 = Begin
-                        0x01000200000001000000000000000101000000000000a7da4e00130000005b00 ,
+                        0x01000400000001000000000000000101000000000000a7da4e00130000005b00 ,
                         0x540058005f0044004900520045004300540049004f004e005d003d0022004900 ,
                         0x4e00220000000000000000000000000000000000000000000001000000000000 ,
                         0x0001010000ffffff00ed1c2400140000005b00540058005f0044004900520045 ,
                         0x004300540049004f004e005d003d0022004f0055005400220000000000000000 ,
-                        0x0000000000000000000000000000
+                        0x0000000000000000000000000000010000000000000001000000ffffff000000 ,
+                        0x0000150000005b00540058005f0044004900520045004300540049004f004e00 ,
+                        0x5d003d00220054004d0054004d00220000000000000000000000000000000000 ,
+                        0x000000000001000000000000000101000000000000fff20000140000005b0054 ,
+                        0x0058005f0044004900520045004300540049004f004e005d003d002200420049 ,
+                        0x004e002200000000000000000000000000000000000000000000
                     End
                 End
                 Begin CommandButton

@@ -7,6 +7,9 @@ Option Compare Database
 Private Sub btn_OpenThisRecord_Click()
 On Error GoTo ErrorHandle
 
+    TX_DIRECTION.SetFocus
+    Var_MAT_Direction = TX_DIRECTION.Text
+
     TX_ROWID.SetFocus
     DoCmd.OpenForm "MAT_MOVEMENT_EDITOR", acNormal, , "TX_ROWID=" & TX_ROWID.Value, acFormReadOnly
 

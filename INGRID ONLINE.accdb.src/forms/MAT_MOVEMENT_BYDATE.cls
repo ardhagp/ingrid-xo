@@ -50,9 +50,11 @@ On Error GoTo ErrorHandle
         'Var_Identifier = IngridData.GetValue("user_id", "v_user", "user_employeeid ='" & Var_Identifier & "'")
 
         If ROWID_IsExist(Var_Identifier) <> 0 Then
+            Forms![MAT_MOVEMENT_BYDATE]![MAT_MOVEMENT_BYDATE_Sub_DETAIL]!TX_DIRECTION.SetFocus
+            Var_MAT_Direction = Forms![MAT_MOVEMENT_BYDATE]![MAT_MOVEMENT_BYDATE_Sub_DETAIL]!TX_DIRECTION.Text
             DoCmd.OpenForm "MAT_MOVEMENT_EDITOR", acNormal, , "TX_ROWID=" & CInt(Var_Identifier), acFormEdit
         Else
-            If MessageBox("This record no longer exist", "UNABLE TO EDIT", "Error") = vbOK Then
+            If MessageBox("This record no longer exist", "NO RECORD", "EOO") = vbOK Then
             End If
         End If
     Else
@@ -116,18 +118,18 @@ Private Sub Post_Find()
 
     Var_SQL = "SELECT mm.TX_DATEDELIVERY as TX_DATE" & _
                 " FROM t_q_material_movement AS mm WHERE mm.TX_DATEDELIVERY is not null " & Var_SQL_Where & _
-                " UNION SELECT mm.TX_DATERECEIVED as TX_DATE " & _
-                " FROM t_q_material_movement AS mm WHERE mm.TX_DATERECEIVED is not null " & Var_SQL_Where & _
-                " GROUP BY mm.TX_DATEDELIVERY, mm.TX_DATERECEIVED " & _
+                " UNION SELECT mm.TX_DATEEXECUTED as TX_DATE " & _
+                " FROM t_q_material_movement AS mm WHERE mm.TX_DATEEXECUTED is not null " & Var_SQL_Where & _
+                " GROUP BY mm.TX_DATEDELIVERY, mm.TX_DATEEXECUTED " & _
                 " ORDER BY TX_DATE DESC"
 
     Call Post_Execute_Date
 
     'Execute query for detail table
-    Var_SQL = "SELECT mm.TX_ROWID, mm.TX_DIRECTION, IIf(mm.TX_DATEDELIVERY=#" & Get_StdDate(Var_MAT_Date) & "#,'1','0') AS TX_CODE_D, IIf(mm.TX_DATERECEIVED=#" & Get_StdDate(Var_MAT_Date) & "#,'1','0') AS TX_CODE_R, mm.TX_ATT_LINK, 'COFF: ' & mm.TX_PO & ' • PLANT: ' & mm.TX_PLANT & (chr(13) + chr(10)) & 'FROM: ' & mm.TX_ORIGIN & ' • TO: ' & mm.TX_DESTINATION & (chr(13) + chr(10)) & 'MANIFEST: ' & mm.TX_MANIFEST AS DESCRIPTION " & _
+    Var_SQL = "SELECT mm.TX_ROWID, mm.TX_DIRECTION, IIf(mm.TX_DATEDELIVERY=#" & Get_StdDate(Var_MAT_Date) & "#,'1','0') AS TX_CODE_D, IIf(mm.TX_DATEEXECUTED=#" & Get_StdDate(Var_MAT_Date) & "#,'1','0') AS TX_CODE_R, mm.TX_ATT_LINK, 'COFF: ' & mm.TX_PO & ' • PLANT: ' & mm.TX_PLANT & (chr(13) + chr(10)) & 'FROM: ' & mm.TX_ORIGIN & ' • TO: ' & mm.TX_DESTINATION & (chr(13) + chr(10)) & 'MANIFEST: ' & mm.TX_MANIFEST AS DESCRIPTION " & _
                 " FROM t_q_material_movement AS mm " & _
                 " WHERE (mm.TX_ROWID = -1)" & _
-                " GROUP BY mm.TX_ROWID, mm.TX_DIRECTION, IIf(mm.TX_DATEDELIVERY=#" & Get_StdDate(Var_MAT_Date) & "#,'1','0'), IIf(mm.TX_DATERECEIVED=#" & Get_StdDate(Var_MAT_Date) & "#,'1','0'), mm.TX_ORIGIN, mm.TX_DESTINATION, mm.TX_ATT_LINK, 'COFF: ' & mm.TX_PO & ' • PLANT: ' & mm.TX_PLANT & (chr(13) + chr(10)) & 'FROM: ' & mm.TX_ORIGIN & ' • TO: ' & mm.TX_DESTINATION & (chr(13) + chr(10)) & 'MANIFEST: ' & mm.TX_MANIFEST;"
+                " GROUP BY mm.TX_ROWID, mm.TX_DIRECTION, IIf(mm.TX_DATEDELIVERY=#" & Get_StdDate(Var_MAT_Date) & "#,'1','0'), IIf(mm.TX_DATEEXECUTED=#" & Get_StdDate(Var_MAT_Date) & "#,'1','0'), mm.TX_ORIGIN, mm.TX_DESTINATION, mm.TX_ATT_LINK, 'COFF: ' & mm.TX_PO & ' • PLANT: ' & mm.TX_PLANT & (chr(13) + chr(10)) & 'FROM: ' & mm.TX_ORIGIN & ' • TO: ' & mm.TX_DESTINATION & (chr(13) + chr(10)) & 'MANIFEST: ' & mm.TX_MANIFEST;"
 
     Call Post_Execute_Detail
 End Sub
@@ -139,17 +141,17 @@ Private Sub Post_Refresh()
 
     Var_SQL = "SELECT mm.TX_DATEDELIVERY as TX_DATE" & _
                 " FROM t_q_material_movement AS mm " & _
-                " UNION SELECT mm.TX_DATERECEIVED as TX_DATE " & _
+                " UNION SELECT mm.TX_DATEEXECUTED as TX_DATE " & _
                 " FROM t_q_material_movement AS mm " & _
-                " GROUP BY mm.TX_DATEDELIVERY, mm.TX_DATERECEIVED " & _
+                " GROUP BY mm.TX_DATEDELIVERY, mm.TX_DATEEXECUTED " & _
                 " ORDER BY TX_DATE DESC"
     'Debug.Print Var_SQL
     Call Post_Execute_Date
 
-    Var_SQL = "SELECT mm.TX_ROWID, mm.TX_DIRECTION, IIf(mm.TX_DATEDELIVERY=#" & Get_StdDate(Var_MAT_Date) & "#,'1','0') AS TX_CODE_D, IIf(mm.TX_DATERECEIVED=#" & Get_StdDate(Var_MAT_Date) & "#,'1','0') AS TX_CODE_R, mm.TX_ATT_LINK, 'COFF: ' & mm.TX_PO & ' • PLANT: ' & mm.TX_PLANT & (chr(13) + chr(10)) & 'FROM: ' & mm.TX_ORIGIN & ' • TO: ' & mm.TX_DESTINATION & (chr(13) + chr(10)) & 'MANIFEST: ' & mm.TX_MANIFEST AS DESCRIPTION " & _
-                " FROM t_q_material_movement AS mm " & _
+    Var_SQL = "SELECT mm.TX_ROWID, mm.TX_DIRECTION, IIf(mm.TX_DATEDELIVERY=#" & Get_StdDate(Var_MAT_Date) & "#,'1','0') AS TX_CODE_D, IIf(mm.TX_DATEEXECUTED=#" & Get_StdDate(Var_MAT_Date) & "#,'1','0') AS TX_CODE_R, mm.TX_ATT_LINK, 'COFF: ' & mm.TX_PO & ' • PLANT: ' & mm.TX_PLANT & (chr(13) + chr(10)) & 'FROM: ' & mm.TX_ORIGIN & ' • TO: ' & mm.TX_DESTINATION & (chr(13) + chr(10)) & 'MANIFEST: ' & mm.TX_MANIFEST AS DESCRIPTION " & _
+                " FROM t_material_movement AS mm " & _
                 " WHERE (mm.TX_ROWID = -1)" & _
-                " GROUP BY mm.TX_ROWID, mm.TX_DIRECTION, IIf(mm.TX_DATEDELIVERY=#" & Get_StdDate(Var_MAT_Date) & "#,'1','0'), IIf(mm.TX_DATERECEIVED=#" & Get_StdDate(Var_MAT_Date) & "#,'1','0'), mm.TX_ORIGIN, mm.TX_DESTINATION, mm.TX_ATT_LINK, 'COFF: ' & mm.TX_PO & ' • PLANT: ' & mm.TX_PLANT & (chr(13) + chr(10)) & 'FROM: ' & mm.TX_ORIGIN & ' • TO: ' & mm.TX_DESTINATION & (chr(13) + chr(10)) & 'MANIFEST: ' & mm.TX_MANIFEST;"
+                " GROUP BY mm.TX_ROWID, mm.TX_DIRECTION, IIf(mm.TX_DATEDELIVERY=#" & Get_StdDate(Var_MAT_Date) & "#,'1','0'), IIf(mm.TX_DATEEXECUTED=#" & Get_StdDate(Var_MAT_Date) & "#,'1','0'), mm.TX_ORIGIN, mm.TX_DESTINATION, mm.TX_ATT_LINK, 'COFF: ' & mm.TX_PO & ' • PLANT: ' & mm.TX_PLANT & (chr(13) + chr(10)) & 'FROM: ' & mm.TX_ORIGIN & ' • TO: ' & mm.TX_DESTINATION & (chr(13) + chr(10)) & 'MANIFEST: ' & mm.TX_MANIFEST;"
 
     Call Post_Execute_Detail
 End Sub

@@ -6,7 +6,7 @@
     '0'
   ) AS TX_CODE_D,
   IIf(
-    mm.TX_DATERECEIVED = #6/9/2025#, '1',
+    mm.TX_DATEEXECUTED = #6/9/2025#, '1',
     '0'
   ) AS TX_CODE_R,
   mm.TX_ATT_LINK,
@@ -21,7 +21,7 @@ WHERE
   (
     (
       mm.TX_DATEDELIVERY = #6/9/2025#
-      OR mm.TX_DATERECEIVED = #6/9/2025#
+      OR mm.TX_DATEEXECUTED = #6/9/2025#
     )
   )
 GROUP BY
@@ -32,7 +32,7 @@ GROUP BY
     '0'
   ),
   IIf(
-    mm.TX_DATERECEIVED = #6/9/2025#, '1',
+    mm.TX_DATEEXECUTED = #6/9/2025#, '1',
     '0'
   ),
   mm.TX_ORIGIN,

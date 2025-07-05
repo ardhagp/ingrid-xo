@@ -298,7 +298,7 @@ On Error GoTo ErrorHandler
         Get_IsURLValid = False
 
         If AlertInvalidURL = True Then
-            Call MessageBox("Unable to open attachment in your browser", "OPEN ATTACHMENT", "Error")
+            Call MessageBox("Unable to open attachment in your browser, make sure you have valid URL for your attachment.", "CANNOT OPEN ATTACHMENT", "Error")
         End If
     End If
 
@@ -308,7 +308,7 @@ On Error GoTo ErrorHandler
 
 ErrorHandler:
     If AlertInvalidURL = True Then
-        Call MessageBox("Unable to open attachment in your browser", "OPEN ATTACHMENT", "Error")
+        Call MessageBox("Unable to open attachment in your browser, make sure you have valid URL for your attachment.", "CANNOT OPEN ATTACHMENT", "Error")
     Else
         Call Post_ErrorMessage(Err.Number, Err.DESCRIPTION)
     End If

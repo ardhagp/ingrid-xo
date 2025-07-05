@@ -10,3 +10,4 @@ Public Var_IsNew_Identifier As String
 
 Public Var_MAT_Find As String
 Public Var_MAT_Date As Date
+Public Var_MAT_Direction As String

@@ -7,7 +7,6 @@
     "Name": "t_q_material_movement",
     "Connect": "ODBC;DSN=Ingrid Online DB;",
     "SourceTableName": "t_q_material_movement",
-    "Attributes": 536870912,
-    "PrimaryKey": "[TX_ROWID]"
+    "Attributes": 536870912
   }
 }

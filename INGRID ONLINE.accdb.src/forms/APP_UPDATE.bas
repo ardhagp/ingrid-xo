@@ -21,12 +21,12 @@ Begin Form
     PictureAlignment =2
     DatasheetGridlinesBehavior =3
     GridY =10
-    Width =9354
+    Width =10204
     DatasheetFontHeight =11
-    ItemSuffix =2
+    ItemSuffix =7
     Top =600
-    Right =9540
-    Bottom =1190
+    Right =10365
+    Bottom =990
     RecSrcDt = Begin
         0x237dbcec2555e640
     End
@@ -60,6 +60,35 @@ Begin Form
             GridlineThemeColorIndex =1
             GridlineShade =65.0
         End
+        Begin CommandButton
+            TextFontFamily =0
+            Width =1701
+            Height =283
+            FontSize =11
+            FontWeight =400
+            FontName ="Aptos"
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            UseTheme =1
+            Shape =1
+            Gradient =12
+            BackThemeColorIndex =4
+            BackTint =60.0
+            BorderLineStyle =0
+            BorderThemeColorIndex =4
+            BorderTint =60.0
+            ThemeFontIndex =1
+            HoverThemeColorIndex =4
+            HoverTint =40.0
+            PressedThemeColorIndex =4
+            PressedShade =75.0
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =0
+            PressedForeTint =75.0
+        End
         Begin TextBox
             AddColon = NotDefault
             FELineBreak = NotDefault
@@ -88,46 +117,36 @@ Begin Form
             BackTint =75.0
             Begin
                 Begin Label
-                    OverlapFlags =93
+                    OverlapFlags =85
                     TextFontFamily =34
-                    Left =225
-                    Top =120
-                    Width =8835
-                    Height =345
-                    ForeColor =16777215
-                    Name ="Label1"
-                    Caption ="New version of Ingrid - XO is available! Please                                 "
-                        "                    to update."
+                    Left =60
+                    Top =60
+                    Width =8565
+                    Height =315
+                    Name ="Label5"
+                    Caption ="New version of Ingrid - XO is available! Please download the latest release to u"
+                        "pdate."
                     FontName ="Segoe UI"
-                    LayoutCachedLeft =225
-                    LayoutCachedTop =120
-                    LayoutCachedWidth =9060
-                    LayoutCachedHeight =465
+                    LayoutCachedLeft =60
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =8625
+                    LayoutCachedHeight =375
                     ThemeFontIndex =-1
-                    ForeThemeColorIndex =-1
+                    ForeThemeColorIndex =1
                     ForeTint =100.0
                 End
-                Begin Label
-                    OverlapFlags =215
-                    TextAlign =2
-                    TextFontFamily =34
-                    Left =4710
-                    Top =110
-                    Width =3120
-                    Height =345
-                    FontWeight =700
-                    ForeColor =62207
-                    Name ="Label0"
-                    Caption ="Download the Latest Release"
-                    FontName ="Segoe UI"
-                    HyperlinkAddress ="https://github.com/ardhagp/ingrid-xo/releases/"
-                    LayoutCachedLeft =4710
-                    LayoutCachedTop =110
-                    LayoutCachedWidth =7830
-                    LayoutCachedHeight =455
-                    ThemeFontIndex =-1
-                    ForeThemeColorIndex =-1
-                    ForeTint =100.0
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =8674
+                    Top =56
+                    Width =1236
+                    Name ="Command6"
+                    Caption ="Download"
+
+                    LayoutCachedLeft =8674
+                    LayoutCachedTop =56
+                    LayoutCachedWidth =9910
+                    LayoutCachedHeight =339
                 End
             End
         End

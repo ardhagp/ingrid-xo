@@ -17,10 +17,10 @@ Begin Form
     Width =3628
     DatasheetFontHeight =11
     ItemSuffix =16
-    Left =610
-    Top =3920
-    Right =4330
-    Bottom =11540
+    Left =930
+    Top =4200
+    Right =4650
+    Bottom =11820
     OrderBy ="[q_mat_datemove_date].TX_DATE DESC"
     RecSrcDt = Begin
         0x6e62aa0d614ae640
@@ -136,7 +136,7 @@ Begin Form
                     OverlapFlags =85
                     TextAlign =2
                     TextFontFamily =34
-                    Left =230
+                    Left =225
                     Top =30
                     Width =2160
                     Height =345
@@ -146,9 +146,9 @@ Begin Form
                     Caption ="DATE MOVEMENT"
                     FontName ="Segoe UI"
                     GroupTable =2
-                    LayoutCachedLeft =230
+                    LayoutCachedLeft =225
                     LayoutCachedTop =30
-                    LayoutCachedWidth =2390
+                    LayoutCachedWidth =2385
                     LayoutCachedHeight =375
                     LayoutGroup =1
                     ThemeFontIndex =-1
@@ -173,7 +173,7 @@ Begin Form
                     TextFontFamily =34
                     BackStyle =0
                     IMESentenceMode =3
-                    Left =230
+                    Left =225
                     Top =30
                     Width =2160
                     Height =330
@@ -186,9 +186,9 @@ Begin Form
                     FontName ="Segoe UI"
                     GroupTable =2
 
-                    LayoutCachedLeft =230
+                    LayoutCachedLeft =225
                     LayoutCachedTop =30
-                    LayoutCachedWidth =2390
+                    LayoutCachedWidth =2385
                     LayoutCachedHeight =360
                     RowStart =1
                     RowEnd =1

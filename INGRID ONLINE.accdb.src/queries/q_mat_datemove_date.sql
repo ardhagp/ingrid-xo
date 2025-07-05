@@ -4,11 +4,11 @@ FROM
   t_q_material_movement AS mm
 UNION
 SELECT
-  mm.TX_DATERECEIVED as TX_DATE
+  mm.TX_DATEEXECUTED as TX_DATE
 FROM
   t_q_material_movement AS mm
 GROUP BY
   mm.TX_DATEDELIVERY,
-  mm.TX_DATERECEIVED
+  mm.TX_DATEEXECUTED
 ORDER BY
   TX_DATE DESC;

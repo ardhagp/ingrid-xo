@@ -1,6 +1,6 @@
 ﻿dbMemo "SQL" ="SELECT mm.TX_DATEDELIVERY as TX_DATE FROM t_q_material_movement AS mm  UNION SEL"
-    "ECT mm.TX_DATERECEIVED as TX_DATE  FROM t_q_material_movement AS mm  GROUP BY mm"
-    ".TX_DATEDELIVERY, mm.TX_DATERECEIVED\015\012ORDER BY TX_DATE DESC;\015\012"
+    "ECT mm.TX_DATEEXECUTED as TX_DATE  FROM t_q_material_movement AS mm  GROUP BY mm"
+    ".TX_DATEDELIVERY, mm.TX_DATEEXECUTED\015\012ORDER BY TX_DATE DESC;\015\012"
 dbMemo "Connect" =""
 dbBoolean "ReturnsRecords" ="-1"
 dbInteger "ODBCTimeout" ="60"
