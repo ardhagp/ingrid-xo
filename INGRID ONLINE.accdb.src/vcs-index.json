@@ -6,7 +6,7 @@
   "Items": {
     "MergeBuildDate": "2025-03-19T18:50:16.000Z",
     "FullBuildDate": "2025-03-19T18:49:21.000Z",
-    "ExportDate": "2025-07-05T03:28:50.000Z",
+    "ExportDate": "2025-07-05T03:57:08.000Z",
     "FullExportDate": "2025-06-06T23:54:02.000Z",
     "OptionsHash": "14944f8",
     "LastMergedCommit": "",
@@ -97,10 +97,10 @@
           "OtherHash": "aa35446"
         },
         "MAT_MOVEMENT_BYDATE_Sub_DETAIL.bas": {
-          "FileHash": "a3143a4",
-          "ExportDate": "2025-07-05T03:28:50.000Z",
+          "FileHash": "65942f0",
+          "ExportDate": "2025-07-05T03:57:08.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "92eecbb",
+          "FilePropertiesHash": "bda6a1a",
           "ImportDate": "2025-03-19T18:49:18.000Z",
           "OtherHash": "d45595f"
         },
@@ -113,10 +113,10 @@
           "OtherHash": "33d2c87"
         },
         "MAT_MOVEMENT_EDITOR.bas": {
-          "FileHash": "01c1e55",
-          "ExportDate": "2025-07-05T01:27:09.000Z",
+          "FileHash": "7f6ff04",
+          "ExportDate": "2025-07-05T03:57:08.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "72e57a4",
+          "FilePropertiesHash": "437519b",
           "ImportDate": "2025-03-19T18:49:18.000Z",
           "OtherHash": "09a8c54"
         },
@@ -157,9 +157,9 @@
         },
         "MAT_MOVEMENT_EDITOR_Sub_ITEM.bas": {
           "FileHash": "35b7bd8",
-          "ExportDate": "2025-07-05T03:28:50.000Z",
+          "ExportDate": "2025-07-05T03:57:08.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "bc4547d",
+          "FilePropertiesHash": "247ac52",
           "OtherHash": "3487bed"
         },
         "MAT_MOVEMENT_EDITOR_Sub_NCR.bas": {
@@ -217,6 +217,13 @@
           "ImportDate": "2025-03-19T18:49:18.000Z",
           "FileHash": "92899e2"
         },
+        "SYS_MOD_ACCESS_EDITOR.bas": {
+          "FileHash": "11adfb5",
+          "OtherHash": "2748cc5",
+          "ExportDate": "2025-06-08T02:42:07.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d963f97"
+        },
         "SYS_MOD_ACCESS_Editor.bas": {
           "FileHash": "e874600",
           "ExportDate": "2025-03-20T08:12:37.000Z",
@@ -225,26 +232,12 @@
           "ImportDate": "2025-03-19T18:49:18.000Z",
           "OtherHash": "f569354"
         },
-        "SYS_MOD_ACCESS_EDITOR.bas": {
-          "FileHash": "11adfb5",
-          "OtherHash": "2748cc5",
-          "ExportDate": "2025-06-08T02:42:07.000Z",
-          "SourceModified": null,
-          "FilePropertiesHash": "d963f97"
-        },
         "SYS_MOD_ACCESS_List.bas": {
           "ExportDate": "2025-03-20T08:12:38.000Z",
           "SourceModified": null,
           "FilePropertiesHash": "bdaf4ad",
           "ImportDate": "2025-03-19T18:49:18.000Z",
           "FileHash": "1a3a6c1"
-        },
-        "SYS_MOD_ACCESS_PASSWORD.bas": {
-          "FileHash": "23ad744",
-          "OtherHash": "4ff1305",
-          "ExportDate": "2025-06-06T23:54:01.000Z",
-          "SourceModified": null,
-          "FilePropertiesHash": "923cfc2"
         },
         "SYS_MOD_ACCESS_Password.bas": {
           "FileHash": "f942c68",
@@ -253,6 +246,13 @@
           "FilePropertiesHash": "524f83a",
           "ImportDate": "2025-03-19T18:49:18.000Z",
           "OtherHash": "e0b8853"
+        },
+        "SYS_MOD_ACCESS_PASSWORD.bas": {
+          "FileHash": "23ad744",
+          "OtherHash": "4ff1305",
+          "ExportDate": "2025-06-06T23:54:01.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "923cfc2"
         },
         "SYS_MOD_ACCESS_Sub_AUTHORIZATION.bas": {
           "FileHash": "8a8e0e5",
@@ -339,13 +339,6 @@
           "ImportDate": "2025-03-19T18:49:07.000Z",
           "OtherHash": "d8c3b38"
         },
-        "Mod_Graph_Aztec.bas": {
-          "FileHash": "772659e",
-          "ExportDate": "2025-03-19T18:27:04.000Z",
-          "SourceModified": null,
-          "FilePropertiesHash": "6001d59",
-          "ImportDate": "2025-03-19T18:50:14.000Z"
-        },
         "mod_graph_Aztec.bas": {
           "FileHash": "20fd044",
           "ImportDate": "2025-03-19T18:50:14.000Z",
@@ -354,11 +347,11 @@
           "OtherHash": "772659e",
           "ExportDate": "2025-06-06T23:53:55.000Z"
         },
-        "Mod_Graph_Barcode.bas": {
-          "FileHash": "a2dec2a",
+        "Mod_Graph_Aztec.bas": {
+          "FileHash": "772659e",
           "ExportDate": "2025-03-19T18:27:04.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "9abdf5a",
+          "FilePropertiesHash": "6001d59",
           "ImportDate": "2025-03-19T18:50:14.000Z"
         },
         "mod_graph_Barcode.bas": {
@@ -369,13 +362,12 @@
           "OtherHash": "a2dec2a",
           "ExportDate": "2025-06-06T23:53:54.000Z"
         },
-        "mod_graph_Code128.bas": {
-          "FileHash": "4578c54",
-          "ImportDate": "2025-03-19T18:50:14.000Z",
+        "Mod_Graph_Barcode.bas": {
+          "FileHash": "a2dec2a",
+          "ExportDate": "2025-03-19T18:27:04.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "9ca60d5",
-          "OtherHash": "3b2d725",
-          "ExportDate": "2025-06-06T23:53:55.000Z"
+          "FilePropertiesHash": "9abdf5a",
+          "ImportDate": "2025-03-19T18:50:14.000Z"
         },
         "Mod_Graph_Code128.bas": {
           "FileHash": "3b2d725",
@@ -384,12 +376,13 @@
           "FilePropertiesHash": "0810483",
           "ImportDate": "2025-03-19T18:50:14.000Z"
         },
-        "Mod_Graph_DataMatrix.bas": {
-          "FileHash": "1148c5a",
-          "ExportDate": "2025-03-19T18:27:04.000Z",
+        "mod_graph_Code128.bas": {
+          "FileHash": "4578c54",
+          "ImportDate": "2025-03-19T18:50:14.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "cd9fe4f",
-          "ImportDate": "2025-03-19T18:50:14.000Z"
+          "FilePropertiesHash": "9ca60d5",
+          "OtherHash": "3b2d725",
+          "ExportDate": "2025-06-06T23:53:55.000Z"
         },
         "mod_graph_DataMatrix.bas": {
           "FileHash": "5e6f169",
@@ -399,11 +392,11 @@
           "OtherHash": "1148c5a",
           "ExportDate": "2025-06-06T23:53:55.000Z"
         },
-        "Mod_Graph_QRCode.bas": {
-          "FileHash": "dfd4fae",
+        "Mod_Graph_DataMatrix.bas": {
+          "FileHash": "1148c5a",
           "ExportDate": "2025-03-19T18:27:04.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "b5d1c13",
+          "FilePropertiesHash": "cd9fe4f",
           "ImportDate": "2025-03-19T18:50:14.000Z"
         },
         "mod_graph_QRCode.bas": {
@@ -413,6 +406,13 @@
           "FilePropertiesHash": "4223819",
           "OtherHash": "dfd4fae",
           "ExportDate": "2025-06-06T23:53:55.000Z"
+        },
+        "Mod_Graph_QRCode.bas": {
+          "FileHash": "dfd4fae",
+          "ExportDate": "2025-03-19T18:27:04.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b5d1c13",
+          "ImportDate": "2025-03-19T18:50:14.000Z"
         },
         "Mod_System_Function.bas": {
           "FileHash": "232f8fa",
@@ -564,10 +564,10 @@
           "ImportDate": "2025-03-19T18:49:17.000Z"
         },
         "q_mat_datemove_detail.bas": {
-          "FileHash": "a0b1e5a",
-          "ExportDate": "2025-07-05T03:28:49.000Z",
+          "FileHash": "85be4cd",
+          "ExportDate": "2025-07-05T03:57:08.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "12fd72a",
+          "FilePropertiesHash": "09a8349",
           "ImportDate": "2025-03-19T18:49:17.000Z"
         },
         "q_mat_sum_ncr_contractor.bas": {

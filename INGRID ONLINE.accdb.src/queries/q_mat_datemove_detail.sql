@@ -2,11 +2,11 @@
   mm.TX_ROWID,
   mm.TX_DIRECTION,
   IIf(
-    mm.TX_DATEDELIVERY = #7/5/2025#, '1',
+    mm.TX_DATEDELIVERY = #6/9/2025#, '1',
     '0'
   ) AS TX_CODE_D,
   IIf(
-    mm.TX_DATEEXECUTED = #7/5/2025#, '1',
+    mm.TX_DATEEXECUTED = #6/9/2025#, '1',
     '0'
   ) AS TX_CODE_R,
   mm.TX_ATT_LINK,
@@ -20,19 +20,19 @@ FROM
 WHERE
   (
     (
-      mm.TX_DATEDELIVERY = #7/5/2025#
-      OR mm.TX_DATEEXECUTED = #7/5/2025#
+      mm.TX_DATEDELIVERY = #6/9/2025#
+      OR mm.TX_DATEEXECUTED = #6/9/2025#
     )
   )
 GROUP BY
   mm.TX_ROWID,
   mm.TX_DIRECTION,
   IIf(
-    mm.TX_DATEDELIVERY = #7/5/2025#, '1',
+    mm.TX_DATEDELIVERY = #6/9/2025#, '1',
     '0'
   ),
   IIf(
-    mm.TX_DATEEXECUTED = #7/5/2025#, '1',
+    mm.TX_DATEEXECUTED = #6/9/2025#, '1',
     '0'
   ),
   mm.TX_ORIGIN,
