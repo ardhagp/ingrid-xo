@@ -5,7 +5,7 @@ VCS Version 4.1.2
 Full Path: C:\Users\titoa\source\vscode\ingrid-xo\INGRID ONLINE.accdb
 Export Folder: C:\Users\titoa\source\vscode\ingrid-xo\INGRID ONLINE.accdb.src\
 Using Fast Save
-05/07/2025 10:57:04
+07/07/2025 06:55:31
 -------------------------------------
 Scanning for changes...
 No modified db connections found in this database.
@@ -15,7 +15,6 @@ No modified vbe references found in this database.
 No modified vbe forms found in this database.
 No modified proj properties found in this database.
 No modified saved specs found in this database.
-No modified modules found in this database.
 No modified commandbars found in this database.
 No modified shared images found in this database.
 No modified themes found in this database.
@@ -30,94 +29,107 @@ No modified doc properties found in this database.
 No modified nav pane groups found in this database.
 No modified hidden attributes found in this database.
 -------------------------------------
+Exporting modules...          
+  Mod_Data_Variable
+  Mod_System_Function
+[2] modules processed.
+-------------------------------------
 Exporting queries...          
-  q_mat_datemove_detail
+  q_mat_datemove_date
     Sanitized in 0,004 seconds.
+  q_mat_datemove_date (SQL)
+  q_mat_datemove_detail
+    Sanitized in 0,001 seconds.
   q_mat_datemove_detail (SQL)
-[1] queries processed.
+[2] queries processed.
 -------------------------------------
 Exporting forms...            
-  MAT_MOVEMENT_BYDATE_Sub_DETAIL
+  APP_LOGIN
 Loading Printer info for: 'Microsoft Print to PDF'.
-    Sanitized in 0,012 seconds.
-  MAT_MOVEMENT_EDITOR
-    Sanitized in 0,071 seconds.
+    Sanitized in 0,166 seconds.
+  SYS_MOD_ACCESS_EDITOR
+    Sanitized in 0,030 seconds.
+  MAT_MOVEMENT_EDITOR_Sub_INCOMING
+    Sanitized in 0,006 seconds.
+  SYS_MOD_ACCESS_PASSWORD
+    Sanitized in 0,008 seconds.
   MAT_MOVEMENT_EDITOR_Sub_ITEM
-    Sanitized in 0,036 seconds.
-[3] forms processed.
+    Sanitized in 0,029 seconds.
+[5] forms processed.
 -------------------------------------
 Exporting table data...       
   USysRibbons
 [1] table data processed.
 -------------------------------------
-Done. (4,92 seconds)
+Done. (4,14 seconds)
 
 --------------------------------------------------
                 PERFORMANCE REPORTS
 --------------------------------------------------
 Category                      Count     Seconds
 --------------------------------------------------
-Forms                         3         0,66
-DB Properties                 0         0,19
-Tables                        0         0,19
-Queries                       1         0,18
-DB Connections                0         0,11
-Doc Properties                0         0,09
-Modules                       0         0,09
-Nav Pane Groups               0         0,06
-Relations                     0         0,04
-Table Data                    1         0,04
+Forms                         5         1,70
+Queries                       2         0,33
+Tables                        0         0,30
+Modules                       2         0,27
+DB Properties                 0         0,25
+DB Connections                0         0,13
+Doc Properties                0         0,10
+Table Data                    1         0,08
+Relations                     0         0,06
+Themes                        0         0,06
+Nav Pane Groups               0         0,05
+Reports                       0         0,04
 CommandBars                   0         0,04
 VBE References                0         0,03
-Themes                        0         0,03
 Hidden Attributes             0         0,03
-Reports                       0         0,02
-Proj Properties               0         0,01
-Macros                        0         0,01
-VB Project                    0         0,01
+VB Project                    0         0,02
+Proj Properties               0         0,02
 Project                       0         0,01
-Table Data Macros             0         0,01
 Shared Images                 0         0,01
+Table Data Macros             0         0,01
 IMEX Specs                    0         0,00
+Macros                        0         0,00
 VBE Forms                     0         0,00
 Saved Specs                   0         0,00
 --------------------------------------------------
-TOTALS:                       5         1,85
+TOTALS:                       10        3,55
 --------------------------------------------------
 
 --------------------------------------------------
 Operations                    Count     Seconds
 --------------------------------------------------
-Close Open Objects            1         2,66
-Scan DB Objects               1         0,35
-Convert to JSON               654       0,31
-Clear Orphaned Files          17        0,31
-Console Updates               4         0,20
-Increment Progress            150       0,19
-Sanitize File                 4         0,12
-App.SaveAsText()              4         0,09
-Check for linked table        56        0,07
-Format SQL                    1         0,05
+Increment Progress            161       0,63
+Scan DB Objects               1         0,42
+Convert to JSON               734       0,41
+Clear Orphaned Files          17        0,39
+App.SaveAsText()              7         0,35
+Console Updates               5         0,35
+Sanitize File                 7         0,29
+Check for linked table        56        0,09
+Close Open Objects            1         0,08
+Format SQL                    2         0,06
+Read File                     10        0,06
+Write File                    21        0,06
+Read File DevMode             5         0,06
 Parse JSON                    1         0,05
-Get VBA Hash                  54        0,03
-Quick Count Files             1         0,01
-Write File                    11        0,01
-Get File Property Hash        8         0,01
-Parse JSON ISO Date           210       0,01
-Compute SHA256                75        0,01
-Export Table Data as TDF      1         0,01
-Read File DevMode             3         0,01
-Delete File                   10        0,01
+Get VBA Hash                  57        0,04
+Get File Property Hash        18        0,03
+Read File Bytes               9         0,03
+Quick Count Files             1         0,03
+Compute SHA256                95        0,02
+Export VBE Module             2         0,02
 Quick Count Objects           1         0,01
-Read File                     5         0,01
-Read File Bytes               4         0,00
-modFileAccess.VerifyPath      15        0,00
-Get Modified Date             10        0,00
-Save Query SQL                1         0,00
-Sanitize VBA Code             3         0,00
+Export Table Data as TDF      1         0,01
+Parse JSON ISO Date           210       0,01
+Delete File                   18        0,01
+Get Modified Date             24        0,00
+modFileAccess.VerifyPath      28        0,00
+Save Query SQL                2         0,00
+Sanitize VBA Code             7         0,00
 modFileAccess.GetUncPath      4         0,00
 --------------------------------------------------
-Other Operations                        0,38
+Other Operations                        0,61
 --------------------------------------------------
 
 

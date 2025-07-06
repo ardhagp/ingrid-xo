@@ -136,8 +136,8 @@ Private Sub EMPLOYEE_ACCESS(Optional ByVal EMPLOYEEID As String = "0")
     Debug.Print Var_SQL
     CurrentDb.QueryDefs("q_sys_employee_access").SQL = Var_SQL
 
-    frmSystem_User_Editor_Access.Requery
-    frmSystem_User_Editor_Access.Form.RecordSource = Var_SQL
+    Forms![SYS_MOD_ACCESS_EDITOR].Requery
+    Forms![SYS_MOD_ACCESS_EDITOR].Form.RecordSource = Var_SQL
 
 End Sub
 

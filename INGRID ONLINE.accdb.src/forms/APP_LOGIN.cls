@@ -7,7 +7,6 @@ Option Explicit
 
 Private Var_L_EmployeeCODE As String
 Private Var_L_Password As String
-Private strRealPassword As String
 
 Private Sub Form_Activate()
     Call Get_Host

@@ -2,7 +2,6 @@
 VersionRequired =20
 Begin Form
     DividingLines = NotDefault
-    FilterOn = NotDefault
     DataEntry = NotDefault
     DefaultView =2
     RecordLocks =2
@@ -13,17 +12,16 @@ Begin Form
     Width =6994
     DatasheetFontHeight =11
     ItemSuffix =4
-    Left =6015
-    Top =2505
+    Left =6020
+    Top =2510
     Right =12570
-    Bottom =8025
+    Bottom =7460
     RecSrcDt = Begin
         0x1633d60e4b62e640
     End
     RecordSource ="t_material_movement_detail"
     OnCurrent ="[Event Procedure]"
     DatasheetFontName ="Aptos"
-    OnLoad ="[Event Procedure]"
     AllowDatasheetView =0
     FilterOnLoad =0
     ShowPageMargins =0

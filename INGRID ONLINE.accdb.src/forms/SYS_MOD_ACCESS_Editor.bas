@@ -22,9 +22,9 @@ Begin Form
     Width =6860
     DatasheetFontHeight =11
     ItemSuffix =56
-    Left =4180
+    Left =4420
     Top =2690
-    Right =11300
+    Right =11540
     Bottom =10160
     TimerInterval =100
     Filter ="EMPLOYEE_ROWID=5"

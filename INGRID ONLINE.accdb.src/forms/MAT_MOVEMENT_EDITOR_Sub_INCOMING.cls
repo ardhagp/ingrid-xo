@@ -19,6 +19,3 @@ Private Sub Form_Current()
         Me!D_BINLOCNEW.ColumnHidden = False
     End If
 End Sub
-
-Private Sub Form_Load()
-End Sub

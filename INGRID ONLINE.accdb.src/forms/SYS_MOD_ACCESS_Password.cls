@@ -49,9 +49,9 @@ Private Sub btnSetPassword_Click()
         Var_IsPasswordSet = True
         'Forms![SYS_MOD_ACCESS_Editor]!txtPassword.Enabled = True
         'Forms![SYS_MOD_ACCESS_Editor]!txtPassword.Locked = False
-        Forms![SYS_MOD_ACCESS_Editor]!txtPassword.SetFocus
-        Forms![SYS_MOD_ACCESS_Editor]!txtPassword.Text = Var_Password
-        Forms![SYS_MOD_ACCESS_Editor]!txtEmployeeID.SetFocus
+        Forms![SYS_MOD_ACCESS_EDITOR]!txtPassword.SetFocus
+        Forms![SYS_MOD_ACCESS_EDITOR]!txtPassword.Text = Var_Password
+        Forms![SYS_MOD_ACCESS_EDITOR]!txtEmployeeID.SetFocus
         'Forms![SYS_MOD_ACCESS_Editor]!txtPassword.Visible = False
         DoCmd.Close acForm, "SYS_MOD_ACCESS_Password"
     End If

@@ -115,7 +115,7 @@ Public Function Get_EmployeeID(ByVal EMPLOYEECODE As String) As String
 End Function
 
 Public Function Get_EmployeeScopeOfWork(ByVal EMPLOYEECODE As String) As String
-    Get_EmployeeID = IngridData.GetValue("EMPLOYEE_SCOPEOFWORK", "t_employee", "EMPLOYEE_CODE='" & EMPLOYEECODE & "'")
+    Get_EmployeeScopeOfWork = IngridData.GetValue("EMPLOYEE_SCOPEOFWORK", "t_employee", "EMPLOYEE_CODE='" & EMPLOYEECODE & "'")
 End Function
 
 Public Function Get_AccessLevel(ByVal MODULECODE As String, ByVal EMPLOYEE_ID As String) As Integer
