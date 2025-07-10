@@ -16,9 +16,9 @@ Begin Form
     Width =27270
     DatasheetFontHeight =11
     ItemSuffix =26
-    Left =225
-    Right =27750
-    Bottom =15090
+    Left =230
+    Right =19330
+    Bottom =11480
     RecSrcDt = Begin
         0x72017cff3551e640
     End
@@ -230,165 +230,30 @@ Begin Form
                     Begin
                         Begin Page
                             OverlapFlags =87
-                            Left =135
-                            Top =540
-                            Width =2340
-                            Height =1365
+                            Left =110
+                            Top =470
+                            Width =2390
+                            Height =1460
                             Name ="Page1"
                             Caption ="EDITOR"
-                            LayoutCachedLeft =135
-                            LayoutCachedTop =540
-                            LayoutCachedWidth =2475
-                            LayoutCachedHeight =1905
+                            LayoutCachedLeft =110
+                            LayoutCachedTop =470
+                            LayoutCachedWidth =2500
+                            LayoutCachedHeight =1930
                             Begin
                                 Begin CommandButton
                                     Enabled = NotDefault
                                     OverlapFlags =215
                                     AccessKey =65
+                                    PictureType =2
                                     Left =172
                                     Top =568
                                     Width =966
                                     Height =1243
                                     Name ="btnAdd"
                                     Caption ="&Add"
-                                    Picture ="plus.ico"
+                                    Picture ="btnAdd"
                                     UnicodeAccessKey =65
-                                    ImageData = Begin
-                                        0x0000010001002020000001002000a81000001600000028000000200000004000 ,
-                                        0x0000010020000000000000100000c30e0000c30e000000000000000000000000 ,
-                                        0x0000000000000000000000000000000000003e98f3003e97f9003e97f9003e97 ,
-                                        0xf9003e97f9023e97f9293e97f96c3e97f9ad3e97f9d93e97f9f33e97f9fd3e97 ,
-                                        0xf9fd3e97f9f33e97f9d93e97f9ad3e97f96d3e97f92a3e97f9023e97f9003e97 ,
-                                        0xf9003e97f9003e93fc0000000000000000000000000000000000000000000000 ,
-                                        0x00000000000000000000000000003e97f9003e97f9003e97f9003e97f9013e97 ,
-                                        0xf9373e97f9973e97f9df3e97f9fb3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97 ,
-                                        0xf9ff3e97f9ff3e97f9ff3e97f9ff3e97f9fc3e97f9df3e97f9983e97f9373e97 ,
-                                        0xf9013e97f9003e97f9003e97f900000000000000000000000000000000000000 ,
-                                        0x000000000000000000003e97f9003e97f9003e97f9003e97f9193e97f9893e97 ,
-                                        0xf9ea3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97 ,
-                                        0xf9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ea3e97 ,
-                                        0xf9893e97f9193e97f9003e97f9003e97f9000000000000000000000000000000 ,
-                                        0x0000000000003e97f9003e97f9003e97f9003e97f9353e97f9c23e97f9ff3e97 ,
-                                        0xf9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97 ,
-                                        0xf9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97 ,
-                                        0xf9ff3e97f9c23e97f9353e97f9003e97f9003e97f90000000000000000000000 ,
-                                        0x00003e97f9003e97f9003e97f9003e97f9403e97f9d93e97f9ff3e97f9ff3e97 ,
-                                        0xf9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97 ,
-                                        0xf9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97 ,
-                                        0xf9ff3e97f9ff3e97f9d93e97f9413e97f9003e97f9003e97f900000000004599 ,
-                                        0xf9003e97f9003e97f9003e97f9353e97f9d93e97f9ff3e97f9ff3e97f9ff3e97 ,
-                                        0xf9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3b95f9ff3b95 ,
-                                        0xf9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97 ,
-                                        0xf9ff3e97f9ff3e97f9ff3e97f9d93e97f9353e97f9003e97f9003f8ffa004ba7 ,
-                                        0xfc004099f9003c95f9193e97f9c23e98f9ff3f98f9ff4099f9ff409af9ff4099 ,
-                                        0xf9ff3f99f9ff3f98f9ff3e97f9ff3e97f9ff3d97f9ff459bf9ff72b3fbff72b3 ,
-                                        0xfbff459bf9ff3d97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97 ,
-                                        0xf9ff3e97f9ff3e97f9ff3e97f9ff3e97f9c23e97f9193e97f9003e97f9004aa6 ,
-                                        0xfc0054b1fe0245a0fb8a46a1fbff48a3fbff4aa5fcff4aa6fcff4ba6fcff4aa6 ,
-                                        0xfcff4aa5fcff48a4fbff46a1fbff439dfaff3f99f9ff96c6fcfff9fcfffff9fc ,
-                                        0xffff95c6fcff3d97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97 ,
-                                        0xf9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9893e97f9013e97f9004ca8 ,
-                                        0xfc004ba7fc394ca8fceb4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8 ,
-                                        0xfcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4fa8fcffcce5feffffffffffffff ,
-                                        0xffffc9e2fdff439af9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97 ,
-                                        0xf9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ea3e97f9373e97f90049a4 ,
-                                        0xfb034ca8fc9a4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8 ,
-                                        0xfcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff51abfcffcfe8feffffffffffffff ,
-                                        0xffffcbe3fdff449af9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97 ,
-                                        0xf9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9973e97f9024ba7 ,
-                                        0xfc2b4ca8fce04ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8 ,
-                                        0xfcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff51abfcffcfe7feffffffffffffff ,
-                                        0xffffcde5feff479efaff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97 ,
-                                        0xf9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9df3e97f92a4ca8 ,
-                                        0xfc6f4ca8fcfc4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8 ,
-                                        0xfcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff51abfcffcfe7feffffffffffffff ,
-                                        0xffffcfe8feff50a9fcff429dfaff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97 ,
-                                        0xf9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9fc3e97f96c4ca8 ,
-                                        0xfcaf4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8 ,
-                                        0xfcff4ca8fcff4ca8fcff4ca8fcff4ba8fcff51aafcffcee7feffffffffffffff ,
-                                        0xffffcee7feff51abfcff4aa6fcff429dfaff3e97f9ff3e97f9ff3e97f9ff3e97 ,
-                                        0xf9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ad4ca8 ,
-                                        0xfcdc4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ba8fcff50aa ,
-                                        0xfcff51abfcff51abfcff51abfcff51aafcff56adfcffd0e8feffffffffffffff ,
-                                        0xffffd0e8feff56adfcff51abfcff50a9fcff479efaff449af9ff439af9ff3d97 ,
-                                        0xf9ff3d97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9d94ca8 ,
-                                        0xfcf54ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff52abfcff9dcffdffcde7 ,
-                                        0xfeffcee7feffcee7feffcee7feffcee7feffd0e8fefff2f9ffffffffffffffff ,
-                                        0xfffff2f9ffffd0e8feffcee7feffcee7feffcde5feffcbe3fdffc9e2fdff96c6 ,
-                                        0xfcff459bf9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9f34ca8 ,
-                                        0xfcfe4ca8fcff4ca8fcff4ca8fcff4ca8fcff49a7fcff7dc0fdfff9fcffffffff ,
-                                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
-                                        0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9fc ,
-                                        0xffff72b3fbff3b95f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9fd4ca8 ,
-                                        0xfcfe4ca8fcff4ca8fcff4ca8fcff4ca8fcff49a7fcff7dc0fdfff9fcffffffff ,
-                                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
-                                        0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9fc ,
-                                        0xffff72b3fbff3b95f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9fd4ca8 ,
-                                        0xfcf54ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff52abfcff9dcffdffcde7 ,
-                                        0xfeffcee7feffcee7feffcee7feffcee7feffd0e8fefff2f9ffffffffffffffff ,
-                                        0xfffff2f9ffffd0e8feffcee7feffcee7feffcee7feffcfe8feffcce5feff96c6 ,
-                                        0xfcff459bf9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9f34ca8 ,
-                                        0xfcdc4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ba8fcff4ba8fcff50aa ,
-                                        0xfcff51abfcff51abfcff51abfcff51aafcff56adfcffd0e8feffffffffffffff ,
-                                        0xffffd0e8feff56adfcff51aafcff51abfcff51abfcff51abfcff4ea7fcff3f98 ,
-                                        0xf9ff3d97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9d94ca8 ,
-                                        0xfcb04ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8 ,
-                                        0xfcff4ca8fcff4ca8fcff4ca8fcff4ba8fcff51aafcffcee7feffffffffffffff ,
-                                        0xffffcee7feff51aafcff4ba8fcff4ca8fcff4ca8fcff4ca8fcff4ba7fcff429c ,
-                                        0xfaff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ad4ca8 ,
-                                        0xfc6f4ca8fcfc4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8 ,
-                                        0xfcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff51abfcffcfe7feffffffffffffff ,
-                                        0xffffcfe7feff51abfcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff459f ,
-                                        0xfaff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9fc3e97f96c4ba7 ,
-                                        0xfc2c4ca8fce14ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8 ,
-                                        0xfcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff51abfcffcfe7feffffffffffffff ,
-                                        0xffffcfe7feff51abfcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff47a2 ,
-                                        0xfbff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9df3e97f92a49a5 ,
-                                        0xfc034ca8fc9a4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8 ,
-                                        0xfcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff51abfcffcfe8feffffffffffffff ,
-                                        0xffffcfe8feff51abfcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff49a4 ,
-                                        0xfbff3f98f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9973e97f9024ca8 ,
-                                        0xfc004ca7fc394ca8fcec4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8 ,
-                                        0xfcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff51aafcffcde7feffffffffffffff ,
-                                        0xffffcde7feff51aafcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff49a5 ,
-                                        0xfbff3f98f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ea3e97f9373e97f9004ba7 ,
-                                        0xfc0049a4fc024ca8fc8c4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8 ,
-                                        0xfcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ba8fcff9dcffdfff9fcfffff9fc ,
-                                        0xffff9dcffdff4ba8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4aa5 ,
-                                        0xfbff3f98f9ff3e97f9ff3e97f9ff3e97f9ff3e97f98a3e97f9023e97f9004ba7 ,
-                                        0xfc004ba7fc004ba7fc1a4ca8fcc44ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8 ,
-                                        0xfcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff52abfcff7dc0fdff7dc0 ,
-                                        0xfdff52abfcff4ba8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff49a5 ,
-                                        0xfbff3f98f9ff3e97f9ff3e97f9ff3e97f9c23e97f9193e97f9003e97f9003094 ,
-                                        0xf7004da9fc004ca8fc004ba7fc374ca8fcdb4ca8fcff4ca8fcff4ca8fcff4ca8 ,
-                                        0xfcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff49a7fcff49a7 ,
-                                        0xfcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff48a3 ,
-                                        0xfbff3e98f9ff3e97f9ff3e97f9d93e97f9353e97f9003e97f9002e94ff000000 ,
-                                        0x00004aa6fc0049a5fb004da9fc004ca7fc434ca8fcdb4ca8fcff4ca8fcff4ca8 ,
-                                        0xfcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8 ,
-                                        0xfcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff47a1 ,
-                                        0xfbff3e97f9ff3e97f9d93e97f9413e97f9003e97f9003e97f900000000000000 ,
-                                        0x0000000000004aa6fc004aa6fc004da9fc004ba7fc374ca8fcc44ca8fcff4ca8 ,
-                                        0xfcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8 ,
-                                        0xfcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff449e ,
-                                        0xfaff3e97f9c23e97f9353e97f9003e97f9003e97f90000000000000000000000 ,
-                                        0x000000000000000000004ba6fc0049a5fb004ca8fc004ba7fc1a4ca8fc8c4ca8 ,
-                                        0xfceb4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8 ,
-                                        0xfcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ba7fceb439d ,
-                                        0xfa8a3c95f9193e97f9003e97f9003e97f9000000000000000000000000000000 ,
-                                        0x00000000000000000000000000004aa6fc004da9fc004ba7fc0049a4fb024ca7 ,
-                                        0xfc394ca8fc9a4ca8fce14ca8fcfc4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8 ,
-                                        0xfcff4ca8fcff4ca8fcff4ca8fcff4ca8fcfc4ca8fce14ca8fc9a4ba7fc394eaa ,
-                                        0xfc024099f9003e97f9003e97f900000000000000000000000000000000000000 ,
-                                        0x0000000000000000000000000000000000002d89f4004ba7fc004ba7fc004ca8 ,
-                                        0xfc0049a5fb034ba7fc2b4ca8fc6f4ca8fcaf4ca8fcdc4ca8fcf54ca8fcfe4ca8 ,
-                                        0xfcfe4ca8fcf54ca8fcdc4ca8fcb04ca8fc6f4ba7fc2c49a4fc034ca7fc0048a3 ,
-                                        0xfb0049a5fb00288ff9000000000000000000000000000000000000000000f800 ,
-                                        0x001ff000000fe0000007c0000003800000010000000000000000000000000000 ,
-                                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-                                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-                                        0x0000000000000000000080000001c0000003e0000007f000000ff800001f
-                                    End
 
                                     CursorOnHover =1
                                     LayoutCachedLeft =172
@@ -400,150 +265,15 @@ Begin Form
                                 Begin CommandButton
                                     OverlapFlags =215
                                     AccessKey =69
+                                    PictureType =2
                                     Left =1487
                                     Top =572
                                     Width =966
                                     Height =1243
                                     Name ="btnEdit"
                                     Caption ="&Edit"
-                                    Picture ="pencil.ico"
+                                    Picture ="btnEdit"
                                     UnicodeAccessKey =69
-                                    ImageData = Begin
-                                        0x0000010001002020000001002000a81000001600000028000000200000004000 ,
-                                        0x0000010020000000000000100000c30e0000c30e00000000000000000000035c ,
-                                        0xbd84035cbdf1035cbdfb035cbded035cbddd035cbdcb035cbdb8035cbda4045d ,
-                                        0xbe8f045dbe7a045dbe68045dbe56055ebf3c0054b50c338cee00439cfe003e97 ,
-                                        0xf900000000000000000000000000000000000000000000000000000000000000 ,
-                                        0x000000000000000000000000000000000000000000000000000000000000025b ,
-                                        0xbcf1025bbcff025bbcff025bbcff025bbcff025bbcff025bbcff025bbcff025b ,
-                                        0xbcff025bbcfe025bbcfc025bbcf8025bbcee166fd1a6429bfd1e3d96f8003e97 ,
-                                        0xf9003e97f9000000000000000000000000000000000000000000000000000000 ,
-                                        0x000000000000000000000000000000000000000000000000000000000000025b ,
-                                        0xbcfb025bbcff025bbcff025bbcff025bbcff025bbcff025bbcff025bbcff025b ,
-                                        0xbcff025bbcff025bbcff015abbff0a63c4ff328bedff3f98fabd3e97f9273e97 ,
-                                        0xf9003e97f9003e97f90000000000000000000000000000000000000000000000 ,
-                                        0x000000000000000000000000000000000000000000000000000000000000025b ,
-                                        0xbced025bbcff025bbcff025bbcff025bbcff025bbcff025bbcff025bbcff025b ,
-                                        0xbcff025bbcff025bbcff045dbeff267fe1ff3e97f9ff3e97f9ff3e97f9c83e97 ,
-                                        0xf9303e97f9003e97f9003e97f900000000000000000000000000000000000000 ,
-                                        0x000000000000000000000000000000000000000000000000000000000000025b ,
-                                        0xbcdd025bbcff025bbcff025bbcff025bbcff025bbcff025bbcff025bbcff025b ,
-                                        0xbcff025bbcff025bbcff1b74d5ff3c95f7ff3e97f9ff3e97f9ff3e97f9ff3e97 ,
-                                        0xf9d03e97f9373e97f9003e97f9003e97f9000000000000000000000000000000 ,
-                                        0x000000000000000000000000000000000000000000000000000000000000035c ,
-                                        0xbdcb025bbcff025bbcff025bbcff025bbcff025bbcff025bbcff025bbcff025b ,
-                                        0xbcff015abbff126bcdff3992f4ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97 ,
-                                        0xf9ff3e97f9d73e97f93d3e97f9003e97f9003e97f90002060b00000000000000 ,
-                                        0x000000000000000000000000000000000000000000000000000000000000035c ,
-                                        0xbdb8025bbcff025bbcff025bbcff025bbcff025bbcff025bbcff025bbcff015a ,
-                                        0xbbff0e67c8ff358eefff3f98faff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97 ,
-                                        0xf9ff3e97f9ff3e97f9db3e97f9423e97f9003e97f9003e97f90004090f000000 ,
-                                        0x000000000000000000000000000000000000000000000000000000000000035c ,
-                                        0xbda3025bbcff025bbcff025bbcff025bbcff025bbcff025bbcff015abbff0e67 ,
-                                        0xc6ff3b96eeff49a4fcff46a1fbff439dfaff4099f9ff3e97f9ff3e97f9ff3e97 ,
-                                        0xf9ff3e97f9ff3e97f9ff3e97f9de3e97f9443e97f9003e97f9003e97f9000001 ,
-                                        0x020000000000000000000000000000000000000000000000000000000000035c ,
-                                        0xbd8f025bbcff025bbcff025bbcff025bbcff025bbcff015abbff0e67c6ff3b96 ,
-                                        0xedff4da9fdff4ca8fcff4ca8fcff4ca8fcff4aa6fcff46a1fbff419bfaff3e97 ,
-                                        0xf9ff3e97f9ff3e97f9ff3e97f9ff3e97f9df3e97f9453e97f9003e97f9003e97 ,
-                                        0xf90000000000000000000000000000000000000000000000000000000000045d ,
-                                        0xbe7b025bbcff025bbcff025bbcff025bbcff015abbff106ac8ff3c97eeff4da9 ,
-                                        0xfdff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ba7fcff46a0 ,
-                                        0xfbff4099f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9de3e97f9433e97f9003e97 ,
-                                        0xf9003e97f900000000000000000000000000000000000000000000000000045d ,
-                                        0xbe68025bbcfc025bbcff025bbcff025bbcff1670ceff409cf2ff4da9fdff4ca8 ,
-                                        0xfcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8 ,
-                                        0xfcff49a4fbff429bfaff3e97f9ff3e97f9ff3e97f9ff3e97f9dc3e97f9403e97 ,
-                                        0xf9003e97f9003e97f9000000000000000000000000000000000000000000045d ,
-                                        0xbe57025bbcf8015abbff045dbeff217bd6ff45a1f6ff4da9fdff4ca8fcff4ca8 ,
-                                        0xfcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8 ,
-                                        0xfcff4ca8fcff4ba6fcff439dfaff3e97f9ff3e97f9ff3e97f9ff3e97f9d93e97 ,
-                                        0xf93b3e97f9003e97f9003e97f90000000000000000000000000000000000055e ,
-                                        0xbe3d025bbcee0b65c4ff2f8ae3ff4aa6faff4da9fcff4ca8fcff4ca8fcff4ca8 ,
-                                        0xfcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8 ,
-                                        0xfcff4ca8fcff4ca8fcff4ba7fcff439dfaff3e97f9ff3e97f9ff3e97f9ff3e97 ,
-                                        0xf9d43e97f9344b85fa00ff00ff00685cfb000000000000000000000000000050 ,
-                                        0xb30c1b75d1a63e99f0ff4da9fdff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8 ,
-                                        0xfcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8 ,
-                                        0xfcff4ca8fcff4ca8fcff4ca8fcff4aa6fcff419bfaff3e97f9ff3e97f9ff3e97 ,
-                                        0xf9ff3e97f9cd4b85fa2c527bfa007e3efc006660fb0000000000000000003e9a ,
-                                        0xf0004facff1e4da9fdbd4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8 ,
-                                        0xfcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8 ,
-                                        0xfcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff49a4fbff3f99f9ff3e97f9ff3d98 ,
-                                        0xf9ff4d82faff6d56fcc4734efc23724efc007649fc006364fb000000000053b0 ,
-                                        0xff004ba7fb004ba7fc274ca8fcc84ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8 ,
-                                        0xfcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8 ,
-                                        0xfcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff45a0fbff3d98f9ff4a87 ,
-                                        0xfaff6c57fcff754bfcff734dfcb7744cfc1a5b6ffb003b9bf9003d98f9004aa5 ,
-                                        0xfc0051aefd004ca8fc004ba7fc304ca8fcd14ca8fcff4ca8fcff4ca8fcff4ca8 ,
-                                        0xfcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8 ,
-                                        0xfcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4aa7fcff4a8dfaff6a5a ,
-                                        0xfbff754bfcff744cfcff744cfcff685dfba83c9af9114193f9003e97f9000000 ,
-                                        0x00004aa6fc0046a1fb004ca8fc004ca7fc374ca8fcd74ca8fcff4ca8fcff4ca8 ,
-                                        0xfcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8 ,
-                                        0xfcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca9fcff529bfcff6a60fcff754b ,
-                                        0xfcff744cfcff754bfcff6c57fcff4987faff3d98f9953e97f90a3e97f9000000 ,
-                                        0x0000000000004aa6fc0049a5fc004ca8fc004ca7fc3e4ca8fcdb4ca8fcff4ca8 ,
-                                        0xfcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8 ,
-                                        0xfcff4ca8fcff4ca8fcff4ca8fcff4ca9fcff519cfcff6a64fcff744bfcff744c ,
-                                        0xfcff744bfcff6f53fcff4e81faff3d98f9ff3e97f9fc3e97f97a3e97f9020000 ,
-                                        0x000000000000000000004aa6fc004aa6fc004ca8fc004ca7fc424ca8fcde4ca8 ,
-                                        0xfcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8 ,
-                                        0xfcff4ca8fcff4ca8fcff4ca9fcff519dfcff6966fcff744bfcff744cfcff744b ,
-                                        0xfcff7150fcff527bfaff3e97f9ff3e97f9ff3e97f9ff3e97f9e83e97f93d0000 ,
-                                        0x00000000000000000000000000004ba6fc004aa6fc004da9fc004ba7fc454ca8 ,
-                                        0xfcdf4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8 ,
-                                        0xfcff4ca8fcff4ca9fcff519dfcff6966fcff744bfcff744cfcff744cfcff724f ,
-                                        0xfcff5577faff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f99c0000 ,
-                                        0x0000000000000000000000000000000000004aa6fc004aa6fb004da8fc004ba8 ,
-                                        0xfc454ca8fcdf4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8 ,
-                                        0xfcff4ca9fcff519cfcff6966fcff744bfcff744cfcff744cfcff734ffcff5b77 ,
-                                        0xfbff3f96f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9dd0000 ,
-                                        0x000000000000000000000000000000000000000202004aa7fb004aa6fb004da9 ,
-                                        0xfc004ba7fc444ca8fcdd4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca9 ,
-                                        0xfcff529bfcff6a64fcff744bfcff744cfcff744cfcff734efcff607afcff4aa2 ,
-                                        0xfbff3e98f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9fa0000 ,
-                                        0x00000000000000000000000000000000000000000000000202004aa7fc004aa6 ,
-                                        0xfc004ca9fc004ca7fc404ca8fcd94ca8fcff4ca8fcff4ca8fcff4ca9fcff5398 ,
-                                        0xfcff6b61fcff744bfcff744cfcff744bfcff734efcff607afcff4da6fcff49a5 ,
-                                        0xfbff3f98f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9fe0000 ,
-                                        0x0000000000000000000000000000000000000000000000000000000000004ba6 ,
-                                        0xfc004aa6fc004ca8fc004ba7fc3b4ca8fcd44ca8fcff4ca9fcff5594fcff6c5e ,
-                                        0xfcff744bfcff744cfcff744bfcff734ffcff5f7cfcff4da6fcff4ca9fcff4aa5 ,
-                                        0xfbff3f98f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9e90000 ,
-                                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-                                        0x00004aa6fc004aa5fc004ca8fc004ba8fc344ca7fccd578efcff6e59fcff744b ,
-                                        0xfcff744cfcff744bfcff7251fcff5d80fcff4da7fcff4ca8fcff4ca8fcff49a5 ,
-                                        0xfbff3f98f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9a70000 ,
-                                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-                                        0x0000000000004aa6fc0048a4fb005691fc005591fc2c6f58fcc4744bfcff744c ,
-                                        0xfcff744bfcff7054fcff5b86fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff48a4 ,
-                                        0xfbff3e98f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9dd3e97f9350000 ,
-                                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-                                        0x000000000000000000004aa6fc00ff00f8005b86fc00744cfc23734dfcb8744b ,
-                                        0xfcff6e5afcff588dfcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff47a1 ,
-                                        0xfbff3e97f9ff3e97f9ff3e97f9ff3e97f9ff3e97f9f33e97f95b3e97f9000000 ,
-                                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-                                        0x00000000000000000000000000006d58fc007942fc00734efc00754afc1a6b60 ,
-                                        0xfca95495fcff4ca9fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ca8fcff449e ,
-                                        0xfaff3e97f9ff3e97f9ff3e97f9ff3e97f9f83e97f9763e97f9023e97f9000000 ,
-                                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-                                        0x0000000000000000000000000000000000006c5bfc007549fc006176fc004aaa ,
-                                        0xfc114ba9fc954ca8fcfc4ca8fcff4ca8fcff4ca8fcff4ca8fcff4ba7fcff419b ,
-                                        0xfaff3e97f9ff3e97f9ff3e97f9f33e97f9763e97f9053e97f9003e97f9000000 ,
-                                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-                                        0x000000000000000000000000000000000000000000006960fb0049adfc004ea2 ,
-                                        0xfc004ba7fc0a4ca8fc7a4ca8fce84ca8fcff4ca8fcff4ca8fcff48a3fbff3f98 ,
-                                        0xf9ff3e97f9ff3e97f9dc3e97f95b3e97f9023e97f9003e97f9003d95f9000000 ,
-                                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-                                        0x000000000000000000000000000000000000000000000000000047a1fa004ba7 ,
-                                        0xfc004ba7fc0048a3fb024ba7fc3e4ca8fc9d4ca8fcde4ca8fcfa449efafd3e97 ,
-                                        0xf9e93e97f9a63e97f9353e97f9003e97f9003e97f9003e97fa00000000000000 ,
-                                        0x7fff00003fff00001fff00000fff000007ff000001ff000000ff0000007f0000 ,
-                                        0x007f0000003f0000001f0000000f000000070000000300000001000000000000 ,
-                                        0x000080000000c0000000e0000000f0000000f8000000f8000000fc000000ff00 ,
-                                        0x0000ff800000ffc00000ffe00000fff00000fff80000fffc0000fffe0001
-                                    End
 
                                     CursorOnHover =1
                                     LayoutCachedLeft =1487
@@ -587,164 +317,29 @@ Begin Form
                     Begin
                         Begin Page
                             OverlapFlags =87
-                            Left =2730
-                            Top =540
-                            Width =3045
-                            Height =1365
+                            Left =2710
+                            Top =470
+                            Width =3090
+                            Height =1460
                             Name ="Page29"
                             Caption ="DATA"
-                            LayoutCachedLeft =2730
-                            LayoutCachedTop =540
-                            LayoutCachedWidth =5775
-                            LayoutCachedHeight =1905
+                            LayoutCachedLeft =2710
+                            LayoutCachedTop =470
+                            LayoutCachedWidth =5800
+                            LayoutCachedHeight =1930
                             Begin
                                 Begin CommandButton
                                     OverlapFlags =215
                                     AccessKey =82
+                                    PictureType =2
                                     Left =2760
                                     Top =568
                                     Width =966
                                     Height =1243
                                     Name ="btnRefresh"
                                     Caption ="&Refresh"
-                                    Picture ="repost.ico"
+                                    Picture ="btnRefresh"
                                     UnicodeAccessKey =82
-                                    ImageData = Begin
-                                        0x0000010001002020000001002000a81000001600000028000000200000004000 ,
-                                        0x0000010020000000000000100000c30e0000c30e000000000000000000000000 ,
-                                        0x00000000000000000000000000002882400036b2570037b1570036b2570036b2 ,
-                                        0x570036b2570136b2570836b2570936b2570936b2570936b2570936b2570538b1 ,
-                                        0x5a0036b25600000000000000000036b2570036b2570036b2570036b2570336b2 ,
-                                        0x570336b2570036b2570036b25700000000000000000000000000000000000000 ,
-                                        0x00000000000000000000298d440036b2570036b2570036b2570036b2571936b2 ,
-                                        0x576336b2579f36b257b636b257b936b257b936b257ba36b257bd36b2577436b2 ,
-                                        0x570236b257000000000035b1570036b2570036b2570036b2573136b257a336b2 ,
-                                        0x579f36b2572b36b2570036b2570036b157000000000000000000000000000000 ,
-                                        0x0000000000000000000036b2570036b2570036b2570036b2574936b257cc36b2 ,
-                                        0x57fe36b257ff36b257ff36b257ff36b257ff36b257fe36b257a536b2572d36b1 ,
-                                        0x570036b257000000000036b2570036b2570036b2571436b257c036b257ff36b2 ,
-                                        0x57ff36b257b636b2570f36b2570036b257000000000000000000000000000000 ,
-                                        0x00000000000037b1570035b1590036b2570036b2574a36b257e736b257ff36b2 ,
-                                        0x57ff36b257ff36b257ff36b257ff36b257fc36b2578736b2570936b2570035b3 ,
-                                        0x560036b2570036b2570036b2570036b2570036b2577b36b257fe36b257ff36b2 ,
-                                        0x57ff36b257fc36b2577036b2570036b2570036b2570000000000000000000000 ,
-                                        0x00000000000036b2570036b2570036b2571a36b257cd36b257ff36b257ff36b2 ,
-                                        0x57ff36b257ff36b257ff36b257ff36b257b636b2570e36b2570036b2570036b2 ,
-                                        0x570035b2570036b2570036b2570036b2573936b257e736b257ff36b257ff36b2 ,
-                                        0x57ff36b257ff36b257e136b2573136b2570036b2570038b35900000000000000 ,
-                                        0x00000000000026a9490036b2570036b2576636b257fe36b257ff36b257ff36b2 ,
-                                        0x57ff36b257ff36b257ff36b257f836b2575136b2570036b2570035b257000000 ,
-                                        0x000036b2570036b2570036b2570f36b257b536b257ff36b257ff36b257ff36b2 ,
-                                        0x57ff36b257ff36b257ff36b257ab36b2570a36b2570036b25700000000000000 ,
-                                        0x00000000000038b3590037b3580238b359a439b45aff3ab55bff3bb55cff3bb5 ,
-                                        0x5bff39b45aff37b358ff36b257dd36b2571d36b2570036b257000000000036b2 ,
-                                        0x570036b2570036b2570036b2577036b257fc36b257ff36b257ff36b257ff36b2 ,
-                                        0x57ff36b257ff36b257ff36b257fa36b2576536b2570036b2570036b257000000 ,
-                                        0x0000000000004ec06e004dbf6d0950c170bd52c373ff54c474ff55c475ff54c4 ,
-                                        0x74ff53c373ff4fc16fff4abe6bcb45bb650f46bb6600123d200034b35a0036b2 ,
-                                        0x570036b2570036b2572f36b257e036b257ff36b257ff36b257ff36b257ff36b2 ,
-                                        0x57ff36b257ff36b257ff36b257ff36b257d936b2572736b2570036b257000000 ,
-                                        0x00000000000055c4750055c4750a58c678c158c678ff58c678ff58c678ff58c6 ,
-                                        0x78ff58c678ff59c679ff58c678ca55c4750f55c475000000000052c2720038b3 ,
-                                        0x590034b1550836b257a536b257ff36b257ff36b257ff36b257ff36b257ff36b2 ,
-                                        0x57ff36b257ff36b257ff36b257ff36b257ff36b2579a36b2570536b257000000 ,
-                                        0x00000000000054c4750054c3750a57c678c158c678ff58c678ff58c678ff58c6 ,
-                                        0x78ff58c678ff58c678ff58c678ca55c4750f54c4740050c0700063cc820036b2 ,
-                                        0x570038b3595636b257f636b257ff36b257ff36b257ff36b257ff36b257ff36b2 ,
-                                        0x57ff36b257ff36b257ff36b257ff36b257ff36b257f236b2574a36b257000000 ,
-                                        0x00000000000054c4750054c3750a57c678c158c678ff58c678ff58c678ff58c6 ,
-                                        0x78ff58c678ff58c678ff58c678ca55c4750f54c4740054c4740056c5760059c6 ,
-                                        0x791750c170c93fb760ff36b257ff36b257ff36b257ff36b257ff36b257ff36b2 ,
-                                        0x57ff36b257ff36b257ff36b257ff36b257ff36b257ff36b257bc36b257130000 ,
-                                        0x00000000000054c4750054c3750a57c678c158c678ff58c678ff58c678ff58c6 ,
-                                        0x78ff58c678ff58c678ff58c678ca55c4750f54c4740053c373005bc87b0057c6 ,
-                                        0x777258c678fe54c475ff42b962ff36b257ff36b257ff36b257ff36b257ff36b2 ,
-                                        0x57ff36b257ff36b257ff36b257ff36b257ff36b257ff36b257f936b257710000 ,
-                                        0x00000000000054c4750054c3750a57c678c158c678ff58c678ff58c678ff58c6 ,
-                                        0x78ff58c678ff58c678ff58c678ca55c4750f54c4740056c5760056c5761758c6 ,
-                                        0x78d158c678ff58c678ff55c475ff41b962ff36b257ff36b257ff36b257ff36b2 ,
-                                        0x57ff36b257ff36b257ff36b257ff36b257ff36b257ff36b257ff36b257e00000 ,
-                                        0x00000000000054c4750054c3750a57c678c158c678ff58c678ff58c678ff58c6 ,
-                                        0x78ff58c678ff58c678ff58c678ca55c4750f54c4740056c5760056c5761c58c6 ,
-                                        0x78db58c678ff58c678ff58c678ff54c474ff3eb75fff36b257ff36b257ff36b2 ,
-                                        0x57ff36b257ff36b257ff36b257ff36b257ff36b257ff36b257ff36b257ed0000 ,
-                                        0x00000000000054c4750054c3750a57c678c158c678ff58c678ff58c678ff58c6 ,
-                                        0x78ff58c678ff58c678ff58c678ca55c4750f54c4740055c475004fc16f0157c6 ,
-                                        0x776458c678da58c678ea58c678eb58c678fb50c170ff39b45aff36b257ff36b2 ,
-                                        0x57ff36b257ff36b257ff36b257f936b257ea36b257e936b257d436b2576555c4 ,
-                                        0x740057c5770057c5770053c3740757c678c058c678ff58c678ff58c678ff58c6 ,
-                                        0x78ff58c678ff58c678ff58c678c954c4740c56c5770057c5770055c475004bbf ,
-                                        0x6c0157c5771c57c6772a57c5773758c678d358c678ff47bc67ff36b257ff36b2 ,
-                                        0x57ff36b257ff36b257ff36b257c936b2573136b2572936b2571938b45600006d ,
-                                        0x000057c5771a57c6772a57c5773358c678cb58c678ff58c678ff58c678ff58c6 ,
-                                        0x78ff58c678ff58c678ff58c678d357c5773757c6772a57c5771c4cbf6b0155c4 ,
-                                        0x750057c5770057c5770055c4740c58c678ca58c678ff54c474ff3cb55cff36b2 ,
-                                        0x57ff36b257ff36b257ff36b257bd36b2570736b2570036b2570036b2570057c5 ,
-                                        0x776758c678d558c678ea58c678eb58c678fa58c678ff58c678ff58c678ff58c6 ,
-                                        0x78ff58c678ff58c678ff58c678fb58c678eb58c678ea58c678da57c677644fc0 ,
-                                        0x6f0155c4750055c4750055c4750f58c678ca58c678ff58c678ff47bc68ff36b2 ,
-                                        0x57ff36b257ff36b257ff36b257be36b2570936b25700000000000000000058c6 ,
-                                        0x78ef58c678ff58c678ff58c678ff58c678ff58c678ff58c678ff58c678ff58c6 ,
-                                        0x78ff58c678ff58c678ff58c678ff58c678ff58c678ff58c678ff58c678db56c5 ,
-                                        0x761c56c5760055c4750055c4750f58c678ca58c678ff58c678ff52c272ff39b4 ,
-                                        0x5aff36b257ff36b257ff36b257be36b2570936b25700000000000000000058c6 ,
-                                        0x78e358c678ff58c678ff58c678ff58c678ff58c678ff58c678ff58c678ff58c6 ,
-                                        0x78ff58c678ff58c678ff58c678ff58c678ff58c678ff58c678ff58c678d056c5 ,
-                                        0x761756c5760055c4750055c4750f58c678ca58c678ff58c678ff57c577ff3fb7 ,
-                                        0x60ff36b257ff36b257ff36b257be36b2570936b25700000000000000000057c6 ,
-                                        0x777458c678fa58c678ff58c678ff58c678ff58c678ff58c678ff58c678ff58c6 ,
-                                        0x78ff58c678ff58c678ff58c678ff58c678ff58c678ff58c678fe57c677725bc8 ,
-                                        0x7b0052c3730055c4750055c4750f58c678ca58c678ff58c678ff58c678ff47bc ,
-                                        0x67ff36b257ff36b257ff36b257be36b2570936b25700000000000000000056c5 ,
-                                        0x761458c678be58c678ff58c678ff58c678ff58c678ff58c678ff58c678ff58c6 ,
-                                        0x78ff58c678ff58c678ff58c678ff58c678ff58c678ff58c678c956c5761756c5 ,
-                                        0x760054c4740055c4750055c4750f58c678ca58c678ff58c678ff59c679ff4cbf ,
-                                        0x6dff36b257ff36b257ff36b257be36b2570936b25700000000000000000058c6 ,
-                                        0x780057c5774d58c678f358c678ff58c678ff58c678ff58c678ff58c678ff58c6 ,
-                                        0x78ff58c678ff58c678ff58c678ff58c678ff58c678f757c5775858c6780060cb ,
-                                        0x80004ec16f0055c4750055c4750f58c678ca58c678ff58c678ff58c678ff50c1 ,
-                                        0x70ff37b358ff36b257ff36b257be36b2570936b25700000000000000000056c5 ,
-                                        0x760054c4740557c6779c58c678ff58c678ff58c678ff58c678ff58c678ff58c6 ,
-                                        0x78ff58c678ff58c678ff58c678ff58c678ff58c678a755c4750856c5760053c3 ,
-                                        0x73000000000055c4750055c4750f58c678ca58c678ff58c678ff58c678ff52c2 ,
-                                        0x72ff38b359ff36b257ff36b257be36b2570936b25700000000000000000056c5 ,
-                                        0x760057c5770057c5772858c678db58c678ff58c678ff58c678ff58c678ff58c6 ,
-                                        0x78ff58c678ff58c678ff58c678ff58c678e257c5773157c6770057c5770056c8 ,
-                                        0x72002b753e0055c5750056c5761058c678cc58c678ff58c678ff58c678ff52c3 ,
-                                        0x72ff39b45aff36b257ff36b257bb36b2570836b2570000000000000000004ec0 ,
-                                        0x6f0051c271005ac77a0057c6776758c678fa58c678ff58c678ff58c678ff58c6 ,
-                                        0x78ff58c678ff58c678ff58c678fd57c677725dc97d0053c3730051c270000000 ,
-                                        0x000052c2720056c5770056c5771f58c678de58c678ff58c678ff58c678ff51c2 ,
-                                        0x72ff38b359ff36b257ff36b257a336b2570236b2570000000000000000000000 ,
-                                        0x000055c4750056c5760055c4750b58c678ad58c678ff58c678ff58c678ff58c6 ,
-                                        0x78ff58c678ff58c678ff58c678b756c5761056c5760055c475000000000058c6 ,
-                                        0x790058c6780058c6780057c5775358c678f958c678ff58c678ff59c678ff4fc1 ,
-                                        0x6fff37b358ff36b257fe36b2576636b2570035b3550000000000000000000000 ,
-                                        0x00004abd6b0057c5770057c6770057c5773258c678e258c678ff58c678ff58c6 ,
-                                        0x78ff58c678ff58c678e857c5773b58c6780058c678004fc170004fc16f0057c5 ,
-                                        0x770056c5760056c5760f58c678b858c678ff58c678ff58c678ff59c679ff4bbe ,
-                                        0x6bff36b257ff36b257cd36b2571a36b2570036b2570000000000000000000000 ,
-                                        0x00000000000051c2710053c373005dc97d0057c6777358c678fd58c678ff58c6 ,
-                                        0x78ff58c678ff57c6777e8fe5ad0054c4740052c3720054c4740044bb650057c5 ,
-                                        0x770055c4750957c6778a58c678fd58c678ff58c678ff58c678ff58c678ff44ba ,
-                                        0x65ff35b256e736b2574a36b2570036b2580036b3570000000000000000000000 ,
-                                        0x0000000000000000000055c4750056c5760056c5761058c678b858c678ff58c6 ,
-                                        0x78ff58c678c256c5761556c5760055c475000000000054c4740068cf870057c5 ,
-                                        0x772f58c678a758c678fe58c678ff58c678ff58c678ff58c678ff56c576fe3fb7 ,
-                                        0x5fcc35b1564936b2570036b2570036b257000000000000000000000000000000 ,
-                                        0x000000000000000000004fc26f0058c6780058c6780057c5772d57c678a158c6 ,
-                                        0x78a557c5773358c678005ac77a0051c272000000000054c4740053c3730257c5 ,
-                                        0x777757c677c057c678bc57c678bc57c678bc58c678b958c678a155c475643fb7 ,
-                                        0x60193db65e0036b2570036b257002c9147000000000000000000000000000000 ,
-                                        0x000000000000000000000000000053c373005dc97d0058c6780052c3720353c3 ,
-                                        0x720458c6780076d9970053c37300000000000000000053c3730052c4740054c4 ,
-                                        0x750654c4740a54c4740a54c4740a54c4740a54c474094dc06e0255c4750040b8 ,
-                                        0x6100d1ffee0036b257002e95490000000000000000000000000000000000f000 ,
-                                        0x300fe0002007e0002007c0000003c0000001c0008001c0010000c0000000c002 ,
-                                        0x0000c0000000c0000000c0000000c0000000c0000000c0000000000000000000 ,
-                                        0x0000000000030000000300000003000000030000000300000003000040030000 ,
-                                        0x0003000080038001000380000003c0000003e0040007e0040007f00c000f
-                                    End
 
                                     CursorOnHover =1
                                     LayoutCachedLeft =2760
@@ -997,7 +592,7 @@ Begin Form
                     Left =45
                     Top =2175
                     Width =27045
-                    Height =12930
+                    Height =12935
                     FontWeight =700
                     TabIndex =2
                     Name ="TabCtl21"
@@ -1005,20 +600,20 @@ Begin Form
                     LayoutCachedLeft =45
                     LayoutCachedTop =2175
                     LayoutCachedWidth =27090
-                    LayoutCachedHeight =15105
+                    LayoutCachedHeight =15110
                     Begin
                         Begin Page
                             OverlapFlags =87
-                            Left =120
-                            Top =2655
-                            Width =26895
-                            Height =12371
+                            Left =100
+                            Top =2590
+                            Width =26940
+                            Height =12470
                             Name ="Page22"
                             Caption ="DASHBOARD"
-                            LayoutCachedLeft =120
-                            LayoutCachedTop =2655
-                            LayoutCachedWidth =27015
-                            LayoutCachedHeight =15026
+                            LayoutCachedLeft =100
+                            LayoutCachedTop =2590
+                            LayoutCachedWidth =27040
+                            LayoutCachedHeight =15060
                             Begin
                                 Begin Rectangle
                                     SpecialEffect =0
@@ -1856,29 +1451,29 @@ Begin Form
                         End
                         Begin Page
                             OverlapFlags =247
-                            Left =120
-                            Top =2655
-                            Width =26895
-                            Height =12375
+                            Left =100
+                            Top =2590
+                            Width =26940
+                            Height =12470
                             Name ="Page13"
                             Caption ="OPEN"
-                            LayoutCachedLeft =120
-                            LayoutCachedTop =2655
-                            LayoutCachedWidth =27015
-                            LayoutCachedHeight =15030
+                            LayoutCachedLeft =100
+                            LayoutCachedTop =2590
+                            LayoutCachedWidth =27040
+                            LayoutCachedHeight =15060
                         End
                         Begin Page
                             OverlapFlags =247
-                            Left =120
-                            Top =2655
-                            Width =26895
-                            Height =12375
+                            Left =100
+                            Top =2590
+                            Width =26940
+                            Height =12470
                             Name ="Page14"
                             Caption ="CLOSED"
-                            LayoutCachedLeft =120
-                            LayoutCachedTop =2655
-                            LayoutCachedWidth =27015
-                            LayoutCachedHeight =15030
+                            LayoutCachedLeft =100
+                            LayoutCachedTop =2590
+                            LayoutCachedWidth =27040
+                            LayoutCachedHeight =15060
                         End
                     End
                 End

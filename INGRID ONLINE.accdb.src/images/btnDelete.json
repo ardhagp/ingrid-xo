@@ -1,0 +1,12 @@
+﻿{
+  "Info": {
+    "Class": "clsDbSharedImage",
+    "Description": "Shared Image Gallery Item"
+  },
+  "Items": {
+    "Name": "btnDelete",
+    "FileName": "btnDelete.png",
+    "Extension": "png",
+    "ContentHash": "41cc57a"
+  }
+}

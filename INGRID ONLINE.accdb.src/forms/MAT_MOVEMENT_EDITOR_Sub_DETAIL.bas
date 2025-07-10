@@ -15,10 +15,10 @@ Begin Form
     Width =20352
     DatasheetFontHeight =11
     ItemSuffix =3
-    Left =5910
-    Top =4980
-    Right =26730
-    Bottom =11055
+    Left =7990
+    Top =5000
+    Right =28810
+    Bottom =11070
     RecSrcDt = Begin
         0x9653158d4b62e640
     End
@@ -114,19 +114,20 @@ Begin Form
                 Begin CommandButton
                     OverlapFlags =85
                     TextFontFamily =34
+                    PictureType =2
                     Left =113
                     Top =113
                     Width =501
-                    Height =403
+                    Height =502
                     TabIndex =1
                     Name ="Command2"
-                    Caption ="."
                     FontName ="Segoe UI"
+                    Picture ="btnSave"
 
                     LayoutCachedLeft =113
                     LayoutCachedTop =113
                     LayoutCachedWidth =614
-                    LayoutCachedHeight =516
+                    LayoutCachedHeight =615
                     ThemeFontIndex =-1
                 End
             End

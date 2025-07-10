@@ -1,0 +1,12 @@
+﻿{
+  "Info": {
+    "Class": "clsDbSharedImage",
+    "Description": "Shared Image Gallery Item"
+  },
+  "Items": {
+    "Name": "btnRefresh",
+    "FileName": "btnRefresh.png",
+    "Extension": "png",
+    "ContentHash": "1e5c2d3"
+  }
+}

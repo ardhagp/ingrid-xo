@@ -1,0 +1,12 @@
+﻿{
+  "Info": {
+    "Class": "clsDbSharedImage",
+    "Description": "Shared Image Gallery Item"
+  },
+  "Items": {
+    "Name": "Logo_CloudComputing",
+    "FileName": "Logo_CloudComputing.png",
+    "Extension": "png",
+    "ContentHash": "8cdedfe"
+  }
+}
