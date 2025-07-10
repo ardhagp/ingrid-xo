@@ -15,10 +15,10 @@ Begin Form
     Width =20352
     DatasheetFontHeight =11
     ItemSuffix =3
-    Left =7990
+    Left =9670
     Top =5000
-    Right =28810
-    Bottom =11070
+    Right =30500
+    Bottom =11080
     RecSrcDt = Begin
         0x9653158d4b62e640
     End
@@ -104,6 +104,7 @@ Begin Form
                     Top =694
                     Width =20235
                     Height =5550
+                    TabIndex =1
                     Name ="MAT_MOVEMENT_EDITOR_Sub_DETAIL"
                     SourceObject ="Form.MAT_MOVEMENT_EDITOR_Sub_ITEM"
 
@@ -119,11 +120,12 @@ Begin Form
                     Top =113
                     Width =501
                     Height =502
-                    TabIndex =1
-                    Name ="Command2"
+                    Name ="btnSave"
                     FontName ="Segoe UI"
+                    ControlTipText ="Save"
                     Picture ="btnSave"
 
+                    CursorOnHover =1
                     LayoutCachedLeft =113
                     LayoutCachedTop =113
                     LayoutCachedWidth =614

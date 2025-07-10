@@ -4,6 +4,7 @@ Begin Form
     RecordSelectors = NotDefault
     AutoCenter = NotDefault
     DividingLines = NotDefault
+    FilterOn = NotDefault
     DefaultView =2
     ViewsAllowed =2
     RecordLocks =2
@@ -14,10 +15,10 @@ Begin Form
     Width =11520
     DatasheetFontHeight =11
     ItemSuffix =62
-    Left =1190
-    Top =2300
-    Right =21160
-    Bottom =7580
+    Left =4970
+    Top =2310
+    Right =24940
+    Bottom =7590
     RecSrcDt = Begin
         0xcd05b8b46962e640
     End

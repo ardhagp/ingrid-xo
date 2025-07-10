@@ -4,7 +4,7 @@ Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Option Compare Database
 
-Private Sub btn_OpenThisRecord_Click()
+Private Sub btnReadOnly_Click()
 On Error GoTo ErrorHandle
 
     TX_DIRECTION.SetFocus

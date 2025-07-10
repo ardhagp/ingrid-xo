@@ -2494,14 +2494,14 @@ Begin Form
                                     Width =4881
                                     Height =7026
                                     TabIndex =2
+                                    BorderColor =5026082
                                     Name ="FRM_FINDMATERIAL_INCOMING"
 
                                     LayoutCachedLeft =226
                                     LayoutCachedTop =3521
                                     LayoutCachedWidth =5107
                                     LayoutCachedHeight =10547
-                                    BorderThemeColorIndex =2
-                                    BorderTint =75.0
+                                    BorderThemeColorIndex =-1
                                     BorderShade =100.0
                                     Begin
                                         Begin Label
@@ -2513,6 +2513,8 @@ Begin Form
                                             Top =3401
                                             Width =1415
                                             Height =315
+                                            BackColor =5026082
+                                            BorderColor =5026082
                                             Name ="Label108"
                                             Caption ="Find Material"
                                             FontName ="Segoe UI"
@@ -2521,10 +2523,9 @@ Begin Form
                                             LayoutCachedWidth =1761
                                             LayoutCachedHeight =3716
                                             ThemeFontIndex =-1
-                                            BackThemeColorIndex =2
-                                            BackTint =75.0
-                                            BorderThemeColorIndex =2
-                                            BorderTint =75.0
+                                            BackThemeColorIndex =-1
+                                            BorderThemeColorIndex =-1
+                                            BorderTint =100.0
                                             ForeThemeColorIndex =1
                                             ForeTint =100.0
                                         End
@@ -2538,14 +2539,14 @@ Begin Form
                                     Width =21551
                                     Height =7011
                                     TabIndex =3
+                                    BorderColor =5026082
                                     Name ="Frame109"
 
                                     LayoutCachedLeft =5272
                                     LayoutCachedTop =3521
                                     LayoutCachedWidth =26823
                                     LayoutCachedHeight =10532
-                                    BorderThemeColorIndex =2
-                                    BorderTint =75.0
+                                    BorderThemeColorIndex =-1
                                     BorderShade =100.0
                                     Begin
                                         Begin Label
@@ -2557,6 +2558,8 @@ Begin Form
                                             Top =3401
                                             Width =2145
                                             Height =315
+                                            BackColor =5026082
+                                            BorderColor =5026082
                                             Name ="Label110"
                                             Caption ="Material in Shipment"
                                             FontName ="Segoe UI"
@@ -2565,10 +2568,9 @@ Begin Form
                                             LayoutCachedWidth =7537
                                             LayoutCachedHeight =3716
                                             ThemeFontIndex =-1
-                                            BackThemeColorIndex =2
-                                            BackTint =75.0
-                                            BorderThemeColorIndex =2
-                                            BorderTint =75.0
+                                            BackThemeColorIndex =-1
+                                            BorderThemeColorIndex =-1
+                                            BorderTint =100.0
                                             ForeThemeColorIndex =1
                                             ForeTint =100.0
                                         End
@@ -2576,6 +2578,7 @@ Begin Form
                                 End
                                 Begin Subform
                                     OverlapFlags =247
+                                    OldBorderStyle =0
                                     Left =5499
                                     Top =3848
                                     Width =21095

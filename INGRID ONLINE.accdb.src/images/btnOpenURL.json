@@ -1,0 +1,12 @@
+﻿{
+  "Info": {
+    "Class": "clsDbSharedImage",
+    "Description": "Shared Image Gallery Item"
+  },
+  "Items": {
+    "Name": "btnOpenURL",
+    "FileName": "btnOpenURL.png",
+    "Extension": "png",
+    "ContentHash": "4b82e9d"
+  }
+}
