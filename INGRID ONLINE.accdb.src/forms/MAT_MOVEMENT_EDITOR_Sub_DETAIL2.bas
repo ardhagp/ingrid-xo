@@ -3,8 +3,14 @@ VersionRequired =20
 Begin Form
     AutoResize = NotDefault
     RecordSelectors = NotDefault
+    MaxButton = NotDefault
+    MinButton = NotDefault
+    ControlBox = NotDefault
+    NavigationButtons = NotDefault
+    CloseButton = NotDefault
     DividingLines = NotDefault
     DefaultView =0
+    ScrollBars =0
     TabularFamily =0
     BorderStyle =1
     PictureAlignment =2
@@ -14,9 +20,9 @@ Begin Form
     DatasheetFontHeight =11
     ItemSuffix =7
     Left =-6770
-    Top =1330
+    Top =4930
     Right =14060
-    Bottom =7410
+    Bottom =11010
     RecSrcDt = Begin
         0xb8f523bccb65e640
     End
@@ -81,6 +87,15 @@ Begin Form
             PressedForeThemeColorIndex =0
             PressedForeTint =75.0
         End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
         Begin TextBox
             AddColon = NotDefault
             FELineBreak = NotDefault
@@ -112,7 +127,7 @@ Begin Form
         End
         Begin Section
             CanGrow = NotDefault
-            Height =4308
+            Height =4818
             Name ="Detail"
             AlternateBackThemeColorIndex =1
             AlternateBackShade =95.0
@@ -162,7 +177,7 @@ Begin Form
                     Left =56
                     Top =566
                     Width =20350
-                    Height =3630
+                    Height =4250
                     TabIndex =1
                     Name ="MAT_MOVEMENT_EDITOR_Sub_ITEM"
                     SourceObject ="Form.MAT_MOVEMENT_EDITOR_Sub_ITEM"
@@ -172,7 +187,7 @@ Begin Form
                     LayoutCachedLeft =56
                     LayoutCachedTop =566
                     LayoutCachedWidth =20406
-                    LayoutCachedHeight =4196
+                    LayoutCachedHeight =4816
                 End
             End
         End
