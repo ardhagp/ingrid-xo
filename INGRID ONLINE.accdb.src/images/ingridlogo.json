@@ -1,0 +1,12 @@
+﻿{
+  "Info": {
+    "Class": "clsDbSharedImage",
+    "Description": "Shared Image Gallery Item"
+  },
+  "Items": {
+    "Name": "ingridlogo",
+    "FileName": "ingridlogo.png",
+    "Extension": "png",
+    "ContentHash": "bf5100f"
+  }
+}

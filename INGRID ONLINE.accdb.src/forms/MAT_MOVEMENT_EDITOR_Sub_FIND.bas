@@ -2,27 +2,25 @@
 VersionRequired =20
 Begin Form
     RecordSelectors = NotDefault
-    AllowDeletions = NotDefault
+    NavigationButtons = NotDefault
     DividingLines = NotDefault
-    AllowAdditions = NotDefault
-    AllowEdits = NotDefault
     AllowDesignChanges = NotDefault
-    RecordLocks =2
+    DefaultView =0
     TabularFamily =0
+    BorderStyle =0
     PictureAlignment =2
     DatasheetGridlinesBehavior =3
     GridY =10
-    Width =4251
+    Width =4081
     DatasheetFontHeight =11
-    ItemSuffix =10
-    Left =740
-    Top =2700
-    Right =5070
-    Bottom =7470
+    ItemSuffix =3
+    Left =1000
+    Top =4890
+    Right =5450
+    Bottom =11200
     RecSrcDt = Begin
-        0x4749bfe6e74ae640
+        0xaffd631ccd65e640
     End
-    Caption ="RESULT : FIND MATERIALS"
     DatasheetFontName ="Aptos"
     FilterOnLoad =0
     ShowPageMargins =0
@@ -48,13 +46,6 @@ Begin Form
             BorderTint =50.0
             ForeThemeColorIndex =0
             ForeTint =60.0
-            GridlineThemeColorIndex =1
-            GridlineShade =65.0
-        End
-        Begin Line
-            BorderLineStyle =0
-            Width =1701
-            BorderThemeColorIndex =0
             GridlineThemeColorIndex =1
             GridlineShade =65.0
         End
@@ -107,203 +98,73 @@ Begin Form
             GridlineShade =65.0
         End
         Begin Section
-            CanGrow = NotDefault
-            Height =2280
+            Height =5499
             Name ="Detail"
             AlternateBackThemeColorIndex =1
             AlternateBackShade =95.0
             BackThemeColorIndex =1
             Begin
+                Begin TextBox
+                    OverlapFlags =85
+                    TextFontFamily =34
+                    IMESentenceMode =3
+                    Left =1406
+                    Top =170
+                    Width =2561
+                    Height =290
+                    ForeColor =0
+                    Name ="Text0"
+                    FontName ="Segoe UI"
+
+                    LayoutCachedLeft =1406
+                    LayoutCachedTop =170
+                    LayoutCachedWidth =3967
+                    LayoutCachedHeight =460
+                    BorderThemeColorIndex =2
+                    BorderTint =75.0
+                    BorderShade =100.0
+                    ThemeFontIndex =-1
+                    ForeTint =100.0
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextFontFamily =34
+                            Left =56
+                            Top =170
+                            Width =1270
+                            Height =300
+                            ForeColor =0
+                            Name ="Label1"
+                            Caption ="Contain Text"
+                            FontName ="Segoe UI"
+                            LayoutCachedLeft =56
+                            LayoutCachedTop =170
+                            LayoutCachedWidth =1326
+                            LayoutCachedHeight =470
+                            ThemeFontIndex =-1
+                            ForeTint =100.0
+                        End
+                    End
+                End
                 Begin CommandButton
                     OverlapFlags =85
-                    Left =3970
-                    Top =60
-                    Width =236
-                    Height =2093
-                    TabIndex =2
-                    Name ="btn_OpenThisDate"
-                    ControlTipText ="Show movement on this date"
-                    ImageData = Begin
-                        0x2800000010000000100000000100200000000000000000000000000000000000 ,
-                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-                        0x000000000000000000000000000000000000000000000000b17d4ae1b17d4a36 ,
-                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-                        0x000000000000000000000000000000000000000000000000b17d4affb17d4af6 ,
-                        0xb17d4a6000000000000000000000000000000000000000000000000000000000 ,
-                        0x000000000000000000000000000000000000000000000000b17d4affb17d4aff ,
-                        0xb17d4affb17d4a96b17d4a060000000000000000000000000000000000000000 ,
-                        0x000000000000000000000000000000000000000000000000b17d4affb17d4aff ,
-                        0xb17d4affb17d4affb17d4ac3b17d4a1800000000000000000000000000000000 ,
-                        0x000000000000000000000000000000000000000000000000b17d4affb17d4aff ,
-                        0xb17d4affb17d4affb17d4affb17d4ae7b17d4a39000000000000000000000000 ,
-                        0x000000000000000000000000000000000000000000000000b17d4affb17d4aff ,
-                        0xb17d4affb17d4affb17d4affb17d4affb17d4af9b17d4a660000000000000000 ,
-                        0x000000000000000000000000000000000000000000000000b17d4affb17d4aff ,
-                        0xb17d4affb17d4affb17d4affb17d4affb17d4af9b17d4a660000000000000000 ,
-                        0x000000000000000000000000000000000000000000000000b17d4affb17d4aff ,
-                        0xb17d4affb17d4affb17d4affb17d4ae7b17d4a39000000000000000000000000 ,
-                        0x000000000000000000000000000000000000000000000000b17d4affb17d4aff ,
-                        0xb17d4affb17d4affb17d4ac6b17d4a1800000000000000000000000000000000 ,
-                        0x000000000000000000000000000000000000000000000000b17d4affb17d4aff ,
-                        0xb17d4affb17d4a99b17d4a060000000000000000000000000000000000000000 ,
-                        0x000000000000000000000000000000000000000000000000b17d4affb17d4af9 ,
-                        0xb17d4a6600000000000000000000000000000000000000000000000000000000 ,
-                        0x000000000000000000000000000000000000000000000000b17d4ae7b17d4a39 ,
-                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-                        0x0000000000000000
-                    End
-
-                    CursorOnHover =1
-                    LayoutCachedLeft =3970
-                    LayoutCachedTop =60
-                    LayoutCachedWidth =4206
-                    LayoutCachedHeight =2153
-                End
-                Begin TextBox
-                    OldBorderStyle =0
-                    OverlapFlags =85
                     TextFontFamily =34
-                    IMESentenceMode =3
-                    Left =918
-                    Top =60
-                    Width =2711
-                    Height =290
-                    ForeColor =0
-                    Name ="Text3"
-                    FontName ="Segoe UI"
-
-                    LayoutCachedLeft =918
-                    LayoutCachedTop =60
-                    LayoutCachedWidth =3629
-                    LayoutCachedHeight =350
-                    ThemeFontIndex =-1
-                    ForeTint =100.0
-                    Begin
-                        Begin Label
-                            OverlapFlags =85
-                            TextFontFamily =34
-                            Left =60
-                            Top =60
-                            Width =590
-                            Height =290
-                            ForeColor =0
-                            Name ="Label4"
-                            Caption ="MIAP"
-                            FontName ="Segoe UI"
-                            LayoutCachedLeft =60
-                            LayoutCachedTop =60
-                            LayoutCachedWidth =650
-                            LayoutCachedHeight =350
-                            ThemeFontIndex =-1
-                            BorderThemeColorIndex =-1
-                            ForeTint =100.0
-                        End
-                    End
-                End
-                Begin TextBox
-                    OldBorderStyle =0
-                    OverlapFlags =85
-                    TextFontFamily =34
-                    IMESentenceMode =3
-                    Left =919
-                    Top =400
-                    Width =2711
-                    Height =290
+                    Left =60
+                    Top =680
+                    Width =3912
+                    Height =334
                     TabIndex =1
                     ForeColor =0
-                    Name ="Text5"
+                    Name ="Command2"
+                    Caption ="Search"
                     FontName ="Segoe UI"
 
-                    LayoutCachedLeft =919
-                    LayoutCachedTop =400
-                    LayoutCachedWidth =3630
-                    LayoutCachedHeight =690
-                    ThemeFontIndex =-1
-                    ForeTint =100.0
-                    Begin
-                        Begin Label
-                            OverlapFlags =85
-                            TextFontFamily =34
-                            Left =60
-                            Top =400
-                            Width =590
-                            Height =290
-                            ForeColor =0
-                            Name ="Label6"
-                            Caption ="DCD"
-                            FontName ="Segoe UI"
-                            LayoutCachedLeft =60
-                            LayoutCachedTop =400
-                            LayoutCachedWidth =650
-                            LayoutCachedHeight =690
-                            ThemeFontIndex =-1
-                            BorderThemeColorIndex =-1
-                            ForeTint =100.0
-                        End
-                    End
-                End
-                Begin Line
-                    BorderWidth =2
-                    OverlapFlags =85
-                    Left =60
-                    Top =2270
-                    Width =3852
-                    BorderColor =2366701
-                    Name ="Line7"
                     LayoutCachedLeft =60
-                    LayoutCachedTop =2270
-                    LayoutCachedWidth =3912
-                    LayoutCachedHeight =2270
-                    BorderThemeColorIndex =-1
-                End
-                Begin TextBox
-                    CanGrow = NotDefault
-                    OldBorderStyle =0
-                    OverlapFlags =85
-                    TextFontFamily =34
-                    IMESentenceMode =3
-                    Left =919
-                    Top =741
-                    Width =2721
-                    Height =790
-                    TabIndex =3
-                    ForeColor =0
-                    Name ="Text8"
-                    FontName ="Segoe UI"
-
-                    LayoutCachedLeft =919
-                    LayoutCachedTop =741
-                    LayoutCachedWidth =3640
-                    LayoutCachedHeight =1531
-                    ThemeFontIndex =-1
+                    LayoutCachedTop =680
+                    LayoutCachedWidth =3972
+                    LayoutCachedHeight =1014
                     ForeTint =100.0
-                    Begin
-                        Begin Label
-                            OverlapFlags =85
-                            TextFontFamily =34
-                            Left =60
-                            Top =741
-                            Width =850
-                            Height =330
-                            ForeColor =0
-                            Name ="Label9"
-                            Caption ="Material"
-                            FontName ="Segoe UI"
-                            LayoutCachedLeft =60
-                            LayoutCachedTop =741
-                            LayoutCachedWidth =910
-                            LayoutCachedHeight =1071
-                            ThemeFontIndex =-1
-                            ForeTint =100.0
-                        End
-                    End
+                    ThemeFontIndex =-1
                 End
             End
         End

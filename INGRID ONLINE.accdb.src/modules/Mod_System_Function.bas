@@ -194,6 +194,7 @@ CharacterBank = Array("0", "1", "2", "3", "4", "5", "6", "7", "8", "9", _
 
 End Function
 
+'''
 Public Sub Get_ApplicationIcon()
 Dim db As DAO.Database
 Dim rs As DAO.Recordset
@@ -263,6 +264,20 @@ Sub Get_ApplicationIcon_Export()
     ' Show message if file export is success
     ' MsgBox "Attachments exported successfully!"
 End Sub
+
+Public Function Get_AppName(Optional ByVal IncludeExtension As Boolean = True) As String
+    Dim AppName As String
+    AppName = Application.CurrentProject.Name
+
+    If IncludeExtension = False Then
+        AppName = Replace(AppName, ".accdb", "")
+        AppName = Replace(AppName, ".accde", "")
+        AppName = Replace(AppName, ".mdb", "")
+        AppName = Replace(AppName, ".mde", "")
+    End If
+
+    Get_AppName = AppName
+End Function
 
 Public Function Get_IsURLValid(ByVal URL As String, Optional ByVal AlwaysOpenURL As Boolean = True, Optional ByVal AlertInvalidURL As Boolean = True) As Boolean
 On Error GoTo ErrorHandler

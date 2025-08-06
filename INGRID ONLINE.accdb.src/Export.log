@@ -5,7 +5,7 @@ VCS Version 4.1.2
 Full Path: C:\Users\titoa\source\vscode\ingrid-xo\INGRID ONLINE.accdb
 Export Folder: C:\Users\titoa\source\vscode\ingrid-xo\INGRID ONLINE.accdb.src\
 Using Fast Save
-10/07/2025 08:58:18
+01/08/2025 10:35:23
 -------------------------------------
 Scanning for changes...
 No modified db connections found in this database.
@@ -19,11 +19,10 @@ No modified modules found in this database.
 No modified commandbars found in this database.
 No modified shared images found in this database.
 No modified themes found in this database.
-No modified db properties found in this database.
 No modified imex specs found in this database.
 No modified tables found in this database.
-No modified queries found in this database.
-No modified forms found in this database.
+  Removing orphaned file: C:\Users\titoa\source\vscode\ingrid-xo\INGRID ONLINE.accdb.src\forms\TEST_1.bas
+  Removing orphaned file: C:\Users\titoa\source\vscode\ingrid-xo\INGRID ONLINE.accdb.src\forms\TEST_1.cls
 No modified macros found in this database.
 No modified reports found in this database.
 No modified table data macros found in this database.
@@ -32,69 +31,102 @@ No modified doc properties found in this database.
 No modified nav pane groups found in this database.
 No modified hidden attributes found in this database.
 -------------------------------------
+Exporting db properties...    
+  Database Properties (DAO)
+[55] db properties processed.
+-------------------------------------
+Exporting queries...          
+  q_mat_datemove_detail
+    Sanitized in 0,004 seconds.
+  q_mat_datemove_detail (SQL)
+[1] queries processed.
+-------------------------------------
+Exporting forms...            
+  MAT_MOVEMENT_EDITOR
+Loading Printer info for: 'Microsoft Print to PDF'.
+    Sanitized in 0,061 seconds.
+  MAT_MOVEMENT_EDITOR_Sub_DETAIL2
+    Sanitized in 0,006 seconds.
+  MAT_MOVEMENT_EDITOR_Sub_ITEM
+    Sanitized in 0,031 seconds.
+  MAT_MOVEMENT_EDITOR_Sub_FIND_ITEM
+    Sanitized in 0,007 seconds.
+  MAT_MOVEMENT_EDITOR_Sub_FIND
+    Sanitized in 0,004 seconds.
+[5] forms processed.
+-------------------------------------
 Exporting table data...       
   USysRibbons
 [1] table data processed.
 -------------------------------------
-Done. (1,91 seconds)
+Done. (3,01 seconds)
 
 --------------------------------------------------
                 PERFORMANCE REPORTS
 --------------------------------------------------
 Category                      Count     Seconds
 --------------------------------------------------
-Tables                        0         0,23
-DB Properties                 0         0,20
-Forms                         0         0,19
-Shared Images                 0         0,16
-Queries                       0         0,11
-DB Connections                0         0,10
+Forms                         5         0,93
+DB Properties                 55        0,34
+Queries                       1         0,19
+Tables                        0         0,18
+Shared Images                 0         0,15
+DB Connections                0         0,11
 Modules                       0         0,10
-Doc Properties                0         0,08
-Table Data                    1         0,06
-Relations                     0         0,06
-Themes                        0         0,06
-Reports                       0         0,05
-Nav Pane Groups               0         0,04
+Doc Properties                0         0,09
+Relations                     0         0,05
+Nav Pane Groups               0         0,05
+CommandBars                   0         0,04
+Table Data                    1         0,03
+Themes                        0         0,03
+Hidden Attributes             0         0,03
 VBE References                0         0,03
-Hidden Attributes             0         0,02
+Reports                       0         0,02
 Proj Properties               0         0,01
 VB Project                    0         0,01
+IMEX Specs                    0         0,01
 Project                       0         0,01
 Table Data Macros             0         0,01
-IMEX Specs                    0         0,00
-CommandBars                   0         0,00
-Macros                        0         0,00
 VBE Forms                     0         0,00
+Macros                        0         0,00
 Saved Specs                   0         0,00
 --------------------------------------------------
-TOTALS:                       1         1,53
+TOTALS:                       62        2,44
 --------------------------------------------------
 
 --------------------------------------------------
 Operations                    Count     Seconds
 --------------------------------------------------
-Increment Progress            168       0,38
-Convert to JSON               655       0,36
-Clear Orphaned Files          18        0,34
-Scan DB Objects               1         0,27
-Console Updates               3         0,24
-Check for linked table        56        0,08
-Close Open Objects            1         0,06
+Convert to JSON               976       0,49
+Clear Orphaned Files          18        0,42
+Scan DB Objects               1         0,40
+Increment Progress            185       0,21
+Console Updates               4         0,21
+Close Open Objects            1         0,16
+Sanitize File                 6         0,11
+App.SaveAsText()              6         0,10
+Check for linked table        56        0,07
+Format SQL                    1         0,05
 Parse JSON                    1         0,05
-Get VBA Hash                  54        0,03
-Parse JSON ISO Date           221       0,01
-Compute SHA256                92        0,01
+Get VBA Hash                  55        0,03
+Get File Property Hash        12        0,02
+Quick Count Files             1         0,02
+Compute SHA256                121       0,01
+Parse JSON ISO Date           223       0,01
+Write File                    14        0,01
+Read File DevMode             5         0,01
+Delete File                   15        0,01
 Export Table Data as TDF      1         0,01
-Quick Count Files             1         0,01
-Quick Count Objects           1         0,00
-Write File                    1         0,00
-Delete File                   2         0,00
-Read File                     1         0,00
-modFileAccess.VerifyPath      1         0,00
-modFileAccess.GetUncPath      4         0,00
+Read File                     7         0,01
+Quick Count Objects           1         0,01
+Read File Bytes               6         0,00
+modFileAccess.VerifyPath      20        0,00
+Get Modified Date             14        0,00
+Save Query SQL                1         0,00
+Sanitize VBA Code             3         0,00
+modFileAccess.GetUncPath      6         0,00
 --------------------------------------------------
-Other Operations                        0,06
+Other Operations                        0,57
 --------------------------------------------------
 
 

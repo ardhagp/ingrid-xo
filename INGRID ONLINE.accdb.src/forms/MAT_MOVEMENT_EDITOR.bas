@@ -21,10 +21,10 @@ Begin Form
     Width =27105
     DatasheetFontHeight =11
     ItemSuffix =162
-    Left =4420
-    Top =2750
-    Right =23520
-    Bottom =12960
+    Left =910
+    Top =2690
+    Right =20010
+    Bottom =12900
     Filter ="TX_ROWID=3465"
     RecSrcDt = Begin
         0x4c560a7f214ae640
@@ -2470,17 +2470,18 @@ Begin Form
                                 End
                                 Begin Subform
                                     OverlapFlags =247
+                                    OldBorderStyle =0
                                     Left =340
-                                    Top =5325
-                                    Width =4600
-                                    Height =5040
+                                    Top =3795
+                                    Width =4710
+                                    Height =6570
                                     TabIndex =1
                                     Name ="MAT_MOVEMENT_EDITOR_Sub_FIND"
                                     SourceObject ="Form.MAT_MOVEMENT_EDITOR_Sub_FIND"
 
                                     LayoutCachedLeft =340
-                                    LayoutCachedTop =5325
-                                    LayoutCachedWidth =4940
+                                    LayoutCachedTop =3795
+                                    LayoutCachedWidth =5050
                                     LayoutCachedHeight =10365
                                     BorderThemeColorIndex =2
                                     BorderTint =75.0
@@ -2585,7 +2586,7 @@ Begin Form
                                     Height =6345
                                     TabIndex =4
                                     Name ="MAT_MOVEMENT_EDITOR_Sub_INCOMING"
-                                    SourceObject ="Form.MAT_MOVEMENT_EDITOR_Sub_DETAIL"
+                                    SourceObject ="Form.MAT_MOVEMENT_EDITOR_Sub_DETAIL2"
                                     LinkChildFields ="TX_ROWID"
                                     LinkMasterFields ="TX_ROWID"
 
@@ -2596,105 +2597,6 @@ Begin Form
                                     BorderThemeColorIndex =2
                                     BorderTint =75.0
                                     BorderShade =100.0
-                                End
-                                Begin TextBox
-                                    OverlapFlags =247
-                                    TextFontFamily =34
-                                    IMESentenceMode =3
-                                    Left =2097
-                                    Top =3855
-                                    Width =2841
-                                    Height =290
-                                    TabIndex =5
-                                    ForeColor =0
-                                    Name ="TXT_FIND_TEXT1"
-                                    FontName ="Segoe UI"
-
-                                    LayoutCachedLeft =2097
-                                    LayoutCachedTop =3855
-                                    LayoutCachedWidth =4938
-                                    LayoutCachedHeight =4145
-                                    ThemeFontIndex =-1
-                                    ForeTint =100.0
-                                    Begin
-                                        Begin Label
-                                            OverlapFlags =247
-                                            TextFontFamily =34
-                                            Left =510
-                                            Top =3855
-                                            Width =1510
-                                            Height =300
-                                            ForeColor =0
-                                            Name ="LBL_CONTAINTEXT1"
-                                            Caption ="Name"
-                                            FontName ="Segoe UI"
-                                            LayoutCachedLeft =510
-                                            LayoutCachedTop =3855
-                                            LayoutCachedWidth =2020
-                                            LayoutCachedHeight =4155
-                                            ThemeFontIndex =-1
-                                            ForeTint =100.0
-                                        End
-                                    End
-                                End
-                                Begin TextBox
-                                    OverlapFlags =247
-                                    TextFontFamily =34
-                                    IMESentenceMode =3
-                                    Left =2097
-                                    Top =4308
-                                    Width =2842
-                                    Height =290
-                                    TabIndex =6
-                                    ForeColor =0
-                                    Name ="Text143"
-                                    FontName ="Segoe UI"
-
-                                    LayoutCachedLeft =2097
-                                    LayoutCachedTop =4308
-                                    LayoutCachedWidth =4939
-                                    LayoutCachedHeight =4598
-                                    ThemeFontIndex =-1
-                                    ForeTint =100.0
-                                    Begin
-                                        Begin Label
-                                            OverlapFlags =247
-                                            TextFontFamily =34
-                                            Left =510
-                                            Top =4308
-                                            Width =1510
-                                            Height =290
-                                            ForeColor =0
-                                            Name ="Label144"
-                                            Caption ="Part Number"
-                                            FontName ="Segoe UI"
-                                            LayoutCachedLeft =510
-                                            LayoutCachedTop =4308
-                                            LayoutCachedWidth =2020
-                                            LayoutCachedHeight =4598
-                                            ThemeFontIndex =-1
-                                            ForeTint =100.0
-                                        End
-                                    End
-                                End
-                                Begin CommandButton
-                                    OverlapFlags =247
-                                    TextFontFamily =34
-                                    Left =2097
-                                    Top =4762
-                                    Width =2841
-                                    Height =333
-                                    TabIndex =7
-                                    Name ="BTN_FIND_MATERIAL"
-                                    Caption ="Search"
-                                    FontName ="Segoe UI"
-
-                                    CursorOnHover =1
-                                    LayoutCachedLeft =2097
-                                    LayoutCachedTop =4762
-                                    LayoutCachedWidth =4938
-                                    LayoutCachedHeight =5095
-                                    ThemeFontIndex =-1
                                 End
                             End
                         End

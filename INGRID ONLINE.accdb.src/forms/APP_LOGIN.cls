@@ -16,6 +16,7 @@ End Sub
 Private Sub Form_Load()
     Call Init0
     Call Get_ApplicationIcon_Export
+    Call Get_AppName(False)
     DoCmd.Close acForm, "APP_WATCHDOG"
     If Var_Init0 = 0 Then
         Call SysLog.Activity("Someone opening Ingrid in [" & Var_Host & "]", "Login", "Info")

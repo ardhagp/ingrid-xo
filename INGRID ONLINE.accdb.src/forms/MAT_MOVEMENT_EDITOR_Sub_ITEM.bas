@@ -16,11 +16,11 @@ Begin Form
     DatasheetFontHeight =11
     ItemSuffix =62
     Left =4970
-    Top =2310
-    Right =24940
-    Bottom =7590
+    Top =2300
+    Right =25200
+    Bottom =7580
     RecSrcDt = Begin
-        0xcd05b8b46962e640
+        0x4fe87fddcb65e640
     End
     RecordSource ="t_material_movement_detail"
     Caption ="MAT_MOVEMENT_EDITOR_Sub_ITEM"
@@ -109,6 +109,7 @@ Begin Form
                     LayoutCachedTop =342
                     LayoutCachedWidth =2916
                     LayoutCachedHeight =672
+                    DatasheetCaption ="ROW.ID"
                     ThemeFontIndex =-1
                     ForeTint =100.0
                     Begin
@@ -133,6 +134,7 @@ Begin Form
                     End
                 End
                 Begin TextBox
+                    ColumnHidden = NotDefault
                     OverlapFlags =85
                     TextFontFamily =34
                     IMESentenceMode =3
@@ -175,6 +177,7 @@ Begin Form
                     End
                 End
                 Begin TextBox
+                    ColumnHidden = NotDefault
                     OverlapFlags =85
                     TextFontFamily =34
                     IMESentenceMode =3
@@ -226,7 +229,7 @@ Begin Form
                     Top =1539
                     Width =2760
                     Height =600
-                    ColumnWidth =3000
+                    ColumnWidth =970
                     TabIndex =3
                     ForeColor =0
                     Name ="D_NO"
@@ -237,6 +240,7 @@ Begin Form
                     LayoutCachedTop =1539
                     LayoutCachedWidth =4161
                     LayoutCachedHeight =2139
+                    DatasheetCaption ="PO LINE #"
                     ThemeFontIndex =-1
                     ForeTint =100.0
                     Begin
@@ -264,6 +268,7 @@ Begin Form
                     EnterKeyBehavior = NotDefault
                     ScrollBars =2
                     OverlapFlags =85
+                    TextAlign =2
                     TextFontFamily =34
                     IMESentenceMode =3
                     Left =1401
@@ -281,6 +286,7 @@ Begin Form
                     LayoutCachedTop =2223
                     LayoutCachedWidth =4161
                     LayoutCachedHeight =2823
+                    DatasheetCaption ="MIAP CODE"
                     ThemeFontIndex =-1
                     ForeTint =100.0
                     Begin
@@ -308,6 +314,7 @@ Begin Form
                     EnterKeyBehavior = NotDefault
                     ScrollBars =2
                     OverlapFlags =85
+                    TextAlign =2
                     TextFontFamily =34
                     IMESentenceMode =3
                     Left =1401
@@ -325,6 +332,7 @@ Begin Form
                     LayoutCachedTop =2907
                     LayoutCachedWidth =4161
                     LayoutCachedHeight =3507
+                    DatasheetCaption ="DCD CODE"
                     ThemeFontIndex =-1
                     ForeTint =100.0
                     Begin
@@ -369,6 +377,7 @@ Begin Form
                     LayoutCachedTop =3591
                     LayoutCachedWidth =4161
                     LayoutCachedHeight =4731
+                    DatasheetCaption ="MATERIAL NAME"
                     ThemeFontIndex =-1
                     ForeTint =100.0
                     Begin
@@ -396,6 +405,7 @@ Begin Form
                     EnterKeyBehavior = NotDefault
                     ScrollBars =2
                     OverlapFlags =85
+                    TextAlign =2
                     TextFontFamily =34
                     IMESentenceMode =3
                     Left =1401
@@ -413,6 +423,7 @@ Begin Form
                     LayoutCachedTop =4845
                     LayoutCachedWidth =4161
                     LayoutCachedHeight =5445
+                    DatasheetCaption ="M.CAT"
                     ThemeFontIndex =-1
                     ForeTint =100.0
                     Begin
@@ -457,6 +468,7 @@ Begin Form
                     LayoutCachedTop =5529
                     LayoutCachedWidth =4161
                     LayoutCachedHeight =6129
+                    DatasheetCaption ="PN"
                     ThemeFontIndex =-1
                     ForeTint =100.0
                     Begin
@@ -482,6 +494,7 @@ Begin Form
                 End
                 Begin TextBox
                     OverlapFlags =85
+                    TextAlign =2
                     TextFontFamily =34
                     IMESentenceMode =3
                     Left =1401
@@ -499,6 +512,7 @@ Begin Form
                     LayoutCachedTop =6213
                     LayoutCachedWidth =2916
                     LayoutCachedHeight =6543
+                    DatasheetCaption ="UOM"
                     ThemeFontIndex =-1
                     ForeTint =100.0
                     Begin
@@ -524,6 +538,7 @@ Begin Form
                 End
                 Begin TextBox
                     OverlapFlags =85
+                    TextAlign =2
                     TextFontFamily =34
                     IMESentenceMode =3
                     Left =1401
@@ -541,6 +556,7 @@ Begin Form
                     LayoutCachedTop =6612
                     LayoutCachedWidth =2916
                     LayoutCachedHeight =6942
+                    DatasheetCaption ="VT"
                     ThemeFontIndex =-1
                     ForeTint =100.0
                     Begin
@@ -583,6 +599,7 @@ Begin Form
                     LayoutCachedTop =7011
                     LayoutCachedWidth =4161
                     LayoutCachedHeight =7341
+                    DatasheetCaption ="QTY"
                     ThemeFontIndex =-1
                     ForeTint =100.0
                     Begin
@@ -610,6 +627,7 @@ Begin Form
                     EnterKeyBehavior = NotDefault
                     ScrollBars =2
                     OverlapFlags =85
+                    TextAlign =2
                     TextFontFamily =34
                     IMESentenceMode =3
                     Left =1401
@@ -627,6 +645,7 @@ Begin Form
                     LayoutCachedTop =7410
                     LayoutCachedWidth =4161
                     LayoutCachedHeight =8010
+                    DatasheetCaption ="PO/COFF"
                     ThemeFontIndex =-1
                     ForeTint =100.0
                     Begin
@@ -664,11 +683,13 @@ Begin Form
                     Name ="D_AVGPRICE"
                     ControlSource ="D_AVGPRICE"
                     FontName ="Segoe UI"
+                    ControlTipText ="Average Moving Price"
 
                     LayoutCachedLeft =1401
                     LayoutCachedTop =8094
                     LayoutCachedWidth =4161
                     LayoutCachedHeight =8424
+                    DatasheetCaption ="AMP"
                     ThemeFontIndex =-1
                     ForeTint =100.0
                     Begin
@@ -711,6 +732,7 @@ Begin Form
                     LayoutCachedTop =342
                     LayoutCachedWidth =8160
                     LayoutCachedHeight =672
+                    DatasheetCaption ="TVAL"
                     ThemeFontIndex =-1
                     ForeTint =100.0
                     Begin
@@ -738,6 +760,7 @@ Begin Form
                     EnterKeyBehavior = NotDefault
                     ScrollBars =2
                     OverlapFlags =85
+                    TextAlign =2
                     TextFontFamily =34
                     IMESentenceMode =3
                     Left =5400
@@ -755,6 +778,7 @@ Begin Form
                     LayoutCachedTop =741
                     LayoutCachedWidth =8160
                     LayoutCachedHeight =1341
+                    DatasheetCaption ="BINLOC"
                     ThemeFontIndex =-1
                     ForeTint =100.0
                     Begin
@@ -779,9 +803,11 @@ Begin Form
                     End
                 End
                 Begin TextBox
+                    ColumnHidden = NotDefault
                     EnterKeyBehavior = NotDefault
                     ScrollBars =2
                     OverlapFlags =85
+                    TextAlign =2
                     TextFontFamily =34
                     IMESentenceMode =3
                     Left =5400
@@ -799,6 +825,7 @@ Begin Form
                     LayoutCachedTop =1425
                     LayoutCachedWidth =8160
                     LayoutCachedHeight =2025
+                    DatasheetCaption ="BINLOC.NEW"
                     ThemeFontIndex =-1
                     ForeTint =100.0
                     Begin
@@ -826,6 +853,7 @@ Begin Form
                     EnterKeyBehavior = NotDefault
                     ScrollBars =2
                     OverlapFlags =93
+                    TextAlign =2
                     TextFontFamily =34
                     IMESentenceMode =3
                     Left =5400
@@ -843,6 +871,7 @@ Begin Form
                     LayoutCachedTop =2109
                     LayoutCachedWidth =8160
                     LayoutCachedHeight =2709
+                    DatasheetCaption ="DESTINATION"
                     ThemeFontIndex =-1
                     ForeTint =100.0
                     Begin
@@ -887,6 +916,7 @@ Begin Form
                     LayoutCachedTop =2793
                     LayoutCachedWidth =8160
                     LayoutCachedHeight =3393
+                    DatasheetCaption ="REFERENCE"
                     ThemeFontIndex =-1
                     ForeTint =100.0
                     Begin
@@ -931,6 +961,7 @@ Begin Form
                     LayoutCachedTop =3477
                     LayoutCachedWidth =8160
                     LayoutCachedHeight =4617
+                    DatasheetCaption ="REMARKS"
                     ThemeFontIndex =-1
                     ForeTint =100.0
                     Begin
@@ -958,6 +989,7 @@ Begin Form
                     EnterKeyBehavior = NotDefault
                     ScrollBars =2
                     OverlapFlags =85
+                    TextAlign =2
                     TextFontFamily =34
                     IMESentenceMode =3
                     Left =5400
@@ -975,6 +1007,7 @@ Begin Form
                     LayoutCachedTop =4731
                     LayoutCachedWidth =8160
                     LayoutCachedHeight =5331
+                    DatasheetCaption ="STOCK TYPE"
                     ThemeFontIndex =-1
                     ForeTint =100.0
                     Begin
@@ -1002,6 +1035,7 @@ Begin Form
                     EnterKeyBehavior = NotDefault
                     ScrollBars =2
                     OverlapFlags =85
+                    TextAlign =2
                     TextFontFamily =34
                     IMESentenceMode =3
                     Left =5400
@@ -1019,6 +1053,7 @@ Begin Form
                     LayoutCachedTop =5415
                     LayoutCachedWidth =8160
                     LayoutCachedHeight =6015
+                    DatasheetCaption ="PLANT"
                     ThemeFontIndex =-1
                     ForeTint =100.0
                     Begin
@@ -1046,6 +1081,7 @@ Begin Form
                     EnterKeyBehavior = NotDefault
                     ScrollBars =2
                     OverlapFlags =85
+                    TextAlign =2
                     TextFontFamily =34
                     IMESentenceMode =3
                     Left =5400
@@ -1063,6 +1099,7 @@ Begin Form
                     LayoutCachedTop =6099
                     LayoutCachedWidth =8160
                     LayoutCachedHeight =6699
+                    DatasheetCaption ="DOC.REFF"
                     ThemeFontIndex =-1
                     ForeTint =100.0
                     Begin
@@ -1088,6 +1125,7 @@ Begin Form
                 End
                 Begin TextBox
                     OverlapFlags =85
+                    TextAlign =2
                     TextFontFamily =34
                     IMESentenceMode =3
                     Left =5400
@@ -1105,6 +1143,7 @@ Begin Form
                     LayoutCachedTop =6783
                     LayoutCachedWidth =7020
                     LayoutCachedHeight =7113
+                    DatasheetCaption ="DOC.DATE"
                     ThemeFontIndex =-1
                     ForeTint =100.0
                     Begin
@@ -1130,6 +1169,7 @@ Begin Form
                 End
                 Begin TextBox
                     OverlapFlags =85
+                    TextAlign =2
                     TextFontFamily =34
                     IMESentenceMode =3
                     Left =5400
@@ -1147,6 +1187,7 @@ Begin Form
                     LayoutCachedTop =7182
                     LayoutCachedWidth =8160
                     LayoutCachedHeight =7512
+                    DatasheetCaption ="M.CAT"
                     ThemeFontIndex =-1
                     ForeTint =100.0
                     Begin
@@ -1174,6 +1215,7 @@ Begin Form
                     EnterKeyBehavior = NotDefault
                     ScrollBars =2
                     OverlapFlags =85
+                    TextAlign =2
                     TextFontFamily =34
                     IMESentenceMode =3
                     Left =5400
@@ -1191,6 +1233,7 @@ Begin Form
                     LayoutCachedTop =7581
                     LayoutCachedWidth =8160
                     LayoutCachedHeight =8181
+                    DatasheetCaption ="SLOC"
                     ThemeFontIndex =-1
                     ForeTint =100.0
                     Begin
@@ -1235,6 +1278,7 @@ Begin Form
                     LayoutCachedTop =342
                     LayoutCachedWidth =11463
                     LayoutCachedHeight =942
+                    DatasheetCaption ="PACKAGING"
                     ThemeFontIndex =-1
                     ForeTint =100.0
                     Begin
@@ -1277,6 +1321,7 @@ Begin Form
                     LayoutCachedTop =1026
                     LayoutCachedWidth =10434
                     LayoutCachedHeight =1356
+                    DatasheetCaption ="FC"
                     ThemeFontIndex =-1
                     ForeTint =100.0
                     Begin
@@ -1319,6 +1364,7 @@ Begin Form
                     LayoutCachedTop =1425
                     LayoutCachedWidth =11463
                     LayoutCachedHeight =1755
+                    DatasheetCaption ="RO.FC"
                     ThemeFontIndex =-1
                     ForeTint =100.0
                     Begin
@@ -1361,6 +1407,7 @@ Begin Form
                     LayoutCachedTop =1824
                     LayoutCachedWidth =11463
                     LayoutCachedHeight =2154
+                    DatasheetCaption ="RO.PLANT"
                     ThemeFontIndex =-1
                     ForeTint =100.0
                     Begin
@@ -1403,6 +1450,7 @@ Begin Form
                     LayoutCachedTop =2437
                     LayoutCachedWidth =11282
                     LayoutCachedHeight =2737
+                    DatasheetCaption ="MIAP CODE.NEW"
                     ThemeFontIndex =-1
                     ForeTint =100.0
                     Begin
@@ -1445,6 +1493,7 @@ Begin Form
                     LayoutCachedTop =3004
                     LayoutCachedWidth =11282
                     LayoutCachedHeight =3304
+                    DatasheetCaption ="DCD CODE.NEW"
                     ThemeFontIndex =-1
                     ForeTint =100.0
                     Begin
