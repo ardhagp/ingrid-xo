@@ -98,6 +98,19 @@ ErrorHandle:
     End If
 End Sub
 
+Private Sub btn_QRCode_New_Click()
+    Dim IsURLString As String
+    Dim IsURLString_Lower() As Byte
+
+    TX_ATT_LINK.SetFocus
+    IsURLString = Trim(TX_ATT_LINK.Text)
+    IsURLString_Lower = StrConv(IsURLString, vbFromUnicode)
+
+    'IMG_QR.PictureData = QRCodegenConvertToData(QRCodegenBarcode(IsURLString), 200, 200)
+    IMG_QR.PictureData = QRCodegenConvertToData(QRCodegenBarcode(IsURLString), 200, 200)
+
+End Sub
+
 Private Sub btnCancel_Click()
 On Error GoTo ErrorHandle
     DoCmd.SetWarnings False

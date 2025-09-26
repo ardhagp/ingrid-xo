@@ -29,9 +29,9 @@ Dim mat() As Byte, kanji As String ' matrix of QR, unicode to kanji conversion
 '   param version optional: minimum version size (-3:M1, -2:M2, .. 1, .. 40)
 '  called from report Detail_Format() to draw DataMatrix barcode QR and micro QR bar code symbol
 Public Sub drawQuickResponse(Text As TextBox, Optional level As String, Optional version As Integer = 1)
-Dim mode As Byte, lev As Byte, S As Long, a As Long, blk As Long, ec As Long
+Dim Mode As Byte, lev As Byte, S As Long, A As Long, blk As Long, ec As Long
 Dim i As Long, j As Long, k As Long, l As Long, c As Long, b As Long
-Dim W As Long, x As Long, y As Long, v As Double, el As Long, eb As Long
+Dim W As Long, X As Long, Y As Long, v As Double, el As Long, eb As Long
 Dim m As Long, P As Variant, ecw As Variant, ecb As Variant
 Dim rpt As Report, txt As String, k1 As String, k2 As String, r As Double
 Const alpha = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ $%*+-./:"
@@ -62,7 +62,7 @@ For j = Len(txt) To 1 Step -1
         txt = Left(txt, j - 1) + utf16to8(Mid(txt, j, 1)) + Mid(txt, j + 1)
     End If
 Next j
-version = IIf(version < mode - 3, mode - 3, version) - 1
+version = IIf(version < Mode - 3, Mode - 3, version) - 1
 Do ' compute minimum QR size
     Dim enc(10000) As Integer, n As Long
     version = version + 1 ' increase version till message fits
@@ -74,46 +74,46 @@ Do ' compute minimum QR size
         alphaHead = (IIf(version > 0, 4, version + 3) + cib(version, 1)) * 6
         byteHead = (IIf(version > 0, 4, version + 3) + cib(version, 2)) * 6
         Dim byteBits(10000) As Long, alphaBits(10000) As Long, numBits(10000) As Long ' len in 1/6 bits
-        i = 0: n = 100000: a = n: b = n ' init values
+        i = 0: n = 100000: A = n: b = n ' init values
         For j = Len(txt) To 0 Step -1  ' compute optimal encoding
             If j < Len(txt) Then ' calculate the bit table by dynamic programming
                 c = AscW(Mid(txt, j + 1, 1))
                 If c And -256 Then ' Kanji
-                    i = 0: n = 100000: a = n: b = b ' init values
+                    i = 0: n = 100000: A = n: b = b ' init values
                 Else
                     n = n + IIf(c > 47 And c < 58, 20, 10000) ' 10/3 bits per char
-                    a = a + IIf(InStr(alpha, ChrW(c)), 33, 10000)  ' 11/2 bits per char
+                    A = A + IIf(InStr(alpha, ChrW(c)), 33, 10000)  ' 11/2 bits per char
                     b = b + 48 ' 8 bits per byte
-                    i = IIf(a < b, a, b): i = ((IIf(i < n, i, n) + 5) \ 6) * 6 ' round up fractional bits
+                    i = IIf(A < b, A, b): i = ((IIf(i < n, i, n) + 5) \ 6) * 6 ' round up fractional bits
                 End If
             End If
             n = IIf(i + numHead < n, i + numHead, n): numBits(j) = n ' switch to shorter encoding
-            a = IIf(i + alphaHead < a, i + alphaHead, a): alphaBits(j) = a
+            A = IIf(i + alphaHead < A, i + alphaHead, A): alphaBits(j) = A
             b = IIf(i + byteHead < b, i + byteHead, b): byteBits(j) = b
         Next j
         enc(0) = 0: el = 0: eb = 0 ' start encoding with mode of fewest bits
-        mode = IIf(AscW(Mid(txt, 1, 1)) And -256, KANJI_M, IIf(b < a And b < n, BYTE_M, IIf(a < n, ALPHA_M, NUM_M)))
+        Mode = IIf(AscW(Mid(txt, 1, 1)) And -256, KANJI_M, IIf(b < A And b < n, BYTE_M, IIf(A < n, ALPHA_M, NUM_M)))
         i = 0
         For j = 1 To Len(txt) ' calc optimal encoding for each char
-            b = IIf(mode = NUM_M, numBits(j) - numHead, IIf(mode = ALPHA_M, alphaBits(j) - alphaHead, byteBits(j) - byteHead))
+            b = IIf(Mode = NUM_M, numBits(j) - numHead, IIf(Mode = ALPHA_M, alphaBits(j) - alphaHead, byteBits(j) - byteHead))
             c = 0: If j < Len(txt) Then c = AscW(Mid(txt, j + 1, 1))
             If j = Len(txt) Or (c And -256) <> 0 Then
                 n = KANJI_M ' mode of next char
-            ElseIf mode = KANJI_M Then ' restart with mode of fewest bits
+            ElseIf Mode = KANJI_M Then ' restart with mode of fewest bits
                 n = IIf(byteBits(j) <= IIf(alphaBits(j) < numBits(j), alphaBits(j), numBits(j)), BYTE_M, IIf(alphaBits(j) <= numBits(j), ALPHA_M, NUM_M))
-            ElseIf c > 47 And c < 58 And (mode = NUM_M Or ((numBits(j + 1) + 25) \ 6) * 6 = b) Then
+            ElseIf c > 47 And c < 58 And (Mode = NUM_M Or ((numBits(j + 1) + 25) \ 6) * 6 = b) Then
                 n = NUM_M ' switch to shortest encoding
-            ElseIf InStr(alpha, ChrW(c)) > 0 And (mode = ALPHA_M Or ((alphaBits(j + 1) + 38) \ 6) * 6 = b) Then
+            ElseIf InStr(alpha, ChrW(c)) > 0 And (Mode = ALPHA_M Or ((alphaBits(j + 1) + 38) \ 6) * 6 = b) Then
                 n = ALPHA_M
             Else
                 n = BYTE_M
             End If
-            If mode <> n Or j = Len(txt) Then ' mode changes -> encode previous
-                If version < -1 And version + 3 < mode Then el = 40 ' block illegal modes
-                If version > 0 Then push 2& ^ mode, 4, enc, el, eb ' mode indicator, QR
-                If version <= 0 Then push mode, version + 3, enc, el, eb ' mode indicator micro QR
-                push j - i, cib(version, mode), enc, el, eb ' character count indicator
-                Select Case mode
+            If Mode <> n Or j = Len(txt) Then ' mode changes -> encode previous
+                If version < -1 And version + 3 < Mode Then el = 40 ' block illegal modes
+                If version > 0 Then push 2& ^ Mode, 4, enc, el, eb ' mode indicator, QR
+                If version <= 0 Then push Mode, version + 3, enc, el, eb ' mode indicator micro QR
+                push j - i, cib(version, Mode), enc, el, eb ' character count indicator
+                Select Case Mode
                 Case NUM_M ' encode numeric data
                     For i = i To j - 3 Step 3
                         push val(Mid(txt, i + 1, 3)), 10, enc, el, eb ' 3 digits in 10 bits
@@ -135,14 +135,14 @@ Do ' compute minimum QR size
                         push (c \ 256) * 192 + (c And 255), 13, enc, el, eb ' 1 char in 13 bits
                     Next i
                 End Select
-                i = j: mode = n ' next segment
+                i = j: Mode = n ' next segment
             End If
         Next j
         m = 1
     End If
     S = version * IIf(version < 1, 2, 4) + 17 ' symbol size
-    a = IIf(version < 2, 0, version \ 7 + 2) ' # of align pattern
-    l = (S - 1) * (S - 1) - (5 * a - 1) * (5 * a - 1) ' total bits - align - timing
+    A = IIf(version < 2, 0, version \ 7 + 2) ' # of align pattern
+    l = (S - 1) * (S - 1) - (5 * A - 1) * (5 * A - 1) ' total bits - align - timing
     l = l - IIf(version < 1, 59, IIf(version < 2, 191, IIf(version < 7, 136, 172))) ' finder, version, format
     i = IIf(version < 1, (version And 1) * 4, 0)  ' M1+M3: +4 bits
     c = ecb(lev)(version + 3) * ecw(lev)(version + 3) ' error correction
@@ -186,9 +186,9 @@ Next i
 eb = el: k = 0
 For c = 1 To blk  ' compute RS correction data for each block
     For i = IIf(c <= b, 1, 0) To W
-        x = enc(eb) Xor enc(k)
+        X = enc(eb) Xor enc(k)
         For j = 1 To ec
-            enc(eb + j - 1) = enc(eb + j) Xor IIf(x, ex((lG(rs(j)) + lG(x)) Mod 255), 0)
+            enc(eb + j - 1) = enc(eb + j) Xor IIf(X, ex((lG(rs(j)) + lG(X)) Mod 255), 0)
         Next j
         k = k + 1
     Next i
@@ -207,25 +207,25 @@ If version > 6 Then ' reserve version area
         mat(S - 11 + i Mod 3, i \ 3) = 2
     Next i
 End If
-If a < 2 Then a = IIf(version < 1, 1, 2)
-For x = 1 To a ' layout finder/align pattern
-    For y = 1 To a
-        If x = 1 And y = 1 Then ' finder upper left
+If A < 2 Then A = IIf(version < 1, 1, 2)
+For X = 1 To A ' layout finder/align pattern
+    For Y = 1 To A
+        If X = 1 And Y = 1 Then ' finder upper left
             i = 0: j = 0
             P = Array(383, 321, 349, 349, 349, 321, 383, 256, 511)
-        ElseIf x = 1 And y = a Then  ' finder lower left
+        ElseIf X = 1 And Y = A Then  ' finder lower left
             i = 0: j = S - 8
             P = Array(256, 383, 321, 349, 349, 349, 321, 383)
-        ElseIf x = a And y = 1 Then  ' finder upper right
+        ElseIf X = A And Y = 1 Then  ' finder upper right
             i = S - 8: j = 0
             P = Array(254, 130, 186, 186, 186, 130, 254, 0, 255)
         Else ' alignment grid
-            c = 2 * Int(2 * (version + 1) / (1 - a)) ' pattern spacing
-            i = IIf(x = 1, 4, S - 9 + c * (a - x))
-            j = IIf(y = 1, 4, S - 9 + c * (a - y))
+            c = 2 * Int(2 * (version + 1) / (1 - A)) ' pattern spacing
+            i = IIf(X = 1, 4, S - 9 + c * (A - X))
+            j = IIf(Y = 1, 4, S - 9 + c * (A - Y))
             P = Array(31, 17, 21, 17, 31) ' alignment pattern
         End If
-        If version <> 1 Or x + y < 4 Then ' no align pattern for version 1
+        If version <> 1 Or X + Y < 4 Then ' no align pattern for version 1
             For c = 0 To UBound(P) ' set fixed pattern, reserve space
                 m = P(c): k = 0
                 Do
@@ -234,9 +234,9 @@ For x = 1 To a ' layout finder/align pattern
                 Loop While 2 ^ k <= P(0)
             Next c
         End If
-    Next y
-Next x
-x = S: y = S - 1 ' layout codewords
+    Next Y
+Next X
+X = S: Y = S - 1 ' layout codewords
 For i = 0 To eb - 1
     c = 0: k = 0: j = W + 1 ' interleave data
     If i >= el Then
@@ -250,22 +250,22 @@ For i = 0 To eb - 1
     End If
     c = enc(c + ((i - k) Mod blk) * j + (i - k) \ blk) ' interleave data
     For j = IIf((-3 And version) = -3 And i = el - 1, 3, 7) To 0 Step -1 ' M1,M3: 4 bit
-        k = IIf(version > 0 And x < 6, 1, 0) ' skip vertical timing pattern
+        k = IIf(version > 0 And X < 6, 1, 0) ' skip vertical timing pattern
         Do ' advance x,y
-            x = x - 1
-            If 1 And (x + 1) Xor k Then
-                If S - x - k And 2 Then
-                    If y > 0 Then y = y - 1: x = x + 2 ' up, top turn
+            X = X - 1
+            If 1 And (X + 1) Xor k Then
+                If S - X - k And 2 Then
+                    If Y > 0 Then Y = Y - 1: X = X + 2 ' up, top turn
                 Else
-                    If y < S - 1 Then y = y + 1: x = x + 2 ' down, bottom turn
+                    If Y < S - 1 Then Y = Y + 1: X = X + 2 ' down, bottom turn
                 End If
             End If
-        Loop While mat(x, y) And 2 ' skip reserved area
-        If c And 2 ^ j Then mat(x, y) = 1
+        Loop While mat(X, Y) And 2 ' skip reserved area
+        If c And 2 ^ j Then mat(X, Y) = 1
     Next j
 Next i
 
-m = 0: a = 1000000 ' data masking
+m = 0: A = 1000000 ' data masking
 ecb = Array(Array(Array(1, 1, 1, 1, 1)), Array(Array(0, 0, 0, 0, 0)), _
         Array(Array(1, 1), Array(1, 1)), Array(Array(0, 0), Array(0, 0)), _
         Array(Array(1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0)), Array(Array(0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1)), _
@@ -273,35 +273,35 @@ ecb = Array(Array(Array(1, 1, 1, 1, 1)), Array(Array(0, 0, 0, 0, 0)), _
 For k = 0 To IIf(version < 1, 3, 7)
     c = 0
     If version < 1 Then ' penalty micro QR
-        x = 1: y = 1
+        X = 1: Y = 1
         For i = 1 To S - 1
-            x = x - getPattern(i, S - 1, k, version)
-            y = y - getPattern(S - 1, i, k, version)
+            X = X - getPattern(i, S - 1, k, version)
+            Y = Y - getPattern(S - 1, i, k, version)
         Next i
-        c = IIf(x > y, 16 * x + y, x + 16 * y)
+        c = IIf(X > Y, 16 * X + Y, X + 16 * Y)
     Else ' penalty QR
         For W = 0 To UBound(ecb) ' look for pattern
             ecw = ecb(W): l = 0
-            For y = 0 To S - UBound(ecw) - 1
+            For Y = 0 To S - UBound(ecw) - 1
                 P = Array(3, 3, 40, 0, 3, 0, 40, 0) ' N1, N2, N3, N4; horizontal/vertical
-                For x = 0 To S - UBound(ecw(0)) - 1
+                For X = 0 To S - UBound(ecw(0)) - 1
                     'If y + UBound(ecw) > s Or x + UBound(ecw(0)) > s Then Exit For
                     i = 1: j = 1 - (W \ 2 And 1)
                     For n = 0 To UBound(ecw)
                         For b = 0 To UBound(ecw(n))
-                            If getPattern(x + b, y + n, k, version) <> ecw(n)(b) Then i = 0 ' horizontal
-                            If (W And 2) = 0 Then If getPattern(y + n, x + b, k, version) <> ecw(n)(b) Then j = 0 ' vertical
+                            If getPattern(X + b, Y + n, k, version) <> ecw(n)(b) Then i = 0 ' horizontal
+                            If (W And 2) = 0 Then If getPattern(Y + n, X + b, k, version) <> ecw(n)(b) Then j = 0 ' vertical
                         Next b
                     Next n
                     c = c + P(W \ 2) * i + P(W \ 2 + 4) * j ' add penalty
                     If W < 2 Then P(0) = 3 - 2 * i: P(4) = 3 - 2 * j ' adjacents: 3-1-1...
                     l = l + i ' N4 dark count
-                Next x
-            Next y
+                Next X
+            Next Y
         Next W
         c = c + Abs(10 - 20 * l \ S \ S) * 10 ' N4 darks
     End If
-    If c < a Then a = c: m = k ' take mask of lower penalty
+    If c < A Then A = c: m = k ' take mask of lower penalty
 Next k
 
 ' add format information, code level and mask
@@ -334,18 +334,18 @@ If version > 6 Then ' add version information
 End If
 
 rpt.ScaleMode = 1 ' scale barcode to textbox
-x = IIf(Text.Width < Text.Height, 0, Text.Height - Text.Width) / 2 - Text.Left
-y = IIf(Text.Width < Text.Height, Text.Width - Text.Height, 0) / 2 - Text.Top
+X = IIf(Text.Width < Text.Height, 0, Text.Height - Text.Width) / 2 - Text.Left
+Y = IIf(Text.Width < Text.Height, Text.Width - Text.Height, 0) / 2 - Text.Top
 r = IIf(Text.Width < Text.Height, Text.Width, Text.Height) / S
-rpt.Scale (x / r, y / r)-((rpt.ScaleWidth + x) / r, (rpt.ScaleHeight + y) / r)
+rpt.Scale (X / r, Y / r)-((rpt.ScaleWidth + X) / r, (rpt.ScaleHeight + Y) / r)
 
-For y = 0 To S - 1 ' layout barcode
-    For x = 0 To S - 1
-        If getPattern(x, y, m, version) Then ' apply mask
-            rpt.Line (x, y)-Step(1, 1), Text.ForeColor, BF
+For Y = 0 To S - 1 ' layout barcode
+    For X = 0 To S - 1
+        If getPattern(X, Y, m, version) Then ' apply mask
+            rpt.Line (X, Y)-Step(1, 1), Text.ForeColor, BF
         End If
-    Next x
-Next y
+    Next X
+Next Y
 
 failed:
 Text.Visible = Err.Number ' hide if no error
@@ -353,20 +353,20 @@ If Err.Number Then Debug.Print "ERROR: " & Err.DESCRIPTION
 End Sub
 
 ' get QR pattern mask
-Private Function getPattern(ByVal x As Long, ByVal y As Long, ByVal m As Integer, ByVal version As Integer) As Integer
+Private Function getPattern(ByVal X As Long, ByVal Y As Long, ByVal m As Integer, ByVal version As Integer) As Integer
 Dim i As Integer, j As Long
 If version < 1 Then m = Array(1, 4, 6, 7)(m) ' mask pattern of micro QR
-i = mat(x, y)
+i = mat(X, Y)
 If i < 2 Then
     Select Case m
-    Case 0: j = (x + y) And 1
-    Case 1: j = y And 1
-    Case 2: j = x Mod 3
-    Case 3: j = (x + y) Mod 3
-    Case 4: j = (x \ 3 + y \ 2) And 1
-    Case 5: j = ((x * y) And 1) + (x * y) Mod 3
-    Case 6: j = (x * y + (x * y) Mod 3) And 1
-    Case 7: j = (x + y + (x * y) Mod 3) And 1
+    Case 0: j = (X + Y) And 1
+    Case 1: j = Y And 1
+    Case 2: j = X Mod 3
+    Case 3: j = (X + Y) Mod 3
+    Case 4: j = (X \ 3 + Y \ 2) And 1
+    Case 5: j = ((X * Y) And 1) + (X * Y) Mod 3
+    Case 6: j = (X * Y + (X * Y) Mod 3) And 1
+    Case 7: j = (X + Y + (X * Y) Mod 3) And 1
     End Select
     If j = 0 Then i = i Xor 1 ' invert only data according mask
 End If

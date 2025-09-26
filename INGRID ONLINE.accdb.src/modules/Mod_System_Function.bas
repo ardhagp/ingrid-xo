@@ -160,7 +160,7 @@ Public Function Get_Code(length As Integer)
 'https://www.thespreadsheetguru.com/generate-random-characters/
 
 Dim CharacterBank As Variant
-Dim x As Long
+Dim X As Long
 Dim str As String
 
 'Test Length Input
@@ -184,10 +184,10 @@ CharacterBank = Array("0", "1", "2", "3", "4", "5", "6", "7", "8", "9", _
   "W", "X", "Y", "Z")
 
 'Randomly Select Characters One-by-One
-  For x = 1 To length
+  For X = 1 To length
     Randomize
     str = str & CharacterBank(Int((UBound(CharacterBank) - LBound(CharacterBank) + 1) * Rnd + LBound(CharacterBank)))
-  Next x
+  Next X
 
 'Output Randomly Generated String
   Get_Code = str

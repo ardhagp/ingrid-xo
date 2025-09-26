@@ -11,7 +11,7 @@ Dim hasher As Object
 Dim TextToHash() As Byte
 Dim hash() As Byte
 Dim cypher() As String
-Dim x As Long
+Dim X As Long
 
 ' Create objects for encoding and hashing
 Set encoder = CreateObject("System.Text.UTF8Encoding")
@@ -25,8 +25,8 @@ hash = hasher.ComputeHash_2(TextToHash)
 
 ' Convert the hash to a hexadecimal string
 ReDim cypher(UBound(hash))
-For x = 0 To UBound(hash)
-    cypher(x) = Hex$(hash(x))
+For X = 0 To UBound(hash)
+    cypher(X) = Hex$(hash(X))
 Next
 
 ' Return the result

@@ -9,7 +9,7 @@ Public Sub drawDataMatrix(Text As Object)
 Dim enc As String, en As String, el As Long, k As Variant, l As Integer
 Dim h As Long, W As Long, nc As Byte, nr As Byte
 Dim fw As Integer, fh As Integer, i As Long, j As Long, b As Double
-Dim c As Long, r As Double, S As Long, x As Long, y As Long
+Dim c As Long, r As Double, S As Long, X As Long, Y As Long
 Dim rpt As Report, txt As String
 On Error GoTo failed
 Set rpt = Text.Parent
@@ -173,9 +173,9 @@ Next i
 For c = 1 To b ' compute RS correction data for each block
     For i = 0 To S: rc(i) = 0: Next i
     For i = c To el Step b
-        x = rc(0) Xor Asc(Mid(enc, i, 1))
+        X = rc(0) Xor Asc(Mid(enc, i, 1))
         For j = 1 To S
-            rc(j - 1) = rc(j) Xor IIf(x, ex((lG(rs(j)) + lG(x)) Mod 255), 0)
+            rc(j - 1) = rc(j) Xor IIf(X, ex((lG(rs(j)) + lG(X)) Mod 255), 0)
         Next j
     Next i
     For i = 0 To S - 1 ' add interleaved correction data
@@ -184,10 +184,10 @@ For c = 1 To b ' compute RS correction data for each block
 Next c
 
 rpt.ScaleMode = 1 ' layout barcode, scale barcode to textbox
-x = Text.Width * (h + 2 * nr): y = Text.Height * (W + 2 * nc)
-i = IIf(x < y, 0, Text.Width * (y - x) / x) / 2 - Text.Left
-j = IIf(x < y, Text.Height * (x - y) / y, 0) / 2 - Text.Top
-r = Text.Width * Text.Height / IIf(x > y, x, y)
+X = Text.Width * (h + 2 * nr): Y = Text.Height * (W + 2 * nc)
+i = IIf(X < Y, 0, Text.Width * (Y - X) / X) / 2 - Text.Left
+j = IIf(X < Y, Text.Height * (X - Y) / Y, 0) / 2 - Text.Top
+r = Text.Width * Text.Height / IIf(X > Y, X, Y)
 rpt.Scale (i / r, j / r)-((rpt.ScaleWidth + i) / r, (rpt.ScaleHeight + j) / r)
 
 For i = 0 To h + 2 * nr - 1 Step fh + 2 ' finder horizontal
@@ -230,10 +230,10 @@ For i = 1 To l
     el = Asc(Mid(enc, i, 1))
     For j = 0 To 15 Step 2 ' layout each bit
         If el And 1 Then
-            x = c + k(j): y = r + k(j + 1)
-            If x < 0 Then x = x + W: y = y + 4 - ((W + 4) And 7) ' wrap around
-            If y < 0 Then y = y + h: x = x + 4 - ((h + 4) And 7)
-            rpt.Line (x + 2 * (x \ fw) + 1, y + 2 * (y \ fh) + 1)-Step(1, 1), Text.ForeColor, BF
+            X = c + k(j): Y = r + k(j + 1)
+            If X < 0 Then X = X + W: Y = Y + 4 - ((W + 4) And 7) ' wrap around
+            If Y < 0 Then Y = Y + h: X = X + 4 - ((h + 4) And 7)
+            rpt.Line (X + 2 * (X \ fw) + 1, Y + 2 * (Y \ fh) + 1)-Step(1, 1), Text.ForeColor, BF
         End If
         el = el \ 2
     Next j

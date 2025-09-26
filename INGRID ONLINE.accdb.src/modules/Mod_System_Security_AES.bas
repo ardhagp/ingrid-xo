@@ -20,7 +20,7 @@ Public Function AESEncrypt_MySQL(plainText As String, key As String) As String
     ' Configure AES settings to match MySQL AES_ENCRYPT
     aes.KeySize = 128 ' AES-128 to match MySQL default
     aes.BlockSize = 128
-    aes.mode = 2 ' CipherMode.ECB (to match MySQL default)
+    aes.Mode = 2 ' CipherMode.ECB (to match MySQL default)
     aes.Padding = 2 ' PaddingMode.PKCS7 (matches MySQL)
 
     ' Convert key to 16 bytes (128 bits) for AES-128, matching MySQL behavior
@@ -71,7 +71,7 @@ Public Function AESDecrypt_MySQL(cipherText As String, key As String) As String
     ' Configure AES settings to match MySQL AES_DECRYPT
     aes.KeySize = 128 ' AES-128 to match MySQL default
     aes.BlockSize = 128
-    aes.mode = 2 ' CipherMode.ECB (to match MySQL default)
+    aes.Mode = 2 ' CipherMode.ECB (to match MySQL default)
     aes.Padding = 2 ' PaddingMode.PKCS7 (matches MySQL)
 
     ' Convert key to 16 bytes (128 bits) for AES-128, matching MySQL behavior

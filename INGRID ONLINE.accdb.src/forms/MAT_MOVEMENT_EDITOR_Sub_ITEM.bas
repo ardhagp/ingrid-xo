@@ -4,6 +4,7 @@ Begin Form
     RecordSelectors = NotDefault
     AutoCenter = NotDefault
     DividingLines = NotDefault
+    FilterOn = NotDefault
     DefaultView =2
     ViewsAllowed =2
     RecordLocks =2
@@ -14,10 +15,10 @@ Begin Form
     Width =11520
     DatasheetFontHeight =11
     ItemSuffix =65
-    Left =-7490
-    Top =6120
-    Right =12590
-    Bottom =10100
+    Left =5565
+    Top =3540
+    Right =25785
+    Bottom =8820
     RecSrcDt = Begin
         0x4fe87fddcb65e640
     End
@@ -108,7 +109,7 @@ Begin Form
                     Top =342
                     Width =1515
                     Height =330
-                    ColumnWidth =1515
+                    ColumnWidth =1260
                     ForeColor =0
                     Name ="D_ROWID"
                     ControlSource ="D_ROWID"
@@ -284,7 +285,7 @@ Begin Form
                     Top =2223
                     Width =2760
                     Height =600
-                    ColumnWidth =3000
+                    ColumnWidth =2040
                     TabIndex =6
                     ForeColor =0
                     Name ="D_MIAP"
@@ -421,12 +422,13 @@ Begin Form
                     Top =4845
                     Width =2760
                     Height =600
-                    ColumnWidth =3000
-                    TabIndex =11
+                    ColumnWidth =1080
+                    TabIndex =5
                     ForeColor =0
                     Name ="D_MATERIALCATEGORY"
-                    ControlSource ="D_MATERIALCATEGORY"
+                    ControlSource ="D_CATEGORY"
                     FontName ="Segoe UI"
+                    ControlTipText ="Material Category"
 
                     LayoutCachedLeft =1401
                     LayoutCachedTop =4845
@@ -467,7 +469,7 @@ Begin Form
                     Width =2760
                     Height =600
                     ColumnWidth =3000
-                    TabIndex =12
+                    TabIndex =11
                     ForeColor =0
                     Name ="D_PARTNUMBER"
                     ControlSource ="D_PARTNUMBER"
@@ -510,8 +512,8 @@ Begin Form
                     Top =6213
                     Width =1515
                     Height =330
-                    ColumnWidth =1515
-                    TabIndex =13
+                    ColumnWidth =915
+                    TabIndex =12
                     ForeColor =0
                     Name ="D_UOM"
                     ControlSource ="D_UOM"
@@ -554,8 +556,8 @@ Begin Form
                     Top =6612
                     Width =1515
                     Height =330
-                    ColumnWidth =1515
-                    TabIndex =14
+                    ColumnWidth =690
+                    TabIndex =13
                     ForeColor =0
                     Name ="D_VALTYPE"
                     ControlSource ="D_VALTYPE"
@@ -597,8 +599,8 @@ Begin Form
                     Top =7011
                     Width =2760
                     Height =330
-                    ColumnWidth =3000
-                    TabIndex =15
+                    ColumnWidth =870
+                    TabIndex =14
                     ForeColor =0
                     Name ="D_QTY"
                     ControlSource ="D_QTY"
@@ -643,8 +645,8 @@ Begin Form
                     Top =7410
                     Width =2760
                     Height =600
-                    ColumnWidth =3000
-                    TabIndex =20
+                    ColumnWidth =1425
+                    TabIndex =19
                     ForeColor =0
                     Name ="D_PO"
                     ControlSource ="D_PO"
@@ -686,8 +688,8 @@ Begin Form
                     Top =8094
                     Width =2760
                     Height =330
-                    ColumnWidth =3000
-                    TabIndex =27
+                    ColumnWidth =870
+                    TabIndex =26
                     ForeColor =0
                     Name ="D_AVGPRICE"
                     ControlSource ="D_AVGPRICE"
@@ -730,8 +732,8 @@ Begin Form
                     Top =342
                     Width =2760
                     Height =330
-                    ColumnWidth =3000
-                    TabIndex =28
+                    ColumnWidth =945
+                    TabIndex =27
                     ForeColor =0
                     Name ="D_TOTALVALUE"
                     ControlSource ="D_TOTALVALUE"
@@ -777,7 +779,7 @@ Begin Form
                     Width =2760
                     Height =600
                     ColumnWidth =3000
-                    TabIndex =18
+                    TabIndex =17
                     ForeColor =0
                     Name ="D_BINLOC"
                     ControlSource ="D_BINLOC"
@@ -824,7 +826,7 @@ Begin Form
                     Width =2760
                     Height =600
                     ColumnWidth =3000
-                    TabIndex =19
+                    TabIndex =18
                     ForeColor =0
                     Name ="D_BINLOCNEW"
                     ControlSource ="D_BINLOCNEW"
@@ -869,8 +871,8 @@ Begin Form
                     Top =2109
                     Width =2760
                     Height =600
-                    ColumnWidth =3000
-                    TabIndex =16
+                    ColumnWidth =1860
+                    TabIndex =15
                     ForeColor =0
                     Name ="D_DESTINATION"
                     ControlSource ="D_DESTINATION"
@@ -915,7 +917,7 @@ Begin Form
                     Width =2760
                     Height =600
                     ColumnWidth =3000
-                    TabIndex =21
+                    TabIndex =20
                     ForeColor =0
                     Name ="D_REFERENCE"
                     ControlSource ="D_REFERENCE"
@@ -960,7 +962,7 @@ Begin Form
                     Width =2760
                     Height =1140
                     ColumnWidth =3000
-                    TabIndex =17
+                    TabIndex =16
                     ForeColor =0
                     Name ="D_REMARKS"
                     ControlSource ="D_REMARKS"
@@ -1005,7 +1007,7 @@ Begin Form
                     Top =4731
                     Width =2760
                     Height =600
-                    ColumnWidth =3000
+                    ColumnWidth =1830
                     TabIndex =4
                     ForeColor =0
                     Name ="D_MATERIALTYPE"
@@ -1051,8 +1053,8 @@ Begin Form
                     Top =5415
                     Width =2760
                     Height =600
-                    ColumnWidth =3000
-                    TabIndex =22
+                    ColumnWidth =1110
+                    TabIndex =21
                     ForeColor =0
                     Name ="D_OWNERSHIP"
                     ControlSource ="D_OWNERSHIP"
@@ -1097,8 +1099,8 @@ Begin Form
                     Top =6099
                     Width =2760
                     Height =600
-                    ColumnWidth =3000
-                    TabIndex =24
+                    ColumnWidth =1575
+                    TabIndex =23
                     ForeColor =0
                     Name ="D_DOCSAP"
                     ControlSource ="D_DOCSAP"
@@ -1142,7 +1144,7 @@ Begin Form
                     Width =1620
                     Height =330
                     ColumnWidth =1620
-                    TabIndex =25
+                    TabIndex =24
                     ForeColor =0
                     Name ="D_DATEDOCSAP"
                     ControlSource ="D_DATEDOCSAP"
@@ -1177,50 +1179,6 @@ Begin Form
                     End
                 End
                 Begin TextBox
-                    OverlapFlags =85
-                    TextAlign =2
-                    TextFontFamily =34
-                    IMESentenceMode =3
-                    Left =5400
-                    Top =7182
-                    Width =2760
-                    Height =330
-                    ColumnWidth =3000
-                    TabIndex =5
-                    ForeColor =0
-                    Name ="D_CATEGORY"
-                    ControlSource ="D_CATEGORY"
-                    FontName ="Segoe UI"
-
-                    LayoutCachedLeft =5400
-                    LayoutCachedTop =7182
-                    LayoutCachedWidth =8160
-                    LayoutCachedHeight =7512
-                    DatasheetCaption ="M.CAT"
-                    ThemeFontIndex =-1
-                    ForeTint =100.0
-                    Begin
-                        Begin Label
-                            OverlapFlags =85
-                            TextFontFamily =34
-                            Left =4341
-                            Top =7182
-                            Width =969
-                            Height =330
-                            ForeColor =0
-                            Name ="D_CATEGORY_Label"
-                            Caption ="D_CATEGORY"
-                            FontName ="Segoe UI"
-                            LayoutCachedLeft =4341
-                            LayoutCachedTop =7182
-                            LayoutCachedWidth =5310
-                            LayoutCachedHeight =7512
-                            ThemeFontIndex =-1
-                            ForeTint =100.0
-                        End
-                    End
-                End
-                Begin TextBox
                     EnterKeyBehavior = NotDefault
                     ScrollBars =2
                     OverlapFlags =85
@@ -1231,8 +1189,8 @@ Begin Form
                     Top =7581
                     Width =2760
                     Height =600
-                    ColumnWidth =3000
-                    TabIndex =23
+                    ColumnWidth =1035
+                    TabIndex =22
                     ForeColor =0
                     Name ="D_SLOC"
                     ControlSource ="D_SLOC"
@@ -1277,7 +1235,7 @@ Begin Form
                     Width =2064
                     Height =600
                     ColumnWidth =3000
-                    TabIndex =26
+                    TabIndex =25
                     ForeColor =0
                     Name ="D_PACKAGING"
                     ControlSource ="D_PACKAGING"
@@ -1401,7 +1359,8 @@ Begin Form
                     OverlapFlags =85
                     Left =9411
                     Top =1020
-                    TabIndex =29
+                    ColumnWidth =735
+                    TabIndex =28
                     Name ="D_FINALCHECK"
                     ControlSource ="D_FINALCHECK"
                     ControlTipText ="Final Check"

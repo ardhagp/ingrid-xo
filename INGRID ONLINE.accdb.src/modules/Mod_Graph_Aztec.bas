@@ -2,7 +2,7 @@
 'https://zingl.github.io/
 Option Explicit
 Dim el As Long, b As Long, numBytes As Integer
-Dim typ As Integer, enc(1665) As Integer, x As Long, y As Long
+Dim typ As Integer, enc(1665) As Integer, X As Long, Y As Long
 '
 ' Aztec barcode symbol creation according ISO/IEC 24778:2008
 '   param text: barcode data
@@ -39,14 +39,14 @@ End If
 If security < 1 Then security = 23 Else If security > 90 Then security = 90
 
 txt = utf16to8(Text)
-el = Len(txt): x = 4: typ = 0
+el = Len(txt): X = 4: typ = 0
 Do ' compute word size b: 6/8/10/12 bits
-    i = Int(el * 100 / (100 - security) + 3) * x ' needed bits, at least 3 checkwords
+    i = Int(el * 100 / (100 - security) + 3) * X ' needed bits, at least 3 checkwords
     If i > l Then l = i
     b = IIf(l <= 240, 6, IIf(l <= 1920, 8, IIf(l <= 10208, 10, 12))) ' bit capacity -> word size
     i = IIf(layers < 3, 6, IIf(layers < 9, 8, IIf(layers < 23, 10, 12))) ' layer paramerter
     If i > b Then b = i
-    If x >= b Then Exit Do
+    If X >= b Then Exit Do
     For i = 0 To 5 ' create array of arrays
         CurSeq(i) = enc: NxtSeq(i) = NxtEnc
         CurSeq(i)(0) = 20000: CurSeq(i)(1) = 0 ' first entry is length of seq
@@ -101,7 +101,7 @@ Do ' compute word size b: 6/8/10/12 bits
     i = b - CurSeq(T)(0) Mod b
     If (i < b) Then Stream CurSeq(T), 2 ^ i - 1, i  ' padding
     el = CurSeq(T)(0) \ b
-    x = b
+    X = b
 Loop
 If el > 1660 Then Err.Raise 514, "Aztec code", "Message too long."
 For i = 0 To el: enc(i) = CurSeq(T)(i + 1): Next i
@@ -117,37 +117,37 @@ ec = (8 * layers * (typ + 2 * layers)) \ b - el ' # of checkwords
 typ = typ \ 2: ctr = typ + 2 * layers: ctr = ctr + (ctr - 1) \ 15 ' center position
 
 rpt.ScaleMode = 1 ' layout barcode, scale barcode to textbox
-x = IIf(Text.Width < Text.Height, 0, Text.Height - Text.Width) / 2 - Text.Left
-y = IIf(Text.Width < Text.Height, Text.Width - Text.Height, 0) / 2 - Text.Top
+X = IIf(Text.Width < Text.Height, 0, Text.Height - Text.Width) / 2 - Text.Left
+Y = IIf(Text.Width < Text.Height, Text.Width - Text.Height, 0) / 2 - Text.Top
 r = IIf(Text.Width < Text.Height, Text.Width, Text.Height) / (2 * ctr + 1)
-rpt.Scale (x / r - ctr, y / r - ctr)-((rpt.ScaleWidth + x) / r - ctr, (rpt.ScaleHeight + y) / r - ctr)
+rpt.Scale (X / r - ctr, Y / r - ctr)-((rpt.ScaleWidth + X) / r - ctr, (rpt.ScaleHeight + Y) / r - ctr)
 
-For y = 1 - typ To typ - 1 ' layout central finder
-    For x = 1 - typ To typ - 1
-        If (IIf(Abs(x) > Abs(y), x, y) And 1) = 0 Then
-            rpt.Line (x, y)-Step(1, 1), Text.ForeColor, BF
+For Y = 1 - typ To typ - 1 ' layout central finder
+    For X = 1 - typ To typ - 1
+        If (IIf(Abs(X) > Abs(Y), X, Y) And 1) = 0 Then
+            rpt.Line (X, Y)-Step(1, 1), Text.ForeColor, BF
         End If
-    Next x
-Next y
+    Next X
+Next Y
 For i = 0 To 5 ' orientation marks
-    x = Array(-typ, -typ, 1 - typ, typ, typ, typ)(i)
-    y = Array(1 - typ, -typ, -typ, typ - 1, 1 - typ, -typ)(i)
-    rpt.Line (x, y)-Step(1, 1), Text.ForeColor, BF
+    X = Array(-typ, -typ, 1 - typ, typ, typ, typ)(i)
+    Y = Array(1 - typ, -typ, -typ, typ - 1, 1 - typ, -typ)(i)
+    rpt.Line (X, Y)-Step(1, 1), Text.ForeColor, BF
 Next i
 If layers > 0 Then ' layout data
     addCheck ec, 2 ^ b - 1, Array(67, 301, 1033, 4201)(b / 2 - 3) ' error correction, generator polynomial
-    x = -typ: y = x - 1 ' start of layer 1 at top left
+    X = -typ: Y = X - 1 ' start of layer 1 at top left
     j = (3 * typ + 11) / 2: l = j ' length of inner side
     dx = 1: dy = 0 ' direction right
     For ec = ec + el - 1 To 0 Step -1 ' layout codeword
         c = enc(ec) ' data in reversed order inside to outside
         For i = 1 To b / 2
             If c And 1 Then ' odd bit
-                rpt.Line (x, y)-Step(1, 1), Text.ForeColor, BF
+                rpt.Line (X, Y)-Step(1, 1), Text.ForeColor, BF
             End If
             move dy, -dx ' move across
             If c And 2 Then ' even bit
-                rpt.Line (x, y)-Step(1, 1), Text.ForeColor, BF
+                rpt.Line (X, Y)-Step(1, 1), Text.ForeColor, BF
             End If
             move dx - dy, dx + dy ' move ahead
             j = j - 1
@@ -166,14 +166,14 @@ If layers > 0 Then ' layout data
         Next i
     Next ec
     If typ = 7 Then ' layout reference grid
-        For x = (15 - ctr) And -16 To ctr Step 16
-            For y = (1 - ctr) And -2 To ctr Step 2
-                If Abs(x) > typ Or Abs(y) > typ Then
-                    rpt.Line (x, y)-Step(1, 1), Text.ForeColor, BF
-                    If y And 15 Then rpt.Line (y, x)-Step(1, 1), Text.ForeColor, BF
+        For X = (15 - ctr) And -16 To ctr Step 16
+            For Y = (1 - ctr) And -2 To ctr Step 2
+                If Abs(X) > typ Or Abs(Y) > typ Then
+                    rpt.Line (X, Y)-Step(1, 1), Text.ForeColor, BF
+                    If Y And 15 Then rpt.Line (Y, X)-Step(1, 1), Text.ForeColor, BF
                 End If
-            Next y
-        Next x
+            Next Y
+        Next X
     End If
     md = (layers - 1) * (typ * 992 - 4896#) + el - 1 ' 2/5 + 6/11 mode bits
 End If
@@ -208,7 +208,7 @@ End Sub
 
 ' compute Reed Solomon error detection and correction
 Private Sub addCheck(ByVal ec As Integer, ByVal S As Integer, ByVal P As Integer)
-Dim i As Integer, j As Integer, x As Integer
+Dim i As Integer, j As Integer, X As Integer
 ReDim rc(ec + 2) As Integer, lG(S + 1) As Integer, ex(S) As Integer
 j = 1
 For i = 0 To S - 1 ' compute log/exp table of Galois field
@@ -224,9 +224,9 @@ For i = 0 To ec ' compute RS generator polynomial
     enc(el + i) = 0
 Next i
 For i = 0 To el - 1 ' compute RS checkwords
-    x = enc(el) Xor enc(i)
+    X = enc(el) Xor enc(i)
     For j = 1 To ec
-        enc(el + j - 1) = enc(el + j) Xor IIf(x, ex((lG(rc(j)) + lG(x)) Mod S), 0)
+        enc(el + j - 1) = enc(el + j) Xor IIf(X, ex((lG(rc(j)) + lG(X)) Mod S), 0)
     Next j
 Next i
 End Sub
@@ -234,11 +234,11 @@ End Sub
 ' move one cell
 Private Sub move(ByVal dx As Integer, ByVal dy As Integer)
 Do
-    x = x + dx
-Loop While typ = 7 And (x And 15) = 0 ' skip reference grid
+    X = X + dx
+Loop While typ = 7 And (X And 15) = 0 ' skip reference grid
 Do
-    y = y + dy
-Loop While typ = 7 And (y And 15) = 0
+    Y = Y + dy
+Loop While typ = 7 And (Y And 15) = 0
 End Sub
 
 ' add data to bit stream

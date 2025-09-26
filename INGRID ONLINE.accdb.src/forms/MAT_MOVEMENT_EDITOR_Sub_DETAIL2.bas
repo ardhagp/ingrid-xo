@@ -16,13 +16,13 @@ Begin Form
     PictureAlignment =2
     DatasheetGridlinesBehavior =3
     GridY =10
-    Width =20466
+    Width =21321
     DatasheetFontHeight =11
     ItemSuffix =7
-    Left =-6770
-    Top =4930
-    Right =14060
-    Bottom =11010
+    Left =5760
+    Top =2355
+    Right =26730
+    Bottom =8445
     RecSrcDt = Begin
         0xb8f523bccb65e640
     End
@@ -127,7 +127,7 @@ Begin Form
         End
         Begin Section
             CanGrow = NotDefault
-            Height =4818
+            Height =6576
             Name ="Detail"
             AlternateBackThemeColorIndex =1
             AlternateBackShade =95.0
@@ -176,8 +176,8 @@ Begin Form
                     OverlapFlags =85
                     Left =56
                     Top =566
-                    Width =20350
-                    Height =4250
+                    Width =21265
+                    Height =5960
                     TabIndex =1
                     Name ="MAT_MOVEMENT_EDITOR_Sub_ITEM"
                     SourceObject ="Form.MAT_MOVEMENT_EDITOR_Sub_ITEM"
@@ -186,8 +186,10 @@ Begin Form
 
                     LayoutCachedLeft =56
                     LayoutCachedTop =566
-                    LayoutCachedWidth =20406
-                    LayoutCachedHeight =4816
+                    LayoutCachedWidth =21321
+                    LayoutCachedHeight =6526
+                    BorderThemeColorIndex =0
+                    BorderShade =100.0
                 End
             End
         End

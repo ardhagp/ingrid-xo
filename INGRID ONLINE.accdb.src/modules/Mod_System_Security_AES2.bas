@@ -17,7 +17,7 @@ Public Function AESEncrypt2_MySQL(plainText As String, key As String) As String
 
     aes.KeySize = 128
     aes.BlockSize = 128
-    aes.mode = 2 ' ECB
+    aes.Mode = 2 ' ECB
     aes.Padding = 2 ' PKCS7
 
     ' Use exact 16-byte key with zero padding
