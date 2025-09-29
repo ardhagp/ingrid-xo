@@ -778,7 +778,7 @@ Begin Form
                     Top =741
                     Width =2760
                     Height =600
-                    ColumnWidth =3000
+                    ColumnWidth =1230
                     TabIndex =10
                     ForeColor =0
                     Name ="D_BINLOC"

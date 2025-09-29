@@ -18,11 +18,11 @@ Begin Form
     GridY =10
     Width =21321
     DatasheetFontHeight =11
-    ItemSuffix =13
-    Left =5805
-    Top =4965
-    Right =26775
-    Bottom =11220
+    ItemSuffix =15
+    Left =1140
+    Top =2685
+    Right =22110
+    Bottom =8940
     RecSrcDt = Begin
         0xb8f523bccb65e640
     End
@@ -236,7 +236,7 @@ Begin Form
                     OverlapFlags =85
                     AccessKey =80
                     PictureType =2
-                    Left =907
+                    Left =1587
                     Top =56
                     Width =577
                     Height =577
@@ -248,9 +248,9 @@ Begin Form
                     UnicodeAccessKey =80
 
                     CursorOnHover =1
-                    LayoutCachedLeft =907
+                    LayoutCachedLeft =1587
                     LayoutCachedTop =56
-                    LayoutCachedWidth =1484
+                    LayoutCachedWidth =2164
                     LayoutCachedHeight =633
                 End
                 Begin Line
@@ -269,14 +269,14 @@ Begin Form
                 End
                 Begin Line
                     OverlapFlags =85
-                    Left =1587
+                    Left =2267
                     Top =56
                     Width =0
                     Height =567
                     Name ="Line10"
-                    LayoutCachedLeft =1587
+                    LayoutCachedLeft =2267
                     LayoutCachedTop =56
-                    LayoutCachedWidth =1587
+                    LayoutCachedWidth =2267
                     LayoutCachedHeight =623
                     BorderThemeColorIndex =2
                     BorderTint =75.0
@@ -285,7 +285,7 @@ Begin Form
                     OverlapFlags =85
                     AccessKey =77
                     PictureType =2
-                    Left =1700
+                    Left =2380
                     Top =56
                     Width =578
                     Height =578
@@ -297,16 +297,16 @@ Begin Form
                     UnicodeAccessKey =77
 
                     CursorOnHover =1
-                    LayoutCachedLeft =1700
+                    LayoutCachedLeft =2380
                     LayoutCachedTop =56
-                    LayoutCachedWidth =2278
+                    LayoutCachedWidth =2958
                     LayoutCachedHeight =634
                 End
                 Begin CommandButton
                     OverlapFlags =85
                     AccessKey =67
                     PictureType =2
-                    Left =2381
+                    Left =3061
                     Top =56
                     Width =578
                     Height =578
@@ -318,9 +318,52 @@ Begin Form
                     UnicodeAccessKey =67
 
                     CursorOnHover =1
-                    LayoutCachedLeft =2381
+                    LayoutCachedLeft =3061
                     LayoutCachedTop =56
-                    LayoutCachedWidth =2959
+                    LayoutCachedWidth =3639
+                    LayoutCachedHeight =634
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    AccessKey =81
+                    PictureType =2
+                    Left =907
+                    Top =56
+                    Width =578
+                    Height =578
+                    TabIndex =6
+                    Name ="btnQuickFill"
+                    Caption ="&Quick Fill"
+                    ControlTipText ="Quick fill some field with same value"
+                    Picture ="btnQuickFill"
+                    UnicodeAccessKey =81
+
+                    CursorOnHover =1
+                    LayoutCachedLeft =907
+                    LayoutCachedTop =56
+                    LayoutCachedWidth =1485
+                    LayoutCachedHeight =634
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    AccessKey =83
+                    PictureType =2
+                    Left =20636
+                    Top =56
+                    Width =578
+                    Height =578
+                    TabIndex =7
+                    Name ="btnSign"
+                    Caption ="&Sign"
+                    ControlTipText ="Mark as complete"
+                    Picture ="btnSign"
+                    UnicodeAccessKey =83
+                    HorizontalAnchor =1
+
+                    CursorOnHover =1
+                    LayoutCachedLeft =20636
+                    LayoutCachedTop =56
+                    LayoutCachedWidth =21214
                     LayoutCachedHeight =634
                 End
             End

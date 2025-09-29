@@ -1,0 +1,12 @@
+﻿{
+  "Info": {
+    "Class": "clsDbSharedImage",
+    "Description": "Shared Image Gallery Item"
+  },
+  "Items": {
+    "Name": "btnQuickFill",
+    "FileName": "btnQuickFill.png",
+    "Extension": "png",
+    "ContentHash": "1de1a64"
+  }
+}

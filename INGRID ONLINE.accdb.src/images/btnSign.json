@@ -1,0 +1,12 @@
+﻿{
+  "Info": {
+    "Class": "clsDbSharedImage",
+    "Description": "Shared Image Gallery Item"
+  },
+  "Items": {
+    "Name": "btnSign",
+    "FileName": "btnSign.png",
+    "Extension": "png",
+    "ContentHash": "d53c83e"
+  }
+}
