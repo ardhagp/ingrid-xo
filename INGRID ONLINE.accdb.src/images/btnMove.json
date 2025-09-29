@@ -1,0 +1,12 @@
+﻿{
+  "Info": {
+    "Class": "clsDbSharedImage",
+    "Description": "Shared Image Gallery Item"
+  },
+  "Items": {
+    "Name": "btnMove",
+    "FileName": "btnMove.png",
+    "Extension": "png",
+    "ContentHash": "a228977"
+  }
+}

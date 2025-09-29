@@ -42,6 +42,12 @@ Private Sub btnSubmit_Click()
         'Debug.Print "Session: "
         Var_Session = SHA256(Var_EmployeeCODE)
         Call Put_SessionAdd
+
+        txtEmployeeCODE.SetFocus
+        txtEmployeeCODE.Text = ""
+        txtPassword.SetFocus
+        txtPassword.Text = ""
+
         Var_Session_ClosingForm = False
         DoCmd.Close
         DoCmd.OpenForm "APP_WATCHDOG", acNormal, , , , acHidden
@@ -79,11 +85,12 @@ Private Function CHECK_For_Errors() As Integer
     ErrorOccured = 0
 
     txtEmployeeCODE.SetFocus
-        Var_L_EmployeeCODE = Trim(txtEmployeeCODE.Text)
+    Var_L_EmployeeCODE = Trim(txtEmployeeCODE.Text)
     txtPassword.SetFocus
     Var_L_PlainPassword = txtPassword.Text
-        varKey = Get_Key
-        If IsNull(txtPassword.Value) = True Then Var_L_Password = "" Else Var_L_Password = AESEncrypt_MySQL(GetPassword, varKey)
+
+    varKey = Get_Key
+    If IsNull(txtPassword.Value) = True Then Var_L_Password = "" Else Var_L_Password = AESEncrypt_MySQL(GetPassword, varKey)
 
     If Len(Var_L_EmployeeCODE) = 0 Then
         ErrorOccured = ErrorOccured + 1

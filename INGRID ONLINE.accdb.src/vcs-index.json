@@ -6,7 +6,7 @@
   "Items": {
     "MergeBuildDate": "2025-03-19T18:50:16.000Z",
     "FullBuildDate": "2025-03-19T18:49:21.000Z",
-    "ExportDate": "2025-09-26T19:44:18.000Z",
+    "ExportDate": "2025-09-29T03:49:50.000Z",
     "FullExportDate": "2025-06-06T23:54:02.000Z",
     "OptionsHash": "14944f8",
     "LastMergedCommit": "",
@@ -40,12 +40,12 @@
       },
       "Forms": {
         "APP_LOGIN.bas": {
-          "FileHash": "6f91573",
-          "ExportDate": "2025-07-29T13:06:54.000Z",
+          "FileHash": "879a389",
+          "ExportDate": "2025-09-29T01:53:04.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "a983239",
+          "FilePropertiesHash": "dfa62c1",
           "ImportDate": "2025-03-19T18:49:17.000Z",
-          "OtherHash": "811687b"
+          "OtherHash": "fd72598"
         },
         "APP_TEMPLATE_MAIN.bas": {
           "FileHash": "dbadebe",
@@ -97,10 +97,10 @@
           "OtherHash": "aa35446"
         },
         "MAT_MOVEMENT_BYDATE_Sub_DETAIL.bas": {
-          "FileHash": "308c90a",
-          "ExportDate": "2025-07-10T01:50:40.000Z",
+          "FileHash": "97d9080",
+          "ExportDate": "2025-09-29T01:53:04.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "af87080",
+          "FilePropertiesHash": "6b40c64",
           "ImportDate": "2025-03-19T18:49:18.000Z",
           "OtherHash": "6738e15"
         },
@@ -113,10 +113,10 @@
           "OtherHash": "33d2c87"
         },
         "MAT_MOVEMENT_EDITOR.bas": {
-          "FileHash": "2aff5a6",
-          "ExportDate": "2025-09-26T19:42:17.000Z",
+          "FileHash": "efc1aa3",
+          "ExportDate": "2025-09-29T03:48:59.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "dcb5895",
+          "FilePropertiesHash": "9e02d89",
           "ImportDate": "2025-03-19T18:49:18.000Z",
           "OtherHash": "72a6f4c"
         },
@@ -141,18 +141,18 @@
           "FilePropertiesHash": "8f311eb"
         },
         "MAT_MOVEMENT_EDITOR_Sub_DETAIL2.bas": {
-          "FileHash": "f7f21c0",
+          "FileHash": "f672b91",
           "OtherHash": "4aa4c29",
-          "ExportDate": "2025-09-26T19:42:17.000Z",
+          "ExportDate": "2025-09-29T03:48:59.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "fd5c4c7"
+          "FilePropertiesHash": "890bf39"
         },
         "MAT_MOVEMENT_EDITOR_Sub_FIND.bas": {
-          "ExportDate": "2025-09-26T19:42:18.000Z",
+          "ExportDate": "2025-09-29T01:53:04.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "d6705e6",
+          "FilePropertiesHash": "3c7e5f4",
           "ImportDate": "2025-03-19T18:49:18.000Z",
-          "FileHash": "8f4c950"
+          "FileHash": "14d7840"
         },
         "MAT_MOVEMENT_EDITOR_Sub_FIND_ITEM.bas": {
           "FileHash": "0d1a6c9",
@@ -169,11 +169,11 @@
           "OtherHash": "fc27efc"
         },
         "MAT_MOVEMENT_EDITOR_Sub_ITEM.bas": {
-          "FileHash": "5586890",
-          "ExportDate": "2025-09-26T19:42:17.000Z",
+          "FileHash": "d1eaec5",
+          "ExportDate": "2025-09-29T03:49:49.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "16afcae",
-          "OtherHash": "147bb25"
+          "FilePropertiesHash": "9faec87",
+          "OtherHash": "62c9328"
         },
         "MAT_MOVEMENT_EDITOR_Sub_NCR.bas": {
           "ExportDate": "2025-06-06T23:53:59.000Z",
@@ -584,16 +584,16 @@
         },
         "q_mat_datemove_date.bas": {
           "FileHash": "7433cb5",
-          "ExportDate": "2025-08-01T01:56:58.000Z",
+          "ExportDate": "2025-09-29T03:48:58.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "d5bd0d3",
+          "FilePropertiesHash": "fe945d2",
           "ImportDate": "2025-03-19T18:49:17.000Z"
         },
         "q_mat_datemove_detail.bas": {
           "FileHash": "815e1b8",
-          "ExportDate": "2025-09-26T18:09:49.000Z",
+          "ExportDate": "2025-09-29T03:48:58.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "d8bd710",
+          "FilePropertiesHash": "702313b",
           "ImportDate": "2025-03-19T18:49:17.000Z"
         },
         "q_mat_sum_ncr_contractor.bas": {
@@ -699,6 +699,13 @@
           "SourceModified": null,
           "FilePropertiesHash": "43e5d7b"
         },
+        "btnCopy.json": {
+          "FileHash": "2892714",
+          "OtherHash": "388fd63",
+          "ExportDate": "2025-09-29T03:48:58.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c82f29d"
+        },
         "btnDelete.json": {
           "FileHash": "29c64a3",
           "OtherHash": "9e18751",
@@ -713,12 +720,26 @@
           "SourceModified": null,
           "FilePropertiesHash": "ab05667"
         },
+        "btnMove.json": {
+          "FileHash": "633e7ec",
+          "OtherHash": "9ef9b8c",
+          "ExportDate": "2025-09-29T03:48:58.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "ce2d826"
+        },
         "btnOpenURL.json": {
           "FileHash": "408c84c",
           "OtherHash": "20bbe9b",
           "ExportDate": "2025-07-10T01:37:48.000Z",
           "SourceModified": null,
           "FilePropertiesHash": "056921f"
+        },
+        "btnPrint.json": {
+          "FileHash": "88c964b",
+          "OtherHash": "d67e5a2",
+          "ExportDate": "2025-09-29T03:48:58.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "fab075d"
         },
         "btnReadOnly.json": {
           "FileHash": "25fd943",
@@ -761,6 +782,13 @@
           "ExportDate": "2025-07-10T01:15:32.000Z",
           "SourceModified": null,
           "FilePropertiesHash": "30b0dde"
+        },
+        "printer32.json": {
+          "FileHash": "5dc44d7",
+          "OtherHash": "0ee92e8",
+          "ExportDate": "2025-09-29T03:48:58.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8af5757"
         }
       },
       "Tables": {

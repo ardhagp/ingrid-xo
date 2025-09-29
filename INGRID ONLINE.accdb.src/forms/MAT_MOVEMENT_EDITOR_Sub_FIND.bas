@@ -6,6 +6,7 @@ Begin Form
     DividingLines = NotDefault
     AllowDesignChanges = NotDefault
     DefaultView =0
+    ScrollBars =0
     TabularFamily =0
     BorderStyle =0
     PictureAlignment =2
@@ -14,10 +15,10 @@ Begin Form
     Width =4648
     DatasheetFontHeight =11
     ItemSuffix =5
-    Left =735
-    Top =3765
-    Right =5190
-    Bottom =10080
+    Left =780
+    Top =4905
+    Right =5235
+    Bottom =11220
     RecSrcDt = Begin
         0xaffd631ccd65e640
     End

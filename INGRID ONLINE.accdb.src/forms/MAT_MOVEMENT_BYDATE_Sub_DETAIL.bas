@@ -17,24 +17,21 @@ Begin Form
     Width =12755
     DatasheetFontHeight =11
     ItemSuffix =89
-    Left =4810
-    Top =3920
-    Right =27110
-    Bottom =11540
-    RecSrcDt = Begin
-        0x7589389a6e62e640
-    End
-    RecordSource ="SELECT mm.TX_ROWID, mm.TX_DIRECTION, IIf(mm.TX_DATEDELIVERY=#6/9/2025#,'1','0') "
-        "AS TX_CODE_D, IIf(mm.TX_DATEEXECUTED=#6/9/2025#,'1','0') AS TX_CODE_R, mm.TX_ATT"
-        "_LINK, ' • ' & mm.TX_ORIGIN & ' ' & ChrW(8680) & ' ' & mm.TX_DESTINATION & (chr("
-        "13) + chr(10)) & ' • PLANT: ' & mm.TX_PLANT & ' • COFF: ' & mm.TX_PO & (chr(13) "
-        "+ chr(10)) & ' • MANIFEST: ' & mm.TX_MANIFEST AS DESCRIPTION FROM t_q_material_m"
-        "ovement AS mm WHERE ((mm.TX_DATEDELIVERY = #6/9/2025# OR mm.TX_DATEEXECUTED = #6"
-        "/9/2025#) ) GROUP BY mm.TX_ROWID, mm.TX_DIRECTION, IIf(mm.TX_DATEDELIVERY=#6/9/2"
-        "025#,'1','0'), IIf(mm.TX_DATEEXECUTED=#6/9/2025#,'1','0'), mm.TX_ORIGIN, mm.TX_D"
-        "ESTINATION, mm.TX_ATT_LINK, ' • ' & mm.TX_ORIGIN & ' ' & ChrW(8680) & ' ' & mm.T"
-        "X_DESTINATION & (chr(13) + chr(10)) & ' • PLANT: ' & mm.TX_PLANT & ' • COFF: ' &"
-        " mm.TX_PO & (chr(13) + chr(10)) & ' • MANIFEST: ' & mm.TX_MANIFEST; "
+    Left =5130
+    Top =4200
+    Right =27435
+    Bottom =11820
+    RecordSource ="SELECT mm.TX_ROWID, mm.TX_DIRECTION, IIf(mm.TX_DATEDELIVERY=#7/12/2024#,'1','0')"
+        " AS TX_CODE_D, IIf(mm.TX_DATEEXECUTED=#7/12/2024#,'1','0') AS TX_CODE_R, mm.TX_A"
+        "TT_LINK, ' • ' & mm.TX_ORIGIN & ' ' & ChrW(8680) & ' ' & mm.TX_DESTINATION & (ch"
+        "r(13) + chr(10)) & ' • PLANT: ' & mm.TX_PLANT & ' • COFF: ' & mm.TX_PO & (chr(13"
+        ") + chr(10)) & ' • MANIFEST: ' & mm.TX_MANIFEST AS DESCRIPTION FROM t_q_material"
+        "_movement AS mm WHERE ((mm.TX_DATEDELIVERY = #7/12/2024# OR mm.TX_DATEEXECUTED ="
+        " #7/12/2024#) ) GROUP BY mm.TX_ROWID, mm.TX_DIRECTION, IIf(mm.TX_DATEDELIVERY=#7"
+        "/12/2024#,'1','0'), IIf(mm.TX_DATEEXECUTED=#7/12/2024#,'1','0'), mm.TX_ORIGIN, m"
+        "m.TX_DESTINATION, mm.TX_ATT_LINK, ' • ' & mm.TX_ORIGIN & ' ' & ChrW(8680) & ' ' "
+        "& mm.TX_DESTINATION & (chr(13) + chr(10)) & ' • PLANT: ' & mm.TX_PLANT & ' • COF"
+        "F: ' & mm.TX_PO & (chr(13) + chr(10)) & ' • MANIFEST: ' & mm.TX_MANIFEST; "
     Caption ="MAT_MOVEMENT_DETAILS"
     DatasheetFontName ="Aptos"
     AllowDatasheetView =0

@@ -1,0 +1,12 @@
+﻿{
+  "Info": {
+    "Class": "clsDbSharedImage",
+    "Description": "Shared Image Gallery Item"
+  },
+  "Items": {
+    "Name": "btnPrint",
+    "FileName": "btnPrint.png",
+    "Extension": "png",
+    "ContentHash": "bf0d2ff"
+  }
+}

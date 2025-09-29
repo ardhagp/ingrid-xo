@@ -18,9 +18,9 @@ Begin Form
     PictureAlignment =2
     DatasheetGridlinesBehavior =3
     GridY =10
-    Width =27105
+    Width =27135
     DatasheetFontHeight =11
-    ItemSuffix =165
+    ItemSuffix =191
     Left =660
     Top =2700
     Right =28020
@@ -350,27 +350,27 @@ Begin Form
                     OverlapFlags =85
                     Left =45
                     Top =2175
-                    Width =27049
+                    Width =27090
                     Height =8655
                     FontWeight =700
                     Name ="tab_main"
 
                     LayoutCachedLeft =45
                     LayoutCachedTop =2175
-                    LayoutCachedWidth =27094
+                    LayoutCachedWidth =27135
                     LayoutCachedHeight =10830
                     Begin
                         Begin Page
                             OverlapFlags =87
                             Left =120
                             Top =2655
-                            Width =26895
+                            Width =26940
                             Height =8100
                             Name ="tp_MovementDetail"
                             Caption ="MOVEMENT DETAIL"
                             LayoutCachedLeft =120
                             LayoutCachedTop =2655
-                            LayoutCachedWidth =27015
+                            LayoutCachedWidth =27060
                             LayoutCachedHeight =10755
                             Begin
                                 Begin TextBox
@@ -382,7 +382,7 @@ Begin Form
                                     TextFontFamily =34
                                     BackStyle =0
                                     IMESentenceMode =3
-                                    Left =2036
+                                    Left =2081
                                     Top =2864
                                     Width =2826
                                     Height =855
@@ -393,9 +393,9 @@ Begin Form
                                     ControlSource ="TX_ROWID"
                                     FontName ="Segoe UI"
 
-                                    LayoutCachedLeft =2036
+                                    LayoutCachedLeft =2081
                                     LayoutCachedTop =2864
-                                    LayoutCachedWidth =4862
+                                    LayoutCachedWidth =4907
                                     LayoutCachedHeight =3719
                                     ThemeFontIndex =-1
                                     ForeThemeColorIndex =-1
@@ -405,7 +405,7 @@ Begin Form
                                             OverlapFlags =215
                                             TextAlign =3
                                             TextFontFamily =34
-                                            Left =335
+                                            Left =380
                                             Top =2864
                                             Width =1590
                                             Height =856
@@ -417,9 +417,9 @@ Begin Form
                                             Caption ="Reg. #"
                                             FontName ="Segoe UI"
                                             GridlineColor =0
-                                            LayoutCachedLeft =335
+                                            LayoutCachedLeft =380
                                             LayoutCachedTop =2864
-                                            LayoutCachedWidth =1925
+                                            LayoutCachedWidth =1970
                                             LayoutCachedHeight =3720
                                             ThemeFontIndex =-1
                                             BackThemeColorIndex =-1
@@ -433,14 +433,14 @@ Begin Form
                                 Begin Line
                                     BorderWidth =5
                                     OverlapFlags =87
-                                    Left =329
+                                    Left =374
                                     Top =3777
                                     Width =12357
                                     Height =15
                                     Name ="Line55"
-                                    LayoutCachedLeft =329
+                                    LayoutCachedLeft =374
                                     LayoutCachedTop =3777
-                                    LayoutCachedWidth =12686
+                                    LayoutCachedWidth =12731
                                     LayoutCachedHeight =3792
                                     BorderThemeColorIndex =2
                                     BorderTint =75.0
@@ -452,7 +452,7 @@ Begin Form
                                     TextFontFamily =34
                                     BackStyle =0
                                     IMESentenceMode =3
-                                    Left =6185
+                                    Left =6230
                                     Top =2862
                                     Width =1806
                                     Height =856
@@ -464,9 +464,9 @@ Begin Form
                                     ControlSource ="TX_REV"
                                     FontName ="Segoe UI"
 
-                                    LayoutCachedLeft =6185
+                                    LayoutCachedLeft =6230
                                     LayoutCachedTop =2862
-                                    LayoutCachedWidth =7991
+                                    LayoutCachedWidth =8036
                                     LayoutCachedHeight =3718
                                     ThemeFontIndex =-1
                                     ForeThemeColorIndex =-1
@@ -476,7 +476,7 @@ Begin Form
                                             OverlapFlags =215
                                             TextAlign =3
                                             TextFontFamily =34
-                                            Left =5039
+                                            Left =5084
                                             Top =2862
                                             Width =1035
                                             Height =750
@@ -488,9 +488,9 @@ Begin Form
                                             Caption ="Rev."
                                             FontName ="Segoe UI"
                                             GridlineColor =0
-                                            LayoutCachedLeft =5039
+                                            LayoutCachedLeft =5084
                                             LayoutCachedTop =2862
-                                            LayoutCachedWidth =6074
+                                            LayoutCachedWidth =6119
                                             LayoutCachedHeight =3612
                                             ThemeFontIndex =-1
                                             BackThemeColorIndex =-1
@@ -508,7 +508,7 @@ Begin Form
                                     TextFontFamily =34
                                     BackStyle =0
                                     IMESentenceMode =3
-                                    Left =10254
+                                    Left =10299
                                     Top =2863
                                     Width =2091
                                     Height =857
@@ -520,9 +520,9 @@ Begin Form
                                     ControlSource ="TX_PUBLISHCODE"
                                     FontName ="Segoe UI"
 
-                                    LayoutCachedLeft =10254
+                                    LayoutCachedLeft =10299
                                     LayoutCachedTop =2863
-                                    LayoutCachedWidth =12345
+                                    LayoutCachedWidth =12390
                                     LayoutCachedHeight =3720
                                     ThemeFontIndex =-1
                                     ForeThemeColorIndex =-1
@@ -531,7 +531,7 @@ Begin Form
                                         Begin Label
                                             OverlapFlags =215
                                             TextFontFamily =34
-                                            Left =8160
+                                            Left =8205
                                             Top =2863
                                             Width =1980
                                             Height =750
@@ -539,11 +539,11 @@ Begin Form
                                             FontWeight =700
                                             ForeColor =0
                                             Name ="LBL_PUBLISH"
-                                            Caption ="Publish"
+                                            Caption ="P.Code"
                                             FontName ="Segoe UI"
-                                            LayoutCachedLeft =8160
+                                            LayoutCachedLeft =8205
                                             LayoutCachedTop =2863
-                                            LayoutCachedWidth =10140
+                                            LayoutCachedWidth =10185
                                             LayoutCachedHeight =3613
                                             ThemeFontIndex =-1
                                             ForeThemeColorIndex =-1
@@ -559,7 +559,7 @@ Begin Form
                                     TextAlign =2
                                     TextFontFamily =34
                                     IMESentenceMode =3
-                                    Left =2206
+                                    Left =2251
                                     Top =4396
                                     Width =2376
                                     Height =300
@@ -571,7 +571,7 @@ Begin Form
                                     ConditionalFormat = Begin
                                         0x01000000e2000000030000000100000000000000000000001400000001010000 ,
                                         0xffffff0022b14c000100000000000000150000002a00000001010000ffffff00 ,
-                                        0xed1c240001000000000000002b000000400000000101000000000000fff20000 ,
+                                        0xed1c240001000000000000002b000000400000000101000000000000ff990000 ,
                                         0x5b00540058005f0044004900520045004300540049004f004e005d003d002200 ,
                                         0x49004e002200000000005b00540058005f004400490052004500430054004900 ,
                                         0x4f004e005d003d0022004f00550054002200000000005b00540058005f004400 ,
@@ -579,9 +579,9 @@ Begin Form
                                         0x0000
                                     End
 
-                                    LayoutCachedLeft =2206
+                                    LayoutCachedLeft =2251
                                     LayoutCachedTop =4396
-                                    LayoutCachedWidth =4582
+                                    LayoutCachedWidth =4627
                                     LayoutCachedHeight =4696
                                     BorderThemeColorIndex =2
                                     BorderTint =75.0
@@ -594,7 +594,7 @@ Begin Form
                                         0x4e00220000000000000000000000000000000000000000000001000000000000 ,
                                         0x0001010000ffffff00ed1c2400140000005b00540058005f0044004900520045 ,
                                         0x004300540049004f004e005d003d0022004f0055005400220000000000000000 ,
-                                        0x000000000000000000000000000001000000000000000101000000000000fff2 ,
+                                        0x000000000000000000000000000001000000000000000101000000000000ff99 ,
                                         0x0000140000005b00540058005f0044004900520045004300540049004f004e00 ,
                                         0x5d003d002200420049004e002200000000000000000000000000000000000000 ,
                                         0x000000010000000000000001010000ffffff0000000000150000005b00540058 ,
@@ -605,7 +605,7 @@ Begin Form
                                         Begin Label
                                             OverlapFlags =223
                                             TextFontFamily =34
-                                            Left =449
+                                            Left =494
                                             Top =4396
                                             Width =1665
                                             Height =300
@@ -613,9 +613,9 @@ Begin Form
                                             Name ="Label15"
                                             Caption ="Direction Type"
                                             FontName ="Segoe UI"
-                                            LayoutCachedLeft =449
+                                            LayoutCachedLeft =494
                                             LayoutCachedTop =4396
-                                            LayoutCachedWidth =2114
+                                            LayoutCachedWidth =2159
                                             LayoutCachedHeight =4696
                                             ThemeFontIndex =-1
                                             ForeTint =100.0
@@ -626,7 +626,7 @@ Begin Form
                                     OverlapFlags =223
                                     TextFontFamily =34
                                     IMESentenceMode =3
-                                    Left =2210
+                                    Left =2255
                                     Top =4818
                                     Width =2376
                                     Height =345
@@ -641,9 +641,9 @@ Begin Form
                                         " ADDRESS;"
                                     FontName ="Segoe UI"
 
-                                    LayoutCachedLeft =2210
+                                    LayoutCachedLeft =2255
                                     LayoutCachedTop =4818
-                                    LayoutCachedWidth =4586
+                                    LayoutCachedWidth =4631
                                     LayoutCachedHeight =5163
                                     ThemeFontIndex =-1
                                     BorderThemeColorIndex =2
@@ -655,7 +655,7 @@ Begin Form
                                         Begin Label
                                             OverlapFlags =223
                                             TextFontFamily =34
-                                            Left =453
+                                            Left =498
                                             Top =4818
                                             Width =585
                                             Height =345
@@ -663,9 +663,9 @@ Begin Form
                                             Name ="Label9"
                                             Caption ="From"
                                             FontName ="Segoe UI"
-                                            LayoutCachedLeft =453
+                                            LayoutCachedLeft =498
                                             LayoutCachedTop =4818
-                                            LayoutCachedWidth =1038
+                                            LayoutCachedWidth =1083
                                             LayoutCachedHeight =5163
                                             ThemeFontIndex =-1
                                             ForeTint =100.0
@@ -676,7 +676,7 @@ Begin Form
                                     OverlapFlags =223
                                     TextFontFamily =34
                                     IMESentenceMode =3
-                                    Left =5110
+                                    Left =5155
                                     Top =4792
                                     Width =2376
                                     Height =345
@@ -691,9 +691,9 @@ Begin Form
                                         " ADDRESS;"
                                     FontName ="Segoe UI"
 
-                                    LayoutCachedLeft =5110
+                                    LayoutCachedLeft =5155
                                     LayoutCachedTop =4792
-                                    LayoutCachedWidth =7486
+                                    LayoutCachedWidth =7531
                                     LayoutCachedHeight =5137
                                     ThemeFontIndex =-1
                                     BorderThemeColorIndex =2
@@ -705,7 +705,7 @@ Begin Form
                                         Begin Label
                                             OverlapFlags =223
                                             TextFontFamily =34
-                                            Left =4701
+                                            Left =4746
                                             Top =4792
                                             Width =330
                                             Height =345
@@ -713,9 +713,9 @@ Begin Form
                                             Name ="Label11"
                                             Caption ="To"
                                             FontName ="Segoe UI"
-                                            LayoutCachedLeft =4701
+                                            LayoutCachedLeft =4746
                                             LayoutCachedTop =4792
-                                            LayoutCachedWidth =5031
+                                            LayoutCachedWidth =5076
                                             LayoutCachedHeight =5137
                                             ThemeFontIndex =-1
                                             ForeTint =100.0
@@ -724,7 +724,7 @@ Begin Form
                                 End
                                 Begin CommandButton
                                     OverlapFlags =223
-                                    Left =7592
+                                    Left =7637
                                     Top =4792
                                     Width =291
                                     TabIndex =6
@@ -768,9 +768,9 @@ Begin Form
                                     End
 
                                     CursorOnHover =1
-                                    LayoutCachedLeft =7592
+                                    LayoutCachedLeft =7637
                                     LayoutCachedTop =4792
-                                    LayoutCachedWidth =7883
+                                    LayoutCachedWidth =7928
                                     LayoutCachedHeight =5075
                                 End
                                 Begin TextBox
@@ -778,7 +778,7 @@ Begin Form
                                     TextAlign =2
                                     TextFontFamily =34
                                     IMESentenceMode =3
-                                    Left =2210
+                                    Left =2255
                                     Top =5272
                                     Width =2376
                                     Height =300
@@ -790,9 +790,9 @@ Begin Form
                                     Format ="Medium Date"
                                     FontName ="Segoe UI"
 
-                                    LayoutCachedLeft =2210
+                                    LayoutCachedLeft =2255
                                     LayoutCachedTop =5272
-                                    LayoutCachedWidth =4586
+                                    LayoutCachedWidth =4631
                                     LayoutCachedHeight =5572
                                     BorderThemeColorIndex =2
                                     BorderTint =75.0
@@ -803,7 +803,7 @@ Begin Form
                                         Begin Label
                                             OverlapFlags =223
                                             TextFontFamily =34
-                                            Left =453
+                                            Left =498
                                             Top =5272
                                             Width =1215
                                             Height =345
@@ -811,9 +811,9 @@ Begin Form
                                             Name ="Label8"
                                             Caption ="Planned On"
                                             FontName ="Segoe UI"
-                                            LayoutCachedLeft =453
+                                            LayoutCachedLeft =498
                                             LayoutCachedTop =5272
-                                            LayoutCachedWidth =1668
+                                            LayoutCachedWidth =1713
                                             LayoutCachedHeight =5617
                                             ThemeFontIndex =-1
                                             ForeTint =100.0
@@ -824,7 +824,7 @@ Begin Form
                                     OverlapFlags =223
                                     TextFontFamily =34
                                     IMESentenceMode =3
-                                    Left =2210
+                                    Left =2255
                                     Top =6236
                                     Width =2501
                                     Height =345
@@ -836,9 +836,9 @@ Begin Form
                                         "al_movement.TX_CARRIER ORDER BY t_material_movement.TX_CARRIER; "
                                     FontName ="Segoe UI"
 
-                                    LayoutCachedLeft =2210
+                                    LayoutCachedLeft =2255
                                     LayoutCachedTop =6236
-                                    LayoutCachedWidth =4711
+                                    LayoutCachedWidth =4756
                                     LayoutCachedHeight =6581
                                     ThemeFontIndex =-1
                                     BorderThemeColorIndex =2
@@ -850,7 +850,7 @@ Begin Form
                                         Begin Label
                                             OverlapFlags =223
                                             TextFontFamily =34
-                                            Left =453
+                                            Left =498
                                             Top =6236
                                             Width =1455
                                             Height =300
@@ -858,9 +858,9 @@ Begin Form
                                             Name ="Label7"
                                             Caption ="Carrier"
                                             FontName ="Segoe UI"
-                                            LayoutCachedLeft =453
+                                            LayoutCachedLeft =498
                                             LayoutCachedTop =6236
-                                            LayoutCachedWidth =1908
+                                            LayoutCachedWidth =1953
                                             LayoutCachedHeight =6536
                                             ThemeFontIndex =-1
                                             ForeTint =100.0
@@ -871,7 +871,7 @@ Begin Form
                                     OverlapFlags =223
                                     TextFontFamily =34
                                     IMESentenceMode =3
-                                    Left =5347
+                                    Left =5392
                                     Top =6240
                                     Width =2471
                                     Height =345
@@ -880,9 +880,9 @@ Begin Form
                                     ControlSource ="TX_CARRIEDBY"
                                     FontName ="Segoe UI"
 
-                                    LayoutCachedLeft =5347
+                                    LayoutCachedLeft =5392
                                     LayoutCachedTop =6240
-                                    LayoutCachedWidth =7818
+                                    LayoutCachedWidth =7863
                                     LayoutCachedHeight =6585
                                     BorderThemeColorIndex =2
                                     BorderTint =75.0
@@ -892,7 +892,7 @@ Begin Form
                                         Begin Label
                                             OverlapFlags =223
                                             TextFontFamily =34
-                                            Left =4940
+                                            Left =4985
                                             Top =6240
                                             Width =340
                                             Height =300
@@ -900,9 +900,9 @@ Begin Form
                                             Name ="Label147"
                                             Caption ="By"
                                             FontName ="Segoe UI"
-                                            LayoutCachedLeft =4940
+                                            LayoutCachedLeft =4985
                                             LayoutCachedTop =6240
-                                            LayoutCachedWidth =5280
+                                            LayoutCachedWidth =5325
                                             LayoutCachedHeight =6540
                                             ThemeFontIndex =-1
                                             ForeTint =100.0
@@ -914,7 +914,7 @@ Begin Form
                                     OverlapFlags =223
                                     TextFontFamily =34
                                     IMESentenceMode =3
-                                    Left =2210
+                                    Left =2255
                                     Top =6689
                                     Width =3906
                                     Height =300
@@ -924,9 +924,9 @@ Begin Form
                                     ControlSource ="TX_MANIFEST"
                                     FontName ="Segoe UI"
 
-                                    LayoutCachedLeft =2210
+                                    LayoutCachedLeft =2255
                                     LayoutCachedTop =6689
-                                    LayoutCachedWidth =6116
+                                    LayoutCachedWidth =6161
                                     LayoutCachedHeight =6989
                                     BorderThemeColorIndex =2
                                     BorderTint =75.0
@@ -937,7 +937,7 @@ Begin Form
                                         Begin Label
                                             OverlapFlags =223
                                             TextFontFamily =34
-                                            Left =453
+                                            Left =498
                                             Top =6689
                                             Width =1530
                                             Height =300
@@ -945,9 +945,9 @@ Begin Form
                                             Name ="Label14"
                                             Caption ="Manifest"
                                             FontName ="Segoe UI"
-                                            LayoutCachedLeft =453
+                                            LayoutCachedLeft =498
                                             LayoutCachedTop =6689
-                                            LayoutCachedWidth =1983
+                                            LayoutCachedWidth =2028
                                             LayoutCachedHeight =6989
                                             ThemeFontIndex =-1
                                             ForeTint =100.0
@@ -959,7 +959,7 @@ Begin Form
                                     OverlapFlags =223
                                     TextFontFamily =34
                                     IMESentenceMode =3
-                                    Left =2210
+                                    Left =2255
                                     Top =7143
                                     Width =3906
                                     Height =300
@@ -969,9 +969,9 @@ Begin Form
                                     ControlSource ="TX_RESERVATION"
                                     FontName ="Segoe UI"
 
-                                    LayoutCachedLeft =2210
+                                    LayoutCachedLeft =2255
                                     LayoutCachedTop =7143
-                                    LayoutCachedWidth =6116
+                                    LayoutCachedWidth =6161
                                     LayoutCachedHeight =7443
                                     BorderThemeColorIndex =2
                                     BorderTint =75.0
@@ -982,7 +982,7 @@ Begin Form
                                         Begin Label
                                             OverlapFlags =223
                                             TextFontFamily =34
-                                            Left =453
+                                            Left =498
                                             Top =7143
                                             Width =1530
                                             Height =300
@@ -990,9 +990,9 @@ Begin Form
                                             Name ="Label89"
                                             Caption ="Request #"
                                             FontName ="Segoe UI"
-                                            LayoutCachedLeft =453
+                                            LayoutCachedLeft =498
                                             LayoutCachedTop =7143
-                                            LayoutCachedWidth =1983
+                                            LayoutCachedWidth =2028
                                             LayoutCachedHeight =7443
                                             ThemeFontIndex =-1
                                             ForeTint =100.0
@@ -1003,7 +1003,7 @@ Begin Form
                                     OverlapFlags =223
                                     TextFontFamily =34
                                     IMESentenceMode =3
-                                    Left =2211
+                                    Left =2256
                                     Top =8113
                                     Height =300
                                     TabIndex =12
@@ -1013,9 +1013,9 @@ Begin Form
                                     DefaultValue ="\"-\""
                                     FontName ="Segoe UI"
 
-                                    LayoutCachedLeft =2211
+                                    LayoutCachedLeft =2256
                                     LayoutCachedTop =8113
-                                    LayoutCachedWidth =3912
+                                    LayoutCachedWidth =3957
                                     LayoutCachedHeight =8413
                                     BorderThemeColorIndex =2
                                     BorderTint =75.0
@@ -1026,7 +1026,7 @@ Begin Form
                                         Begin Label
                                             OverlapFlags =223
                                             TextFontFamily =34
-                                            Left =453
+                                            Left =498
                                             Top =8113
                                             Width =1095
                                             Height =345
@@ -1034,9 +1034,9 @@ Begin Form
                                             Name ="LBL_COFFPO"
                                             Caption ="COFF / PO"
                                             FontName ="Segoe UI"
-                                            LayoutCachedLeft =453
+                                            LayoutCachedLeft =498
                                             LayoutCachedTop =8113
-                                            LayoutCachedWidth =1548
+                                            LayoutCachedWidth =1593
                                             LayoutCachedHeight =8458
                                             ThemeFontIndex =-1
                                             ForeTint =100.0
@@ -1047,7 +1047,7 @@ Begin Form
                                     OverlapFlags =223
                                     TextFontFamily =34
                                     IMESentenceMode =3
-                                    Left =2211
+                                    Left =2256
                                     Top =8510
                                     Height =345
                                     TabIndex =13
@@ -1058,9 +1058,9 @@ Begin Form
                                         "l GROUP BY mm.TX_POTYPE ORDER BY mm.TX_POTYPE; "
                                     FontName ="Segoe UI"
 
-                                    LayoutCachedLeft =2211
+                                    LayoutCachedLeft =2256
                                     LayoutCachedTop =8510
-                                    LayoutCachedWidth =3912
+                                    LayoutCachedWidth =3957
                                     LayoutCachedHeight =8855
                                     ThemeFontIndex =-1
                                     BorderThemeColorIndex =2
@@ -1072,7 +1072,7 @@ Begin Form
                                         Begin Label
                                             OverlapFlags =223
                                             TextFontFamily =34
-                                            Left =453
+                                            Left =498
                                             Top =8510
                                             Width =1440
                                             Height =345
@@ -1080,9 +1080,9 @@ Begin Form
                                             Name ="Label13"
                                             Caption ="Package Type"
                                             FontName ="Segoe UI"
-                                            LayoutCachedLeft =453
+                                            LayoutCachedLeft =498
                                             LayoutCachedTop =8510
-                                            LayoutCachedWidth =1893
+                                            LayoutCachedWidth =1938
                                             LayoutCachedHeight =8855
                                             ThemeFontIndex =-1
                                             ForeTint =100.0
@@ -1093,8 +1093,8 @@ Begin Form
                                     OverlapFlags =223
                                     TextFontFamily =34
                                     IMESentenceMode =3
-                                    Left =5438
-                                    Top =8113
+                                    Left =5539
+                                    Top =8107
                                     Width =2271
                                     Height =345
                                     TabIndex =14
@@ -1105,10 +1105,10 @@ Begin Form
                                         "GROUP BY mm.TX_PLANT ORDER BY mm.TX_PLANT; "
                                     FontName ="Segoe UI"
 
-                                    LayoutCachedLeft =5438
-                                    LayoutCachedTop =8113
-                                    LayoutCachedWidth =7709
-                                    LayoutCachedHeight =8458
+                                    LayoutCachedLeft =5539
+                                    LayoutCachedTop =8107
+                                    LayoutCachedWidth =7810
+                                    LayoutCachedHeight =8452
                                     ThemeFontIndex =-1
                                     BorderThemeColorIndex =2
                                     BorderTint =75.0
@@ -1119,18 +1119,18 @@ Begin Form
                                         Begin Label
                                             OverlapFlags =223
                                             TextFontFamily =34
-                                            Left =4025
-                                            Top =8113
+                                            Left =4126
+                                            Top =8107
                                             Width =1305
                                             Height =300
                                             ForeColor =0
                                             Name ="Label5"
                                             Caption ="Plant"
                                             FontName ="Segoe UI"
-                                            LayoutCachedLeft =4025
-                                            LayoutCachedTop =8113
-                                            LayoutCachedWidth =5330
-                                            LayoutCachedHeight =8413
+                                            LayoutCachedLeft =4126
+                                            LayoutCachedTop =8107
+                                            LayoutCachedWidth =5431
+                                            LayoutCachedHeight =8407
                                             ThemeFontIndex =-1
                                             ForeTint =100.0
                                         End
@@ -1140,8 +1140,8 @@ Begin Form
                                     OverlapFlags =223
                                     TextFontFamily =34
                                     IMESentenceMode =3
-                                    Left =5438
-                                    Top =8510
+                                    Left =5539
+                                    Top =8504
                                     Width =2271
                                     Height =345
                                     TabIndex =15
@@ -1152,10 +1152,10 @@ Begin Form
                                         "ull GROUP BY mm.TX_SPONSOR ORDER BY mm.TX_SPONSOR; "
                                     FontName ="Segoe UI"
 
-                                    LayoutCachedLeft =5438
-                                    LayoutCachedTop =8510
-                                    LayoutCachedWidth =7709
-                                    LayoutCachedHeight =8855
+                                    LayoutCachedLeft =5539
+                                    LayoutCachedTop =8504
+                                    LayoutCachedWidth =7810
+                                    LayoutCachedHeight =8849
                                     ThemeFontIndex =-1
                                     BorderThemeColorIndex =2
                                     BorderTint =75.0
@@ -1166,18 +1166,18 @@ Begin Form
                                         Begin Label
                                             OverlapFlags =223
                                             TextFontFamily =34
-                                            Left =4025
-                                            Top =8510
+                                            Left =4126
+                                            Top =8504
                                             Width =1305
                                             Height =300
                                             ForeColor =0
                                             Name ="Label6"
                                             Caption ="Sponsor"
                                             FontName ="Segoe UI"
-                                            LayoutCachedLeft =4025
-                                            LayoutCachedTop =8510
-                                            LayoutCachedWidth =5330
-                                            LayoutCachedHeight =8810
+                                            LayoutCachedLeft =4126
+                                            LayoutCachedTop =8504
+                                            LayoutCachedWidth =5431
+                                            LayoutCachedHeight =8804
                                             ThemeFontIndex =-1
                                             ForeTint =100.0
                                         End
@@ -1187,8 +1187,8 @@ Begin Form
                                     OverlapFlags =223
                                     TextFontFamily =34
                                     IMESentenceMode =3
-                                    Left =2211
-                                    Top =8907
+                                    Left =2256
+                                    Top =8957
                                     Width =5551
                                     Height =290
                                     TabIndex =16
@@ -1198,10 +1198,10 @@ Begin Form
                                     DefaultValue ="\"-\""
                                     FontName ="Segoe UI"
 
-                                    LayoutCachedLeft =2211
-                                    LayoutCachedTop =8907
-                                    LayoutCachedWidth =7762
-                                    LayoutCachedHeight =9197
+                                    LayoutCachedLeft =2256
+                                    LayoutCachedTop =8957
+                                    LayoutCachedWidth =7807
+                                    LayoutCachedHeight =9247
                                     BorderThemeColorIndex =2
                                     BorderTint =75.0
                                     BorderShade =100.0
@@ -1211,18 +1211,18 @@ Begin Form
                                         Begin Label
                                             OverlapFlags =223
                                             TextFontFamily =34
-                                            Left =453
-                                            Top =8907
+                                            Left =498
+                                            Top =8957
                                             Width =850
                                             Height =300
                                             ForeColor =0
                                             Name ="LBL_PIB"
                                             Caption ="PIB"
                                             FontName ="Segoe UI"
-                                            LayoutCachedLeft =453
-                                            LayoutCachedTop =8907
-                                            LayoutCachedWidth =1303
-                                            LayoutCachedHeight =9207
+                                            LayoutCachedLeft =498
+                                            LayoutCachedTop =8957
+                                            LayoutCachedWidth =1348
+                                            LayoutCachedHeight =9257
                                             ThemeFontIndex =-1
                                             ForeTint =100.0
                                         End
@@ -1232,9 +1232,9 @@ Begin Form
                                     OverlapFlags =223
                                     TextFontFamily =34
                                     IMESentenceMode =3
-                                    Left =2211
-                                    Top =9303
-                                    Width =5552
+                                    Left =2256
+                                    Top =9353
+                                    Width =5537
                                     Height =290
                                     TabIndex =17
                                     ForeColor =0
@@ -1243,10 +1243,10 @@ Begin Form
                                     DefaultValue ="\"-\""
                                     FontName ="Segoe UI"
 
-                                    LayoutCachedLeft =2211
-                                    LayoutCachedTop =9303
-                                    LayoutCachedWidth =7763
-                                    LayoutCachedHeight =9593
+                                    LayoutCachedLeft =2256
+                                    LayoutCachedTop =9353
+                                    LayoutCachedWidth =7793
+                                    LayoutCachedHeight =9643
                                     BorderThemeColorIndex =2
                                     BorderTint =75.0
                                     BorderShade =100.0
@@ -1256,18 +1256,18 @@ Begin Form
                                         Begin Label
                                             OverlapFlags =223
                                             TextFontFamily =34
-                                            Left =453
-                                            Top =9303
+                                            Left =498
+                                            Top =9353
                                             Width =830
                                             Height =300
                                             ForeColor =0
                                             Name ="LBL_SKEP"
                                             Caption ="SKEP"
                                             FontName ="Segoe UI"
-                                            LayoutCachedLeft =453
-                                            LayoutCachedTop =9303
-                                            LayoutCachedWidth =1283
-                                            LayoutCachedHeight =9603
+                                            LayoutCachedLeft =498
+                                            LayoutCachedTop =9353
+                                            LayoutCachedWidth =1328
+                                            LayoutCachedHeight =9653
                                             ThemeFontIndex =-1
                                             ForeTint =100.0
                                         End
@@ -1275,21 +1275,21 @@ Begin Form
                                 End
                                 Begin CheckBox
                                     OverlapFlags =223
-                                    Left =8556
+                                    Left =8601
                                     Top =4539
                                     TabIndex =18
                                     Name ="CHK_PDN"
                                     ControlSource ="TX_MRR_CHK_PDN"
 
-                                    LayoutCachedLeft =8556
+                                    LayoutCachedLeft =8601
                                     LayoutCachedTop =4539
-                                    LayoutCachedWidth =8816
+                                    LayoutCachedWidth =8861
                                     LayoutCachedHeight =4779
                                     Begin
                                         Begin Label
                                             OverlapFlags =255
                                             TextFontFamily =34
-                                            Left =8786
+                                            Left =8831
                                             Top =4509
                                             Width =1785
                                             Height =315
@@ -1297,9 +1297,9 @@ Begin Form
                                             Name ="Label71"
                                             Caption ="Pre-Delivery Note"
                                             FontName ="Segoe UI"
-                                            LayoutCachedLeft =8786
+                                            LayoutCachedLeft =8831
                                             LayoutCachedTop =4509
-                                            LayoutCachedWidth =10571
+                                            LayoutCachedWidth =10616
                                             LayoutCachedHeight =4824
                                             ThemeFontIndex =-1
                                             ForeTint =100.0
@@ -1308,21 +1308,21 @@ Begin Form
                                 End
                                 Begin CheckBox
                                     OverlapFlags =223
-                                    Left =8560
+                                    Left =8605
                                     Top =5075
                                     TabIndex =19
                                     Name ="CHK_MANIFEST"
                                     ControlSource ="TX_MRR_CHK_MANIFEST"
 
-                                    LayoutCachedLeft =8560
+                                    LayoutCachedLeft =8605
                                     LayoutCachedTop =5075
-                                    LayoutCachedWidth =8820
+                                    LayoutCachedWidth =8865
                                     LayoutCachedHeight =5315
                                     Begin
                                         Begin Label
                                             OverlapFlags =255
                                             TextFontFamily =34
-                                            Left =8790
+                                            Left =8835
                                             Top =5045
                                             Width =945
                                             Height =300
@@ -1330,9 +1330,9 @@ Begin Form
                                             Name ="Label77"
                                             Caption ="Manifest"
                                             FontName ="Segoe UI"
-                                            LayoutCachedLeft =8790
+                                            LayoutCachedLeft =8835
                                             LayoutCachedTop =5045
-                                            LayoutCachedWidth =9735
+                                            LayoutCachedWidth =9780
                                             LayoutCachedHeight =5345
                                             ThemeFontIndex =-1
                                             ForeTint =100.0
@@ -1341,21 +1341,21 @@ Begin Form
                                 End
                                 Begin CheckBox
                                     OverlapFlags =223
-                                    Left =8560
+                                    Left =8605
                                     Top =5529
                                     TabIndex =20
                                     Name ="CHK_PO"
                                     ControlSource ="TX_MRR_CHK_PO"
 
-                                    LayoutCachedLeft =8560
+                                    LayoutCachedLeft =8605
                                     LayoutCachedTop =5529
-                                    LayoutCachedWidth =8820
+                                    LayoutCachedWidth =8865
                                     LayoutCachedHeight =5769
                                     Begin
                                         Begin Label
                                             OverlapFlags =255
                                             TextFontFamily =34
-                                            Left =8790
+                                            Left =8835
                                             Top =5499
                                             Width =1200
                                             Height =315
@@ -1363,9 +1363,9 @@ Begin Form
                                             Name ="Label73"
                                             Caption ="COFF / PO"
                                             FontName ="Segoe UI"
-                                            LayoutCachedLeft =8790
+                                            LayoutCachedLeft =8835
                                             LayoutCachedTop =5499
-                                            LayoutCachedWidth =9990
+                                            LayoutCachedWidth =10035
                                             LayoutCachedHeight =5814
                                             ThemeFontIndex =-1
                                             ForeTint =100.0
@@ -1374,21 +1374,21 @@ Begin Form
                                 End
                                 Begin CheckBox
                                     OverlapFlags =223
-                                    Left =8560
+                                    Left =8605
                                     Top =6039
                                     TabIndex =21
                                     Name ="CHK_CERT"
                                     ControlSource ="TX_MRR_CHK_CERT"
 
-                                    LayoutCachedLeft =8560
+                                    LayoutCachedLeft =8605
                                     LayoutCachedTop =6039
-                                    LayoutCachedWidth =8820
+                                    LayoutCachedWidth =8865
                                     LayoutCachedHeight =6279
                                     Begin
                                         Begin Label
                                             OverlapFlags =255
                                             TextFontFamily =34
-                                            Left =8790
+                                            Left =8835
                                             Top =6009
                                             Width =1185
                                             Height =315
@@ -1396,9 +1396,9 @@ Begin Form
                                             Name ="Label75"
                                             Caption ="Certificates"
                                             FontName ="Segoe UI"
-                                            LayoutCachedLeft =8790
+                                            LayoutCachedLeft =8835
                                             LayoutCachedTop =6009
-                                            LayoutCachedWidth =9975
+                                            LayoutCachedWidth =10020
                                             LayoutCachedHeight =6324
                                             ThemeFontIndex =-1
                                             ForeTint =100.0
@@ -1407,21 +1407,21 @@ Begin Form
                                 End
                                 Begin CheckBox
                                     OverlapFlags =223
-                                    Left =8560
+                                    Left =8605
                                     Top =6549
                                     TabIndex =22
                                     Name ="CHK_PIB"
                                     ControlSource ="TX_MRR_CHK_PIB"
 
-                                    LayoutCachedLeft =8560
+                                    LayoutCachedLeft =8605
                                     LayoutCachedTop =6549
-                                    LayoutCachedWidth =8820
+                                    LayoutCachedWidth =8865
                                     LayoutCachedHeight =6789
                                     Begin
                                         Begin Label
                                             OverlapFlags =255
                                             TextFontFamily =34
-                                            Left =8790
+                                            Left =8835
                                             Top =6519
                                             Width =945
                                             Height =300
@@ -1429,9 +1429,9 @@ Begin Form
                                             Name ="Label79"
                                             Caption ="PIB"
                                             FontName ="Segoe UI"
-                                            LayoutCachedLeft =8790
+                                            LayoutCachedLeft =8835
                                             LayoutCachedTop =6519
-                                            LayoutCachedWidth =9735
+                                            LayoutCachedWidth =9780
                                             LayoutCachedHeight =6819
                                             ThemeFontIndex =-1
                                             ForeTint =100.0
@@ -1440,21 +1440,21 @@ Begin Form
                                 End
                                 Begin CheckBox
                                     OverlapFlags =223
-                                    Left =8560
+                                    Left =8605
                                     Top =7059
                                     TabIndex =23
                                     Name ="CHK_MASTERLIST"
                                     ControlSource ="TX_MRR_CHK_MASTERLIST"
 
-                                    LayoutCachedLeft =8560
+                                    LayoutCachedLeft =8605
                                     LayoutCachedTop =7059
-                                    LayoutCachedWidth =8820
+                                    LayoutCachedWidth =8865
                                     LayoutCachedHeight =7299
                                     Begin
                                         Begin Label
                                             OverlapFlags =255
                                             TextFontFamily =34
-                                            Left =8790
+                                            Left =8835
                                             Top =7029
                                             Width =1740
                                             Height =345
@@ -1462,9 +1462,9 @@ Begin Form
                                             Name ="Label81"
                                             Caption ="SKEP / Masterlist"
                                             FontName ="Segoe UI"
-                                            LayoutCachedLeft =8790
+                                            LayoutCachedLeft =8835
                                             LayoutCachedTop =7029
-                                            LayoutCachedWidth =10530
+                                            LayoutCachedWidth =10575
                                             LayoutCachedHeight =7374
                                             ThemeFontIndex =-1
                                             ForeTint =100.0
@@ -1473,7 +1473,7 @@ Begin Form
                                 End
                                 Begin Subform
                                     OverlapFlags =247
-                                    Left =11340
+                                    Left =11385
                                     Top =4480
                                     Width =5106
                                     Height =5226
@@ -1483,9 +1483,9 @@ Begin Form
                                     LinkChildFields ="HANDLE_MOVEMENTID"
                                     LinkMasterFields ="TX_ID"
 
-                                    LayoutCachedLeft =11340
+                                    LayoutCachedLeft =11385
                                     LayoutCachedTop =4480
-                                    LayoutCachedWidth =16446
+                                    LayoutCachedWidth =16491
                                     LayoutCachedHeight =9706
                                     BorderThemeColorIndex =2
                                     BorderTint =75.0
@@ -1494,16 +1494,16 @@ Begin Form
                                 Begin OptionGroup
                                     SpecialEffect =0
                                     OverlapFlags =247
-                                    Left =335
+                                    Left =380
                                     Top =4175
                                     Width =7656
                                     Height =1521
                                     TabIndex =25
                                     Name ="Frame56"
 
-                                    LayoutCachedLeft =335
+                                    LayoutCachedLeft =380
                                     LayoutCachedTop =4175
-                                    LayoutCachedWidth =7991
+                                    LayoutCachedWidth =8036
                                     LayoutCachedHeight =5696
                                     BorderThemeColorIndex =2
                                     BorderTint =75.0
@@ -1514,16 +1514,16 @@ Begin Form
                                             OldBorderStyle =1
                                             OverlapFlags =247
                                             TextFontFamily =34
-                                            Left =455
+                                            Left =500
                                             Top =4055
                                             Width =960
                                             Height =300
                                             Name ="Label57"
                                             Caption ="Direction"
                                             FontName ="Segoe UI"
-                                            LayoutCachedLeft =455
+                                            LayoutCachedLeft =500
                                             LayoutCachedTop =4055
-                                            LayoutCachedWidth =1415
+                                            LayoutCachedWidth =1460
                                             LayoutCachedHeight =4355
                                             ThemeFontIndex =-1
                                             BackThemeColorIndex =2
@@ -1538,16 +1538,16 @@ Begin Form
                                 Begin OptionGroup
                                     SpecialEffect =0
                                     OverlapFlags =247
-                                    Left =335
+                                    Left =380
                                     Top =5989
                                     Width =7656
                                     Height =1596
                                     TabIndex =26
                                     Name ="Frame58"
 
-                                    LayoutCachedLeft =335
+                                    LayoutCachedLeft =380
                                     LayoutCachedTop =5989
-                                    LayoutCachedWidth =7991
+                                    LayoutCachedWidth =8036
                                     LayoutCachedHeight =7585
                                     BorderThemeColorIndex =2
                                     BorderTint =75.0
@@ -1558,16 +1558,16 @@ Begin Form
                                             OldBorderStyle =1
                                             OverlapFlags =247
                                             TextFontFamily =34
-                                            Left =455
+                                            Left =500
                                             Top =5869
                                             Width =1005
                                             Height =315
                                             Name ="Label59"
                                             Caption ="Shipment"
                                             FontName ="Segoe UI"
-                                            LayoutCachedLeft =455
+                                            LayoutCachedLeft =500
                                             LayoutCachedTop =5869
-                                            LayoutCachedWidth =1460
+                                            LayoutCachedWidth =1505
                                             LayoutCachedHeight =6184
                                             ThemeFontIndex =-1
                                             BackThemeColorIndex =2
@@ -1582,16 +1582,16 @@ Begin Form
                                 Begin OptionGroup
                                     SpecialEffect =0
                                     OverlapFlags =247
-                                    Left =340
+                                    Left =385
                                     Top =7830
                                     Width =7641
                                     Height =2061
                                     TabIndex =27
                                     Name ="Frame60"
 
-                                    LayoutCachedLeft =340
+                                    LayoutCachedLeft =385
                                     LayoutCachedTop =7830
-                                    LayoutCachedWidth =7981
+                                    LayoutCachedWidth =8026
                                     LayoutCachedHeight =9891
                                     BorderThemeColorIndex =2
                                     BorderTint =75.0
@@ -1602,16 +1602,16 @@ Begin Form
                                             OldBorderStyle =1
                                             OverlapFlags =247
                                             TextFontFamily =34
-                                            Left =460
+                                            Left =505
                                             Top =7710
                                             Width =1395
                                             Height =345
                                             Name ="Label61"
                                             Caption ="Package Info."
                                             FontName ="Segoe UI"
-                                            LayoutCachedLeft =460
+                                            LayoutCachedLeft =505
                                             LayoutCachedTop =7710
-                                            LayoutCachedWidth =1855
+                                            LayoutCachedWidth =1900
                                             LayoutCachedHeight =8055
                                             ThemeFontIndex =-1
                                             BackThemeColorIndex =2
@@ -1626,16 +1626,16 @@ Begin Form
                                 Begin OptionGroup
                                     SpecialEffect =0
                                     OverlapFlags =255
-                                    Left =8272
+                                    Left =8317
                                     Top =4175
                                     Width =2661
                                     Height =5691
                                     TabIndex =28
                                     Name ="Frame66"
 
-                                    LayoutCachedLeft =8272
+                                    LayoutCachedLeft =8317
                                     LayoutCachedTop =4175
-                                    LayoutCachedWidth =10933
+                                    LayoutCachedWidth =10978
                                     LayoutCachedHeight =9866
                                     BorderThemeColorIndex =2
                                     BorderTint =75.0
@@ -1646,16 +1646,16 @@ Begin Form
                                             OldBorderStyle =1
                                             OverlapFlags =247
                                             TextFontFamily =34
-                                            Left =8392
+                                            Left =8437
                                             Top =4055
                                             Width =2085
                                             Height =315
                                             Name ="Label67"
                                             Caption ="Documents Included"
                                             FontName ="Segoe UI"
-                                            LayoutCachedLeft =8392
+                                            LayoutCachedLeft =8437
                                             LayoutCachedTop =4055
-                                            LayoutCachedWidth =10477
+                                            LayoutCachedWidth =10522
                                             LayoutCachedHeight =4370
                                             ThemeFontIndex =-1
                                             BackThemeColorIndex =2
@@ -1670,16 +1670,16 @@ Begin Form
                                 Begin OptionGroup
                                     SpecialEffect =0
                                     OverlapFlags =223
-                                    Left =11168
+                                    Left =11213
                                     Top =4175
                                     Width =5436
                                     Height =5691
                                     TabIndex =29
                                     Name ="Frame82"
 
-                                    LayoutCachedLeft =11168
+                                    LayoutCachedLeft =11213
                                     LayoutCachedTop =4175
-                                    LayoutCachedWidth =16604
+                                    LayoutCachedWidth =16649
                                     LayoutCachedHeight =9866
                                     BorderThemeColorIndex =2
                                     BorderTint =75.0
@@ -1690,7 +1690,7 @@ Begin Form
                                             OldBorderStyle =1
                                             OverlapFlags =215
                                             TextFontFamily =34
-                                            Left =11288
+                                            Left =11333
                                             Top =4056
                                             Width =1230
                                             Height =315
@@ -1698,9 +1698,9 @@ Begin Form
                                             Name ="Label83"
                                             Caption ="Handled By"
                                             FontName ="Segoe UI"
-                                            LayoutCachedLeft =11288
+                                            LayoutCachedLeft =11333
                                             LayoutCachedTop =4056
-                                            LayoutCachedWidth =12518
+                                            LayoutCachedWidth =12563
                                             LayoutCachedHeight =4371
                                             ThemeFontIndex =-1
                                             BackThemeColorIndex =2
@@ -1717,16 +1717,16 @@ Begin Form
                                     SpecialEffect =0
                                     BackStyle =1
                                     OverlapFlags =223
-                                    Left =16837
+                                    Left =16882
                                     Top =4145
                                     Width =6511
                                     Height =5661
                                     TabIndex =30
                                     Name ="LBL_QR"
 
-                                    LayoutCachedLeft =16837
+                                    LayoutCachedLeft =16882
                                     LayoutCachedTop =4145
-                                    LayoutCachedWidth =23348
+                                    LayoutCachedWidth =23393
                                     LayoutCachedHeight =9806
                                     BorderThemeColorIndex =2
                                     BorderTint =75.0
@@ -1737,7 +1737,7 @@ Begin Form
                                             OldBorderStyle =1
                                             OverlapFlags =215
                                             TextFontFamily =34
-                                            Left =16957
+                                            Left =17002
                                             Top =4025
                                             Width =1230
                                             Height =300
@@ -1745,9 +1745,9 @@ Begin Form
                                             Name ="Label91"
                                             Caption ="Attachment"
                                             FontName ="Segoe UI"
-                                            LayoutCachedLeft =16957
+                                            LayoutCachedLeft =17002
                                             LayoutCachedTop =4025
-                                            LayoutCachedWidth =18187
+                                            LayoutCachedWidth =18232
                                             LayoutCachedHeight =4325
                                             ThemeFontIndex =-1
                                             BackThemeColorIndex =2
@@ -1764,7 +1764,7 @@ Begin Form
                                     OverlapFlags =215
                                     TextFontFamily =34
                                     IMESentenceMode =3
-                                    Left =18096
+                                    Left =18141
                                     Top =4480
                                     Width =5036
                                     Height =1095
@@ -1774,9 +1774,9 @@ Begin Form
                                     FontName ="Segoe UI"
                                     Tag ="qrcodeM"
 
-                                    LayoutCachedLeft =18096
+                                    LayoutCachedLeft =18141
                                     LayoutCachedTop =4480
-                                    LayoutCachedWidth =23132
+                                    LayoutCachedWidth =23177
                                     LayoutCachedHeight =5575
                                     BorderThemeColorIndex =2
                                     BorderTint =75.0
@@ -1788,7 +1788,7 @@ Begin Form
                                         Begin Label
                                             OverlapFlags =215
                                             TextFontFamily =34
-                                            Left =17010
+                                            Left =17055
                                             Top =4480
                                             Width =975
                                             Height =345
@@ -1796,9 +1796,9 @@ Begin Form
                                             Name ="Label93"
                                             Caption ="URL Only"
                                             FontName ="Segoe UI"
-                                            LayoutCachedLeft =17010
+                                            LayoutCachedLeft =17055
                                             LayoutCachedTop =4480
-                                            LayoutCachedWidth =17985
+                                            LayoutCachedWidth =18030
                                             LayoutCachedHeight =4825
                                             ThemeFontIndex =-1
                                             ForeTint =100.0
@@ -1807,7 +1807,7 @@ Begin Form
                                 End
                                 Begin CommandButton
                                     OverlapFlags =215
-                                    Left =21376
+                                    Left =21421
                                     Top =5695
                                     Width =786
                                     Height =787
@@ -1954,14 +1954,14 @@ Begin Form
                                     End
 
                                     CursorOnHover =1
-                                    LayoutCachedLeft =21376
+                                    LayoutCachedLeft =21421
                                     LayoutCachedTop =5695
-                                    LayoutCachedWidth =22162
+                                    LayoutCachedWidth =22207
                                     LayoutCachedHeight =6482
                                 End
                                 Begin CommandButton
                                     OverlapFlags =215
-                                    Left =22339
+                                    Left =22384
                                     Top =5695
                                     Width =787
                                     Height =787
@@ -2108,15 +2108,15 @@ Begin Form
                                     End
 
                                     CursorOnHover =1
-                                    LayoutCachedLeft =22339
+                                    LayoutCachedLeft =22384
                                     LayoutCachedTop =5695
-                                    LayoutCachedWidth =23126
+                                    LayoutCachedWidth =23171
                                     LayoutCachedHeight =6482
                                 End
                                 Begin Image
                                     OldBorderStyle =1
                                     SizeMode =0
-                                    Left =18096
+                                    Left =18141
                                     Top =5696
                                     Width =3015
                                     Height =3015
@@ -2216,9 +2216,9 @@ Begin Form
                                         0x7d0000000049454e44ae426082
                                     End
 
-                                    LayoutCachedLeft =18096
+                                    LayoutCachedLeft =18141
                                     LayoutCachedTop =5696
-                                    LayoutCachedWidth =21111
+                                    LayoutCachedWidth =21156
                                     LayoutCachedHeight =8711
                                     TabIndex =34
                                     BorderThemeColorIndex =2
@@ -2227,21 +2227,21 @@ Begin Form
                                 End
                                 Begin CheckBox
                                     OverlapFlags =247
-                                    Left =8560
+                                    Left =8605
                                     Top =7627
                                     TabIndex =35
                                     Name ="CHK_EMAILPRINTOUT"
                                     ControlSource ="TX_MRR_CHK_EMAILPRINTOUT"
 
-                                    LayoutCachedLeft =8560
+                                    LayoutCachedLeft =8605
                                     LayoutCachedTop =7627
-                                    LayoutCachedWidth =8820
+                                    LayoutCachedWidth =8865
                                     LayoutCachedHeight =7867
                                     Begin
                                         Begin Label
                                             OverlapFlags =247
                                             TextFontFamily =34
-                                            Left =8791
+                                            Left =8836
                                             Top =7596
                                             Width =1400
                                             Height =300
@@ -2249,9 +2249,9 @@ Begin Form
                                             Name ="Label135"
                                             Caption ="Email Printout"
                                             FontName ="Segoe UI"
-                                            LayoutCachedLeft =8791
+                                            LayoutCachedLeft =8836
                                             LayoutCachedTop =7596
-                                            LayoutCachedWidth =10191
+                                            LayoutCachedWidth =10236
                                             LayoutCachedHeight =7896
                                             ThemeFontIndex =-1
                                             ForeTint =100.0
@@ -2260,21 +2260,21 @@ Begin Form
                                 End
                                 Begin CheckBox
                                     OverlapFlags =247
-                                    Left =8560
+                                    Left =8605
                                     Top =8137
                                     TabIndex =36
                                     Name ="CHK_LETTERS"
                                     ControlSource ="TX_MRR_CHK_LETTERS"
 
-                                    LayoutCachedLeft =8560
+                                    LayoutCachedLeft =8605
                                     LayoutCachedTop =8137
-                                    LayoutCachedWidth =8820
+                                    LayoutCachedWidth =8865
                                     LayoutCachedHeight =8377
                                     Begin
                                         Begin Label
                                             OverlapFlags =247
                                             TextFontFamily =34
-                                            Left =8790
+                                            Left =8835
                                             Top =8107
                                             Width =1360
                                             Height =290
@@ -2282,9 +2282,9 @@ Begin Form
                                             Name ="Label137"
                                             Caption ="Other Letters"
                                             FontName ="Segoe UI"
-                                            LayoutCachedLeft =8790
+                                            LayoutCachedLeft =8835
                                             LayoutCachedTop =8107
-                                            LayoutCachedWidth =10150
+                                            LayoutCachedWidth =10195
                                             LayoutCachedHeight =8397
                                             ThemeFontIndex =-1
                                             ForeTint =100.0
@@ -2297,7 +2297,7 @@ Begin Form
                                     OverlapFlags =215
                                     TextAlign =2
                                     TextFontFamily =34
-                                    Left =21149
+                                    Left =21194
                                     Top =7339
                                     Width =375
                                     Height =1365
@@ -2305,9 +2305,9 @@ Begin Form
                                     Name ="Label121"
                                     Caption ="QR Code"
                                     FontName ="Segoe UI"
-                                    LayoutCachedLeft =21149
+                                    LayoutCachedLeft =21194
                                     LayoutCachedTop =7339
-                                    LayoutCachedWidth =21524
+                                    LayoutCachedWidth =21569
                                     LayoutCachedHeight =8704
                                     ThemeFontIndex =-1
                                     BackThemeColorIndex =2
@@ -2318,16 +2318,16 @@ Begin Form
                                 Begin OptionGroup
                                     SpecialEffect =0
                                     OverlapFlags =223
-                                    Left =23527
+                                    Left =23572
                                     Top =4145
                                     Width =3231
                                     Height =5661
                                     TabIndex =37
                                     Name ="Frame148"
 
-                                    LayoutCachedLeft =23527
+                                    LayoutCachedLeft =23572
                                     LayoutCachedTop =4145
-                                    LayoutCachedWidth =26758
+                                    LayoutCachedWidth =26803
                                     LayoutCachedHeight =9806
                                     BorderThemeColorIndex =2
                                     BorderTint =75.0
@@ -2338,7 +2338,7 @@ Begin Form
                                             OldBorderStyle =1
                                             OverlapFlags =215
                                             TextFontFamily =34
-                                            Left =23647
+                                            Left =23692
                                             Top =4025
                                             Width =1030
                                             Height =290
@@ -2346,9 +2346,9 @@ Begin Form
                                             Name ="Label149"
                                             Caption ="Others"
                                             FontName ="Segoe UI"
-                                            LayoutCachedLeft =23647
+                                            LayoutCachedLeft =23692
                                             LayoutCachedTop =4025
-                                            LayoutCachedWidth =24677
+                                            LayoutCachedWidth =24722
                                             LayoutCachedHeight =4315
                                             ThemeFontIndex =-1
                                             BackThemeColorIndex =2
@@ -2366,7 +2366,7 @@ Begin Form
                                     OverlapFlags =215
                                     TextFontFamily =34
                                     IMESentenceMode =3
-                                    Left =23697
+                                    Left =23742
                                     Top =4818
                                     Width =2891
                                     Height =4760
@@ -2377,9 +2377,9 @@ Begin Form
                                     FontName ="Segoe UI"
                                     ShowDatePicker =0
 
-                                    LayoutCachedLeft =23697
+                                    LayoutCachedLeft =23742
                                     LayoutCachedTop =4818
-                                    LayoutCachedWidth =26588
+                                    LayoutCachedWidth =26633
                                     LayoutCachedHeight =9578
                                     BorderThemeColorIndex =2
                                     BorderTint =75.0
@@ -2390,7 +2390,7 @@ Begin Form
                                         Begin Label
                                             OverlapFlags =215
                                             TextFontFamily =34
-                                            Left =23697
+                                            Left =23742
                                             Top =4480
                                             Width =1640
                                             Height =300
@@ -2398,9 +2398,9 @@ Begin Form
                                             Name ="Label151"
                                             Caption ="Additional Notes"
                                             FontName ="Segoe UI"
-                                            LayoutCachedLeft =23697
+                                            LayoutCachedLeft =23742
                                             LayoutCachedTop =4480
-                                            LayoutCachedWidth =25337
+                                            LayoutCachedWidth =25382
                                             LayoutCachedHeight =4780
                                             ThemeFontIndex =-1
                                             ForeTint =100.0
@@ -2409,16 +2409,16 @@ Begin Form
                                 End
                                 Begin CommandButton
                                     OverlapFlags =215
-                                    Left =21429
+                                    Left =21474
                                     Top =6746
                                     TabIndex =39
                                     Name ="btn_QRCode_New"
                                     Caption ="Command162"
                                     OnClick ="[Event Procedure]"
 
-                                    LayoutCachedLeft =21429
+                                    LayoutCachedLeft =21474
                                     LayoutCachedTop =6746
-                                    LayoutCachedWidth =23130
+                                    LayoutCachedWidth =23175
                                     LayoutCachedHeight =7029
                                 End
                             End
@@ -2427,13 +2427,13 @@ Begin Form
                             OverlapFlags =247
                             Left =120
                             Top =2655
-                            Width =26895
+                            Width =26940
                             Height =8100
                             Name ="tp_MaterialIncoming"
                             Caption ="INCOMING MATERIAL"
                             LayoutCachedLeft =120
                             LayoutCachedTop =2655
-                            LayoutCachedWidth =27015
+                            LayoutCachedWidth =27060
                             LayoutCachedHeight =10755
                             Begin
                                 Begin TextBox
@@ -2441,7 +2441,7 @@ Begin Form
                                     TextAlign =2
                                     TextFontFamily =34
                                     IMESentenceMode =3
-                                    Left =1927
+                                    Left =1972
                                     Top =2834
                                     Width =2376
                                     Height =300
@@ -2454,9 +2454,9 @@ Begin Form
                                     Format ="Medium Date"
                                     FontName ="Segoe UI"
 
-                                    LayoutCachedLeft =1927
+                                    LayoutCachedLeft =1972
                                     LayoutCachedTop =2834
-                                    LayoutCachedWidth =4303
+                                    LayoutCachedWidth =4348
                                     LayoutCachedHeight =3134
                                     BackThemeColorIndex =-1
                                     BorderThemeColorIndex =-1
@@ -2467,7 +2467,7 @@ Begin Form
                                         Begin Label
                                             OverlapFlags =247
                                             TextFontFamily =34
-                                            Left =226
+                                            Left =271
                                             Top =2834
                                             Width =1645
                                             Height =300
@@ -2475,9 +2475,9 @@ Begin Form
                                             Name ="Label10"
                                             Caption ="Date Received"
                                             FontName ="Segoe UI"
-                                            LayoutCachedLeft =226
+                                            LayoutCachedLeft =271
                                             LayoutCachedTop =2834
-                                            LayoutCachedWidth =1871
+                                            LayoutCachedWidth =1916
                                             LayoutCachedHeight =3134
                                             ThemeFontIndex =-1
                                             ForeTint =100.0
@@ -2487,7 +2487,7 @@ Begin Form
                                 Begin Subform
                                     OverlapFlags =247
                                     OldBorderStyle =0
-                                    Left =340
+                                    Left =385
                                     Top =3795
                                     Width =4710
                                     Height =6570
@@ -2495,9 +2495,9 @@ Begin Form
                                     Name ="MAT_MOVEMENT_EDITOR_Sub_FIND"
                                     SourceObject ="Form.MAT_MOVEMENT_EDITOR_Sub_FIND"
 
-                                    LayoutCachedLeft =340
+                                    LayoutCachedLeft =385
                                     LayoutCachedTop =3795
-                                    LayoutCachedWidth =5050
+                                    LayoutCachedWidth =5095
                                     LayoutCachedHeight =10365
                                     BorderThemeColorIndex =2
                                     BorderTint =75.0
@@ -2506,16 +2506,16 @@ Begin Form
                                 Begin OptionGroup
                                     SpecialEffect =0
                                     OverlapFlags =255
-                                    Left =226
+                                    Left =271
                                     Top =3521
                                     Width =4881
                                     Height =7026
                                     TabIndex =2
                                     Name ="FRM_FINDMATERIAL_INCOMING"
 
-                                    LayoutCachedLeft =226
+                                    LayoutCachedLeft =271
                                     LayoutCachedTop =3521
-                                    LayoutCachedWidth =5107
+                                    LayoutCachedWidth =5152
                                     LayoutCachedHeight =10547
                                     BorderThemeColorIndex =2
                                     BorderTint =75.0
@@ -2526,16 +2526,16 @@ Begin Form
                                             OldBorderStyle =1
                                             OverlapFlags =247
                                             TextFontFamily =34
-                                            Left =346
+                                            Left =391
                                             Top =3401
                                             Width =1415
                                             Height =315
                                             Name ="Label108"
                                             Caption ="Find Material"
                                             FontName ="Segoe UI"
-                                            LayoutCachedLeft =346
+                                            LayoutCachedLeft =391
                                             LayoutCachedTop =3401
-                                            LayoutCachedWidth =1761
+                                            LayoutCachedWidth =1806
                                             LayoutCachedHeight =3716
                                             ThemeFontIndex =-1
                                             BackThemeColorIndex =2
@@ -2550,16 +2550,16 @@ Begin Form
                                 Begin OptionGroup
                                     SpecialEffect =0
                                     OverlapFlags =255
-                                    Left =5272
+                                    Left =5317
                                     Top =3521
                                     Width =21551
                                     Height =7011
                                     TabIndex =3
                                     Name ="Frame109"
 
-                                    LayoutCachedLeft =5272
+                                    LayoutCachedLeft =5317
                                     LayoutCachedTop =3521
-                                    LayoutCachedWidth =26823
+                                    LayoutCachedWidth =26868
                                     LayoutCachedHeight =10532
                                     BorderThemeColorIndex =2
                                     BorderTint =75.0
@@ -2570,16 +2570,16 @@ Begin Form
                                             OldBorderStyle =1
                                             OverlapFlags =247
                                             TextFontFamily =34
-                                            Left =5392
+                                            Left =5437
                                             Top =3401
                                             Width =2145
                                             Height =315
                                             Name ="Label110"
                                             Caption ="Material in Shipment"
                                             FontName ="Segoe UI"
-                                            LayoutCachedLeft =5392
+                                            LayoutCachedLeft =5437
                                             LayoutCachedTop =3401
-                                            LayoutCachedWidth =7537
+                                            LayoutCachedWidth =7582
                                             LayoutCachedHeight =3716
                                             ThemeFontIndex =-1
                                             BackThemeColorIndex =2
@@ -2594,7 +2594,7 @@ Begin Form
                                 Begin Subform
                                     OverlapFlags =247
                                     OldBorderStyle =0
-                                    Left =5364
+                                    Left =5409
                                     Top =3848
                                     Width =21230
                                     Height =6510
@@ -2604,9 +2604,9 @@ Begin Form
                                     LinkChildFields ="TX_ROWID"
                                     LinkMasterFields ="TX_ROWID"
 
-                                    LayoutCachedLeft =5364
+                                    LayoutCachedLeft =5409
                                     LayoutCachedTop =3848
-                                    LayoutCachedWidth =26594
+                                    LayoutCachedWidth =26639
                                     LayoutCachedHeight =10358
                                     BorderThemeColorIndex =2
                                     BorderTint =75.0
@@ -2618,7 +2618,7 @@ Begin Form
                                     TextAlign =2
                                     TextFontFamily =34
                                     IMESentenceMode =3
-                                    Left =5272
+                                    Left =5317
                                     Top =2834
                                     Width =21551
                                     Height =300
@@ -2630,9 +2630,9 @@ Begin Form
                                     ControlSource ="=\"INCOMING MATERIAL\""
                                     FontName ="Segoe UI"
 
-                                    LayoutCachedLeft =5272
+                                    LayoutCachedLeft =5317
                                     LayoutCachedTop =2834
-                                    LayoutCachedWidth =26823
+                                    LayoutCachedWidth =26868
                                     LayoutCachedHeight =3134
                                     BackThemeColorIndex =-1
                                     ThemeFontIndex =-1
@@ -2645,13 +2645,13 @@ Begin Form
                             OverlapFlags =247
                             Left =120
                             Top =2655
-                            Width =26895
+                            Width =26940
                             Height =8100
                             Name ="tp_NCR"
                             Caption ="NCR"
                             LayoutCachedLeft =120
                             LayoutCachedTop =2655
-                            LayoutCachedWidth =27015
+                            LayoutCachedWidth =27060
                             LayoutCachedHeight =10755
                         End
                         Begin Page
@@ -2659,30 +2659,560 @@ Begin Form
                             OverlapFlags =247
                             Left =120
                             Top =2655
-                            Width =26895
+                            Width =26940
                             Height =8100
                             Name ="tp_MaterialOutgoing"
                             Caption ="OUTGOING MATERIAL"
                             LayoutCachedLeft =120
                             LayoutCachedTop =2655
-                            LayoutCachedWidth =27015
+                            LayoutCachedWidth =27060
                             LayoutCachedHeight =10755
                             Begin
                                 Begin OptionGroup
                                     SpecialEffect =0
                                     OverlapFlags =255
-                                    Left =226
+                                    Left =271
                                     Top =3521
                                     Width =4881
                                     Height =7026
-                                    BorderColor =2366701
                                     Name ="FRM_FINDMATERIAL_OUTGOING"
 
-                                    LayoutCachedLeft =226
+                                    LayoutCachedLeft =271
                                     LayoutCachedTop =3521
-                                    LayoutCachedWidth =5107
+                                    LayoutCachedWidth =5152
                                     LayoutCachedHeight =10547
+                                    BorderThemeColorIndex =2
+                                    BorderTint =75.0
+                                    BorderShade =100.0
+                                    Begin
+                                        Begin Label
+                                            BackStyle =1
+                                            OldBorderStyle =1
+                                            OverlapFlags =247
+                                            TextFontFamily =34
+                                            Left =391
+                                            Top =3401
+                                            Width =1416
+                                            Height =315
+                                            Name ="Label114"
+                                            Caption ="Find Material"
+                                            FontName ="Segoe UI"
+                                            LayoutCachedLeft =391
+                                            LayoutCachedTop =3401
+                                            LayoutCachedWidth =1807
+                                            LayoutCachedHeight =3716
+                                            ThemeFontIndex =-1
+                                            BackThemeColorIndex =2
+                                            BackTint =75.0
+                                            BorderThemeColorIndex =2
+                                            BorderTint =75.0
+                                            ForeThemeColorIndex =1
+                                            ForeTint =100.0
+                                        End
+                                    End
+                                End
+                                Begin Subform
+                                    OverlapFlags =247
+                                    OldBorderStyle =0
+                                    Left =385
+                                    Top =3795
+                                    Width =4601
+                                    Height =6571
+                                    TabIndex =1
+                                    BorderColor =0
+                                    Name ="MAT_MOVEMENT_EDITOR_Sub_FIND_OUTGOING"
+                                    SourceObject ="Form.MAT_MOVEMENT_EDITOR_Sub_FIND"
+
+                                    LayoutCachedLeft =385
+                                    LayoutCachedTop =3795
+                                    LayoutCachedWidth =4986
+                                    LayoutCachedHeight =10366
                                     BorderThemeColorIndex =-1
+                                    BorderShade =100.0
+                                End
+                                Begin OptionGroup
+                                    SpecialEffect =0
+                                    OverlapFlags =255
+                                    Left =5317
+                                    Top =3521
+                                    Width =21551
+                                    Height =7011
+                                    TabIndex =2
+                                    Name ="Frame160"
+
+                                    LayoutCachedLeft =5317
+                                    LayoutCachedTop =3521
+                                    LayoutCachedWidth =26868
+                                    LayoutCachedHeight =10532
+                                    BorderThemeColorIndex =2
+                                    BorderTint =75.0
+                                    BorderShade =100.0
+                                    Begin
+                                        Begin Label
+                                            BackStyle =1
+                                            OldBorderStyle =1
+                                            OverlapFlags =247
+                                            TextFontFamily =34
+                                            Left =5438
+                                            Top =3401
+                                            Width =2146
+                                            Height =330
+                                            Name ="Label161"
+                                            Caption ="Material in Shipment"
+                                            FontName ="Segoe UI"
+                                            LayoutCachedLeft =5438
+                                            LayoutCachedTop =3401
+                                            LayoutCachedWidth =7584
+                                            LayoutCachedHeight =3731
+                                            ThemeFontIndex =-1
+                                            BackThemeColorIndex =2
+                                            BackTint =75.0
+                                            BorderThemeColorIndex =2
+                                            BorderTint =75.0
+                                            ForeThemeColorIndex =1
+                                            ForeTint =100.0
+                                        End
+                                    End
+                                End
+                                Begin Subform
+                                    OverlapFlags =247
+                                    OldBorderStyle =0
+                                    Left =5409
+                                    Top =3849
+                                    Width =21231
+                                    Height =6511
+                                    TabIndex =3
+                                    Name ="Child167"
+                                    SourceObject ="Form.MAT_MOVEMENT_EDITOR_Sub_DETAIL2"
+                                    LinkChildFields ="TX_ROWID"
+                                    LinkMasterFields ="TX_ROWID"
+
+                                    LayoutCachedLeft =5409
+                                    LayoutCachedTop =3849
+                                    LayoutCachedWidth =26640
+                                    LayoutCachedHeight =10360
+                                End
+                                Begin TextBox
+                                    TabStop = NotDefault
+                                    OverlapFlags =247
+                                    TextAlign =2
+                                    TextFontFamily =34
+                                    IMESentenceMode =3
+                                    Left =5317
+                                    Top =2834
+                                    Width =21551
+                                    Height =300
+                                    FontWeight =700
+                                    TabIndex =4
+                                    BackColor =2366701
+                                    BorderColor =2366701
+                                    ForeColor =16777215
+                                    Name ="Text169"
+                                    ControlSource ="=\"OUTGOING MATERIAL\""
+                                    FontName ="Segoe UI"
+
+                                    LayoutCachedLeft =5317
+                                    LayoutCachedTop =2834
+                                    LayoutCachedWidth =26868
+                                    LayoutCachedHeight =3134
+                                    BackThemeColorIndex =-1
+                                    BorderThemeColorIndex =-1
+                                    BorderShade =100.0
+                                    ThemeFontIndex =-1
+                                    ForeThemeColorIndex =-1
+                                    ForeTint =100.0
+                                End
+                                Begin TextBox
+                                    OverlapFlags =247
+                                    TextAlign =2
+                                    TextFontFamily =34
+                                    IMESentenceMode =3
+                                    Left =1972
+                                    Top =2834
+                                    Width =2376
+                                    Height =300
+                                    TabIndex =5
+                                    BackColor =13952764
+                                    BorderColor =5676533
+                                    Name ="Text171"
+                                    ControlSource ="TX_DATEEXECUTED"
+                                    Format ="Medium Date"
+                                    FontName ="Segoe UI"
+
+                                    LayoutCachedLeft =1972
+                                    LayoutCachedTop =2834
+                                    LayoutCachedWidth =4348
+                                    LayoutCachedHeight =3134
+                                    BackThemeColorIndex =-1
+                                    BorderThemeColorIndex =-1
+                                    BorderShade =100.0
+                                    ThemeFontIndex =-1
+                                    Begin
+                                        Begin Label
+                                            OverlapFlags =247
+                                            TextFontFamily =34
+                                            Left =271
+                                            Top =2834
+                                            Width =1645
+                                            Height =300
+                                            ForeColor =0
+                                            Name ="Label172"
+                                            Caption ="Date Sent"
+                                            FontName ="Segoe UI"
+                                            LayoutCachedLeft =271
+                                            LayoutCachedTop =2834
+                                            LayoutCachedWidth =1916
+                                            LayoutCachedHeight =3134
+                                            ThemeFontIndex =-1
+                                            BorderThemeColorIndex =-1
+                                            ForeThemeColorIndex =-1
+                                            ForeTint =100.0
+                                        End
+                                    End
+                                End
+                            End
+                        End
+                        Begin Page
+                            Visible = NotDefault
+                            OverlapFlags =247
+                            Left =120
+                            Top =2655
+                            Width =26940
+                            Height =8100
+                            Name ="tp_ChangeBin"
+                            Caption ="CHANGE BIN"
+                            LayoutCachedLeft =120
+                            LayoutCachedTop =2655
+                            LayoutCachedWidth =27060
+                            LayoutCachedHeight =10755
+                            Begin
+                                Begin OptionGroup
+                                    SpecialEffect =0
+                                    OverlapFlags =255
+                                    Left =5317
+                                    Top =3521
+                                    Width =21551
+                                    Height =7011
+                                    Name ="Frame158"
+
+                                    LayoutCachedLeft =5317
+                                    LayoutCachedTop =3521
+                                    LayoutCachedWidth =26868
+                                    LayoutCachedHeight =10532
+                                    BackThemeColorIndex =-1
+                                    BorderThemeColorIndex =2
+                                    BorderTint =75.0
+                                    BorderShade =100.0
+                                    Begin
+                                        Begin Label
+                                            BackStyle =1
+                                            OldBorderStyle =1
+                                            OverlapFlags =247
+                                            TextFontFamily =34
+                                            Left =5438
+                                            Top =3401
+                                            Width =2717
+                                            Height =330
+                                            ForeColor =16777215
+                                            Name ="Label159"
+                                            Caption ="Material in Bin Movement"
+                                            FontName ="Segoe UI"
+                                            LayoutCachedLeft =5438
+                                            LayoutCachedTop =3401
+                                            LayoutCachedWidth =8155
+                                            LayoutCachedHeight =3731
+                                            ThemeFontIndex =-1
+                                            BackThemeColorIndex =2
+                                            BackTint =75.0
+                                            BorderThemeColorIndex =2
+                                            BorderTint =75.0
+                                            ForeThemeColorIndex =-1
+                                            ForeTint =100.0
+                                        End
+                                    End
+                                End
+                                Begin OptionGroup
+                                    SpecialEffect =0
+                                    OverlapFlags =255
+                                    Left =272
+                                    Top =3521
+                                    Width =4881
+                                    Height =7026
+                                    TabIndex =1
+                                    Name ="Frame173"
+
+                                    LayoutCachedLeft =272
+                                    LayoutCachedTop =3521
+                                    LayoutCachedWidth =5153
+                                    LayoutCachedHeight =10547
+                                    BorderThemeColorIndex =2
+                                    BorderTint =75.0
+                                    BorderShade =100.0
+                                    Begin
+                                        Begin Label
+                                            BackStyle =1
+                                            OldBorderStyle =1
+                                            OverlapFlags =247
+                                            TextFontFamily =34
+                                            Left =346
+                                            Top =3401
+                                            Width =1416
+                                            Height =300
+                                            ForeColor =16777215
+                                            Name ="Label174"
+                                            Caption ="Find Material"
+                                            FontName ="Segoe UI"
+                                            LayoutCachedLeft =346
+                                            LayoutCachedTop =3401
+                                            LayoutCachedWidth =1762
+                                            LayoutCachedHeight =3701
+                                            ThemeFontIndex =-1
+                                            BackThemeColorIndex =2
+                                            BackTint =75.0
+                                            BorderThemeColorIndex =2
+                                            BorderTint =75.0
+                                            ForeThemeColorIndex =-1
+                                            ForeTint =100.0
+                                        End
+                                    End
+                                End
+                                Begin TextBox
+                                    TabStop = NotDefault
+                                    OverlapFlags =247
+                                    TextAlign =2
+                                    TextFontFamily =34
+                                    IMESentenceMode =3
+                                    Left =5317
+                                    Top =2834
+                                    Width =21551
+                                    Height =300
+                                    FontWeight =700
+                                    TabIndex =2
+                                    BackColor =39423
+                                    BorderColor =39423
+                                    ForeColor =0
+                                    Name ="Text175"
+                                    ControlSource ="=\"CHANGE BIN\""
+                                    FontName ="Segoe UI"
+
+                                    LayoutCachedLeft =5317
+                                    LayoutCachedTop =2834
+                                    LayoutCachedWidth =26868
+                                    LayoutCachedHeight =3134
+                                    BackThemeColorIndex =-1
+                                    BorderThemeColorIndex =-1
+                                    BorderShade =100.0
+                                    ThemeFontIndex =-1
+                                    ForeThemeColorIndex =-1
+                                    ForeTint =100.0
+                                End
+                                Begin TextBox
+                                    OverlapFlags =247
+                                    TextAlign =2
+                                    TextFontFamily =34
+                                    IMESentenceMode =3
+                                    Left =1973
+                                    Top =2834
+                                    Width =2376
+                                    Height =300
+                                    TabIndex =3
+                                    BackColor =13952764
+                                    BorderColor =5676533
+                                    ForeColor =0
+                                    Name ="Text177"
+                                    ControlSource ="TX_DATEEXECUTED"
+                                    FontName ="Segoe UI"
+
+                                    LayoutCachedLeft =1973
+                                    LayoutCachedTop =2834
+                                    LayoutCachedWidth =4349
+                                    LayoutCachedHeight =3134
+                                    BackThemeColorIndex =-1
+                                    BorderThemeColorIndex =-1
+                                    BorderShade =100.0
+                                    ThemeFontIndex =-1
+                                    ForeThemeColorIndex =-1
+                                    ForeTint =100.0
+                                    Begin
+                                        Begin Label
+                                            OverlapFlags =247
+                                            TextFontFamily =34
+                                            Left =272
+                                            Top =2834
+                                            Width =1645
+                                            Height =345
+                                            ForeColor =0
+                                            Name ="Label178"
+                                            Caption ="Date Moved"
+                                            FontName ="Segoe UI"
+                                            LayoutCachedLeft =272
+                                            LayoutCachedTop =2834
+                                            LayoutCachedWidth =1917
+                                            LayoutCachedHeight =3179
+                                            ThemeFontIndex =-1
+                                            ForeThemeColorIndex =-1
+                                            ForeTint =100.0
+                                        End
+                                    End
+                                End
+                                Begin Subform
+                                    OverlapFlags =247
+                                    OldBorderStyle =0
+                                    Left =5410
+                                    Top =3850
+                                    Width =21231
+                                    Height =6512
+                                    TabIndex =4
+                                    Name ="Child179"
+                                    SourceObject ="Form.MAT_MOVEMENT_EDITOR_Sub_DETAIL2"
+                                    LinkChildFields ="TX_ROWID"
+                                    LinkMasterFields ="TX_ROWID"
+
+                                    LayoutCachedLeft =5410
+                                    LayoutCachedTop =3850
+                                    LayoutCachedWidth =26641
+                                    LayoutCachedHeight =10362
+                                End
+                                Begin Subform
+                                    OverlapFlags =247
+                                    OldBorderStyle =0
+                                    Left =385
+                                    Top =3795
+                                    Width =4602
+                                    Height =6572
+                                    TabIndex =5
+                                    Name ="Child181"
+                                    SourceObject ="Form.MAT_MOVEMENT_EDITOR_Sub_FIND"
+
+                                    LayoutCachedLeft =385
+                                    LayoutCachedTop =3795
+                                    LayoutCachedWidth =4987
+                                    LayoutCachedHeight =10367
+                                End
+                            End
+                        End
+                        Begin Page
+                            Visible = NotDefault
+                            OverlapFlags =247
+                            Left =120
+                            Top =2655
+                            Width =26940
+                            Height =8100
+                            Name ="tp_TMTM"
+                            Caption ="TMTM"
+                            LayoutCachedLeft =120
+                            LayoutCachedTop =2655
+                            LayoutCachedWidth =27060
+                            LayoutCachedHeight =10755
+                            Begin
+                                Begin OptionGroup
+                                    SpecialEffect =0
+                                    OverlapFlags =255
+                                    Left =5317
+                                    Top =3521
+                                    Width =21551
+                                    Height =7011
+                                    Name ="Frame154"
+
+                                    LayoutCachedLeft =5317
+                                    LayoutCachedTop =3521
+                                    LayoutCachedWidth =26868
+                                    LayoutCachedHeight =10532
+                                    BorderThemeColorIndex =2
+                                    BorderTint =75.0
+                                    BorderShade =100.0
+                                    Begin
+                                        Begin Label
+                                            BackStyle =1
+                                            OldBorderStyle =1
+                                            OverlapFlags =247
+                                            TextFontFamily =34
+                                            Left =5438
+                                            Top =3401
+                                            Width =2090
+                                            Height =330
+                                            BorderColor =0
+                                            Name ="Label155"
+                                            Caption ="Material in Transfer"
+                                            FontName ="Segoe UI"
+                                            LayoutCachedLeft =5438
+                                            LayoutCachedTop =3401
+                                            LayoutCachedWidth =7528
+                                            LayoutCachedHeight =3731
+                                            ThemeFontIndex =-1
+                                            BackThemeColorIndex =2
+                                            BackTint =75.0
+                                            BorderThemeColorIndex =-1
+                                            BorderTint =100.0
+                                            ForeThemeColorIndex =1
+                                            ForeTint =100.0
+                                        End
+                                    End
+                                End
+                                Begin Subform
+                                    OverlapFlags =247
+                                    OldBorderStyle =0
+                                    Left =5411
+                                    Top =3850
+                                    Width =21231
+                                    Height =6513
+                                    TabIndex =1
+                                    Name ="MAT_MOVEMENT_EDITOR_Sub_TMTM"
+                                    SourceObject ="Form.MAT_MOVEMENT_EDITOR_Sub_DETAIL2"
+                                    LinkChildFields ="TX_ROWID"
+                                    LinkMasterFields ="TX_ROWID"
+
+                                    LayoutCachedLeft =5411
+                                    LayoutCachedTop =3850
+                                    LayoutCachedWidth =26642
+                                    LayoutCachedHeight =10363
+                                End
+                                Begin TextBox
+                                    TabStop = NotDefault
+                                    OverlapFlags =247
+                                    TextAlign =2
+                                    TextFontFamily =34
+                                    IMESentenceMode =3
+                                    Left =5317
+                                    Top =2834
+                                    Width =21551
+                                    Height =300
+                                    FontWeight =700
+                                    TabIndex =2
+                                    BackColor =0
+                                    BorderColor =0
+                                    ForeColor =16777215
+                                    Name ="Text183"
+                                    ControlSource ="=\"TRANSFER MATERIAL TO MATERIAL\""
+                                    FontName ="Segoe UI"
+
+                                    LayoutCachedLeft =5317
+                                    LayoutCachedTop =2834
+                                    LayoutCachedWidth =26868
+                                    LayoutCachedHeight =3134
+                                    BackThemeColorIndex =-1
+                                    BorderThemeColorIndex =-1
+                                    BorderShade =100.0
+                                    ThemeFontIndex =-1
+                                    ForeThemeColorIndex =-1
+                                    ForeTint =100.0
+                                End
+                                Begin OptionGroup
+                                    SpecialEffect =0
+                                    OverlapFlags =255
+                                    Left =273
+                                    Top =3521
+                                    Width =4881
+                                    Height =7026
+                                    TabIndex =3
+                                    Name ="Frame185"
+
+                                    LayoutCachedLeft =273
+                                    LayoutCachedTop =3521
+                                    LayoutCachedWidth =5154
+                                    LayoutCachedHeight =10547
+                                    BorderThemeColorIndex =2
+                                    BorderTint =75.0
                                     BorderShade =100.0
                                     Begin
                                         Begin Label
@@ -2694,9 +3224,8 @@ Begin Form
                                             Top =3401
                                             Width =1416
                                             Height =315
-                                            BackColor =2366701
-                                            BorderColor =2366701
-                                            Name ="Label114"
+                                            ForeColor =16777215
+                                            Name ="Label186"
                                             Caption ="Find Material"
                                             FontName ="Segoe UI"
                                             LayoutCachedLeft =346
@@ -2704,210 +3233,79 @@ Begin Form
                                             LayoutCachedWidth =1762
                                             LayoutCachedHeight =3716
                                             ThemeFontIndex =-1
-                                            BackThemeColorIndex =-1
-                                            BorderThemeColorIndex =-1
-                                            BorderTint =100.0
-                                            ForeThemeColorIndex =1
+                                            BackThemeColorIndex =2
+                                            BackTint =75.0
+                                            BorderThemeColorIndex =2
+                                            BorderTint =75.0
+                                            ForeThemeColorIndex =-1
                                             ForeTint =100.0
                                         End
                                     End
                                 End
                                 Begin Subform
                                     OverlapFlags =247
-                                    Left =340
-                                    Top =5325
-                                    Width =4601
-                                    Height =5041
-                                    TabIndex =1
-                                    Name ="MAT_MOVEMENT_EDITOR_Sub_FIND_OUTGOING"
+                                    OldBorderStyle =0
+                                    Left =385
+                                    Top =3795
+                                    Width =4603
+                                    Height =6573
+                                    TabIndex =4
+                                    Name ="Child187"
                                     SourceObject ="Form.MAT_MOVEMENT_EDITOR_Sub_FIND"
 
-                                    LayoutCachedLeft =340
-                                    LayoutCachedTop =5325
-                                    LayoutCachedWidth =4941
-                                    LayoutCachedHeight =10366
-                                    BorderThemeColorIndex =5
-                                    BorderShade =75.0
+                                    LayoutCachedLeft =385
+                                    LayoutCachedTop =3795
+                                    LayoutCachedWidth =4988
+                                    LayoutCachedHeight =10368
                                 End
-                                Begin OptionGroup
-                                    SpecialEffect =0
+                                Begin TextBox
                                     OverlapFlags =247
-                                    Left =5272
-                                    Top =3521
-                                    Width =21551
-                                    Height =7011
-                                    TabIndex =2
-                                    BorderColor =2366701
-                                    Name ="Frame160"
+                                    TextAlign =2
+                                    TextFontFamily =34
+                                    IMESentenceMode =3
+                                    Left =1973
+                                    Top =2834
+                                    Width =2376
+                                    Height =300
+                                    TabIndex =5
+                                    BackColor =13952764
+                                    BorderColor =5676533
+                                    ForeColor =0
+                                    Name ="Text189"
+                                    ControlSource ="TX_DATEEXECUTED"
+                                    FontName ="Segoe UI"
 
-                                    LayoutCachedLeft =5272
-                                    LayoutCachedTop =3521
-                                    LayoutCachedWidth =26823
-                                    LayoutCachedHeight =10532
+                                    LayoutCachedLeft =1973
+                                    LayoutCachedTop =2834
+                                    LayoutCachedWidth =4349
+                                    LayoutCachedHeight =3134
+                                    BackThemeColorIndex =-1
                                     BorderThemeColorIndex =-1
                                     BorderShade =100.0
+                                    ThemeFontIndex =-1
+                                    ForeThemeColorIndex =-1
+                                    ForeTint =100.0
                                     Begin
                                         Begin Label
-                                            BackStyle =1
-                                            OldBorderStyle =1
                                             OverlapFlags =247
                                             TextFontFamily =34
-                                            Left =5393
-                                            Top =3401
-                                            Width =2070
-                                            Height =330
-                                            BackColor =2366701
-                                            BorderColor =2366701
-                                            Name ="Label161"
-                                            Caption ="Material in Shipment"
-                                            FontName ="Segoe UI"
-                                            LayoutCachedLeft =5393
-                                            LayoutCachedTop =3401
-                                            LayoutCachedWidth =7463
-                                            LayoutCachedHeight =3731
-                                            ThemeFontIndex =-1
-                                            BackThemeColorIndex =-1
-                                            BorderThemeColorIndex =-1
-                                            BorderTint =100.0
-                                            ForeThemeColorIndex =1
-                                            ForeTint =100.0
-                                        End
-                                    End
-                                End
-                            End
-                        End
-                        Begin Page
-                            Visible = NotDefault
-                            OverlapFlags =247
-                            Left =120
-                            Top =2655
-                            Width =26895
-                            Height =8100
-                            Name ="tp_ChangeBin"
-                            Caption ="CHANGE BIN"
-                            LayoutCachedLeft =120
-                            LayoutCachedTop =2655
-                            LayoutCachedWidth =27015
-                            LayoutCachedHeight =10755
-                            Begin
-                                Begin OptionGroup
-                                    SpecialEffect =0
-                                    OverlapFlags =247
-                                    Left =5272
-                                    Top =3521
-                                    Width =21551
-                                    Height =7011
-                                    BorderColor =39423
-                                    Name ="Frame158"
-
-                                    LayoutCachedLeft =5272
-                                    LayoutCachedTop =3521
-                                    LayoutCachedWidth =26823
-                                    LayoutCachedHeight =10532
-                                    BorderThemeColorIndex =-1
-                                    BorderShade =100.0
-                                    Begin
-                                        Begin Label
-                                            BackStyle =1
-                                            OldBorderStyle =1
-                                            OverlapFlags =247
-                                            TextFontFamily =34
-                                            Left =5393
-                                            Top =3401
-                                            Width =2560
-                                            Height =330
-                                            BackColor =39423
-                                            BorderColor =39423
+                                            Left =272
+                                            Top =2834
+                                            Width =1645
+                                            Height =300
                                             ForeColor =0
-                                            Name ="Label159"
-                                            Caption ="Material in Bin Movement"
+                                            Name ="Label190"
+                                            Caption ="Date Transfer"
                                             FontName ="Segoe UI"
-                                            LayoutCachedLeft =5393
-                                            LayoutCachedTop =3401
-                                            LayoutCachedWidth =7953
-                                            LayoutCachedHeight =3731
+                                            LayoutCachedLeft =272
+                                            LayoutCachedTop =2834
+                                            LayoutCachedWidth =1917
+                                            LayoutCachedHeight =3134
                                             ThemeFontIndex =-1
-                                            BackThemeColorIndex =-1
-                                            BorderThemeColorIndex =-1
-                                            BorderTint =100.0
+                                            ForeThemeColorIndex =-1
                                             ForeTint =100.0
                                         End
                                     End
-                                End
-                            End
-                        End
-                        Begin Page
-                            Visible = NotDefault
-                            OverlapFlags =247
-                            Left =120
-                            Top =2655
-                            Width =26895
-                            Height =8100
-                            Name ="tp_TMTM"
-                            Caption ="TMTM"
-                            LayoutCachedLeft =120
-                            LayoutCachedTop =2655
-                            LayoutCachedWidth =27015
-                            LayoutCachedHeight =10755
-                            Begin
-                                Begin OptionGroup
-                                    SpecialEffect =0
-                                    OverlapFlags =255
-                                    Left =5272
-                                    Top =3521
-                                    Width =21551
-                                    Height =7011
-                                    BorderColor =0
-                                    Name ="Frame154"
-
-                                    LayoutCachedLeft =5272
-                                    LayoutCachedTop =3521
-                                    LayoutCachedWidth =26823
-                                    LayoutCachedHeight =10532
-                                    BorderThemeColorIndex =-1
-                                    BorderShade =100.0
-                                    Begin
-                                        Begin Label
-                                            BackStyle =1
-                                            OldBorderStyle =1
-                                            OverlapFlags =247
-                                            TextFontFamily =34
-                                            Left =5393
-                                            Top =3401
-                                            Width =2630
-                                            Height =330
-                                            BackColor =0
-                                            BorderColor =0
-                                            Name ="Label155"
-                                            Caption ="Material in Transformation"
-                                            FontName ="Segoe UI"
-                                            LayoutCachedLeft =5393
-                                            LayoutCachedTop =3401
-                                            LayoutCachedWidth =8023
-                                            LayoutCachedHeight =3731
-                                            ThemeFontIndex =-1
-                                            BackThemeColorIndex =-1
-                                            BorderThemeColorIndex =-1
-                                            BorderTint =100.0
-                                            ForeThemeColorIndex =1
-                                            ForeTint =100.0
-                                        End
-                                    End
-                                End
-                                Begin Subform
-                                    OverlapFlags =247
-                                    Left =5499
-                                    Top =3849
-                                    Width =21095
-                                    Height =6345
-                                    TabIndex =1
-                                    Name ="MAT_MOVEMENT_EDITOR_Sub_TMTM"
-                                    SourceObject ="Form.MAT_MOVEMENT_EDITOR_Sub_DETAIL"
-
-                                    LayoutCachedLeft =5499
-                                    LayoutCachedTop =3849
-                                    LayoutCachedWidth =26594
-                                    LayoutCachedHeight =10194
                                 End
                             End
                         End

@@ -15,10 +15,10 @@ Begin Form
     Width =11520
     DatasheetFontHeight =11
     ItemSuffix =65
-    Left =5565
-    Top =3540
-    Right =25785
-    Bottom =8820
+    Left =5430
+    Top =3570
+    Right =26670
+    Bottom =9090
     RecSrcDt = Begin
         0x4fe87fddcb65e640
     End
@@ -331,7 +331,7 @@ Begin Form
                     Top =2907
                     Width =2760
                     Height =600
-                    ColumnWidth =3000
+                    ColumnWidth =2145
                     TabIndex =7
                     ForeColor =0
                     Name ="D_DCDCODE"
@@ -376,7 +376,7 @@ Begin Form
                     Top =3591
                     Width =2760
                     Height =1140
-                    ColumnWidth =3000
+                    ColumnWidth =5460
                     TabIndex =8
                     ForeColor =0
                     Name ="D_MATERIALNAME"
@@ -469,7 +469,7 @@ Begin Form
                     Width =2760
                     Height =600
                     ColumnWidth =3000
-                    TabIndex =11
+                    TabIndex =9
                     ForeColor =0
                     Name ="D_PARTNUMBER"
                     ControlSource ="D_PARTNUMBER"
@@ -513,7 +513,7 @@ Begin Form
                     Width =1515
                     Height =330
                     ColumnWidth =915
-                    TabIndex =12
+                    TabIndex =16
                     ForeColor =0
                     Name ="D_UOM"
                     ControlSource ="D_UOM"
@@ -557,7 +557,7 @@ Begin Form
                     Width =1515
                     Height =330
                     ColumnWidth =690
-                    TabIndex =13
+                    TabIndex =14
                     ForeColor =0
                     Name ="D_VALTYPE"
                     ControlSource ="D_VALTYPE"
@@ -600,7 +600,7 @@ Begin Form
                     Width =2760
                     Height =330
                     ColumnWidth =870
-                    TabIndex =14
+                    TabIndex =15
                     ForeColor =0
                     Name ="D_QTY"
                     ControlSource ="D_QTY"
@@ -779,7 +779,7 @@ Begin Form
                     Width =2760
                     Height =600
                     ColumnWidth =3000
-                    TabIndex =17
+                    TabIndex =10
                     ForeColor =0
                     Name ="D_BINLOC"
                     ControlSource ="D_BINLOC"
@@ -826,7 +826,7 @@ Begin Form
                     Width =2760
                     Height =600
                     ColumnWidth =3000
-                    TabIndex =18
+                    TabIndex =13
                     ForeColor =0
                     Name ="D_BINLOCNEW"
                     ControlSource ="D_BINLOCNEW"
@@ -872,7 +872,7 @@ Begin Form
                     Width =2760
                     Height =600
                     ColumnWidth =1860
-                    TabIndex =15
+                    TabIndex =17
                     ForeColor =0
                     Name ="D_DESTINATION"
                     ControlSource ="D_DESTINATION"
@@ -962,7 +962,7 @@ Begin Form
                     Width =2760
                     Height =1140
                     ColumnWidth =3000
-                    TabIndex =16
+                    TabIndex =18
                     ForeColor =0
                     Name ="D_REMARKS"
                     ControlSource ="D_REMARKS"
@@ -1278,7 +1278,7 @@ Begin Form
                     Top =2437
                     Height =300
                     ColumnWidth =1725
-                    TabIndex =9
+                    TabIndex =11
                     ForeColor =0
                     Name ="D_MIAPNEW"
                     ControlSource ="D_MIAPNEW"
@@ -1321,7 +1321,7 @@ Begin Form
                     Top =3004
                     Height =300
                     ColumnWidth =2385
-                    TabIndex =10
+                    TabIndex =12
                     ForeColor =0
                     Name ="D_DCDCODENEW"
                     ControlSource ="D_DCDCODENEW"
@@ -1369,7 +1369,7 @@ Begin Form
                     LayoutCachedTop =1020
                     LayoutCachedWidth =9671
                     LayoutCachedHeight =1260
-                    DatasheetCaption ="FO"
+                    DatasheetCaption ="FC"
                     Begin
                         Begin Label
                             OverlapFlags =247

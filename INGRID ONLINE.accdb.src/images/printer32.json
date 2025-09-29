@@ -1,0 +1,12 @@
+﻿{
+  "Info": {
+    "Class": "clsDbSharedImage",
+    "Description": "Shared Image Gallery Item"
+  },
+  "Items": {
+    "Name": "printer32",
+    "FileName": "printer32.png",
+    "Extension": "png",
+    "ContentHash": "63a2a2f"
+  }
+}
