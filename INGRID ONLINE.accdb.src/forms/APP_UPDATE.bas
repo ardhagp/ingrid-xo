@@ -140,8 +140,9 @@ Begin Form
                     Left =8674
                     Top =56
                     Width =1236
-                    Name ="Command6"
-                    Caption ="Download"
+                    Name ="btnOpen"
+                    Caption ="Open"
+                    OnClick ="[Event Procedure]"
 
                     LayoutCachedLeft =8674
                     LayoutCachedTop =56
@@ -152,3 +153,5 @@ Begin Form
         End
     End
 End
+CodeBehindForm
+' See "APP_UPDATE.cls"

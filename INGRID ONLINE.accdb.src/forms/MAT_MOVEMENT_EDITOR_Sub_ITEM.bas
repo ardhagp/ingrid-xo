@@ -110,6 +110,7 @@ Begin Form
                     Width =1515
                     Height =330
                     ColumnWidth =1260
+                    TabIndex =1
                     ForeColor =0
                     Name ="D_ROWID"
                     ControlSource ="D_ROWID"
@@ -153,7 +154,7 @@ Begin Form
                     Width =1515
                     Height =330
                     ColumnWidth =1515
-                    TabIndex =1
+                    TabIndex =2
                     ForeColor =0
                     Name ="D_TXID_OLD"
                     ControlSource ="D_TXID_OLD"
@@ -196,7 +197,7 @@ Begin Form
                     Width =2760
                     Height =330
                     ColumnWidth =3960
-                    TabIndex =2
+                    TabIndex =3
                     ForeColor =0
                     Name ="D_MTXID"
                     ControlSource ="D_MTXID"
@@ -240,7 +241,7 @@ Begin Form
                     Width =2760
                     Height =600
                     ColumnWidth =970
-                    TabIndex =3
+                    TabIndex =4
                     ForeColor =0
                     Name ="D_NO"
                     ControlSource ="D_NO"
@@ -286,7 +287,7 @@ Begin Form
                     Width =2760
                     Height =600
                     ColumnWidth =2040
-                    TabIndex =6
+                    TabIndex =7
                     ForeColor =0
                     Name ="D_MIAP"
                     ControlSource ="D_MIAP"
@@ -332,7 +333,7 @@ Begin Form
                     Width =2760
                     Height =600
                     ColumnWidth =2145
-                    TabIndex =7
+                    TabIndex =8
                     ForeColor =0
                     Name ="D_DCDCODE"
                     ControlSource ="D_DCDCODE"
@@ -377,7 +378,7 @@ Begin Form
                     Width =2760
                     Height =1140
                     ColumnWidth =5460
-                    TabIndex =8
+                    TabIndex =9
                     ForeColor =0
                     Name ="D_MATERIALNAME"
                     ControlSource ="D_MATERIALNAME"
@@ -423,7 +424,7 @@ Begin Form
                     Width =2760
                     Height =600
                     ColumnWidth =1080
-                    TabIndex =5
+                    TabIndex =6
                     ForeColor =0
                     Name ="D_MATERIALCATEGORY"
                     ControlSource ="D_CATEGORY"
@@ -469,7 +470,7 @@ Begin Form
                     Width =2760
                     Height =600
                     ColumnWidth =3000
-                    TabIndex =9
+                    TabIndex =10
                     ForeColor =0
                     Name ="D_PARTNUMBER"
                     ControlSource ="D_PARTNUMBER"
@@ -513,7 +514,7 @@ Begin Form
                     Width =1515
                     Height =330
                     ColumnWidth =915
-                    TabIndex =16
+                    TabIndex =17
                     ForeColor =0
                     Name ="D_UOM"
                     ControlSource ="D_UOM"
@@ -557,7 +558,7 @@ Begin Form
                     Width =1515
                     Height =330
                     ColumnWidth =690
-                    TabIndex =14
+                    TabIndex =15
                     ForeColor =0
                     Name ="D_VALTYPE"
                     ControlSource ="D_VALTYPE"
@@ -600,7 +601,7 @@ Begin Form
                     Width =2760
                     Height =330
                     ColumnWidth =870
-                    TabIndex =15
+                    TabIndex =16
                     ForeColor =0
                     Name ="D_QTY"
                     ControlSource ="D_QTY"
@@ -646,7 +647,7 @@ Begin Form
                     Width =2760
                     Height =600
                     ColumnWidth =1425
-                    TabIndex =19
+                    TabIndex =20
                     ForeColor =0
                     Name ="D_PO"
                     ControlSource ="D_PO"
@@ -689,7 +690,7 @@ Begin Form
                     Width =2760
                     Height =330
                     ColumnWidth =870
-                    TabIndex =26
+                    TabIndex =27
                     ForeColor =0
                     Name ="D_AVGPRICE"
                     ControlSource ="D_AVGPRICE"
@@ -733,7 +734,7 @@ Begin Form
                     Width =2760
                     Height =330
                     ColumnWidth =945
-                    TabIndex =27
+                    TabIndex =28
                     ForeColor =0
                     Name ="D_TOTALVALUE"
                     ControlSource ="D_TOTALVALUE"
@@ -779,7 +780,7 @@ Begin Form
                     Width =2760
                     Height =600
                     ColumnWidth =1230
-                    TabIndex =10
+                    TabIndex =11
                     ForeColor =0
                     Name ="D_BINLOC"
                     ControlSource ="D_BINLOC"
@@ -826,7 +827,7 @@ Begin Form
                     Width =2760
                     Height =600
                     ColumnWidth =3000
-                    TabIndex =13
+                    TabIndex =14
                     ForeColor =0
                     Name ="D_BINLOCNEW"
                     ControlSource ="D_BINLOCNEW"
@@ -872,7 +873,7 @@ Begin Form
                     Width =2760
                     Height =600
                     ColumnWidth =1860
-                    TabIndex =17
+                    TabIndex =18
                     ForeColor =0
                     Name ="D_DESTINATION"
                     ControlSource ="D_DESTINATION"
@@ -917,7 +918,7 @@ Begin Form
                     Width =2760
                     Height =600
                     ColumnWidth =3000
-                    TabIndex =20
+                    TabIndex =21
                     ForeColor =0
                     Name ="D_REFERENCE"
                     ControlSource ="D_REFERENCE"
@@ -962,7 +963,7 @@ Begin Form
                     Width =2760
                     Height =1140
                     ColumnWidth =3000
-                    TabIndex =18
+                    TabIndex =19
                     ForeColor =0
                     Name ="D_REMARKS"
                     ControlSource ="D_REMARKS"
@@ -1008,7 +1009,7 @@ Begin Form
                     Width =2760
                     Height =600
                     ColumnWidth =1830
-                    TabIndex =4
+                    TabIndex =5
                     ForeColor =0
                     Name ="D_MATERIALTYPE"
                     ControlSource ="D_MATERIALTYPE"
@@ -1054,7 +1055,7 @@ Begin Form
                     Width =2760
                     Height =600
                     ColumnWidth =1110
-                    TabIndex =21
+                    TabIndex =22
                     ForeColor =0
                     Name ="D_OWNERSHIP"
                     ControlSource ="D_OWNERSHIP"
@@ -1100,7 +1101,7 @@ Begin Form
                     Width =2760
                     Height =600
                     ColumnWidth =1575
-                    TabIndex =23
+                    TabIndex =24
                     ForeColor =0
                     Name ="D_DOCSAP"
                     ControlSource ="D_DOCSAP"
@@ -1144,7 +1145,7 @@ Begin Form
                     Width =1620
                     Height =330
                     ColumnWidth =1620
-                    TabIndex =24
+                    TabIndex =25
                     ForeColor =0
                     Name ="D_DATEDOCSAP"
                     ControlSource ="D_DATEDOCSAP"
@@ -1190,7 +1191,7 @@ Begin Form
                     Width =2760
                     Height =600
                     ColumnWidth =1035
-                    TabIndex =22
+                    TabIndex =23
                     ForeColor =0
                     Name ="D_SLOC"
                     ControlSource ="D_SLOC"
@@ -1235,7 +1236,7 @@ Begin Form
                     Width =2064
                     Height =600
                     ColumnWidth =3000
-                    TabIndex =25
+                    TabIndex =26
                     ForeColor =0
                     Name ="D_PACKAGING"
                     ControlSource ="D_PACKAGING"
@@ -1278,7 +1279,7 @@ Begin Form
                     Top =2437
                     Height =300
                     ColumnWidth =1725
-                    TabIndex =11
+                    TabIndex =12
                     ForeColor =0
                     Name ="D_MIAPNEW"
                     ControlSource ="D_MIAPNEW"
@@ -1321,7 +1322,7 @@ Begin Form
                     Top =3004
                     Height =300
                     ColumnWidth =2385
-                    TabIndex =12
+                    TabIndex =13
                     ForeColor =0
                     Name ="D_DCDCODENEW"
                     ControlSource ="D_DCDCODENEW"
@@ -1360,7 +1361,6 @@ Begin Form
                     Left =9411
                     Top =1020
                     ColumnWidth =735
-                    TabIndex =28
                     Name ="D_FINALCHECK"
                     ControlSource ="D_FINALCHECK"
                     ControlTipText ="Final Check"

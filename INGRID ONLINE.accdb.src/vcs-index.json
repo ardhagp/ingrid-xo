@@ -6,7 +6,7 @@
   "Items": {
     "MergeBuildDate": "2025-03-19T18:50:16.000Z",
     "FullBuildDate": "2025-03-19T18:49:21.000Z",
-    "ExportDate": "2025-09-29T10:46:01.000Z",
+    "ExportDate": "2025-10-05T00:27:44.000Z",
     "FullExportDate": "2025-06-06T23:54:02.000Z",
     "OptionsHash": "14944f8",
     "LastMergedCommit": "",
@@ -60,10 +60,11 @@
           "FilePropertiesHash": "6809e78"
         },
         "APP_UPDATE.bas": {
-          "FileHash": "3f30540",
-          "ExportDate": "2025-07-04T02:01:20.000Z",
+          "FileHash": "4c5b377",
+          "ExportDate": "2025-10-05T00:27:43.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "c9738cb"
+          "FilePropertiesHash": "1fdcb2a",
+          "OtherHash": "8d6ae16"
         },
         "APP_WATCHDOG.bas": {
           "FileHash": "055fd18",
@@ -114,9 +115,9 @@
         },
         "MAT_MOVEMENT_EDITOR.bas": {
           "FileHash": "efc1aa3",
-          "ExportDate": "2025-09-29T10:46:01.000Z",
+          "ExportDate": "2025-10-03T17:10:21.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "e3b5e57",
+          "FilePropertiesHash": "8383b78",
           "ImportDate": "2025-03-19T18:49:18.000Z",
           "OtherHash": "72a6f4c"
         },
@@ -169,10 +170,10 @@
           "OtherHash": "fc27efc"
         },
         "MAT_MOVEMENT_EDITOR_Sub_ITEM.bas": {
-          "FileHash": "c57a747",
-          "ExportDate": "2025-09-29T10:46:01.000Z",
+          "FileHash": "84c5738",
+          "ExportDate": "2025-10-05T00:21:28.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "9767edb",
+          "FilePropertiesHash": "7469dbe",
           "OtherHash": "62c9328"
         },
         "MAT_MOVEMENT_EDITOR_Sub_NCR.bas": {
@@ -590,10 +591,10 @@
           "ImportDate": "2025-03-19T18:49:17.000Z"
         },
         "q_mat_datemove_detail.bas": {
-          "FileHash": "815e1b8",
-          "ExportDate": "2025-09-29T03:48:58.000Z",
+          "FileHash": "85be4cd",
+          "ExportDate": "2025-10-05T00:21:27.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "702313b",
+          "FilePropertiesHash": "a013b61",
           "ImportDate": "2025-03-19T18:49:17.000Z"
         },
         "q_mat_sum_ncr_contractor.bas": {

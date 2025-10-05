@@ -2,5 +2,7 @@
 *Backup.accdb
 *BACKUP.accdb
 *Copy.accdb
+*.accde
+*.accdc
 *.laccdb
 Assets/*
